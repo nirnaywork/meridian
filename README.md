@@ -1,6 +1,6 @@
 # Meridian
 
-Live: [Meridian](https://tyhutf3c.insforge.site). Existing Next.js + TypeScript + Tailwind + InsForge project 52590b98-ea17-4cb4-aacf-49528d17a5ef. Email/password only, verified six-digit codes, no paid AI or LLM APIs.
+Live: [Meridian](https://meridian.insforge.site). Existing Next.js + TypeScript + Tailwind + InsForge project 52590b98-ea17-4cb4-aacf-49528d17a5ef. Email/password only, verified six-digit codes, no paid AI or LLM APIs.
 
 ## What changed
 
