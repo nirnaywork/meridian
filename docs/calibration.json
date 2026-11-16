@@ -1,0 +1,438 @@
+[
+  {
+    "provider": "hashed",
+    "version": "taxonomy-tfidf-v2",
+    "relevant": {
+      "min": 0.6556579925444032,
+      "median": 0.6951753505852516,
+      "max": 0.743094859601086,
+      "mean": 0.7002462778936114
+    },
+    "irrelevant": {
+      "min": -0.059365635649107976,
+      "median": 0,
+      "max": 0.07472338148296113,
+      "mean": -0.0011120383963528478
+    },
+    "records": [
+      {
+        "member": "Frontend Developer",
+        "role": "Frontend Developer",
+        "relevant": true,
+        "cosine": 0.6556579925444032,
+        "coverage": 1,
+        "cosine_score": 100,
+        "final_score": 100,
+        "band": "STRONG"
+      },
+      {
+        "member": "Data Analyst",
+        "role": "Frontend Developer",
+        "relevant": false,
+        "cosine": 0.017469004913265855,
+        "coverage": 0,
+        "cosine_score": 0,
+        "final_score": 0,
+        "band": "WEAK"
+      },
+      {
+        "member": "ML Engineer",
+        "role": "ML Engineer",
+        "relevant": true,
+        "cosine": 0.7290917915232882,
+        "coverage": 1,
+        "cosine_score": 100,
+        "final_score": 100,
+        "band": "STRONG"
+      },
+      {
+        "member": "Mobile Developer",
+        "role": "ML Engineer",
+        "relevant": false,
+        "cosine": 0,
+        "coverage": 0,
+        "cosine_score": 0,
+        "final_score": 0,
+        "band": "WEAK"
+      },
+      {
+        "member": "UX Designer",
+        "role": "UX Designer",
+        "relevant": true,
+        "cosine": 0.6947359486507572,
+        "coverage": 1,
+        "cosine_score": 100,
+        "final_score": 100,
+        "band": "STRONG"
+      },
+      {
+        "member": "DevOps Engineer",
+        "role": "UX Designer",
+        "relevant": false,
+        "cosine": -0.002809213612508639,
+        "coverage": 0,
+        "cosine_score": 0,
+        "final_score": 0,
+        "band": "WEAK"
+      },
+      {
+        "member": "Data Analyst",
+        "role": "Data Analyst",
+        "relevant": true,
+        "cosine": 0.743094859601086,
+        "coverage": 1,
+        "cosine_score": 100,
+        "final_score": 100,
+        "band": "STRONG"
+      },
+      {
+        "member": "Game Developer",
+        "role": "Data Analyst",
+        "relevant": false,
+        "cosine": 0,
+        "coverage": 0,
+        "cosine_score": 0,
+        "final_score": 0,
+        "band": "WEAK"
+      },
+      {
+        "member": "Mobile Developer",
+        "role": "Mobile Developer",
+        "relevant": true,
+        "cosine": 0.6653522375807365,
+        "coverage": 1,
+        "cosine_score": 100,
+        "final_score": 100,
+        "band": "STRONG"
+      },
+      {
+        "member": "IoT Engineer",
+        "role": "Mobile Developer",
+        "relevant": false,
+        "cosine": -0.04328875900704079,
+        "coverage": 0,
+        "cosine_score": 0,
+        "final_score": 0,
+        "band": "WEAK"
+      },
+      {
+        "member": "DevOps Engineer",
+        "role": "DevOps Engineer",
+        "relevant": true,
+        "cosine": 0.6956147525197459,
+        "coverage": 1,
+        "cosine_score": 100,
+        "final_score": 100,
+        "band": "STRONG"
+      },
+      {
+        "member": "Content Strategist",
+        "role": "DevOps Engineer",
+        "relevant": false,
+        "cosine": 0,
+        "coverage": 0,
+        "cosine_score": 0,
+        "final_score": 0,
+        "band": "WEAK"
+      },
+      {
+        "member": "Game Developer",
+        "role": "Game Developer",
+        "relevant": true,
+        "cosine": 0.732101109826362,
+        "coverage": 1,
+        "cosine_score": 100,
+        "final_score": 100,
+        "band": "STRONG"
+      },
+      {
+        "member": "Product Manager",
+        "role": "Game Developer",
+        "relevant": false,
+        "cosine": 0.044889682806713065,
+        "coverage": 0,
+        "cosine_score": 0,
+        "final_score": 0,
+        "band": "WEAK"
+      },
+      {
+        "member": "IoT Engineer",
+        "role": "IoT Engineer",
+        "relevant": true,
+        "cosine": 0.686604107329482,
+        "coverage": 1,
+        "cosine_score": 100,
+        "final_score": 100,
+        "band": "STRONG"
+      },
+      {
+        "member": "Frontend Developer",
+        "role": "IoT Engineer",
+        "relevant": false,
+        "cosine": -0.04273884489781116,
+        "coverage": 0,
+        "cosine_score": 0,
+        "final_score": 0,
+        "band": "WEAK"
+      },
+      {
+        "member": "Content Strategist",
+        "role": "Content Strategist",
+        "relevant": true,
+        "cosine": 0.68348851896922,
+        "coverage": 1,
+        "cosine_score": 100,
+        "final_score": 100,
+        "band": "STRONG"
+      },
+      {
+        "member": "ML Engineer",
+        "role": "Content Strategist",
+        "relevant": false,
+        "cosine": 0.07472338148296113,
+        "coverage": 0,
+        "cosine_score": 0,
+        "final_score": 0,
+        "band": "WEAK"
+      },
+      {
+        "member": "Product Manager",
+        "role": "Product Manager",
+        "relevant": true,
+        "cosine": 0.7167214603910324,
+        "coverage": 1,
+        "cosine_score": 100,
+        "final_score": 100,
+        "band": "STRONG"
+      },
+      {
+        "member": "UX Designer",
+        "role": "Product Manager",
+        "relevant": false,
+        "cosine": -0.059365635649107976,
+        "coverage": 0,
+        "cosine_score": 0,
+        "final_score": 0,
+        "band": "WEAK"
+      }
+    ]
+  },
+  {
+    "provider": "minilm",
+    "version": "all-MiniLM-L6-v2-751bff37-q8-v1",
+    "relevant": {
+      "min": 0.8100672572729155,
+      "median": 0.8530735742857565,
+      "max": 0.8866437359175996,
+      "mean": 0.8496598040009259
+    },
+    "irrelevant": {
+      "min": 0.3822398440134781,
+      "median": 0.482386146531668,
+      "max": 0.5854711017803631,
+      "mean": 0.47425312521655555
+    },
+    "records": [
+      {
+        "member": "Frontend Developer",
+        "role": "Frontend Developer",
+        "relevant": true,
+        "cosine": 0.8489577416730025,
+        "coverage": 1,
+        "cosine_score": 100,
+        "final_score": 100,
+        "band": "STRONG"
+      },
+      {
+        "member": "Data Analyst",
+        "role": "Frontend Developer",
+        "relevant": false,
+        "cosine": 0.3822398440134781,
+        "coverage": 0,
+        "cosine_score": 33.13451709335965,
+        "final_score": 24.850887820019736,
+        "band": "WEAK"
+      },
+      {
+        "member": "ML Engineer",
+        "role": "ML Engineer",
+        "relevant": true,
+        "cosine": 0.82559932827522,
+        "coverage": 1,
+        "cosine_score": 100,
+        "final_score": 100,
+        "band": "STRONG"
+      },
+      {
+        "member": "Mobile Developer",
+        "role": "ML Engineer",
+        "relevant": false,
+        "cosine": 0.38743465676663164,
+        "coverage": 0,
+        "cosine_score": 34.07902850302393,
+        "final_score": 25.559271377267947,
+        "band": "WEAK"
+      },
+      {
+        "member": "UX Designer",
+        "role": "UX Designer",
+        "relevant": true,
+        "cosine": 0.8572144820466593,
+        "coverage": 1,
+        "cosine_score": 100,
+        "final_score": 100,
+        "band": "STRONG"
+      },
+      {
+        "member": "DevOps Engineer",
+        "role": "UX Designer",
+        "relevant": false,
+        "cosine": 0.5378728148527044,
+        "coverage": 0,
+        "cosine_score": 61.431420882309894,
+        "final_score": 46.07356566173242,
+        "band": "MODERATE"
+      },
+      {
+        "member": "Data Analyst",
+        "role": "Data Analyst",
+        "relevant": true,
+        "cosine": 0.87230418547983,
+        "coverage": 1,
+        "cosine_score": 100,
+        "final_score": 100,
+        "band": "STRONG"
+      },
+      {
+        "member": "Game Developer",
+        "role": "Data Analyst",
+        "relevant": false,
+        "cosine": 0.49073839170418665,
+        "coverage": 0,
+        "cosine_score": 52.86152576439756,
+        "final_score": 39.646144323298174,
+        "band": "WEAK"
+      },
+      {
+        "member": "Mobile Developer",
+        "role": "Mobile Developer",
+        "relevant": true,
+        "cosine": 0.8571894068985103,
+        "coverage": 1,
+        "cosine_score": 100,
+        "final_score": 100,
+        "band": "STRONG"
+      },
+      {
+        "member": "IoT Engineer",
+        "role": "Mobile Developer",
+        "relevant": false,
+        "cosine": 0.49171406118517197,
+        "coverage": 0,
+        "cosine_score": 53.03892021548581,
+        "final_score": 39.77919016161436,
+        "band": "WEAK"
+      },
+      {
+        "member": "DevOps Engineer",
+        "role": "DevOps Engineer",
+        "relevant": true,
+        "cosine": 0.8866437359175996,
+        "coverage": 1,
+        "cosine_score": 100,
+        "final_score": 100,
+        "band": "STRONG"
+      },
+      {
+        "member": "Content Strategist",
+        "role": "DevOps Engineer",
+        "relevant": false,
+        "cosine": 0.42353450519124425,
+        "coverage": 0,
+        "cosine_score": 40.642637307498944,
+        "final_score": 30.481977980624208,
+        "band": "WEAK"
+      },
+      {
+        "member": "Game Developer",
+        "role": "Game Developer",
+        "relevant": true,
+        "cosine": 0.8350536100058953,
+        "coverage": 1,
+        "cosine_score": 100,
+        "final_score": 100,
+        "band": "STRONG"
+      },
+      {
+        "member": "Product Manager",
+        "role": "Game Developer",
+        "relevant": false,
+        "cosine": 0.5854711017803631,
+        "coverage": 0,
+        "cosine_score": 70.08565486915693,
+        "final_score": 52.56424115186769,
+        "band": "MODERATE"
+      },
+      {
+        "member": "IoT Engineer",
+        "role": "IoT Engineer",
+        "relevant": true,
+        "cosine": 0.8686553249051555,
+        "coverage": 1,
+        "cosine_score": 100,
+        "final_score": 100,
+        "band": "STRONG"
+      },
+      {
+        "member": "Frontend Developer",
+        "role": "IoT Engineer",
+        "relevant": false,
+        "cosine": 0.4740339013591493,
+        "coverage": 0,
+        "cosine_score": 49.8243457016635,
+        "final_score": 37.36825927624763,
+        "band": "WEAK"
+      },
+      {
+        "member": "Content Strategist",
+        "role": "Content Strategist",
+        "relevant": true,
+        "cosine": 0.8349129675344703,
+        "coverage": 1,
+        "cosine_score": 100,
+        "final_score": 100,
+        "band": "STRONG"
+      },
+      {
+        "member": "ML Engineer",
+        "role": "Content Strategist",
+        "relevant": false,
+        "cosine": 0.4036807840467108,
+        "coverage": 0,
+        "cosine_score": 37.03286982667469,
+        "final_score": 27.774652370006017,
+        "band": "WEAK"
+      },
+      {
+        "member": "Product Manager",
+        "role": "Product Manager",
+        "relevant": true,
+        "cosine": 0.8100672572729155,
+        "coverage": 1,
+        "cosine_score": 100,
+        "final_score": 100,
+        "band": "STRONG"
+      },
+      {
+        "member": "UX Designer",
+        "role": "Product Manager",
+        "relevant": false,
+        "cosine": 0.5658111912659154,
+        "coverage": 0,
+        "cosine_score": 66.51112568471189,
+        "final_score": 49.883344263533914,
+        "band": "MODERATE"
+      }
+    ]
+  }
+]

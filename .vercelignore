@@ -1,0 +1,7 @@
+scripts/
+tests/
+docs/
+.cache/
+migrations/
+tests/
+*.tsbuildinfo

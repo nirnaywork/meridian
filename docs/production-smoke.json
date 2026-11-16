@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-16T14:22:04.230Z",
+  "origin": "https://tyhutf3c.insforge.site",
+  "results": [
+    "Hosted landing renders",
+    "Hosted sign-in sets secure HTTP-only refresh cookies",
+    "Lead-only intent selects My Projects after login",
+    "Hosted API returns stored-vector matches and all open roles",
+    "Hosted project details load with the authenticated session",
+    "Hosted protected API rejects anonymous access",
+    "Hosted sign-out succeeds"
+  ]
+}

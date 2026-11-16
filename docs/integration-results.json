@@ -1,0 +1,29 @@
+{
+  "run": "mwjcfp2z",
+  "checks": [
+    "Email/password sign-in sets access and httpOnly refresh cookies",
+    "Protected profile API resolves the signed-in user",
+    "Cosmetic profile save preserves hash and embedding timestamp",
+    "Cross-origin mutation rejected",
+    "Incomplete intent step cannot reach feed; completing onboarding unlocks it",
+    "Project HTTP create/edit works and status changes do not regenerate embeddings",
+    "Project server endpoint rejects non-owner edits",
+    "Weak application blocked without inserting a pending record",
+    "Moderate application saved pending with server breakdown",
+    "Concurrent strong applications cannot overfill a one-slot role",
+    "Manual approval also enforces role capacity",
+    "Duplicate pending application rejected",
+    "Other members cannot decide applications",
+    "User credentials cannot invoke service RPCs, write vectors, or forge approvals",
+    "RLS hides other members’ applications",
+    "Invitations never force membership; acceptance enforces capacity",
+    "Member acceptance adds exactly one team membership",
+    "Repeated acceptance rejected",
+    "Ranked feed uses stable score/ID cursor pagination",
+    "Identity spoofing and cross-version vector comparisons rejected",
+    "Whole-project applications honor auto-approve off, null uniqueness, and overall team capacity",
+    "Applicants can withdraw their pending applications",
+    "Unauthenticated API access denied",
+    "Sign-out clears session cookies"
+  ]
+}
