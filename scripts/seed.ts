@@ -292,6 +292,10 @@ async function main() {
         .update({ is_demo: true })
         .eq("id", id),
     );
+    // The shared database triggers classify every seed/new project from its
+    // domains or skill links; no separate mock-only classification logic.
+    const classification=must(await admin.database.from('projects').select('field,domain').eq('id',id).single());
+    if(!classification.field||!classification.domain)throw new Error('Apply the Explore filter migration before seeding projects');
   }
   console.log(
     `Seeded ${taxonomy.length} skills, ${members.length} demo members, and ${ideas.length} demo projects. Provider: ${provider.name}.`,
