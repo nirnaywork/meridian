@@ -1,0 +1,398 @@
+
+> meridian@0.1.0 validate-seed
+> tsx scripts/validate-seed.ts
+
+[
+  {
+    "field": "CS Related",
+    "skills": 757,
+    "domains": [
+      {
+        "name": "Web Development",
+        "count": 75
+      },
+      {
+        "name": "Frontend Development",
+        "count": 75
+      },
+      {
+        "name": "Backend Development",
+        "count": 75
+      },
+      {
+        "name": "Full-Stack Development",
+        "count": 75
+      },
+      {
+        "name": "Mobile App Development",
+        "count": 44
+      },
+      {
+        "name": "ML Engineering",
+        "count": 50
+      },
+      {
+        "name": "Data Science",
+        "count": 60
+      },
+      {
+        "name": "Data Engineering",
+        "count": 60
+      },
+      {
+        "name": "Computer Vision",
+        "count": 50
+      },
+      {
+        "name": "NLP",
+        "count": 50
+      },
+      {
+        "name": "Automation",
+        "count": 20
+      },
+      {
+        "name": "DevOps",
+        "count": 58
+      },
+      {
+        "name": "Cloud Computing",
+        "count": 58
+      },
+      {
+        "name": "Cybersecurity",
+        "count": 45
+      },
+      {
+        "name": "QA and Testing",
+        "count": 20
+      },
+      {
+        "name": "Game Development",
+        "count": 45
+      },
+      {
+        "name": "AR and VR",
+        "count": 20
+      },
+      {
+        "name": "Blockchain",
+        "count": 20
+      },
+      {
+        "name": "Algorithms",
+        "count": 20
+      },
+      {
+        "name": "Operating Systems",
+        "count": 20
+      },
+      {
+        "name": "Database Systems",
+        "count": 20
+      },
+      {
+        "name": "Computer Networks",
+        "count": 20
+      },
+      {
+        "name": "Distributed Systems",
+        "count": 20
+      },
+      {
+        "name": "Programming Languages",
+        "count": 20
+      },
+      {
+        "name": "Software Architecture",
+        "count": 20
+      },
+      {
+        "name": "Accessibility",
+        "count": 20
+      }
+    ]
+  },
+  {
+    "field": "ECE Related",
+    "skills": 318,
+    "domains": [
+      {
+        "name": "Embedded Systems",
+        "count": 57
+      },
+      {
+        "name": "IoT",
+        "count": 55
+      },
+      {
+        "name": "VLSI Design",
+        "count": 26
+      },
+      {
+        "name": "FPGA Design",
+        "count": 50
+      },
+      {
+        "name": "PCB and Hardware Design",
+        "count": 20
+      },
+      {
+        "name": "Signal Processing",
+        "count": 20
+      },
+      {
+        "name": "Communication Systems",
+        "count": 26
+      },
+      {
+        "name": "Antennas and RF",
+        "count": 20
+      },
+      {
+        "name": "Analog Electronics",
+        "count": 24
+      },
+      {
+        "name": "Digital Electronics",
+        "count": 20
+      },
+      {
+        "name": "Microcontrollers",
+        "count": 20
+      },
+      {
+        "name": "Semiconductor Devices",
+        "count": 20
+      },
+      {
+        "name": "Electronic Instrumentation",
+        "count": 20
+      }
+    ]
+  },
+  {
+    "field": "EEE Related",
+    "skills": 155,
+    "domains": [
+      {
+        "name": "Power Systems",
+        "count": 24
+      },
+      {
+        "name": "Power Electronics",
+        "count": 20
+      },
+      {
+        "name": "Electrical Machines",
+        "count": 20
+      },
+      {
+        "name": "Control Systems",
+        "count": 20
+      },
+      {
+        "name": "Industrial Automation",
+        "count": 26
+      },
+      {
+        "name": "Renewable Energy",
+        "count": 22
+      },
+      {
+        "name": "Electric Vehicles",
+        "count": 23
+      }
+    ]
+  },
+  {
+    "field": "Mechanical Related",
+    "skills": 156,
+    "domains": [
+      {
+        "name": "Mechanical Design",
+        "count": 25
+      },
+      {
+        "name": "CAD and Simulation",
+        "count": 26
+      },
+      {
+        "name": "Manufacturing",
+        "count": 25
+      },
+      {
+        "name": "Thermodynamics",
+        "count": 20
+      },
+      {
+        "name": "Fluid Mechanics",
+        "count": 20
+      },
+      {
+        "name": "Robotics",
+        "count": 20
+      },
+      {
+        "name": "Additive Manufacturing",
+        "count": 20
+      }
+    ]
+  },
+  {
+    "field": "Civil Related",
+    "skills": 108,
+    "domains": [
+      {
+        "name": "Civil and Structural",
+        "count": 26
+      },
+      {
+        "name": "Geotechnical Engineering",
+        "count": 22
+      },
+      {
+        "name": "Transportation Engineering",
+        "count": 20
+      },
+      {
+        "name": "Water Resources",
+        "count": 20
+      },
+      {
+        "name": "Construction Management",
+        "count": 20
+      }
+    ]
+  },
+  {
+    "field": "Chemical and Biotech",
+    "skills": 109,
+    "domains": [
+      {
+        "name": "Chemical Engineering",
+        "count": 24
+      },
+      {
+        "name": "Biotechnology",
+        "count": 25
+      },
+      {
+        "name": "Process Engineering",
+        "count": 20
+      },
+      {
+        "name": "Biochemistry",
+        "count": 20
+      },
+      {
+        "name": "Environmental Engineering",
+        "count": 20
+      }
+    ]
+  },
+  {
+    "field": "Design and Creative",
+    "skills": 150,
+    "domains": [
+      {
+        "name": "UI and UX Design",
+        "count": 50
+      },
+      {
+        "name": "Graphic Design",
+        "count": 50
+      },
+      {
+        "name": "Motion Design",
+        "count": 50
+      },
+      {
+        "name": "Video Production",
+        "count": 20
+      },
+      {
+        "name": "Three-Dimensional Art",
+        "count": 20
+      },
+      {
+        "name": "Photography",
+        "count": 20
+      }
+    ]
+  },
+  {
+    "field": "Business, Management and Marketing",
+    "skills": 170,
+    "domains": [
+      {
+        "name": "Product Management",
+        "count": 45
+      },
+      {
+        "name": "Digital Marketing",
+        "count": 45
+      },
+      {
+        "name": "Business Strategy",
+        "count": 20
+      },
+      {
+        "name": "Finance and Accounting",
+        "count": 20
+      },
+      {
+        "name": "Operations Management",
+        "count": 20
+      },
+      {
+        "name": "Entrepreneurship",
+        "count": 20
+      }
+    ]
+  },
+  {
+    "field": "Math, Science and Research",
+    "skills": 100,
+    "domains": [
+      {
+        "name": "Statistics",
+        "count": 20
+      },
+      {
+        "name": "Applied Mathematics",
+        "count": 20
+      },
+      {
+        "name": "Physics",
+        "count": 20
+      },
+      {
+        "name": "Research and Academic Writing",
+        "count": 20
+      },
+      {
+        "name": "Scientific Computing",
+        "count": 20
+      }
+    ]
+  },
+  {
+    "field": "Communication and Soft Skills",
+    "skills": 85,
+    "domains": [
+      {
+        "name": "Teamwork",
+        "count": 45
+      },
+      {
+        "name": "Professional Communication",
+        "count": 20
+      },
+      {
+        "name": "Leadership",
+        "count": 20
+      }
+    ]
+  }
+]

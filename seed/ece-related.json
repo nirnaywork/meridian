@@ -1,0 +1,3781 @@
+{
+  "field": {
+    "name": "ECE Related",
+    "slug": "ece-related"
+  },
+  "domains": [
+    {
+      "name": "Embedded Systems",
+      "slug": "embedded-systems",
+      "description": "Practical skills, tools and methods for embedded systems."
+    },
+    {
+      "name": "IoT",
+      "slug": "iot",
+      "description": "Practical skills, tools and methods for iot."
+    },
+    {
+      "name": "VLSI Design",
+      "slug": "vlsi-design",
+      "description": "Practical skills, tools and methods for vlsi design."
+    },
+    {
+      "name": "FPGA Design",
+      "slug": "fpga-design",
+      "description": "Practical skills, tools and methods for fpga design."
+    },
+    {
+      "name": "PCB and Hardware Design",
+      "slug": "pcb-and-hardware-design",
+      "description": "Practical skills, tools and methods for pcb and hardware design."
+    },
+    {
+      "name": "Signal Processing",
+      "slug": "signal-processing",
+      "description": "Practical skills, tools and methods for signal processing."
+    },
+    {
+      "name": "Communication Systems",
+      "slug": "communication-systems",
+      "description": "Practical skills, tools and methods for communication systems."
+    },
+    {
+      "name": "Antennas and RF",
+      "slug": "antennas-and-rf",
+      "description": "Practical skills, tools and methods for antennas and rf."
+    },
+    {
+      "name": "Analog Electronics",
+      "slug": "analog-electronics",
+      "description": "Practical skills, tools and methods for analog electronics."
+    },
+    {
+      "name": "Digital Electronics",
+      "slug": "digital-electronics",
+      "description": "Practical skills, tools and methods for digital electronics."
+    },
+    {
+      "name": "Microcontrollers",
+      "slug": "microcontrollers",
+      "description": "Practical skills, tools and methods for microcontrollers."
+    },
+    {
+      "name": "Semiconductor Devices",
+      "slug": "semiconductor-devices",
+      "description": "Practical skills, tools and methods for semiconductor devices."
+    },
+    {
+      "name": "Electronic Instrumentation",
+      "slug": "electronic-instrumentation",
+      "description": "Practical skills, tools and methods for electronic instrumentation."
+    }
+  ],
+  "skills": [
+    {
+      "name": "C",
+      "category": "Embedded / IoT",
+      "slug": "c",
+      "aliases": [],
+      "is_verified": true,
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems",
+        "IoT",
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "C++",
+      "category": "Embedded / IoT",
+      "slug": "c-plus-plus",
+      "aliases": [
+        "cpp",
+        "cplusplus"
+      ],
+      "is_verified": true,
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems",
+        "IoT",
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "Embedded Systems",
+      "category": "Embedded / IoT",
+      "slug": "embedded-systems",
+      "aliases": [],
+      "is_verified": true,
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems",
+        "IoT",
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "Arduino",
+      "category": "Embedded / IoT",
+      "slug": "arduino",
+      "aliases": [],
+      "is_verified": true,
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems",
+        "IoT",
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "Raspberry Pi",
+      "category": "Embedded / IoT",
+      "slug": "raspberry-pi",
+      "aliases": [],
+      "is_verified": true,
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems",
+        "IoT",
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "ESP32",
+      "category": "Embedded / IoT",
+      "slug": "esp32",
+      "aliases": [],
+      "is_verified": true,
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems",
+        "IoT",
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "Microcontrollers",
+      "category": "Embedded / IoT",
+      "slug": "microcontrollers",
+      "aliases": [],
+      "is_verified": true,
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems",
+        "IoT",
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "RTOS",
+      "category": "Embedded / IoT",
+      "slug": "rtos",
+      "aliases": [],
+      "is_verified": true,
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems",
+        "IoT",
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "FreeRTOS",
+      "category": "Embedded / IoT",
+      "slug": "freertos",
+      "aliases": [],
+      "is_verified": true,
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems",
+        "IoT",
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "Embedded Linux",
+      "category": "Embedded / IoT",
+      "slug": "embedded-linux",
+      "aliases": [],
+      "is_verified": true,
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems",
+        "IoT",
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "PCB Design",
+      "category": "Embedded / IoT",
+      "slug": "pcb-design",
+      "aliases": [],
+      "is_verified": true,
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems",
+        "IoT",
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "KiCad",
+      "category": "Embedded / IoT",
+      "slug": "kicad",
+      "aliases": [],
+      "is_verified": true,
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems",
+        "IoT",
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "Altium",
+      "category": "Embedded / IoT",
+      "slug": "altium",
+      "aliases": [],
+      "is_verified": true,
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems",
+        "IoT",
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "Electronics",
+      "category": "Embedded / IoT",
+      "slug": "electronics",
+      "aliases": [],
+      "is_verified": true,
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems",
+        "IoT",
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "Sensors",
+      "category": "Embedded / IoT",
+      "slug": "sensors",
+      "aliases": [],
+      "is_verified": true,
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems",
+        "IoT",
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "MQTT",
+      "category": "Embedded / IoT",
+      "slug": "mqtt",
+      "aliases": [],
+      "is_verified": true,
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems",
+        "IoT",
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "Zigbee",
+      "category": "Embedded / IoT",
+      "slug": "zigbee",
+      "aliases": [],
+      "is_verified": true,
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems",
+        "IoT",
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "LoRaWAN",
+      "category": "Embedded / IoT",
+      "slug": "lorawan",
+      "aliases": [],
+      "is_verified": true,
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems",
+        "IoT",
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "Robotics",
+      "category": "Embedded / IoT",
+      "slug": "robotics",
+      "aliases": [],
+      "is_verified": true,
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems",
+        "IoT",
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "ROS",
+      "category": "Embedded / IoT",
+      "slug": "ros",
+      "aliases": [],
+      "is_verified": true,
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems",
+        "IoT",
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "Control Systems",
+      "category": "Embedded / IoT",
+      "slug": "control-systems",
+      "aliases": [],
+      "is_verified": true,
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems",
+        "IoT",
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "FPGA",
+      "category": "Embedded / IoT",
+      "slug": "fpga",
+      "aliases": [],
+      "is_verified": true,
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems",
+        "IoT",
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "Verilog",
+      "category": "Embedded / IoT",
+      "slug": "verilog",
+      "aliases": [],
+      "is_verified": true,
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems",
+        "IoT",
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "VHDL",
+      "category": "Embedded / IoT",
+      "slug": "vhdl",
+      "aliases": [],
+      "is_verified": true,
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems",
+        "IoT",
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "I2C",
+      "category": "Embedded / IoT",
+      "slug": "i2c",
+      "aliases": [],
+      "is_verified": true,
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems",
+        "IoT",
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "SPI",
+      "category": "Embedded / IoT",
+      "slug": "spi",
+      "aliases": [],
+      "is_verified": true,
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems",
+        "IoT",
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "UART",
+      "category": "Embedded / IoT",
+      "slug": "uart",
+      "aliases": [],
+      "is_verified": true,
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems",
+        "IoT",
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "CAN Bus",
+      "category": "Embedded / IoT",
+      "slug": "can-bus",
+      "aliases": [],
+      "is_verified": true,
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems",
+        "IoT",
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "3D Printing",
+      "category": "Embedded / IoT",
+      "slug": "3d-printing",
+      "aliases": [],
+      "is_verified": true,
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems",
+        "IoT",
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "CAD",
+      "category": "Embedded / IoT",
+      "slug": "cad",
+      "aliases": [],
+      "is_verified": true,
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems",
+        "IoT",
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "Embedded Systems: circuit analysis",
+      "slug": "embedded-systems-circuit-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Embedded Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems"
+      ]
+    },
+    {
+      "name": "Embedded Systems: schematic design",
+      "slug": "embedded-systems-schematic-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Embedded Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems"
+      ]
+    },
+    {
+      "name": "Embedded Systems: simulation",
+      "slug": "embedded-systems-simulation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Embedded Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems"
+      ]
+    },
+    {
+      "name": "Embedded Systems: prototyping",
+      "slug": "embedded-systems-prototyping",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Embedded Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems"
+      ]
+    },
+    {
+      "name": "Embedded Systems: hardware debugging",
+      "slug": "embedded-systems-hardware-debugging",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Embedded Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems"
+      ]
+    },
+    {
+      "name": "Embedded Systems: measurement",
+      "slug": "embedded-systems-measurement",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Embedded Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems"
+      ]
+    },
+    {
+      "name": "Embedded Systems: signal analysis",
+      "slug": "embedded-systems-signal-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Embedded Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems"
+      ]
+    },
+    {
+      "name": "Embedded Systems: noise analysis",
+      "slug": "embedded-systems-noise-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Embedded Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems"
+      ]
+    },
+    {
+      "name": "Embedded Systems: timing analysis",
+      "slug": "embedded-systems-timing-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Embedded Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems"
+      ]
+    },
+    {
+      "name": "Embedded Systems: power optimization",
+      "slug": "embedded-systems-power-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Embedded Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems"
+      ]
+    },
+    {
+      "name": "Embedded Systems: interface design",
+      "slug": "embedded-systems-interface-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Embedded Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems"
+      ]
+    },
+    {
+      "name": "Embedded Systems: test bench development",
+      "slug": "embedded-systems-test-bench-development",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Embedded Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems"
+      ]
+    },
+    {
+      "name": "Embedded Systems: verification",
+      "slug": "embedded-systems-verification",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Embedded Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems"
+      ]
+    },
+    {
+      "name": "Embedded Systems: layout review",
+      "slug": "embedded-systems-layout-review",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Embedded Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems"
+      ]
+    },
+    {
+      "name": "Embedded Systems: component selection",
+      "slug": "embedded-systems-component-selection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Embedded Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems"
+      ]
+    },
+    {
+      "name": "Embedded Systems: fault diagnosis",
+      "slug": "embedded-systems-fault-diagnosis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Embedded Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems"
+      ]
+    },
+    {
+      "name": "Embedded Systems: calibration",
+      "slug": "embedded-systems-calibration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Embedded Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems"
+      ]
+    },
+    {
+      "name": "Embedded Systems: system integration",
+      "slug": "embedded-systems-system-integration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Embedded Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems"
+      ]
+    },
+    {
+      "name": "Embedded Systems: technical documentation",
+      "slug": "embedded-systems-technical-documentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Embedded Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems"
+      ]
+    },
+    {
+      "name": "Embedded Systems: reliability testing",
+      "slug": "embedded-systems-reliability-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Embedded Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems"
+      ]
+    },
+    {
+      "name": "IoT: circuit analysis",
+      "slug": "iot-circuit-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "IoT",
+      "field": "ECE Related",
+      "domains": [
+        "IoT"
+      ]
+    },
+    {
+      "name": "IoT: schematic design",
+      "slug": "iot-schematic-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "IoT",
+      "field": "ECE Related",
+      "domains": [
+        "IoT"
+      ]
+    },
+    {
+      "name": "IoT: simulation",
+      "slug": "iot-simulation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "IoT",
+      "field": "ECE Related",
+      "domains": [
+        "IoT"
+      ]
+    },
+    {
+      "name": "IoT: prototyping",
+      "slug": "iot-prototyping",
+      "aliases": [],
+      "is_verified": true,
+      "category": "IoT",
+      "field": "ECE Related",
+      "domains": [
+        "IoT"
+      ]
+    },
+    {
+      "name": "IoT: hardware debugging",
+      "slug": "iot-hardware-debugging",
+      "aliases": [],
+      "is_verified": true,
+      "category": "IoT",
+      "field": "ECE Related",
+      "domains": [
+        "IoT"
+      ]
+    },
+    {
+      "name": "IoT: measurement",
+      "slug": "iot-measurement",
+      "aliases": [],
+      "is_verified": true,
+      "category": "IoT",
+      "field": "ECE Related",
+      "domains": [
+        "IoT"
+      ]
+    },
+    {
+      "name": "IoT: signal analysis",
+      "slug": "iot-signal-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "IoT",
+      "field": "ECE Related",
+      "domains": [
+        "IoT"
+      ]
+    },
+    {
+      "name": "IoT: noise analysis",
+      "slug": "iot-noise-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "IoT",
+      "field": "ECE Related",
+      "domains": [
+        "IoT"
+      ]
+    },
+    {
+      "name": "IoT: timing analysis",
+      "slug": "iot-timing-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "IoT",
+      "field": "ECE Related",
+      "domains": [
+        "IoT"
+      ]
+    },
+    {
+      "name": "IoT: power optimization",
+      "slug": "iot-power-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "IoT",
+      "field": "ECE Related",
+      "domains": [
+        "IoT"
+      ]
+    },
+    {
+      "name": "IoT: interface design",
+      "slug": "iot-interface-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "IoT",
+      "field": "ECE Related",
+      "domains": [
+        "IoT"
+      ]
+    },
+    {
+      "name": "IoT: test bench development",
+      "slug": "iot-test-bench-development",
+      "aliases": [],
+      "is_verified": true,
+      "category": "IoT",
+      "field": "ECE Related",
+      "domains": [
+        "IoT"
+      ]
+    },
+    {
+      "name": "IoT: verification",
+      "slug": "iot-verification",
+      "aliases": [],
+      "is_verified": true,
+      "category": "IoT",
+      "field": "ECE Related",
+      "domains": [
+        "IoT"
+      ]
+    },
+    {
+      "name": "IoT: layout review",
+      "slug": "iot-layout-review",
+      "aliases": [],
+      "is_verified": true,
+      "category": "IoT",
+      "field": "ECE Related",
+      "domains": [
+        "IoT"
+      ]
+    },
+    {
+      "name": "IoT: component selection",
+      "slug": "iot-component-selection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "IoT",
+      "field": "ECE Related",
+      "domains": [
+        "IoT"
+      ]
+    },
+    {
+      "name": "IoT: fault diagnosis",
+      "slug": "iot-fault-diagnosis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "IoT",
+      "field": "ECE Related",
+      "domains": [
+        "IoT"
+      ]
+    },
+    {
+      "name": "IoT: calibration",
+      "slug": "iot-calibration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "IoT",
+      "field": "ECE Related",
+      "domains": [
+        "IoT"
+      ]
+    },
+    {
+      "name": "IoT: system integration",
+      "slug": "iot-system-integration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "IoT",
+      "field": "ECE Related",
+      "domains": [
+        "IoT"
+      ]
+    },
+    {
+      "name": "IoT: technical documentation",
+      "slug": "iot-technical-documentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "IoT",
+      "field": "ECE Related",
+      "domains": [
+        "IoT"
+      ]
+    },
+    {
+      "name": "IoT: reliability testing",
+      "slug": "iot-reliability-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "IoT",
+      "field": "ECE Related",
+      "domains": [
+        "IoT"
+      ]
+    },
+    {
+      "name": "VLSI Design: circuit analysis",
+      "slug": "vlsi-design-circuit-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "VLSI Design",
+      "field": "ECE Related",
+      "domains": [
+        "VLSI Design"
+      ]
+    },
+    {
+      "name": "VLSI Design: schematic design",
+      "slug": "vlsi-design-schematic-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "VLSI Design",
+      "field": "ECE Related",
+      "domains": [
+        "VLSI Design"
+      ]
+    },
+    {
+      "name": "VLSI Design: simulation",
+      "slug": "vlsi-design-simulation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "VLSI Design",
+      "field": "ECE Related",
+      "domains": [
+        "VLSI Design"
+      ]
+    },
+    {
+      "name": "VLSI Design: prototyping",
+      "slug": "vlsi-design-prototyping",
+      "aliases": [],
+      "is_verified": true,
+      "category": "VLSI Design",
+      "field": "ECE Related",
+      "domains": [
+        "VLSI Design"
+      ]
+    },
+    {
+      "name": "VLSI Design: hardware debugging",
+      "slug": "vlsi-design-hardware-debugging",
+      "aliases": [],
+      "is_verified": true,
+      "category": "VLSI Design",
+      "field": "ECE Related",
+      "domains": [
+        "VLSI Design"
+      ]
+    },
+    {
+      "name": "VLSI Design: measurement",
+      "slug": "vlsi-design-measurement",
+      "aliases": [],
+      "is_verified": true,
+      "category": "VLSI Design",
+      "field": "ECE Related",
+      "domains": [
+        "VLSI Design"
+      ]
+    },
+    {
+      "name": "VLSI Design: signal analysis",
+      "slug": "vlsi-design-signal-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "VLSI Design",
+      "field": "ECE Related",
+      "domains": [
+        "VLSI Design"
+      ]
+    },
+    {
+      "name": "VLSI Design: noise analysis",
+      "slug": "vlsi-design-noise-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "VLSI Design",
+      "field": "ECE Related",
+      "domains": [
+        "VLSI Design"
+      ]
+    },
+    {
+      "name": "VLSI Design: timing analysis",
+      "slug": "vlsi-design-timing-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "VLSI Design",
+      "field": "ECE Related",
+      "domains": [
+        "VLSI Design"
+      ]
+    },
+    {
+      "name": "VLSI Design: power optimization",
+      "slug": "vlsi-design-power-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "VLSI Design",
+      "field": "ECE Related",
+      "domains": [
+        "VLSI Design"
+      ]
+    },
+    {
+      "name": "VLSI Design: interface design",
+      "slug": "vlsi-design-interface-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "VLSI Design",
+      "field": "ECE Related",
+      "domains": [
+        "VLSI Design"
+      ]
+    },
+    {
+      "name": "VLSI Design: test bench development",
+      "slug": "vlsi-design-test-bench-development",
+      "aliases": [],
+      "is_verified": true,
+      "category": "VLSI Design",
+      "field": "ECE Related",
+      "domains": [
+        "VLSI Design"
+      ]
+    },
+    {
+      "name": "VLSI Design: verification",
+      "slug": "vlsi-design-verification",
+      "aliases": [],
+      "is_verified": true,
+      "category": "VLSI Design",
+      "field": "ECE Related",
+      "domains": [
+        "VLSI Design"
+      ]
+    },
+    {
+      "name": "VLSI Design: layout review",
+      "slug": "vlsi-design-layout-review",
+      "aliases": [],
+      "is_verified": true,
+      "category": "VLSI Design",
+      "field": "ECE Related",
+      "domains": [
+        "VLSI Design"
+      ]
+    },
+    {
+      "name": "VLSI Design: component selection",
+      "slug": "vlsi-design-component-selection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "VLSI Design",
+      "field": "ECE Related",
+      "domains": [
+        "VLSI Design"
+      ]
+    },
+    {
+      "name": "VLSI Design: fault diagnosis",
+      "slug": "vlsi-design-fault-diagnosis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "VLSI Design",
+      "field": "ECE Related",
+      "domains": [
+        "VLSI Design"
+      ]
+    },
+    {
+      "name": "VLSI Design: calibration",
+      "slug": "vlsi-design-calibration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "VLSI Design",
+      "field": "ECE Related",
+      "domains": [
+        "VLSI Design"
+      ]
+    },
+    {
+      "name": "VLSI Design: system integration",
+      "slug": "vlsi-design-system-integration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "VLSI Design",
+      "field": "ECE Related",
+      "domains": [
+        "VLSI Design"
+      ]
+    },
+    {
+      "name": "VLSI Design: technical documentation",
+      "slug": "vlsi-design-technical-documentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "VLSI Design",
+      "field": "ECE Related",
+      "domains": [
+        "VLSI Design"
+      ]
+    },
+    {
+      "name": "VLSI Design: reliability testing",
+      "slug": "vlsi-design-reliability-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "VLSI Design",
+      "field": "ECE Related",
+      "domains": [
+        "VLSI Design"
+      ]
+    },
+    {
+      "name": "FPGA Design: circuit analysis",
+      "slug": "fpga-design-circuit-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "FPGA Design",
+      "field": "ECE Related",
+      "domains": [
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "FPGA Design: schematic design",
+      "slug": "fpga-design-schematic-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "FPGA Design",
+      "field": "ECE Related",
+      "domains": [
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "FPGA Design: simulation",
+      "slug": "fpga-design-simulation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "FPGA Design",
+      "field": "ECE Related",
+      "domains": [
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "FPGA Design: prototyping",
+      "slug": "fpga-design-prototyping",
+      "aliases": [],
+      "is_verified": true,
+      "category": "FPGA Design",
+      "field": "ECE Related",
+      "domains": [
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "FPGA Design: hardware debugging",
+      "slug": "fpga-design-hardware-debugging",
+      "aliases": [],
+      "is_verified": true,
+      "category": "FPGA Design",
+      "field": "ECE Related",
+      "domains": [
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "FPGA Design: measurement",
+      "slug": "fpga-design-measurement",
+      "aliases": [],
+      "is_verified": true,
+      "category": "FPGA Design",
+      "field": "ECE Related",
+      "domains": [
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "FPGA Design: signal analysis",
+      "slug": "fpga-design-signal-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "FPGA Design",
+      "field": "ECE Related",
+      "domains": [
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "FPGA Design: noise analysis",
+      "slug": "fpga-design-noise-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "FPGA Design",
+      "field": "ECE Related",
+      "domains": [
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "FPGA Design: timing analysis",
+      "slug": "fpga-design-timing-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "FPGA Design",
+      "field": "ECE Related",
+      "domains": [
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "FPGA Design: power optimization",
+      "slug": "fpga-design-power-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "FPGA Design",
+      "field": "ECE Related",
+      "domains": [
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "FPGA Design: interface design",
+      "slug": "fpga-design-interface-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "FPGA Design",
+      "field": "ECE Related",
+      "domains": [
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "FPGA Design: test bench development",
+      "slug": "fpga-design-test-bench-development",
+      "aliases": [],
+      "is_verified": true,
+      "category": "FPGA Design",
+      "field": "ECE Related",
+      "domains": [
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "FPGA Design: verification",
+      "slug": "fpga-design-verification",
+      "aliases": [],
+      "is_verified": true,
+      "category": "FPGA Design",
+      "field": "ECE Related",
+      "domains": [
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "FPGA Design: layout review",
+      "slug": "fpga-design-layout-review",
+      "aliases": [],
+      "is_verified": true,
+      "category": "FPGA Design",
+      "field": "ECE Related",
+      "domains": [
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "FPGA Design: component selection",
+      "slug": "fpga-design-component-selection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "FPGA Design",
+      "field": "ECE Related",
+      "domains": [
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "FPGA Design: fault diagnosis",
+      "slug": "fpga-design-fault-diagnosis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "FPGA Design",
+      "field": "ECE Related",
+      "domains": [
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "FPGA Design: calibration",
+      "slug": "fpga-design-calibration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "FPGA Design",
+      "field": "ECE Related",
+      "domains": [
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "FPGA Design: system integration",
+      "slug": "fpga-design-system-integration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "FPGA Design",
+      "field": "ECE Related",
+      "domains": [
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "FPGA Design: technical documentation",
+      "slug": "fpga-design-technical-documentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "FPGA Design",
+      "field": "ECE Related",
+      "domains": [
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "FPGA Design: reliability testing",
+      "slug": "fpga-design-reliability-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "FPGA Design",
+      "field": "ECE Related",
+      "domains": [
+        "FPGA Design"
+      ]
+    },
+    {
+      "name": "PCB and Hardware Design: circuit analysis",
+      "slug": "pcb-and-hardware-design-circuit-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "PCB and Hardware Design",
+      "field": "ECE Related",
+      "domains": [
+        "PCB and Hardware Design"
+      ]
+    },
+    {
+      "name": "PCB and Hardware Design: schematic design",
+      "slug": "pcb-and-hardware-design-schematic-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "PCB and Hardware Design",
+      "field": "ECE Related",
+      "domains": [
+        "PCB and Hardware Design"
+      ]
+    },
+    {
+      "name": "PCB and Hardware Design: simulation",
+      "slug": "pcb-and-hardware-design-simulation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "PCB and Hardware Design",
+      "field": "ECE Related",
+      "domains": [
+        "PCB and Hardware Design"
+      ]
+    },
+    {
+      "name": "PCB and Hardware Design: prototyping",
+      "slug": "pcb-and-hardware-design-prototyping",
+      "aliases": [],
+      "is_verified": true,
+      "category": "PCB and Hardware Design",
+      "field": "ECE Related",
+      "domains": [
+        "PCB and Hardware Design"
+      ]
+    },
+    {
+      "name": "PCB and Hardware Design: hardware debugging",
+      "slug": "pcb-and-hardware-design-hardware-debugging",
+      "aliases": [],
+      "is_verified": true,
+      "category": "PCB and Hardware Design",
+      "field": "ECE Related",
+      "domains": [
+        "PCB and Hardware Design"
+      ]
+    },
+    {
+      "name": "PCB and Hardware Design: measurement",
+      "slug": "pcb-and-hardware-design-measurement",
+      "aliases": [],
+      "is_verified": true,
+      "category": "PCB and Hardware Design",
+      "field": "ECE Related",
+      "domains": [
+        "PCB and Hardware Design"
+      ]
+    },
+    {
+      "name": "PCB and Hardware Design: signal analysis",
+      "slug": "pcb-and-hardware-design-signal-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "PCB and Hardware Design",
+      "field": "ECE Related",
+      "domains": [
+        "PCB and Hardware Design"
+      ]
+    },
+    {
+      "name": "PCB and Hardware Design: noise analysis",
+      "slug": "pcb-and-hardware-design-noise-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "PCB and Hardware Design",
+      "field": "ECE Related",
+      "domains": [
+        "PCB and Hardware Design"
+      ]
+    },
+    {
+      "name": "PCB and Hardware Design: timing analysis",
+      "slug": "pcb-and-hardware-design-timing-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "PCB and Hardware Design",
+      "field": "ECE Related",
+      "domains": [
+        "PCB and Hardware Design"
+      ]
+    },
+    {
+      "name": "PCB and Hardware Design: power optimization",
+      "slug": "pcb-and-hardware-design-power-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "PCB and Hardware Design",
+      "field": "ECE Related",
+      "domains": [
+        "PCB and Hardware Design"
+      ]
+    },
+    {
+      "name": "PCB and Hardware Design: interface design",
+      "slug": "pcb-and-hardware-design-interface-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "PCB and Hardware Design",
+      "field": "ECE Related",
+      "domains": [
+        "PCB and Hardware Design"
+      ]
+    },
+    {
+      "name": "PCB and Hardware Design: test bench development",
+      "slug": "pcb-and-hardware-design-test-bench-development",
+      "aliases": [],
+      "is_verified": true,
+      "category": "PCB and Hardware Design",
+      "field": "ECE Related",
+      "domains": [
+        "PCB and Hardware Design"
+      ]
+    },
+    {
+      "name": "PCB and Hardware Design: verification",
+      "slug": "pcb-and-hardware-design-verification",
+      "aliases": [],
+      "is_verified": true,
+      "category": "PCB and Hardware Design",
+      "field": "ECE Related",
+      "domains": [
+        "PCB and Hardware Design"
+      ]
+    },
+    {
+      "name": "PCB and Hardware Design: layout review",
+      "slug": "pcb-and-hardware-design-layout-review",
+      "aliases": [],
+      "is_verified": true,
+      "category": "PCB and Hardware Design",
+      "field": "ECE Related",
+      "domains": [
+        "PCB and Hardware Design"
+      ]
+    },
+    {
+      "name": "PCB and Hardware Design: component selection",
+      "slug": "pcb-and-hardware-design-component-selection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "PCB and Hardware Design",
+      "field": "ECE Related",
+      "domains": [
+        "PCB and Hardware Design"
+      ]
+    },
+    {
+      "name": "PCB and Hardware Design: fault diagnosis",
+      "slug": "pcb-and-hardware-design-fault-diagnosis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "PCB and Hardware Design",
+      "field": "ECE Related",
+      "domains": [
+        "PCB and Hardware Design"
+      ]
+    },
+    {
+      "name": "PCB and Hardware Design: calibration",
+      "slug": "pcb-and-hardware-design-calibration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "PCB and Hardware Design",
+      "field": "ECE Related",
+      "domains": [
+        "PCB and Hardware Design"
+      ]
+    },
+    {
+      "name": "PCB and Hardware Design: system integration",
+      "slug": "pcb-and-hardware-design-system-integration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "PCB and Hardware Design",
+      "field": "ECE Related",
+      "domains": [
+        "PCB and Hardware Design"
+      ]
+    },
+    {
+      "name": "PCB and Hardware Design: technical documentation",
+      "slug": "pcb-and-hardware-design-technical-documentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "PCB and Hardware Design",
+      "field": "ECE Related",
+      "domains": [
+        "PCB and Hardware Design"
+      ]
+    },
+    {
+      "name": "PCB and Hardware Design: reliability testing",
+      "slug": "pcb-and-hardware-design-reliability-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "PCB and Hardware Design",
+      "field": "ECE Related",
+      "domains": [
+        "PCB and Hardware Design"
+      ]
+    },
+    {
+      "name": "Signal Processing: circuit analysis",
+      "slug": "signal-processing-circuit-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Signal Processing",
+      "field": "ECE Related",
+      "domains": [
+        "Signal Processing"
+      ]
+    },
+    {
+      "name": "Signal Processing: schematic design",
+      "slug": "signal-processing-schematic-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Signal Processing",
+      "field": "ECE Related",
+      "domains": [
+        "Signal Processing"
+      ]
+    },
+    {
+      "name": "Signal Processing: simulation",
+      "slug": "signal-processing-simulation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Signal Processing",
+      "field": "ECE Related",
+      "domains": [
+        "Signal Processing"
+      ]
+    },
+    {
+      "name": "Signal Processing: prototyping",
+      "slug": "signal-processing-prototyping",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Signal Processing",
+      "field": "ECE Related",
+      "domains": [
+        "Signal Processing"
+      ]
+    },
+    {
+      "name": "Signal Processing: hardware debugging",
+      "slug": "signal-processing-hardware-debugging",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Signal Processing",
+      "field": "ECE Related",
+      "domains": [
+        "Signal Processing"
+      ]
+    },
+    {
+      "name": "Signal Processing: measurement",
+      "slug": "signal-processing-measurement",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Signal Processing",
+      "field": "ECE Related",
+      "domains": [
+        "Signal Processing"
+      ]
+    },
+    {
+      "name": "Signal Processing: signal analysis",
+      "slug": "signal-processing-signal-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Signal Processing",
+      "field": "ECE Related",
+      "domains": [
+        "Signal Processing"
+      ]
+    },
+    {
+      "name": "Signal Processing: noise analysis",
+      "slug": "signal-processing-noise-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Signal Processing",
+      "field": "ECE Related",
+      "domains": [
+        "Signal Processing"
+      ]
+    },
+    {
+      "name": "Signal Processing: timing analysis",
+      "slug": "signal-processing-timing-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Signal Processing",
+      "field": "ECE Related",
+      "domains": [
+        "Signal Processing"
+      ]
+    },
+    {
+      "name": "Signal Processing: power optimization",
+      "slug": "signal-processing-power-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Signal Processing",
+      "field": "ECE Related",
+      "domains": [
+        "Signal Processing"
+      ]
+    },
+    {
+      "name": "Signal Processing: interface design",
+      "slug": "signal-processing-interface-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Signal Processing",
+      "field": "ECE Related",
+      "domains": [
+        "Signal Processing"
+      ]
+    },
+    {
+      "name": "Signal Processing: test bench development",
+      "slug": "signal-processing-test-bench-development",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Signal Processing",
+      "field": "ECE Related",
+      "domains": [
+        "Signal Processing"
+      ]
+    },
+    {
+      "name": "Signal Processing: verification",
+      "slug": "signal-processing-verification",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Signal Processing",
+      "field": "ECE Related",
+      "domains": [
+        "Signal Processing"
+      ]
+    },
+    {
+      "name": "Signal Processing: layout review",
+      "slug": "signal-processing-layout-review",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Signal Processing",
+      "field": "ECE Related",
+      "domains": [
+        "Signal Processing"
+      ]
+    },
+    {
+      "name": "Signal Processing: component selection",
+      "slug": "signal-processing-component-selection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Signal Processing",
+      "field": "ECE Related",
+      "domains": [
+        "Signal Processing"
+      ]
+    },
+    {
+      "name": "Signal Processing: fault diagnosis",
+      "slug": "signal-processing-fault-diagnosis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Signal Processing",
+      "field": "ECE Related",
+      "domains": [
+        "Signal Processing"
+      ]
+    },
+    {
+      "name": "Signal Processing: calibration",
+      "slug": "signal-processing-calibration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Signal Processing",
+      "field": "ECE Related",
+      "domains": [
+        "Signal Processing"
+      ]
+    },
+    {
+      "name": "Signal Processing: system integration",
+      "slug": "signal-processing-system-integration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Signal Processing",
+      "field": "ECE Related",
+      "domains": [
+        "Signal Processing"
+      ]
+    },
+    {
+      "name": "Signal Processing: technical documentation",
+      "slug": "signal-processing-technical-documentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Signal Processing",
+      "field": "ECE Related",
+      "domains": [
+        "Signal Processing"
+      ]
+    },
+    {
+      "name": "Signal Processing: reliability testing",
+      "slug": "signal-processing-reliability-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Signal Processing",
+      "field": "ECE Related",
+      "domains": [
+        "Signal Processing"
+      ]
+    },
+    {
+      "name": "Communication Systems: circuit analysis",
+      "slug": "communication-systems-circuit-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Communication Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Communication Systems"
+      ]
+    },
+    {
+      "name": "Communication Systems: schematic design",
+      "slug": "communication-systems-schematic-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Communication Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Communication Systems"
+      ]
+    },
+    {
+      "name": "Communication Systems: simulation",
+      "slug": "communication-systems-simulation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Communication Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Communication Systems"
+      ]
+    },
+    {
+      "name": "Communication Systems: prototyping",
+      "slug": "communication-systems-prototyping",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Communication Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Communication Systems"
+      ]
+    },
+    {
+      "name": "Communication Systems: hardware debugging",
+      "slug": "communication-systems-hardware-debugging",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Communication Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Communication Systems"
+      ]
+    },
+    {
+      "name": "Communication Systems: measurement",
+      "slug": "communication-systems-measurement",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Communication Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Communication Systems"
+      ]
+    },
+    {
+      "name": "Communication Systems: signal analysis",
+      "slug": "communication-systems-signal-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Communication Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Communication Systems"
+      ]
+    },
+    {
+      "name": "Communication Systems: noise analysis",
+      "slug": "communication-systems-noise-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Communication Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Communication Systems"
+      ]
+    },
+    {
+      "name": "Communication Systems: timing analysis",
+      "slug": "communication-systems-timing-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Communication Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Communication Systems"
+      ]
+    },
+    {
+      "name": "Communication Systems: power optimization",
+      "slug": "communication-systems-power-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Communication Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Communication Systems"
+      ]
+    },
+    {
+      "name": "Communication Systems: interface design",
+      "slug": "communication-systems-interface-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Communication Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Communication Systems"
+      ]
+    },
+    {
+      "name": "Communication Systems: test bench development",
+      "slug": "communication-systems-test-bench-development",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Communication Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Communication Systems"
+      ]
+    },
+    {
+      "name": "Communication Systems: verification",
+      "slug": "communication-systems-verification",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Communication Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Communication Systems"
+      ]
+    },
+    {
+      "name": "Communication Systems: layout review",
+      "slug": "communication-systems-layout-review",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Communication Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Communication Systems"
+      ]
+    },
+    {
+      "name": "Communication Systems: component selection",
+      "slug": "communication-systems-component-selection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Communication Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Communication Systems"
+      ]
+    },
+    {
+      "name": "Communication Systems: fault diagnosis",
+      "slug": "communication-systems-fault-diagnosis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Communication Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Communication Systems"
+      ]
+    },
+    {
+      "name": "Communication Systems: calibration",
+      "slug": "communication-systems-calibration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Communication Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Communication Systems"
+      ]
+    },
+    {
+      "name": "Communication Systems: system integration",
+      "slug": "communication-systems-system-integration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Communication Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Communication Systems"
+      ]
+    },
+    {
+      "name": "Communication Systems: technical documentation",
+      "slug": "communication-systems-technical-documentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Communication Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Communication Systems"
+      ]
+    },
+    {
+      "name": "Communication Systems: reliability testing",
+      "slug": "communication-systems-reliability-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Communication Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Communication Systems"
+      ]
+    },
+    {
+      "name": "Antennas and RF: circuit analysis",
+      "slug": "antennas-and-rf-circuit-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Antennas and RF",
+      "field": "ECE Related",
+      "domains": [
+        "Antennas and RF"
+      ]
+    },
+    {
+      "name": "Antennas and RF: schematic design",
+      "slug": "antennas-and-rf-schematic-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Antennas and RF",
+      "field": "ECE Related",
+      "domains": [
+        "Antennas and RF"
+      ]
+    },
+    {
+      "name": "Antennas and RF: simulation",
+      "slug": "antennas-and-rf-simulation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Antennas and RF",
+      "field": "ECE Related",
+      "domains": [
+        "Antennas and RF"
+      ]
+    },
+    {
+      "name": "Antennas and RF: prototyping",
+      "slug": "antennas-and-rf-prototyping",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Antennas and RF",
+      "field": "ECE Related",
+      "domains": [
+        "Antennas and RF"
+      ]
+    },
+    {
+      "name": "Antennas and RF: hardware debugging",
+      "slug": "antennas-and-rf-hardware-debugging",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Antennas and RF",
+      "field": "ECE Related",
+      "domains": [
+        "Antennas and RF"
+      ]
+    },
+    {
+      "name": "Antennas and RF: measurement",
+      "slug": "antennas-and-rf-measurement",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Antennas and RF",
+      "field": "ECE Related",
+      "domains": [
+        "Antennas and RF"
+      ]
+    },
+    {
+      "name": "Antennas and RF: signal analysis",
+      "slug": "antennas-and-rf-signal-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Antennas and RF",
+      "field": "ECE Related",
+      "domains": [
+        "Antennas and RF"
+      ]
+    },
+    {
+      "name": "Antennas and RF: noise analysis",
+      "slug": "antennas-and-rf-noise-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Antennas and RF",
+      "field": "ECE Related",
+      "domains": [
+        "Antennas and RF"
+      ]
+    },
+    {
+      "name": "Antennas and RF: timing analysis",
+      "slug": "antennas-and-rf-timing-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Antennas and RF",
+      "field": "ECE Related",
+      "domains": [
+        "Antennas and RF"
+      ]
+    },
+    {
+      "name": "Antennas and RF: power optimization",
+      "slug": "antennas-and-rf-power-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Antennas and RF",
+      "field": "ECE Related",
+      "domains": [
+        "Antennas and RF"
+      ]
+    },
+    {
+      "name": "Antennas and RF: interface design",
+      "slug": "antennas-and-rf-interface-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Antennas and RF",
+      "field": "ECE Related",
+      "domains": [
+        "Antennas and RF"
+      ]
+    },
+    {
+      "name": "Antennas and RF: test bench development",
+      "slug": "antennas-and-rf-test-bench-development",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Antennas and RF",
+      "field": "ECE Related",
+      "domains": [
+        "Antennas and RF"
+      ]
+    },
+    {
+      "name": "Antennas and RF: verification",
+      "slug": "antennas-and-rf-verification",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Antennas and RF",
+      "field": "ECE Related",
+      "domains": [
+        "Antennas and RF"
+      ]
+    },
+    {
+      "name": "Antennas and RF: layout review",
+      "slug": "antennas-and-rf-layout-review",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Antennas and RF",
+      "field": "ECE Related",
+      "domains": [
+        "Antennas and RF"
+      ]
+    },
+    {
+      "name": "Antennas and RF: component selection",
+      "slug": "antennas-and-rf-component-selection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Antennas and RF",
+      "field": "ECE Related",
+      "domains": [
+        "Antennas and RF"
+      ]
+    },
+    {
+      "name": "Antennas and RF: fault diagnosis",
+      "slug": "antennas-and-rf-fault-diagnosis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Antennas and RF",
+      "field": "ECE Related",
+      "domains": [
+        "Antennas and RF"
+      ]
+    },
+    {
+      "name": "Antennas and RF: calibration",
+      "slug": "antennas-and-rf-calibration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Antennas and RF",
+      "field": "ECE Related",
+      "domains": [
+        "Antennas and RF"
+      ]
+    },
+    {
+      "name": "Antennas and RF: system integration",
+      "slug": "antennas-and-rf-system-integration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Antennas and RF",
+      "field": "ECE Related",
+      "domains": [
+        "Antennas and RF"
+      ]
+    },
+    {
+      "name": "Antennas and RF: technical documentation",
+      "slug": "antennas-and-rf-technical-documentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Antennas and RF",
+      "field": "ECE Related",
+      "domains": [
+        "Antennas and RF"
+      ]
+    },
+    {
+      "name": "Antennas and RF: reliability testing",
+      "slug": "antennas-and-rf-reliability-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Antennas and RF",
+      "field": "ECE Related",
+      "domains": [
+        "Antennas and RF"
+      ]
+    },
+    {
+      "name": "Analog Electronics: circuit analysis",
+      "slug": "analog-electronics-circuit-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Analog Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Analog Electronics"
+      ]
+    },
+    {
+      "name": "Analog Electronics: schematic design",
+      "slug": "analog-electronics-schematic-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Analog Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Analog Electronics"
+      ]
+    },
+    {
+      "name": "Analog Electronics: simulation",
+      "slug": "analog-electronics-simulation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Analog Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Analog Electronics"
+      ]
+    },
+    {
+      "name": "Analog Electronics: prototyping",
+      "slug": "analog-electronics-prototyping",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Analog Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Analog Electronics"
+      ]
+    },
+    {
+      "name": "Analog Electronics: hardware debugging",
+      "slug": "analog-electronics-hardware-debugging",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Analog Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Analog Electronics"
+      ]
+    },
+    {
+      "name": "Analog Electronics: measurement",
+      "slug": "analog-electronics-measurement",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Analog Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Analog Electronics"
+      ]
+    },
+    {
+      "name": "Analog Electronics: signal analysis",
+      "slug": "analog-electronics-signal-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Analog Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Analog Electronics"
+      ]
+    },
+    {
+      "name": "Analog Electronics: noise analysis",
+      "slug": "analog-electronics-noise-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Analog Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Analog Electronics"
+      ]
+    },
+    {
+      "name": "Analog Electronics: timing analysis",
+      "slug": "analog-electronics-timing-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Analog Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Analog Electronics"
+      ]
+    },
+    {
+      "name": "Analog Electronics: power optimization",
+      "slug": "analog-electronics-power-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Analog Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Analog Electronics"
+      ]
+    },
+    {
+      "name": "Analog Electronics: interface design",
+      "slug": "analog-electronics-interface-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Analog Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Analog Electronics"
+      ]
+    },
+    {
+      "name": "Analog Electronics: test bench development",
+      "slug": "analog-electronics-test-bench-development",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Analog Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Analog Electronics"
+      ]
+    },
+    {
+      "name": "Analog Electronics: verification",
+      "slug": "analog-electronics-verification",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Analog Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Analog Electronics"
+      ]
+    },
+    {
+      "name": "Analog Electronics: layout review",
+      "slug": "analog-electronics-layout-review",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Analog Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Analog Electronics"
+      ]
+    },
+    {
+      "name": "Analog Electronics: component selection",
+      "slug": "analog-electronics-component-selection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Analog Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Analog Electronics"
+      ]
+    },
+    {
+      "name": "Analog Electronics: fault diagnosis",
+      "slug": "analog-electronics-fault-diagnosis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Analog Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Analog Electronics"
+      ]
+    },
+    {
+      "name": "Analog Electronics: calibration",
+      "slug": "analog-electronics-calibration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Analog Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Analog Electronics"
+      ]
+    },
+    {
+      "name": "Analog Electronics: system integration",
+      "slug": "analog-electronics-system-integration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Analog Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Analog Electronics"
+      ]
+    },
+    {
+      "name": "Analog Electronics: technical documentation",
+      "slug": "analog-electronics-technical-documentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Analog Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Analog Electronics"
+      ]
+    },
+    {
+      "name": "Analog Electronics: reliability testing",
+      "slug": "analog-electronics-reliability-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Analog Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Analog Electronics"
+      ]
+    },
+    {
+      "name": "Digital Electronics: circuit analysis",
+      "slug": "digital-electronics-circuit-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Digital Electronics"
+      ]
+    },
+    {
+      "name": "Digital Electronics: schematic design",
+      "slug": "digital-electronics-schematic-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Digital Electronics"
+      ]
+    },
+    {
+      "name": "Digital Electronics: simulation",
+      "slug": "digital-electronics-simulation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Digital Electronics"
+      ]
+    },
+    {
+      "name": "Digital Electronics: prototyping",
+      "slug": "digital-electronics-prototyping",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Digital Electronics"
+      ]
+    },
+    {
+      "name": "Digital Electronics: hardware debugging",
+      "slug": "digital-electronics-hardware-debugging",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Digital Electronics"
+      ]
+    },
+    {
+      "name": "Digital Electronics: measurement",
+      "slug": "digital-electronics-measurement",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Digital Electronics"
+      ]
+    },
+    {
+      "name": "Digital Electronics: signal analysis",
+      "slug": "digital-electronics-signal-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Digital Electronics"
+      ]
+    },
+    {
+      "name": "Digital Electronics: noise analysis",
+      "slug": "digital-electronics-noise-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Digital Electronics"
+      ]
+    },
+    {
+      "name": "Digital Electronics: timing analysis",
+      "slug": "digital-electronics-timing-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Digital Electronics"
+      ]
+    },
+    {
+      "name": "Digital Electronics: power optimization",
+      "slug": "digital-electronics-power-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Digital Electronics"
+      ]
+    },
+    {
+      "name": "Digital Electronics: interface design",
+      "slug": "digital-electronics-interface-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Digital Electronics"
+      ]
+    },
+    {
+      "name": "Digital Electronics: test bench development",
+      "slug": "digital-electronics-test-bench-development",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Digital Electronics"
+      ]
+    },
+    {
+      "name": "Digital Electronics: verification",
+      "slug": "digital-electronics-verification",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Digital Electronics"
+      ]
+    },
+    {
+      "name": "Digital Electronics: layout review",
+      "slug": "digital-electronics-layout-review",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Digital Electronics"
+      ]
+    },
+    {
+      "name": "Digital Electronics: component selection",
+      "slug": "digital-electronics-component-selection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Digital Electronics"
+      ]
+    },
+    {
+      "name": "Digital Electronics: fault diagnosis",
+      "slug": "digital-electronics-fault-diagnosis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Digital Electronics"
+      ]
+    },
+    {
+      "name": "Digital Electronics: calibration",
+      "slug": "digital-electronics-calibration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Digital Electronics"
+      ]
+    },
+    {
+      "name": "Digital Electronics: system integration",
+      "slug": "digital-electronics-system-integration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Digital Electronics"
+      ]
+    },
+    {
+      "name": "Digital Electronics: technical documentation",
+      "slug": "digital-electronics-technical-documentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Digital Electronics"
+      ]
+    },
+    {
+      "name": "Digital Electronics: reliability testing",
+      "slug": "digital-electronics-reliability-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Digital Electronics"
+      ]
+    },
+    {
+      "name": "Microcontrollers: circuit analysis",
+      "slug": "microcontrollers-circuit-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Microcontrollers",
+      "field": "ECE Related",
+      "domains": [
+        "Microcontrollers"
+      ]
+    },
+    {
+      "name": "Microcontrollers: schematic design",
+      "slug": "microcontrollers-schematic-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Microcontrollers",
+      "field": "ECE Related",
+      "domains": [
+        "Microcontrollers"
+      ]
+    },
+    {
+      "name": "Microcontrollers: simulation",
+      "slug": "microcontrollers-simulation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Microcontrollers",
+      "field": "ECE Related",
+      "domains": [
+        "Microcontrollers"
+      ]
+    },
+    {
+      "name": "Microcontrollers: prototyping",
+      "slug": "microcontrollers-prototyping",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Microcontrollers",
+      "field": "ECE Related",
+      "domains": [
+        "Microcontrollers"
+      ]
+    },
+    {
+      "name": "Microcontrollers: hardware debugging",
+      "slug": "microcontrollers-hardware-debugging",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Microcontrollers",
+      "field": "ECE Related",
+      "domains": [
+        "Microcontrollers"
+      ]
+    },
+    {
+      "name": "Microcontrollers: measurement",
+      "slug": "microcontrollers-measurement",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Microcontrollers",
+      "field": "ECE Related",
+      "domains": [
+        "Microcontrollers"
+      ]
+    },
+    {
+      "name": "Microcontrollers: signal analysis",
+      "slug": "microcontrollers-signal-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Microcontrollers",
+      "field": "ECE Related",
+      "domains": [
+        "Microcontrollers"
+      ]
+    },
+    {
+      "name": "Microcontrollers: noise analysis",
+      "slug": "microcontrollers-noise-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Microcontrollers",
+      "field": "ECE Related",
+      "domains": [
+        "Microcontrollers"
+      ]
+    },
+    {
+      "name": "Microcontrollers: timing analysis",
+      "slug": "microcontrollers-timing-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Microcontrollers",
+      "field": "ECE Related",
+      "domains": [
+        "Microcontrollers"
+      ]
+    },
+    {
+      "name": "Microcontrollers: power optimization",
+      "slug": "microcontrollers-power-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Microcontrollers",
+      "field": "ECE Related",
+      "domains": [
+        "Microcontrollers"
+      ]
+    },
+    {
+      "name": "Microcontrollers: interface design",
+      "slug": "microcontrollers-interface-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Microcontrollers",
+      "field": "ECE Related",
+      "domains": [
+        "Microcontrollers"
+      ]
+    },
+    {
+      "name": "Microcontrollers: test bench development",
+      "slug": "microcontrollers-test-bench-development",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Microcontrollers",
+      "field": "ECE Related",
+      "domains": [
+        "Microcontrollers"
+      ]
+    },
+    {
+      "name": "Microcontrollers: verification",
+      "slug": "microcontrollers-verification",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Microcontrollers",
+      "field": "ECE Related",
+      "domains": [
+        "Microcontrollers"
+      ]
+    },
+    {
+      "name": "Microcontrollers: layout review",
+      "slug": "microcontrollers-layout-review",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Microcontrollers",
+      "field": "ECE Related",
+      "domains": [
+        "Microcontrollers"
+      ]
+    },
+    {
+      "name": "Microcontrollers: component selection",
+      "slug": "microcontrollers-component-selection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Microcontrollers",
+      "field": "ECE Related",
+      "domains": [
+        "Microcontrollers"
+      ]
+    },
+    {
+      "name": "Microcontrollers: fault diagnosis",
+      "slug": "microcontrollers-fault-diagnosis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Microcontrollers",
+      "field": "ECE Related",
+      "domains": [
+        "Microcontrollers"
+      ]
+    },
+    {
+      "name": "Microcontrollers: calibration",
+      "slug": "microcontrollers-calibration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Microcontrollers",
+      "field": "ECE Related",
+      "domains": [
+        "Microcontrollers"
+      ]
+    },
+    {
+      "name": "Microcontrollers: system integration",
+      "slug": "microcontrollers-system-integration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Microcontrollers",
+      "field": "ECE Related",
+      "domains": [
+        "Microcontrollers"
+      ]
+    },
+    {
+      "name": "Microcontrollers: technical documentation",
+      "slug": "microcontrollers-technical-documentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Microcontrollers",
+      "field": "ECE Related",
+      "domains": [
+        "Microcontrollers"
+      ]
+    },
+    {
+      "name": "Microcontrollers: reliability testing",
+      "slug": "microcontrollers-reliability-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Microcontrollers",
+      "field": "ECE Related",
+      "domains": [
+        "Microcontrollers"
+      ]
+    },
+    {
+      "name": "Semiconductor Devices: circuit analysis",
+      "slug": "semiconductor-devices-circuit-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Semiconductor Devices",
+      "field": "ECE Related",
+      "domains": [
+        "Semiconductor Devices"
+      ]
+    },
+    {
+      "name": "Semiconductor Devices: schematic design",
+      "slug": "semiconductor-devices-schematic-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Semiconductor Devices",
+      "field": "ECE Related",
+      "domains": [
+        "Semiconductor Devices"
+      ]
+    },
+    {
+      "name": "Semiconductor Devices: simulation",
+      "slug": "semiconductor-devices-simulation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Semiconductor Devices",
+      "field": "ECE Related",
+      "domains": [
+        "Semiconductor Devices"
+      ]
+    },
+    {
+      "name": "Semiconductor Devices: prototyping",
+      "slug": "semiconductor-devices-prototyping",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Semiconductor Devices",
+      "field": "ECE Related",
+      "domains": [
+        "Semiconductor Devices"
+      ]
+    },
+    {
+      "name": "Semiconductor Devices: hardware debugging",
+      "slug": "semiconductor-devices-hardware-debugging",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Semiconductor Devices",
+      "field": "ECE Related",
+      "domains": [
+        "Semiconductor Devices"
+      ]
+    },
+    {
+      "name": "Semiconductor Devices: measurement",
+      "slug": "semiconductor-devices-measurement",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Semiconductor Devices",
+      "field": "ECE Related",
+      "domains": [
+        "Semiconductor Devices"
+      ]
+    },
+    {
+      "name": "Semiconductor Devices: signal analysis",
+      "slug": "semiconductor-devices-signal-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Semiconductor Devices",
+      "field": "ECE Related",
+      "domains": [
+        "Semiconductor Devices"
+      ]
+    },
+    {
+      "name": "Semiconductor Devices: noise analysis",
+      "slug": "semiconductor-devices-noise-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Semiconductor Devices",
+      "field": "ECE Related",
+      "domains": [
+        "Semiconductor Devices"
+      ]
+    },
+    {
+      "name": "Semiconductor Devices: timing analysis",
+      "slug": "semiconductor-devices-timing-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Semiconductor Devices",
+      "field": "ECE Related",
+      "domains": [
+        "Semiconductor Devices"
+      ]
+    },
+    {
+      "name": "Semiconductor Devices: power optimization",
+      "slug": "semiconductor-devices-power-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Semiconductor Devices",
+      "field": "ECE Related",
+      "domains": [
+        "Semiconductor Devices"
+      ]
+    },
+    {
+      "name": "Semiconductor Devices: interface design",
+      "slug": "semiconductor-devices-interface-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Semiconductor Devices",
+      "field": "ECE Related",
+      "domains": [
+        "Semiconductor Devices"
+      ]
+    },
+    {
+      "name": "Semiconductor Devices: test bench development",
+      "slug": "semiconductor-devices-test-bench-development",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Semiconductor Devices",
+      "field": "ECE Related",
+      "domains": [
+        "Semiconductor Devices"
+      ]
+    },
+    {
+      "name": "Semiconductor Devices: verification",
+      "slug": "semiconductor-devices-verification",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Semiconductor Devices",
+      "field": "ECE Related",
+      "domains": [
+        "Semiconductor Devices"
+      ]
+    },
+    {
+      "name": "Semiconductor Devices: layout review",
+      "slug": "semiconductor-devices-layout-review",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Semiconductor Devices",
+      "field": "ECE Related",
+      "domains": [
+        "Semiconductor Devices"
+      ]
+    },
+    {
+      "name": "Semiconductor Devices: component selection",
+      "slug": "semiconductor-devices-component-selection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Semiconductor Devices",
+      "field": "ECE Related",
+      "domains": [
+        "Semiconductor Devices"
+      ]
+    },
+    {
+      "name": "Semiconductor Devices: fault diagnosis",
+      "slug": "semiconductor-devices-fault-diagnosis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Semiconductor Devices",
+      "field": "ECE Related",
+      "domains": [
+        "Semiconductor Devices"
+      ]
+    },
+    {
+      "name": "Semiconductor Devices: calibration",
+      "slug": "semiconductor-devices-calibration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Semiconductor Devices",
+      "field": "ECE Related",
+      "domains": [
+        "Semiconductor Devices"
+      ]
+    },
+    {
+      "name": "Semiconductor Devices: system integration",
+      "slug": "semiconductor-devices-system-integration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Semiconductor Devices",
+      "field": "ECE Related",
+      "domains": [
+        "Semiconductor Devices"
+      ]
+    },
+    {
+      "name": "Semiconductor Devices: technical documentation",
+      "slug": "semiconductor-devices-technical-documentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Semiconductor Devices",
+      "field": "ECE Related",
+      "domains": [
+        "Semiconductor Devices"
+      ]
+    },
+    {
+      "name": "Semiconductor Devices: reliability testing",
+      "slug": "semiconductor-devices-reliability-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Semiconductor Devices",
+      "field": "ECE Related",
+      "domains": [
+        "Semiconductor Devices"
+      ]
+    },
+    {
+      "name": "Electronic Instrumentation: circuit analysis",
+      "slug": "electronic-instrumentation-circuit-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electronic Instrumentation",
+      "field": "ECE Related",
+      "domains": [
+        "Electronic Instrumentation"
+      ]
+    },
+    {
+      "name": "Electronic Instrumentation: schematic design",
+      "slug": "electronic-instrumentation-schematic-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electronic Instrumentation",
+      "field": "ECE Related",
+      "domains": [
+        "Electronic Instrumentation"
+      ]
+    },
+    {
+      "name": "Electronic Instrumentation: simulation",
+      "slug": "electronic-instrumentation-simulation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electronic Instrumentation",
+      "field": "ECE Related",
+      "domains": [
+        "Electronic Instrumentation"
+      ]
+    },
+    {
+      "name": "Electronic Instrumentation: prototyping",
+      "slug": "electronic-instrumentation-prototyping",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electronic Instrumentation",
+      "field": "ECE Related",
+      "domains": [
+        "Electronic Instrumentation"
+      ]
+    },
+    {
+      "name": "Electronic Instrumentation: hardware debugging",
+      "slug": "electronic-instrumentation-hardware-debugging",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electronic Instrumentation",
+      "field": "ECE Related",
+      "domains": [
+        "Electronic Instrumentation"
+      ]
+    },
+    {
+      "name": "Electronic Instrumentation: measurement",
+      "slug": "electronic-instrumentation-measurement",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electronic Instrumentation",
+      "field": "ECE Related",
+      "domains": [
+        "Electronic Instrumentation"
+      ]
+    },
+    {
+      "name": "Electronic Instrumentation: signal analysis",
+      "slug": "electronic-instrumentation-signal-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electronic Instrumentation",
+      "field": "ECE Related",
+      "domains": [
+        "Electronic Instrumentation"
+      ]
+    },
+    {
+      "name": "Electronic Instrumentation: noise analysis",
+      "slug": "electronic-instrumentation-noise-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electronic Instrumentation",
+      "field": "ECE Related",
+      "domains": [
+        "Electronic Instrumentation"
+      ]
+    },
+    {
+      "name": "Electronic Instrumentation: timing analysis",
+      "slug": "electronic-instrumentation-timing-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electronic Instrumentation",
+      "field": "ECE Related",
+      "domains": [
+        "Electronic Instrumentation"
+      ]
+    },
+    {
+      "name": "Electronic Instrumentation: power optimization",
+      "slug": "electronic-instrumentation-power-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electronic Instrumentation",
+      "field": "ECE Related",
+      "domains": [
+        "Electronic Instrumentation"
+      ]
+    },
+    {
+      "name": "Electronic Instrumentation: interface design",
+      "slug": "electronic-instrumentation-interface-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electronic Instrumentation",
+      "field": "ECE Related",
+      "domains": [
+        "Electronic Instrumentation"
+      ]
+    },
+    {
+      "name": "Electronic Instrumentation: test bench development",
+      "slug": "electronic-instrumentation-test-bench-development",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electronic Instrumentation",
+      "field": "ECE Related",
+      "domains": [
+        "Electronic Instrumentation"
+      ]
+    },
+    {
+      "name": "Electronic Instrumentation: verification",
+      "slug": "electronic-instrumentation-verification",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electronic Instrumentation",
+      "field": "ECE Related",
+      "domains": [
+        "Electronic Instrumentation"
+      ]
+    },
+    {
+      "name": "Electronic Instrumentation: layout review",
+      "slug": "electronic-instrumentation-layout-review",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electronic Instrumentation",
+      "field": "ECE Related",
+      "domains": [
+        "Electronic Instrumentation"
+      ]
+    },
+    {
+      "name": "Electronic Instrumentation: component selection",
+      "slug": "electronic-instrumentation-component-selection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electronic Instrumentation",
+      "field": "ECE Related",
+      "domains": [
+        "Electronic Instrumentation"
+      ]
+    },
+    {
+      "name": "Electronic Instrumentation: fault diagnosis",
+      "slug": "electronic-instrumentation-fault-diagnosis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electronic Instrumentation",
+      "field": "ECE Related",
+      "domains": [
+        "Electronic Instrumentation"
+      ]
+    },
+    {
+      "name": "Electronic Instrumentation: calibration",
+      "slug": "electronic-instrumentation-calibration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electronic Instrumentation",
+      "field": "ECE Related",
+      "domains": [
+        "Electronic Instrumentation"
+      ]
+    },
+    {
+      "name": "Electronic Instrumentation: system integration",
+      "slug": "electronic-instrumentation-system-integration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electronic Instrumentation",
+      "field": "ECE Related",
+      "domains": [
+        "Electronic Instrumentation"
+      ]
+    },
+    {
+      "name": "Electronic Instrumentation: technical documentation",
+      "slug": "electronic-instrumentation-technical-documentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electronic Instrumentation",
+      "field": "ECE Related",
+      "domains": [
+        "Electronic Instrumentation"
+      ]
+    },
+    {
+      "name": "Electronic Instrumentation: reliability testing",
+      "slug": "electronic-instrumentation-reliability-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electronic Instrumentation",
+      "field": "ECE Related",
+      "domains": [
+        "Electronic Instrumentation"
+      ]
+    },
+    {
+      "name": "CMOS",
+      "slug": "cmos",
+      "aliases": [],
+      "is_verified": true,
+      "category": "VLSI Design",
+      "field": "ECE Related",
+      "domains": [
+        "VLSI Design"
+      ]
+    },
+    {
+      "name": "Cadence Virtuoso",
+      "slug": "cadence-virtuoso",
+      "aliases": [],
+      "is_verified": true,
+      "category": "VLSI Design",
+      "field": "ECE Related",
+      "domains": [
+        "VLSI Design"
+      ]
+    },
+    {
+      "name": "Synopsys Design Compiler",
+      "slug": "synopsys-design-compiler",
+      "aliases": [],
+      "is_verified": true,
+      "category": "VLSI Design",
+      "field": "ECE Related",
+      "domains": [
+        "VLSI Design"
+      ]
+    },
+    {
+      "name": "Static Timing Analysis",
+      "slug": "static-timing-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "VLSI Design",
+      "field": "ECE Related",
+      "domains": [
+        "VLSI Design"
+      ]
+    },
+    {
+      "name": "SystemVerilog",
+      "slug": "systemverilog",
+      "aliases": [],
+      "is_verified": true,
+      "category": "VLSI Design",
+      "field": "ECE Related",
+      "domains": [
+        "VLSI Design"
+      ]
+    },
+    {
+      "name": "Universal Verification Methodology",
+      "slug": "universal-verification-methodology",
+      "aliases": [],
+      "is_verified": true,
+      "category": "VLSI Design",
+      "field": "ECE Related",
+      "domains": [
+        "VLSI Design"
+      ]
+    },
+    {
+      "name": "ARM Cortex-M",
+      "slug": "arm-cortex-m",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Embedded Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems"
+      ]
+    },
+    {
+      "name": "ARM Cortex-A",
+      "slug": "arm-cortex-a",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Embedded Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems"
+      ]
+    },
+    {
+      "name": "Embedded C",
+      "slug": "embedded-c",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Embedded Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems"
+      ]
+    },
+    {
+      "name": "STM32",
+      "slug": "stm32",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Embedded Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems"
+      ]
+    },
+    {
+      "name": "Zephyr RTOS",
+      "slug": "zephyr-rtos",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Embedded Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems"
+      ]
+    },
+    {
+      "name": "JTAG",
+      "slug": "jtag",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Embedded Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems"
+      ]
+    },
+    {
+      "name": "OpenOCD",
+      "slug": "openocd",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Embedded Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Embedded Systems"
+      ]
+    },
+    {
+      "name": "MATLAB",
+      "slug": "matlab",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Communication Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Communication Systems"
+      ]
+    },
+    {
+      "name": "Simulink",
+      "slug": "simulink",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Communication Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Communication Systems"
+      ]
+    },
+    {
+      "name": "OFDM",
+      "slug": "ofdm",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Communication Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Communication Systems"
+      ]
+    },
+    {
+      "name": "QAM",
+      "slug": "qam",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Communication Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Communication Systems"
+      ]
+    },
+    {
+      "name": "BPSK",
+      "slug": "bpsk",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Communication Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Communication Systems"
+      ]
+    },
+    {
+      "name": "Software-Defined Radio",
+      "slug": "software-defined-radio",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Communication Systems",
+      "field": "ECE Related",
+      "domains": [
+        "Communication Systems"
+      ]
+    },
+    {
+      "name": "SPICE",
+      "slug": "spice",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Analog Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Analog Electronics"
+      ]
+    },
+    {
+      "name": "LTspice",
+      "slug": "ltspice",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Analog Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Analog Electronics"
+      ]
+    },
+    {
+      "name": "PSpice",
+      "slug": "pspice",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Analog Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Analog Electronics"
+      ]
+    },
+    {
+      "name": "Operational Amplifiers",
+      "slug": "operational-amplifiers",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Analog Electronics",
+      "field": "ECE Related",
+      "domains": [
+        "Analog Electronics"
+      ]
+    },
+    {
+      "name": "Bluetooth Low Energy",
+      "slug": "bluetooth-low-energy",
+      "aliases": [],
+      "is_verified": true,
+      "category": "IoT",
+      "field": "ECE Related",
+      "domains": [
+        "IoT"
+      ]
+    },
+    {
+      "name": "LoRa",
+      "slug": "lora",
+      "aliases": [],
+      "is_verified": true,
+      "category": "IoT",
+      "field": "ECE Related",
+      "domains": [
+        "IoT"
+      ]
+    },
+    {
+      "name": "NB-IoT",
+      "slug": "nb-iot",
+      "aliases": [],
+      "is_verified": true,
+      "category": "IoT",
+      "field": "ECE Related",
+      "domains": [
+        "IoT"
+      ]
+    },
+    {
+      "name": "Thread",
+      "slug": "thread",
+      "aliases": [],
+      "is_verified": true,
+      "category": "IoT",
+      "field": "ECE Related",
+      "domains": [
+        "IoT"
+      ]
+    },
+    {
+      "name": "Matter",
+      "slug": "matter",
+      "aliases": [],
+      "is_verified": true,
+      "category": "IoT",
+      "field": "ECE Related",
+      "domains": [
+        "IoT"
+      ]
+    }
+  ],
+  "role_templates": [
+    {
+      "title": "Embedded Engineer",
+      "slug": "embedded-systems-contributor",
+      "domain": "Embedded Systems",
+      "required_skills": [
+        "C",
+        "C++",
+        "Embedded Systems",
+        "Arduino"
+      ]
+    },
+    {
+      "title": "IoT Contributor",
+      "slug": "iot-contributor",
+      "domain": "IoT",
+      "required_skills": [
+        "IoT: circuit analysis",
+        "IoT: schematic design",
+        "IoT: simulation",
+        "IoT: prototyping"
+      ]
+    },
+    {
+      "title": "VLSI Engineer",
+      "slug": "vlsi-design-contributor",
+      "domain": "VLSI Design",
+      "required_skills": [
+        "VLSI Design: circuit analysis",
+        "VLSI Design: schematic design",
+        "VLSI Design: simulation",
+        "VLSI Design: prototyping"
+      ]
+    },
+    {
+      "title": "FPGA Engineer",
+      "slug": "fpga-design-contributor",
+      "domain": "FPGA Design",
+      "required_skills": [
+        "FPGA Design: circuit analysis",
+        "FPGA Design: schematic design",
+        "FPGA Design: simulation",
+        "FPGA Design: prototyping"
+      ]
+    },
+    {
+      "title": "PCB and Hardware Design Contributor",
+      "slug": "pcb-and-hardware-design-contributor",
+      "domain": "PCB and Hardware Design",
+      "required_skills": [
+        "PCB and Hardware Design: circuit analysis",
+        "PCB and Hardware Design: schematic design",
+        "PCB and Hardware Design: simulation",
+        "PCB and Hardware Design: prototyping"
+      ]
+    },
+    {
+      "title": "Signal Processing Contributor",
+      "slug": "signal-processing-contributor",
+      "domain": "Signal Processing",
+      "required_skills": [
+        "Signal Processing: circuit analysis",
+        "Signal Processing: schematic design",
+        "Signal Processing: simulation",
+        "Signal Processing: prototyping"
+      ]
+    },
+    {
+      "title": "Communication Systems Contributor",
+      "slug": "communication-systems-contributor",
+      "domain": "Communication Systems",
+      "required_skills": [
+        "Communication Systems: circuit analysis",
+        "Communication Systems: schematic design",
+        "Communication Systems: simulation",
+        "Communication Systems: prototyping"
+      ]
+    },
+    {
+      "title": "Antennas and RF Contributor",
+      "slug": "antennas-and-rf-contributor",
+      "domain": "Antennas and RF",
+      "required_skills": [
+        "Antennas and RF: circuit analysis",
+        "Antennas and RF: schematic design",
+        "Antennas and RF: simulation",
+        "Antennas and RF: prototyping"
+      ]
+    },
+    {
+      "title": "Analog Electronics Contributor",
+      "slug": "analog-electronics-contributor",
+      "domain": "Analog Electronics",
+      "required_skills": [
+        "Analog Electronics: circuit analysis",
+        "Analog Electronics: schematic design",
+        "Analog Electronics: simulation",
+        "Analog Electronics: prototyping"
+      ]
+    },
+    {
+      "title": "Digital Electronics Contributor",
+      "slug": "digital-electronics-contributor",
+      "domain": "Digital Electronics",
+      "required_skills": [
+        "Digital Electronics: circuit analysis",
+        "Digital Electronics: schematic design",
+        "Digital Electronics: simulation",
+        "Digital Electronics: prototyping"
+      ]
+    },
+    {
+      "title": "Microcontrollers Contributor",
+      "slug": "microcontrollers-contributor",
+      "domain": "Microcontrollers",
+      "required_skills": [
+        "Microcontrollers: circuit analysis",
+        "Microcontrollers: schematic design",
+        "Microcontrollers: simulation",
+        "Microcontrollers: prototyping"
+      ]
+    },
+    {
+      "title": "Semiconductor Devices Contributor",
+      "slug": "semiconductor-devices-contributor",
+      "domain": "Semiconductor Devices",
+      "required_skills": [
+        "Semiconductor Devices: circuit analysis",
+        "Semiconductor Devices: schematic design",
+        "Semiconductor Devices: simulation",
+        "Semiconductor Devices: prototyping"
+      ]
+    },
+    {
+      "title": "Electronic Instrumentation Contributor",
+      "slug": "electronic-instrumentation-contributor",
+      "domain": "Electronic Instrumentation",
+      "required_skills": [
+        "Electronic Instrumentation: circuit analysis",
+        "Electronic Instrumentation: schematic design",
+        "Electronic Instrumentation: simulation",
+        "Electronic Instrumentation: prototyping"
+      ]
+    }
+  ]
+}

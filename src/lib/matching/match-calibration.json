@@ -1,0 +1,13 @@
+{
+  "calibrationVersion": "role-percent-2026-11-v1",
+  "providers": {
+    "hashed": {
+      "c0": 0.3,
+      "k": 10
+    },
+    "minilm": {
+      "c0": 0.49966375338843566,
+      "k": 11.31196095168161
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "rows": [
+    {
+      "table_name": "profile_embeddings",
+      "model": "minilm",
+      "version": "domains-minilm-751bff37-q8-v3",
+      "rows": "45",
+      "null_or_zero_norm": "0",
+      "missing_traces": "0"
+    },
+    {
+      "table_name": "project_embeddings",
+      "model": "minilm",
+      "version": "domains-minilm-751bff37-q8-v3",
+      "rows": "27",
+      "null_or_zero_norm": "0",
+      "missing_traces": "0"
+    },
+    {
+      "table_name": "role_embeddings",
+      "model": "minilm",
+      "version": "domains-minilm-751bff37-q8-v3",
+      "rows": "41",
+      "null_or_zero_norm": "0",
+      "missing_traces": "0"
+    }
+  ],
+  "rowCount": 3,
+  "fields": [
+    {
+      "name": "table_name",
+      "dataTypeID": 25
+    },
+    {
+      "name": "model",
+      "dataTypeID": 25
+    },
+    {
+      "name": "version",
+      "dataTypeID": 25
+    },
+    {
+      "name": "rows",
+      "dataTypeID": 20
+    },
+    {
+      "name": "null_or_zero_norm",
+      "dataTypeID": 20
+    },
+    {
+      "name": "missing_traces",
+      "dataTypeID": 20
+    }
+  ]
+}

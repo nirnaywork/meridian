@@ -1,0 +1,29 @@
+[
+  {
+    "table": "profile_embeddings",
+    "rows": 45,
+    "model": "minilm",
+    "version": "domains-minilm-751bff37-q8-v3",
+    "invalid": 0,
+    "minNonZeroDimensions": 384,
+    "maxNonZeroDimensions": 384
+  },
+  {
+    "table": "project_embeddings",
+    "rows": 27,
+    "model": "minilm",
+    "version": "domains-minilm-751bff37-q8-v3",
+    "invalid": 0,
+    "minNonZeroDimensions": 384,
+    "maxNonZeroDimensions": 384
+  },
+  {
+    "table": "role_embeddings",
+    "rows": 41,
+    "model": "minilm",
+    "version": "domains-minilm-751bff37-q8-v3",
+    "invalid": 0,
+    "minNonZeroDimensions": 384,
+    "maxNonZeroDimensions": 384
+  }
+]

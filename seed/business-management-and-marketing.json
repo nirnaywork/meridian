@@ -1,0 +1,1978 @@
+{
+  "field": {
+    "name": "Business, Management and Marketing",
+    "slug": "business-management-and-marketing"
+  },
+  "domains": [
+    {
+      "name": "Product Management",
+      "slug": "product-management",
+      "description": "Practical skills, tools and methods for product management."
+    },
+    {
+      "name": "Digital Marketing",
+      "slug": "digital-marketing",
+      "description": "Practical skills, tools and methods for digital marketing."
+    },
+    {
+      "name": "Business Strategy",
+      "slug": "business-strategy",
+      "description": "Practical skills, tools and methods for business strategy."
+    },
+    {
+      "name": "Finance and Accounting",
+      "slug": "finance-and-accounting",
+      "description": "Practical skills, tools and methods for finance and accounting."
+    },
+    {
+      "name": "Operations Management",
+      "slug": "operations-management",
+      "description": "Practical skills, tools and methods for operations management."
+    },
+    {
+      "name": "Entrepreneurship",
+      "slug": "entrepreneurship",
+      "description": "Practical skills, tools and methods for entrepreneurship."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Product Management",
+      "category": "Product / PM",
+      "slug": "product-management",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Project Management",
+      "category": "Product / PM",
+      "slug": "project-management",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Agile",
+      "category": "Product / PM",
+      "slug": "agile",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Scrum",
+      "category": "Product / PM",
+      "slug": "scrum",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Kanban",
+      "category": "Product / PM",
+      "slug": "kanban",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Roadmapping",
+      "category": "Product / PM",
+      "slug": "roadmapping",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Product Discovery",
+      "category": "Product / PM",
+      "slug": "product-discovery",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "User Stories",
+      "category": "Product / PM",
+      "slug": "user-stories",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Requirements Analysis",
+      "category": "Product / PM",
+      "slug": "requirements-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Stakeholder Management",
+      "category": "Product / PM",
+      "slug": "stakeholder-management",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Market Research",
+      "category": "Product / PM",
+      "slug": "market-research",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Competitive Analysis",
+      "category": "Product / PM",
+      "slug": "competitive-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Product Analytics",
+      "category": "Product / PM",
+      "slug": "product-analytics",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Growth Strategy",
+      "category": "Product / PM",
+      "slug": "growth-strategy",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Business Analysis",
+      "category": "Product / PM",
+      "slug": "business-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Business Modeling",
+      "category": "Product / PM",
+      "slug": "business-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Lean Startup",
+      "category": "Product / PM",
+      "slug": "lean-startup",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "OKRs",
+      "category": "Product / PM",
+      "slug": "okrs",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Sprint Planning",
+      "category": "Product / PM",
+      "slug": "sprint-planning",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Jira",
+      "category": "Product / PM",
+      "slug": "jira",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Linear",
+      "category": "Product / PM",
+      "slug": "linear",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Notion",
+      "category": "Product / PM",
+      "slug": "notion",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Miro",
+      "category": "Product / PM",
+      "slug": "miro",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Technical Writing",
+      "category": "Product / PM",
+      "slug": "technical-writing",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Documentation",
+      "category": "Product / PM",
+      "slug": "documentation",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Digital Marketing",
+      "category": "Marketing",
+      "slug": "digital-marketing",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Content Marketing",
+      "category": "Marketing",
+      "slug": "content-marketing",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Social Media Marketing",
+      "category": "Marketing",
+      "slug": "social-media-marketing",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Email Marketing",
+      "category": "Marketing",
+      "slug": "email-marketing",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Search Engine Marketing",
+      "category": "Marketing",
+      "slug": "search-engine-marketing",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Google Analytics",
+      "category": "Marketing",
+      "slug": "google-analytics",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Google Ads",
+      "category": "Marketing",
+      "slug": "google-ads",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Meta Ads",
+      "category": "Marketing",
+      "slug": "meta-ads",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Marketing Analytics",
+      "category": "Marketing",
+      "slug": "marketing-analytics",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Conversion Optimization",
+      "category": "Marketing",
+      "slug": "conversion-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Growth Marketing",
+      "category": "Marketing",
+      "slug": "growth-marketing",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Brand Strategy",
+      "category": "Marketing",
+      "slug": "brand-strategy",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Influencer Marketing",
+      "category": "Marketing",
+      "slug": "influencer-marketing",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Event Planning",
+      "category": "Marketing",
+      "slug": "event-planning",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Public Relations",
+      "category": "Marketing",
+      "slug": "public-relations",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Partnerships",
+      "category": "Marketing",
+      "slug": "partnerships",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Sales",
+      "category": "Marketing",
+      "slug": "sales",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Customer Research",
+      "category": "Marketing",
+      "slug": "customer-research",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "CRM",
+      "category": "Marketing",
+      "slug": "crm",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "HubSpot",
+      "category": "Marketing",
+      "slug": "hubspot",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Mailchimp",
+      "category": "Marketing",
+      "slug": "mailchimp",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Campaign Management",
+      "category": "Marketing",
+      "slug": "campaign-management",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Fundraising",
+      "category": "Marketing",
+      "slug": "fundraising",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Entrepreneurship",
+      "category": "Marketing",
+      "slug": "entrepreneurship",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Sustainability",
+      "category": "Marketing",
+      "slug": "sustainability",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Product Management: market research",
+      "slug": "product-management-market-research",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Product Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Product Management: strategic planning",
+      "slug": "product-management-strategic-planning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Product Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Product Management: financial modeling",
+      "slug": "product-management-financial-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Product Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Product Management: data analysis",
+      "slug": "product-management-data-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Product Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Product Management: stakeholder interviews",
+      "slug": "product-management-stakeholder-interviews",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Product Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Product Management: competitive analysis",
+      "slug": "product-management-competitive-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Product Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Product Management: budgeting",
+      "slug": "product-management-budgeting",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Product Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Product Management: forecasting",
+      "slug": "product-management-forecasting",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Product Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Product Management: risk assessment",
+      "slug": "product-management-risk-assessment",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Product Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Product Management: project planning",
+      "slug": "product-management-project-planning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Product Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Product Management: performance measurement",
+      "slug": "product-management-performance-measurement",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Product Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Product Management: report writing",
+      "slug": "product-management-report-writing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Product Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Product Management: presentation",
+      "slug": "product-management-presentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Product Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Product Management: negotiation",
+      "slug": "product-management-negotiation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Product Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Product Management: customer research",
+      "slug": "product-management-customer-research",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Product Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Product Management: process improvement",
+      "slug": "product-management-process-improvement",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Product Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Product Management: experiment design",
+      "slug": "product-management-experiment-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Product Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Product Management: resource allocation",
+      "slug": "product-management-resource-allocation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Product Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Product Management: team coordination",
+      "slug": "product-management-team-coordination",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Product Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Product Management: decision analysis",
+      "slug": "product-management-decision-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Product Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Product Management"
+      ]
+    },
+    {
+      "name": "Digital Marketing: market research",
+      "slug": "digital-marketing-market-research",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Marketing",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Digital Marketing: strategic planning",
+      "slug": "digital-marketing-strategic-planning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Marketing",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Digital Marketing: financial modeling",
+      "slug": "digital-marketing-financial-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Marketing",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Digital Marketing: data analysis",
+      "slug": "digital-marketing-data-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Marketing",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Digital Marketing: stakeholder interviews",
+      "slug": "digital-marketing-stakeholder-interviews",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Marketing",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Digital Marketing: competitive analysis",
+      "slug": "digital-marketing-competitive-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Marketing",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Digital Marketing: budgeting",
+      "slug": "digital-marketing-budgeting",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Marketing",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Digital Marketing: forecasting",
+      "slug": "digital-marketing-forecasting",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Marketing",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Digital Marketing: risk assessment",
+      "slug": "digital-marketing-risk-assessment",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Marketing",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Digital Marketing: project planning",
+      "slug": "digital-marketing-project-planning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Marketing",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Digital Marketing: performance measurement",
+      "slug": "digital-marketing-performance-measurement",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Marketing",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Digital Marketing: report writing",
+      "slug": "digital-marketing-report-writing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Marketing",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Digital Marketing: presentation",
+      "slug": "digital-marketing-presentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Marketing",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Digital Marketing: negotiation",
+      "slug": "digital-marketing-negotiation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Marketing",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Digital Marketing: customer research",
+      "slug": "digital-marketing-customer-research",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Marketing",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Digital Marketing: process improvement",
+      "slug": "digital-marketing-process-improvement",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Marketing",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Digital Marketing: experiment design",
+      "slug": "digital-marketing-experiment-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Marketing",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Digital Marketing: resource allocation",
+      "slug": "digital-marketing-resource-allocation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Marketing",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Digital Marketing: team coordination",
+      "slug": "digital-marketing-team-coordination",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Marketing",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Digital Marketing: decision analysis",
+      "slug": "digital-marketing-decision-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Digital Marketing",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Business Strategy: market research",
+      "slug": "business-strategy-market-research",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Business Strategy",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Business Strategy"
+      ]
+    },
+    {
+      "name": "Business Strategy: strategic planning",
+      "slug": "business-strategy-strategic-planning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Business Strategy",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Business Strategy"
+      ]
+    },
+    {
+      "name": "Business Strategy: financial modeling",
+      "slug": "business-strategy-financial-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Business Strategy",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Business Strategy"
+      ]
+    },
+    {
+      "name": "Business Strategy: data analysis",
+      "slug": "business-strategy-data-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Business Strategy",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Business Strategy"
+      ]
+    },
+    {
+      "name": "Business Strategy: stakeholder interviews",
+      "slug": "business-strategy-stakeholder-interviews",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Business Strategy",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Business Strategy"
+      ]
+    },
+    {
+      "name": "Business Strategy: competitive analysis",
+      "slug": "business-strategy-competitive-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Business Strategy",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Business Strategy"
+      ]
+    },
+    {
+      "name": "Business Strategy: budgeting",
+      "slug": "business-strategy-budgeting",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Business Strategy",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Business Strategy"
+      ]
+    },
+    {
+      "name": "Business Strategy: forecasting",
+      "slug": "business-strategy-forecasting",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Business Strategy",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Business Strategy"
+      ]
+    },
+    {
+      "name": "Business Strategy: risk assessment",
+      "slug": "business-strategy-risk-assessment",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Business Strategy",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Business Strategy"
+      ]
+    },
+    {
+      "name": "Business Strategy: project planning",
+      "slug": "business-strategy-project-planning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Business Strategy",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Business Strategy"
+      ]
+    },
+    {
+      "name": "Business Strategy: performance measurement",
+      "slug": "business-strategy-performance-measurement",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Business Strategy",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Business Strategy"
+      ]
+    },
+    {
+      "name": "Business Strategy: report writing",
+      "slug": "business-strategy-report-writing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Business Strategy",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Business Strategy"
+      ]
+    },
+    {
+      "name": "Business Strategy: presentation",
+      "slug": "business-strategy-presentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Business Strategy",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Business Strategy"
+      ]
+    },
+    {
+      "name": "Business Strategy: negotiation",
+      "slug": "business-strategy-negotiation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Business Strategy",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Business Strategy"
+      ]
+    },
+    {
+      "name": "Business Strategy: customer research",
+      "slug": "business-strategy-customer-research",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Business Strategy",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Business Strategy"
+      ]
+    },
+    {
+      "name": "Business Strategy: process improvement",
+      "slug": "business-strategy-process-improvement",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Business Strategy",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Business Strategy"
+      ]
+    },
+    {
+      "name": "Business Strategy: experiment design",
+      "slug": "business-strategy-experiment-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Business Strategy",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Business Strategy"
+      ]
+    },
+    {
+      "name": "Business Strategy: resource allocation",
+      "slug": "business-strategy-resource-allocation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Business Strategy",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Business Strategy"
+      ]
+    },
+    {
+      "name": "Business Strategy: team coordination",
+      "slug": "business-strategy-team-coordination",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Business Strategy",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Business Strategy"
+      ]
+    },
+    {
+      "name": "Business Strategy: decision analysis",
+      "slug": "business-strategy-decision-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Business Strategy",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Business Strategy"
+      ]
+    },
+    {
+      "name": "Finance and Accounting: market research",
+      "slug": "finance-and-accounting-market-research",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Finance and Accounting",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Finance and Accounting"
+      ]
+    },
+    {
+      "name": "Finance and Accounting: strategic planning",
+      "slug": "finance-and-accounting-strategic-planning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Finance and Accounting",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Finance and Accounting"
+      ]
+    },
+    {
+      "name": "Finance and Accounting: financial modeling",
+      "slug": "finance-and-accounting-financial-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Finance and Accounting",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Finance and Accounting"
+      ]
+    },
+    {
+      "name": "Finance and Accounting: data analysis",
+      "slug": "finance-and-accounting-data-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Finance and Accounting",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Finance and Accounting"
+      ]
+    },
+    {
+      "name": "Finance and Accounting: stakeholder interviews",
+      "slug": "finance-and-accounting-stakeholder-interviews",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Finance and Accounting",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Finance and Accounting"
+      ]
+    },
+    {
+      "name": "Finance and Accounting: competitive analysis",
+      "slug": "finance-and-accounting-competitive-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Finance and Accounting",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Finance and Accounting"
+      ]
+    },
+    {
+      "name": "Finance and Accounting: budgeting",
+      "slug": "finance-and-accounting-budgeting",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Finance and Accounting",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Finance and Accounting"
+      ]
+    },
+    {
+      "name": "Finance and Accounting: forecasting",
+      "slug": "finance-and-accounting-forecasting",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Finance and Accounting",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Finance and Accounting"
+      ]
+    },
+    {
+      "name": "Finance and Accounting: risk assessment",
+      "slug": "finance-and-accounting-risk-assessment",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Finance and Accounting",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Finance and Accounting"
+      ]
+    },
+    {
+      "name": "Finance and Accounting: project planning",
+      "slug": "finance-and-accounting-project-planning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Finance and Accounting",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Finance and Accounting"
+      ]
+    },
+    {
+      "name": "Finance and Accounting: performance measurement",
+      "slug": "finance-and-accounting-performance-measurement",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Finance and Accounting",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Finance and Accounting"
+      ]
+    },
+    {
+      "name": "Finance and Accounting: report writing",
+      "slug": "finance-and-accounting-report-writing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Finance and Accounting",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Finance and Accounting"
+      ]
+    },
+    {
+      "name": "Finance and Accounting: presentation",
+      "slug": "finance-and-accounting-presentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Finance and Accounting",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Finance and Accounting"
+      ]
+    },
+    {
+      "name": "Finance and Accounting: negotiation",
+      "slug": "finance-and-accounting-negotiation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Finance and Accounting",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Finance and Accounting"
+      ]
+    },
+    {
+      "name": "Finance and Accounting: customer research",
+      "slug": "finance-and-accounting-customer-research",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Finance and Accounting",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Finance and Accounting"
+      ]
+    },
+    {
+      "name": "Finance and Accounting: process improvement",
+      "slug": "finance-and-accounting-process-improvement",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Finance and Accounting",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Finance and Accounting"
+      ]
+    },
+    {
+      "name": "Finance and Accounting: experiment design",
+      "slug": "finance-and-accounting-experiment-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Finance and Accounting",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Finance and Accounting"
+      ]
+    },
+    {
+      "name": "Finance and Accounting: resource allocation",
+      "slug": "finance-and-accounting-resource-allocation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Finance and Accounting",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Finance and Accounting"
+      ]
+    },
+    {
+      "name": "Finance and Accounting: team coordination",
+      "slug": "finance-and-accounting-team-coordination",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Finance and Accounting",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Finance and Accounting"
+      ]
+    },
+    {
+      "name": "Finance and Accounting: decision analysis",
+      "slug": "finance-and-accounting-decision-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Finance and Accounting",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Finance and Accounting"
+      ]
+    },
+    {
+      "name": "Operations Management: market research",
+      "slug": "operations-management-market-research",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Operations Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Operations Management"
+      ]
+    },
+    {
+      "name": "Operations Management: strategic planning",
+      "slug": "operations-management-strategic-planning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Operations Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Operations Management"
+      ]
+    },
+    {
+      "name": "Operations Management: financial modeling",
+      "slug": "operations-management-financial-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Operations Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Operations Management"
+      ]
+    },
+    {
+      "name": "Operations Management: data analysis",
+      "slug": "operations-management-data-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Operations Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Operations Management"
+      ]
+    },
+    {
+      "name": "Operations Management: stakeholder interviews",
+      "slug": "operations-management-stakeholder-interviews",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Operations Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Operations Management"
+      ]
+    },
+    {
+      "name": "Operations Management: competitive analysis",
+      "slug": "operations-management-competitive-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Operations Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Operations Management"
+      ]
+    },
+    {
+      "name": "Operations Management: budgeting",
+      "slug": "operations-management-budgeting",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Operations Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Operations Management"
+      ]
+    },
+    {
+      "name": "Operations Management: forecasting",
+      "slug": "operations-management-forecasting",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Operations Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Operations Management"
+      ]
+    },
+    {
+      "name": "Operations Management: risk assessment",
+      "slug": "operations-management-risk-assessment",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Operations Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Operations Management"
+      ]
+    },
+    {
+      "name": "Operations Management: project planning",
+      "slug": "operations-management-project-planning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Operations Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Operations Management"
+      ]
+    },
+    {
+      "name": "Operations Management: performance measurement",
+      "slug": "operations-management-performance-measurement",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Operations Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Operations Management"
+      ]
+    },
+    {
+      "name": "Operations Management: report writing",
+      "slug": "operations-management-report-writing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Operations Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Operations Management"
+      ]
+    },
+    {
+      "name": "Operations Management: presentation",
+      "slug": "operations-management-presentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Operations Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Operations Management"
+      ]
+    },
+    {
+      "name": "Operations Management: negotiation",
+      "slug": "operations-management-negotiation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Operations Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Operations Management"
+      ]
+    },
+    {
+      "name": "Operations Management: customer research",
+      "slug": "operations-management-customer-research",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Operations Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Operations Management"
+      ]
+    },
+    {
+      "name": "Operations Management: process improvement",
+      "slug": "operations-management-process-improvement",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Operations Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Operations Management"
+      ]
+    },
+    {
+      "name": "Operations Management: experiment design",
+      "slug": "operations-management-experiment-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Operations Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Operations Management"
+      ]
+    },
+    {
+      "name": "Operations Management: resource allocation",
+      "slug": "operations-management-resource-allocation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Operations Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Operations Management"
+      ]
+    },
+    {
+      "name": "Operations Management: team coordination",
+      "slug": "operations-management-team-coordination",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Operations Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Operations Management"
+      ]
+    },
+    {
+      "name": "Operations Management: decision analysis",
+      "slug": "operations-management-decision-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Operations Management",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Operations Management"
+      ]
+    },
+    {
+      "name": "Entrepreneurship: market research",
+      "slug": "entrepreneurship-market-research",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Entrepreneurship",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Entrepreneurship"
+      ]
+    },
+    {
+      "name": "Entrepreneurship: strategic planning",
+      "slug": "entrepreneurship-strategic-planning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Entrepreneurship",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Entrepreneurship"
+      ]
+    },
+    {
+      "name": "Entrepreneurship: financial modeling",
+      "slug": "entrepreneurship-financial-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Entrepreneurship",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Entrepreneurship"
+      ]
+    },
+    {
+      "name": "Entrepreneurship: data analysis",
+      "slug": "entrepreneurship-data-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Entrepreneurship",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Entrepreneurship"
+      ]
+    },
+    {
+      "name": "Entrepreneurship: stakeholder interviews",
+      "slug": "entrepreneurship-stakeholder-interviews",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Entrepreneurship",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Entrepreneurship"
+      ]
+    },
+    {
+      "name": "Entrepreneurship: competitive analysis",
+      "slug": "entrepreneurship-competitive-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Entrepreneurship",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Entrepreneurship"
+      ]
+    },
+    {
+      "name": "Entrepreneurship: budgeting",
+      "slug": "entrepreneurship-budgeting",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Entrepreneurship",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Entrepreneurship"
+      ]
+    },
+    {
+      "name": "Entrepreneurship: forecasting",
+      "slug": "entrepreneurship-forecasting",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Entrepreneurship",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Entrepreneurship"
+      ]
+    },
+    {
+      "name": "Entrepreneurship: risk assessment",
+      "slug": "entrepreneurship-risk-assessment",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Entrepreneurship",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Entrepreneurship"
+      ]
+    },
+    {
+      "name": "Entrepreneurship: project planning",
+      "slug": "entrepreneurship-project-planning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Entrepreneurship",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Entrepreneurship"
+      ]
+    },
+    {
+      "name": "Entrepreneurship: performance measurement",
+      "slug": "entrepreneurship-performance-measurement",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Entrepreneurship",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Entrepreneurship"
+      ]
+    },
+    {
+      "name": "Entrepreneurship: report writing",
+      "slug": "entrepreneurship-report-writing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Entrepreneurship",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Entrepreneurship"
+      ]
+    },
+    {
+      "name": "Entrepreneurship: presentation",
+      "slug": "entrepreneurship-presentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Entrepreneurship",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Entrepreneurship"
+      ]
+    },
+    {
+      "name": "Entrepreneurship: negotiation",
+      "slug": "entrepreneurship-negotiation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Entrepreneurship",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Entrepreneurship"
+      ]
+    },
+    {
+      "name": "Entrepreneurship: customer research",
+      "slug": "entrepreneurship-customer-research",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Entrepreneurship",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Entrepreneurship"
+      ]
+    },
+    {
+      "name": "Entrepreneurship: process improvement",
+      "slug": "entrepreneurship-process-improvement",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Entrepreneurship",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Entrepreneurship"
+      ]
+    },
+    {
+      "name": "Entrepreneurship: experiment design",
+      "slug": "entrepreneurship-experiment-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Entrepreneurship",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Entrepreneurship"
+      ]
+    },
+    {
+      "name": "Entrepreneurship: resource allocation",
+      "slug": "entrepreneurship-resource-allocation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Entrepreneurship",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Entrepreneurship"
+      ]
+    },
+    {
+      "name": "Entrepreneurship: team coordination",
+      "slug": "entrepreneurship-team-coordination",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Entrepreneurship",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Entrepreneurship"
+      ]
+    },
+    {
+      "name": "Entrepreneurship: decision analysis",
+      "slug": "entrepreneurship-decision-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Entrepreneurship",
+      "field": "Business, Management and Marketing",
+      "domains": [
+        "Entrepreneurship"
+      ]
+    }
+  ],
+  "role_templates": [
+    {
+      "title": "Product Management Contributor",
+      "slug": "product-management-contributor",
+      "domain": "Product Management",
+      "required_skills": [
+        "Product Management",
+        "Project Management",
+        "Agile",
+        "Scrum"
+      ]
+    },
+    {
+      "title": "Digital Marketing Contributor",
+      "slug": "digital-marketing-contributor",
+      "domain": "Digital Marketing",
+      "required_skills": [
+        "Digital Marketing: market research",
+        "Digital Marketing: strategic planning",
+        "Digital Marketing: financial modeling",
+        "Digital Marketing: data analysis"
+      ]
+    },
+    {
+      "title": "Business Strategy Contributor",
+      "slug": "business-strategy-contributor",
+      "domain": "Business Strategy",
+      "required_skills": [
+        "Business Strategy: market research",
+        "Business Strategy: strategic planning",
+        "Business Strategy: financial modeling",
+        "Business Strategy: data analysis"
+      ]
+    },
+    {
+      "title": "Finance and Accounting Contributor",
+      "slug": "finance-and-accounting-contributor",
+      "domain": "Finance and Accounting",
+      "required_skills": [
+        "Finance and Accounting: market research",
+        "Finance and Accounting: strategic planning",
+        "Finance and Accounting: financial modeling",
+        "Finance and Accounting: data analysis"
+      ]
+    },
+    {
+      "title": "Operations Management Contributor",
+      "slug": "operations-management-contributor",
+      "domain": "Operations Management",
+      "required_skills": [
+        "Operations Management: market research",
+        "Operations Management: strategic planning",
+        "Operations Management: financial modeling",
+        "Operations Management: data analysis"
+      ]
+    },
+    {
+      "title": "Entrepreneurship Contributor",
+      "slug": "entrepreneurship-contributor",
+      "domain": "Entrepreneurship",
+      "required_skills": [
+        "Entrepreneurship: market research",
+        "Entrepreneurship: strategic planning",
+        "Entrepreneurship: financial modeling",
+        "Entrepreneurship: data analysis"
+      ]
+    }
+  ]
+}

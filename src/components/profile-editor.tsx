@@ -11,8 +11,12 @@ import {
   Upload,
 } from "lucide-react";
 import { api, useResource, ErrorState, Logo, ThemeToggle } from "./ui";
+import { UnderTheHood } from "./under-the-hood";
+import { DomainPicker } from "./domain-picker";
+import { DomainSuggestions,LegacyDomainBanner } from "./domain-guidance";
 import { SkillsPicker } from "./skills-picker";
 import type { Profile } from "@/lib/types";
+import {requiredDomains} from '@/lib/validation';
 const blank: Profile = {
   id: "",
   display_name: "",
@@ -27,12 +31,15 @@ const blank: Profile = {
   onboarding_complete: false,
   is_demo: false,
   revision: 0,
+  domains: [],
   skills: [],
 };
 export function ProfileEditor({
   onboarding = false,
+  ownerId,
 }: {
   onboarding?: boolean;
+  ownerId?: string;
 }) {
   const router = useRouter(),
     resource = useResource<Profile>("/api/data/profile");
@@ -86,6 +93,7 @@ export function ProfileEditor({
       return;
     }
     if (onboarding && step === 1) {
+      if(!requiredDomains.safeParse(form.domains??[]).success){setError('Choose at least one domain.');return;}
       if (!form.skills.length) {
         setError("Add at least one skill.");
         return;
@@ -103,11 +111,12 @@ export function ProfileEditor({
       }
       return;
     }
+    if((onboarding||!resource.data?.onboarding_complete)&&!requiredDomains.safeParse(form.domains??[]).success){setError('Choose at least one domain.');return;}
     setBusy(true);
     try {
       await api("/api/data/profile", { ...form, onboarding_complete: true });
       if (onboarding)
-        window.location.href = form.is_member ? "/feed" : "/my-projects";
+        window.location.href = form.is_member ? "/projects" : "/my-projects";
       else {
         setSuccess("Your profile is up to date.");
         resource.refresh();
@@ -158,6 +167,7 @@ export function ProfileEditor({
         <ErrorState message={resource.error} retry={resource.refresh} />
       )}
       <form className="form-panel" onSubmit={save}>
+        {!onboarding&&resource.data?.onboarding_complete&&!resource.data.domains?.length&&<LegacyDomainBanner id={'profile:'+resource.data.id} href="#skills-editor"/>}
         {(!onboarding || step === 0) && (
           <>
             <div className="avatar-upload">
@@ -229,7 +239,14 @@ export function ProfileEditor({
         {(!onboarding || step === 1) && (
           <>
             <label className="section-label">Your skills</label>
+            <DomainSuggestions skills={form.skills} value={form.domains??[]} onConfirm={v=>field('domains',v)}/>
+            <DomainPicker
+              value={form.domains ?? []}
+              onChange={(v) => field("domains", v)}
+            />
+            <div id="skills-editor" />
             <SkillsPicker
+              domains={form.domains}
               value={form.skills}
               onChange={(s) => field("skills", s)}
             />
@@ -327,6 +344,15 @@ export function ProfileEditor({
       {content}
     </div>
   ) : (
-    content
+    <>
+      {content}
+      {!resource.loading && (ownerId || resource.data?.id) && (
+        <UnderTheHood
+          key={`${ownerId ?? resource.data?.id}:${resource.data?.revision ?? 0}`}
+          viewerId={ownerId ?? resource.data!.id}
+          kind="profile"
+        />
+      )}
+    </>
   );
 }

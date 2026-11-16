@@ -1,0 +1,19 @@
+{
+  "run": "mwjsorjt",
+  "checks": [
+    "Low-cosine application succeeds pending",
+    "Server cosine and skill snapshot persisted",
+    "Duplicate and own-project applications blocked",
+    "Low-cosine invitation stays pending and never forces membership",
+    "No embedding and incomplete onboarding do not block a whole-project application",
+    "Concurrent manual approvals cannot overfill slots",
+    "Closed projects block applications",
+    "RLS hides another member's raw embedding and trace",
+    "Explore orders by date independent of cosine",
+    "App cosine matches pgvector to tolerance",
+    "Session bootstrap, private/public explainers and Explore endpoints load",
+    "Server rejects new empty-domain saves; domain suggestions are real and deterministic",
+    "Identical hash skips generation",
+    "Profile/project/role domain arrays equal their join rows"
+  ]
+}

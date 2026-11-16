@@ -1,0 +1,528 @@
+[
+  {
+    "provider": "hashed",
+    "version": "domains-tfidf-v5",
+    "relevant": {
+      "min": -0.07618888854435102,
+      "median": 0.6954465249786457,
+      "max": 0.7768592246064778,
+      "mean": 0.5169904498275217
+    },
+    "irrelevant": {
+      "min": -0.03717870792375402,
+      "median": 0.01753071267100327,
+      "max": 0.11708837249482593,
+      "mean": 0.02069194673481962
+    },
+    "records": [
+      {
+        "member": "Frontend Developer",
+        "role": "Frontend Developer",
+        "relevant": true,
+        "cosine": 0.6954465249786457
+      },
+      {
+        "member": "Data Analyst",
+        "role": "Frontend Developer",
+        "relevant": false,
+        "cosine": 0.11708837249482593
+      },
+      {
+        "member": "ML Engineer",
+        "role": "ML Engineer",
+        "relevant": true,
+        "cosine": 0.7408760062159362
+      },
+      {
+        "member": "Mobile Developer",
+        "role": "ML Engineer",
+        "relevant": false,
+        "cosine": -0.0034911710812504885
+      },
+      {
+        "member": "UX Designer",
+        "role": "UX Designer",
+        "relevant": true,
+        "cosine": 0.6816173863623531
+      },
+      {
+        "member": "DevOps Engineer",
+        "role": "UX Designer",
+        "relevant": false,
+        "cosine": 0.020104976647041663
+      },
+      {
+        "member": "Data Analyst",
+        "role": "Data Analyst",
+        "relevant": true,
+        "cosine": 0.7768592246064778
+      },
+      {
+        "member": "Game Developer",
+        "role": "Data Analyst",
+        "relevant": false,
+        "cosine": 0.03817342283721868
+      },
+      {
+        "member": "Mobile Developer",
+        "role": "Mobile Developer",
+        "relevant": true,
+        "cosine": 0.6682713346114265
+      },
+      {
+        "member": "IoT Engineer",
+        "role": "Mobile Developer",
+        "relevant": false,
+        "cosine": 0.01753071267100327
+      },
+      {
+        "member": "DevOps Engineer",
+        "role": "DevOps Engineer",
+        "relevant": true,
+        "cosine": 0.6921102566044086
+      },
+      {
+        "member": "Content Strategist",
+        "role": "DevOps Engineer",
+        "relevant": false,
+        "cosine": -0.03717870792375402
+      },
+      {
+        "member": "Game Developer",
+        "role": "Game Developer",
+        "relevant": true,
+        "cosine": 0.7061281735033366
+      },
+      {
+        "member": "FPGA Engineer",
+        "role": "Game Developer",
+        "relevant": false,
+        "cosine": 0.04126934024978683
+      },
+      {
+        "member": "IoT Engineer",
+        "role": "IoT Engineer",
+        "relevant": true,
+        "cosine": 0.6945298428951834
+      },
+      {
+        "member": "Power Engineer",
+        "role": "IoT Engineer",
+        "relevant": false,
+        "cosine": 0.09454828565558693
+      },
+      {
+        "member": "Content Strategist",
+        "role": "Content Strategist",
+        "relevant": true,
+        "cosine": 0.7417670549940327
+      },
+      {
+        "member": "Mechanical Designer",
+        "role": "Content Strategist",
+        "relevant": false,
+        "cosine": -0.002354968771133791
+      },
+      {
+        "member": "FPGA Engineer",
+        "role": "FPGA Engineer",
+        "relevant": true,
+        "cosine": 0.7385562738139183
+      },
+      {
+        "member": "Product Manager",
+        "role": "FPGA Engineer",
+        "relevant": false,
+        "cosine": 0.04098933289912879
+      },
+      {
+        "member": "Power Engineer",
+        "role": "Power Engineer",
+        "relevant": true,
+        "cosine": 0.7058096047793746
+      },
+      {
+        "member": "Frontend Developer",
+        "role": "Power Engineer",
+        "relevant": false,
+        "cosine": 0
+      },
+      {
+        "member": "Mechanical Designer",
+        "role": "Mechanical Designer",
+        "relevant": true,
+        "cosine": 0.7114979974832227
+      },
+      {
+        "member": "ML Engineer",
+        "role": "Mechanical Designer",
+        "relevant": false,
+        "cosine": -0.028017251026338858
+      },
+      {
+        "member": "Product Manager",
+        "role": "Product Manager",
+        "relevant": true,
+        "cosine": 0.716300194102468
+      },
+      {
+        "member": "UX Designer",
+        "role": "Product Manager",
+        "relevant": false,
+        "cosine": -0.01161680198916689
+      },
+      {
+        "member": "Python, machine learning, PyTorch",
+        "role": "Deep learning engineer, TensorFlow, neural networks",
+        "relevant": true,
+        "cosine": 0.03994684371656071
+      },
+      {
+        "member": "Python, machine learning, PyTorch",
+        "role": "Graphic designer, Figma, Photoshop",
+        "relevant": false,
+        "cosine": 0
+      },
+      {
+        "member": "React, Node.js, MongoDB",
+        "role": "Full stack web developer, Express, AWS",
+        "relevant": true,
+        "cosine": 0
+      },
+      {
+        "member": "Verilog, FPGA, VLSI",
+        "role": "Frontend developer, React, CSS",
+        "relevant": false,
+        "cosine": 0
+      },
+      {
+        "member": "Verilog, FPGA timing closure, VLSI",
+        "role": "Digital hardware engineer, RTL synthesis and verification",
+        "relevant": true,
+        "cosine": -0.07618888854435102
+      },
+      {
+        "member": "Power electronics, inverters, electrical machines",
+        "role": "Electrical engineer designing motor drives and EV converters",
+        "relevant": true,
+        "cosine": 0.051242471740037314
+      },
+      {
+        "member": "SolidWorks CAD, finite element analysis",
+        "role": "Mechanical engineer designing and stress-testing machine components",
+        "relevant": true,
+        "cosine": 0.021057795032360258
+      },
+      {
+        "member": "SolidWorks CAD, finite element analysis",
+        "role": "Social media marketing, copywriting, SEO",
+        "relevant": false,
+        "cosine": 0.0440256050941659
+      }
+    ],
+    "fitted": {
+      "c0": 0.16038024606676032,
+      "k": 8.055034649119532
+    },
+    "anchors": {
+      "irrelevantMeanBelow30": true,
+      "relevantMedianAbove90": true,
+      "point20Below15": false,
+      "strictlyIncreasing": true
+    },
+    "accepted": false,
+    "selected": {
+      "c0": 0.3,
+      "k": 10
+    },
+    "table": [
+      {
+        "cosine": 0.2,
+        "matchPercent": 27
+      },
+      {
+        "cosine": 0.34,
+        "matchPercent": 60
+      },
+      {
+        "cosine": 0.5,
+        "matchPercent": 88
+      },
+      {
+        "cosine": 0.57,
+        "matchPercent": 94
+      },
+      {
+        "cosine": 0.62,
+        "matchPercent": 96
+      },
+      {
+        "cosine": 0.87,
+        "matchPercent": 99
+      }
+    ]
+  },
+  {
+    "provider": "minilm",
+    "version": "domains-minilm-751bff37-q8-v3",
+    "relevant": {
+      "min": 0.32203919790447877,
+      "median": 0.8696515779302533,
+      "max": 0.9343779079693243,
+      "mean": 0.754132023308167
+    },
+    "irrelevant": {
+      "min": -0.05048885583119784,
+      "median": 0.3809805401263458,
+      "max": 0.4972342138437247,
+      "mean": 0.33874228095335296
+    },
+    "records": [
+      {
+        "member": "Frontend Developer",
+        "role": "Frontend Developer",
+        "relevant": true,
+        "cosine": 0.8778056857077312
+      },
+      {
+        "member": "Data Analyst",
+        "role": "Frontend Developer",
+        "relevant": false,
+        "cosine": 0.37820843972301815
+      },
+      {
+        "member": "ML Engineer",
+        "role": "ML Engineer",
+        "relevant": true,
+        "cosine": 0.9024680963756013
+      },
+      {
+        "member": "Mobile Developer",
+        "role": "ML Engineer",
+        "relevant": false,
+        "cosine": 0.35839957540025225
+      },
+      {
+        "member": "UX Designer",
+        "role": "UX Designer",
+        "relevant": true,
+        "cosine": 0.872346318543669
+      },
+      {
+        "member": "DevOps Engineer",
+        "role": "UX Designer",
+        "relevant": false,
+        "cosine": 0.4673366665914139
+      },
+      {
+        "member": "Data Analyst",
+        "role": "Data Analyst",
+        "relevant": true,
+        "cosine": 0.8696515779302533
+      },
+      {
+        "member": "Game Developer",
+        "role": "Data Analyst",
+        "relevant": false,
+        "cosine": 0.4426306841130318
+      },
+      {
+        "member": "Mobile Developer",
+        "role": "Mobile Developer",
+        "relevant": true,
+        "cosine": 0.9178383937169274
+      },
+      {
+        "member": "IoT Engineer",
+        "role": "Mobile Developer",
+        "relevant": false,
+        "cosine": 0.4259759759975349
+      },
+      {
+        "member": "DevOps Engineer",
+        "role": "DevOps Engineer",
+        "relevant": true,
+        "cosine": 0.9240102887587825
+      },
+      {
+        "member": "Content Strategist",
+        "role": "DevOps Engineer",
+        "relevant": false,
+        "cosine": 0.372820275110878
+      },
+      {
+        "member": "Game Developer",
+        "role": "Game Developer",
+        "relevant": true,
+        "cosine": 0.8669469359346383
+      },
+      {
+        "member": "FPGA Engineer",
+        "role": "Game Developer",
+        "relevant": false,
+        "cosine": 0.4972342138437247
+      },
+      {
+        "member": "IoT Engineer",
+        "role": "IoT Engineer",
+        "relevant": true,
+        "cosine": 0.8947521571351015
+      },
+      {
+        "member": "Power Engineer",
+        "role": "IoT Engineer",
+        "relevant": false,
+        "cosine": 0.46989094654067864
+      },
+      {
+        "member": "Content Strategist",
+        "role": "Content Strategist",
+        "relevant": true,
+        "cosine": 0.8700129919349321
+      },
+      {
+        "member": "Mechanical Designer",
+        "role": "Content Strategist",
+        "relevant": false,
+        "cosine": 0.2735296209131939
+      },
+      {
+        "member": "FPGA Engineer",
+        "role": "FPGA Engineer",
+        "relevant": true,
+        "cosine": 0.9343779079693243
+      },
+      {
+        "member": "Product Manager",
+        "role": "FPGA Engineer",
+        "relevant": false,
+        "cosine": 0.3809805401263458
+      },
+      {
+        "member": "Power Engineer",
+        "role": "Power Engineer",
+        "relevant": true,
+        "cosine": 0.847343232272198
+      },
+      {
+        "member": "Frontend Developer",
+        "role": "Power Engineer",
+        "relevant": false,
+        "cosine": 0.31693493935189143
+      },
+      {
+        "member": "Mechanical Designer",
+        "role": "Mechanical Designer",
+        "relevant": true,
+        "cosine": 0.843160202514374
+      },
+      {
+        "member": "ML Engineer",
+        "role": "Mechanical Designer",
+        "relevant": false,
+        "cosine": 0.4166907768216511
+      },
+      {
+        "member": "Product Manager",
+        "role": "Product Manager",
+        "relevant": true,
+        "cosine": 0.8453979052798049
+      },
+      {
+        "member": "UX Designer",
+        "role": "Product Manager",
+        "relevant": false,
+        "cosine": 0.44029756632774075
+      },
+      {
+        "member": "Python, machine learning, PyTorch",
+        "role": "Deep learning engineer, TensorFlow, neural networks",
+        "relevant": true,
+        "cosine": 0.465536637913857
+      },
+      {
+        "member": "Python, machine learning, PyTorch",
+        "role": "Graphic designer, Figma, Photoshop",
+        "relevant": false,
+        "cosine": 0.20301981743842845
+      },
+      {
+        "member": "React, Node.js, MongoDB",
+        "role": "Full stack web developer, Express, AWS",
+        "relevant": true,
+        "cosine": 0.32203919790447877
+      },
+      {
+        "member": "Verilog, FPGA, VLSI",
+        "role": "Frontend developer, React, CSS",
+        "relevant": false,
+        "cosine": 0.026415312785060614
+      },
+      {
+        "member": "Verilog, FPGA timing closure, VLSI",
+        "role": "Digital hardware engineer, RTL synthesis and verification",
+        "relevant": true,
+        "cosine": 0.4446094626563915
+      },
+      {
+        "member": "Power electronics, inverters, electrical machines",
+        "role": "Electrical engineer designing motor drives and EV converters",
+        "relevant": true,
+        "cosine": 0.5236576011561928
+      },
+      {
+        "member": "SolidWorks CAD, finite element analysis",
+        "role": "Mechanical engineer designing and stress-testing machine components",
+        "relevant": true,
+        "cosine": 0.3524218258427475
+      },
+      {
+        "member": "SolidWorks CAD, finite element analysis",
+        "role": "Social media marketing, copywriting, SEO",
+        "relevant": false,
+        "cosine": -0.05048885583119784
+      }
+    ],
+    "fitted": {
+      "c0": 0.49966375338843566,
+      "k": 11.31196095168161
+    },
+    "anchors": {
+      "irrelevantMeanBelow30": true,
+      "relevantMedianAbove90": true,
+      "point20Below15": true,
+      "strictlyIncreasing": true
+    },
+    "accepted": true,
+    "selected": {
+      "c0": 0.49966375338843566,
+      "k": 11.31196095168161
+    },
+    "table": [
+      {
+        "cosine": 0.2,
+        "matchPercent": 3
+      },
+      {
+        "cosine": 0.34,
+        "matchPercent": 14
+      },
+      {
+        "cosine": 0.5,
+        "matchPercent": 50
+      },
+      {
+        "cosine": 0.57,
+        "matchPercent": 69
+      },
+      {
+        "cosine": 0.62,
+        "matchPercent": 80
+      },
+      {
+        "cosine": 0.87,
+        "matchPercent": 99
+      }
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "rows": [
+    {
+      "kind": "profile",
+      "inconsistent_rows": "0"
+    },
+    {
+      "kind": "project",
+      "inconsistent_rows": "0"
+    },
+    {
+      "kind": "role",
+      "inconsistent_rows": "0"
+    }
+  ],
+  "rowCount": 3,
+  "fields": [
+    {
+      "name": "kind",
+      "dataTypeID": 25
+    },
+    {
+      "name": "inconsistent_rows",
+      "dataTypeID": 20
+    }
+  ]
+}

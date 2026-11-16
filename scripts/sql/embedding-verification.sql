@@ -1,0 +1,3 @@
+SELECT 'profile_embeddings' AS table_name,model,version,count(*) AS rows,count(*) FILTER(WHERE embedding IS NULL OR vector_norm(embedding)=0) AS null_or_zero_norm,count(*) FILTER(WHERE trace IS NULL) AS missing_traces FROM profile_embeddings GROUP BY model,version
+UNION ALL SELECT 'project_embeddings',model,version,count(*),count(*) FILTER(WHERE embedding IS NULL OR vector_norm(embedding)=0),count(*) FILTER(WHERE trace IS NULL) FROM project_embeddings GROUP BY model,version
+UNION ALL SELECT 'role_embeddings',model,version,count(*),count(*) FILTER(WHERE embedding IS NULL OR vector_norm(embedding)=0),count(*) FILTER(WHERE trace IS NULL) FROM role_embeddings GROUP BY model,version;

@@ -1,3 +1,5 @@
+import { redirect } from "next/navigation";
+import { userClient } from "@/lib/server/db";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
 import { AuthForm } from "@/components/auth-form";
@@ -7,6 +9,10 @@ export default async function AuthPage({
   params: Promise<{ authPage: string }>;
 }) {
   const { authPage } = await params;
+  if (authPage === "sign-in") {
+    const { data } = await (await userClient()).auth.getCurrentUser();
+    if (data.user?.emailVerified) redirect("/projects");
+  }
   if (
     ![
       "sign-in",

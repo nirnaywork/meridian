@@ -1,0 +1,56 @@
+{
+  "limit": 256,
+  "stored": {
+    "profile_embeddings": {
+      "rows": 42,
+      "truncated": 0,
+      "percentage": 0,
+      "maxTokens": 64,
+      "truncatedRows": []
+    },
+    "project_embeddings": {
+      "rows": 26,
+      "truncated": 0,
+      "percentage": 0,
+      "maxTokens": 185,
+      "truncatedRows": []
+    },
+    "role_embeddings": {
+      "rows": 40,
+      "truncated": 0,
+      "percentage": 0,
+      "maxTokens": 59,
+      "truncatedRows": []
+    }
+  },
+  "candidate": {
+    "profiles": {
+      "rows": 42,
+      "truncated": 0,
+      "percentage": 0,
+      "maxTokens": 48,
+      "truncatedRows": []
+    },
+    "projectsFullRoles": {
+      "rows": 26,
+      "truncated": 0,
+      "percentage": 0,
+      "maxTokens": 167,
+      "truncatedRows": []
+    },
+    "projectsRoleTitles": {
+      "rows": 26,
+      "truncated": 0,
+      "percentage": 0,
+      "maxTokens": 80,
+      "truncatedRows": []
+    },
+    "roles": {
+      "rows": 40,
+      "truncated": 0,
+      "percentage": 0,
+      "maxTokens": 52,
+      "truncatedRows": []
+    }
+  }
+}

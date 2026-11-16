@@ -1,4 +1,5 @@
 "use client";
+import { useAuth } from "./auth-provider";
 import {
   useEffect,
   useState,
@@ -16,10 +17,21 @@ import {
   AlertCircle,
   X,
 } from "lucide-react";
-import type { Breakdown, Project } from "@/lib/types";
+import type { SkillOverlap, Project } from "@/lib/types";
+import {BestRoleMatch} from './role-match';
 export function Logo() {
+  const { signedIn, loading } = useAuth();
   return (
-    <Link href="/" className="logo" aria-label="Meridian home">
+    <Link
+      href={signedIn ? "/projects" : "/"}
+      aria-busy={loading}
+      aria-disabled={loading}
+      onClick={(e) => {
+        if (loading) e.preventDefault();
+      }}
+      className="logo"
+      aria-label="Meridian home"
+    >
       <span className="logo-symbol">
         <i />
         <i />
@@ -187,61 +199,7 @@ export function Skeleton() {
     </div>
   );
 }
-export function MatchScore({
-  match,
-  large = false,
-}: {
-  match: Breakdown;
-  large?: boolean;
-}) {
-  return (
-    <details className={`match-score ${large ? "large" : ""}`}>
-      <summary
-        aria-label={`${Math.round(match.final_score)} percent match. Show breakdown`}
-      >
-        <span
-          className={`score-ring ${match.band.toLowerCase()}`}
-          style={{ "--score": `${match.final_score}%` } as React.CSSProperties}
-        >
-          <b>
-            {Math.round(match.final_score)}
-            <small>%</small>
-          </b>
-        </span>
-        <span>
-          {match.band === "STRONG"
-            ? "Great alignment"
-            : match.band === "MODERATE"
-              ? "Potential match"
-              : "Room to grow"}
-          <small>Skill match</small>
-        </span>
-      </summary>
-      <div className="match-popover">
-        <b>Your match, explained</b>
-        <p>
-          Semantic similarity <strong>{match.cosine.toFixed(3)}</strong>
-        </p>
-        <p>
-          Calibrated similarity{" "}
-          <strong>{Math.round(match.cosine_score)}%</strong>
-        </p>
-        <p>
-          Required skills covered{" "}
-          <strong>{Math.round(match.coverage * 100)}%</strong>
-        </p>
-        <p>
-          Overall match <strong>{Math.round(match.final_score)}%</strong>
-        </p>
-        <span className="muted">
-          A starting point for finding your team, not a measure of your
-          potential.
-        </span>
-      </div>
-    </details>
-  );
-}
-export function SkillChips({ match }: { match: Breakdown }) {
+export function SkillChips({ match }: { match: SkillOverlap }) {
   return (
     <div className="chips">
       {match.matched_skills.map((s) => (
@@ -280,9 +238,19 @@ export function ProjectCard({
         <ArrowUpRight size={19} />
       </Link>
       <p className="card-description">{project.description}</p>
+      <div className="chips">
+        {project.domains?.map((d) => (
+          <span className="chip" key={d}>
+            {d}
+          </span>
+        ))}
+      </div>
       {project.open_roles && project.open_roles.length > 0 && (
         <p className="open-roles">
-          Open roles: {project.open_roles.map((role) => `${role.title} (${role.available})`).join(" · ")}
+          Open roles:{" "}
+          {project.open_roles
+            .map((role) => `${role.title} (${role.available})`)
+            .join(" · ")}
         </p>
       )}
       <div className="card-meta">
@@ -297,22 +265,9 @@ export function ProjectCard({
         <span>·</span>
         <span>{project.duration}</span>
       </div>
-      {project.breakdown && (
-        <>
-          <SkillChips match={project.breakdown} />
-          <div className="card-divider" />
-          <div className="card-bottom">
-            <MatchScore match={project.breakdown} />
-            <span className="role-label">
-              {project.role_title ?? "Open collaboration"}
-              <small>
-                {project.lead_name}
-                {project.is_demo ? " · Demo" : ""}
-              </small>
-            </span>
-          </div>
-        </>
-      )}
+      <BestRoleMatch roles={project.roles??[]} compact />
+      <div className="card-divider" />
+      <p className="role-label">Led by {project.lead_name}{project.is_demo?' · Demo':''}</p>
     </article>
   );
 }

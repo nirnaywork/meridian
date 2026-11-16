@@ -31,13 +31,11 @@ export function Shell({
   const path = usePathname(),
     [open, setOpen] = useState(false);
   const links = [
-    ...(profile.is_member
-      ? [
-          { href: "/feed", label: "Discover projects", icon: Compass },
-          { href: "/applications", label: "My applications", icon: Layers },
-          { href: "/invitations", label: "Invitations", icon: Mail },
-        ]
-      : []),
+    ...[
+      { href: "/projects", label: "Explore projects", icon: Compass },
+      { href: "/applications", label: "My applications", icon: Layers },
+      { href: "/invitations", label: "Invitations", icon: Mail },
+    ],
     ...(profile.is_team_lead
       ? [{ href: "/my-projects", label: "My projects", icon: Layers }]
       : []),

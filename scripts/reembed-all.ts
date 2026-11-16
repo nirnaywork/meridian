@@ -1,12 +1,12 @@
 import { admin, must } from "./lib";
 import { embeddingProvider } from "../src/lib/matching/select";
 import { prepareEmbedding } from "../src/lib/matching/provider";
+import {verifyEmbeddings} from './verify-embeddings';
 import {
   canonicalProfile,
   canonicalProject,
   canonicalRole,
 } from "../src/lib/matching/canonical";
-import { matchConfig } from "../src/lib/matching/config";
 async function main() {
   const provider = await embeddingProvider();
   let count = 0;
@@ -15,7 +15,7 @@ async function main() {
       await admin.database
         .from("profiles")
         .select(
-          "id,display_name,headline,bio,university,interests,avatar_url,avatar_key,is_member,is_team_lead,onboarding_complete,revision,profile_skills(proficiency,skills(id,name))",
+          "id,display_name,headline,bio,university,interests,domains,avatar_url,avatar_key,is_member,is_team_lead,onboarding_complete,revision,profile_skills(proficiency,skills(id,name))",
         )
         .order("id")
         .range(offset, offset + 49),
@@ -28,10 +28,11 @@ async function main() {
       const old = must(
         await admin.database
           .from("profile_embeddings")
-          .select("source_hash,model,version")
+          .select("source_hash,model,version,trace,embedding")
           .eq("profile_id", p.id)
           .limit(1),
       )[0];
+      if(!old&&!skills.length&&!p.headline)continue;
       const vec = await prepareEmbedding(
         canonicalProfile({ ...p, skills }),
         provider,
@@ -46,7 +47,7 @@ async function main() {
             expected_revision: p.revision,
           }),
         );
-        count++;
+        count++;console.log(`Migrated profile ${p.id}`);
       }
     }
     if (profiles.length < 50) break;
@@ -56,7 +57,7 @@ async function main() {
       await admin.database
         .from("projects")
         .select(
-          "id,owner_id,title,description,category,tags,commitment,duration,team_size,status,auto_approve_strong_matches,revision,project_roles(id,title,description,slots,project_role_skills(importance,skills(id,name)))",
+          "id,owner_id,title,description,category,domains,tags,commitment,duration,team_size,status,revision,project_roles(id,title,description,slots,domains,project_role_skills(importance,skills(id,name)))",
         )
         .order("id")
         .range(offset, offset + 24),
@@ -71,7 +72,7 @@ async function main() {
         const old = must(
           await admin.database
             .from("role_embeddings")
-            .select("source_hash,model,version")
+            .select("source_hash,model,version,trace,embedding")
             .eq("role_id", r.id)
             .limit(1),
         )[0];
@@ -88,7 +89,7 @@ async function main() {
       const old = must(
         await admin.database
           .from("project_embeddings")
-          .select("source_hash,model,version")
+          .select("source_hash,model,version,trace,embedding")
           .eq("project_id", p.id)
           .limit(1),
       )[0];
@@ -106,27 +107,16 @@ async function main() {
             expected_revision: p.revision,
           }),
         );
-        count++;
+        count++;console.log(`Migrated project and roles ${p.id}`);
       }
     }
     if (projects.length < 25) break;
   }
-  must(
-    await admin.database
-      .from("match_settings")
-      .upsert([
-        {
-          id: true,
-          settings: {
-            ...matchConfig,
-            mode: process.env.MATCH_MODE ?? "composite",
-          },
-        },
-      ]),
-  );
+
   console.log(
     `Updated ${count} records using ${provider.name}/${provider.version}. Identical hashes skipped.`,
   );
+  await verifyEmbeddings();
 }
 main().catch((e) => {
   console.error(e);

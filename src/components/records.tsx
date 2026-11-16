@@ -1,4 +1,5 @@
 "use client";
+import {RoleMatchBadge} from './role-match';
 import { useState } from "react";
 import Link from "next/link";
 import { ArrowUpRight, Plus, Check, ArrowRight } from "lucide-react";
@@ -9,7 +10,6 @@ import {
   ErrorState,
   Empty,
   Skeleton,
-  MatchScore,
   SkillChips,
 } from "./ui";
 import type { MatchRecord, Project } from "@/lib/types";
@@ -80,7 +80,7 @@ export function Records({ invitations = false }: { invitations?: boolean }) {
                     })}
                   </p>
                 </div>
-                <MatchScore match={r.breakdown} />
+                <RoleMatchBadge snapshot={r.matchPercent}/>
               </div>
               <SkillChips match={r.breakdown} />
               {r.message && <p className="quote">{r.message}</p>}
@@ -129,8 +129,8 @@ export function Records({ invitations = false }: { invitations?: boolean }) {
               ? "Invitations from team leads will appear here. A thoughtful profile helps the right people find you."
               : "Find a project that sparks your curiosity and send your first application."
           }
-          href={invitations ? "/profile" : "/feed"}
-          label={invitations ? "Polish your profile" : "Discover projects"}
+          href={invitations ? "/profile" : "/projects"}
+          label={invitations ? "Polish your profile" : "Explore projects"}
         />
       )}
     </>

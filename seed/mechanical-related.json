@@ -1,0 +1,1840 @@
+{
+  "field": {
+    "name": "Mechanical Related",
+    "slug": "mechanical-related"
+  },
+  "domains": [
+    {
+      "name": "Mechanical Design",
+      "slug": "mechanical-design",
+      "description": "Practical skills, tools and methods for mechanical design."
+    },
+    {
+      "name": "CAD and Simulation",
+      "slug": "cad-and-simulation",
+      "description": "Practical skills, tools and methods for cad and simulation."
+    },
+    {
+      "name": "Manufacturing",
+      "slug": "manufacturing",
+      "description": "Practical skills, tools and methods for manufacturing."
+    },
+    {
+      "name": "Thermodynamics",
+      "slug": "thermodynamics",
+      "description": "Practical skills, tools and methods for thermodynamics."
+    },
+    {
+      "name": "Fluid Mechanics",
+      "slug": "fluid-mechanics",
+      "description": "Practical skills, tools and methods for fluid mechanics."
+    },
+    {
+      "name": "Robotics",
+      "slug": "robotics",
+      "description": "Practical skills, tools and methods for robotics."
+    },
+    {
+      "name": "Additive Manufacturing",
+      "slug": "additive-manufacturing",
+      "description": "Practical skills, tools and methods for additive manufacturing."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Mechanical Design: CAD modeling",
+      "slug": "mechanical-design-cad-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Mechanical Design",
+      "field": "Mechanical Related",
+      "domains": [
+        "Mechanical Design"
+      ]
+    },
+    {
+      "name": "Mechanical Design: engineering drawings",
+      "slug": "mechanical-design-engineering-drawings",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Mechanical Design",
+      "field": "Mechanical Related",
+      "domains": [
+        "Mechanical Design"
+      ]
+    },
+    {
+      "name": "Mechanical Design: tolerance analysis",
+      "slug": "mechanical-design-tolerance-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Mechanical Design",
+      "field": "Mechanical Related",
+      "domains": [
+        "Mechanical Design"
+      ]
+    },
+    {
+      "name": "Mechanical Design: material selection",
+      "slug": "mechanical-design-material-selection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Mechanical Design",
+      "field": "Mechanical Related",
+      "domains": [
+        "Mechanical Design"
+      ]
+    },
+    {
+      "name": "Mechanical Design: stress analysis",
+      "slug": "mechanical-design-stress-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Mechanical Design",
+      "field": "Mechanical Related",
+      "domains": [
+        "Mechanical Design"
+      ]
+    },
+    {
+      "name": "Mechanical Design: thermal analysis",
+      "slug": "mechanical-design-thermal-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Mechanical Design",
+      "field": "Mechanical Related",
+      "domains": [
+        "Mechanical Design"
+      ]
+    },
+    {
+      "name": "Mechanical Design: finite element modeling",
+      "slug": "mechanical-design-finite-element-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Mechanical Design",
+      "field": "Mechanical Related",
+      "domains": [
+        "Mechanical Design"
+      ]
+    },
+    {
+      "name": "Mechanical Design: simulation validation",
+      "slug": "mechanical-design-simulation-validation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Mechanical Design",
+      "field": "Mechanical Related",
+      "domains": [
+        "Mechanical Design"
+      ]
+    },
+    {
+      "name": "Mechanical Design: prototyping",
+      "slug": "mechanical-design-prototyping",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Mechanical Design",
+      "field": "Mechanical Related",
+      "domains": [
+        "Mechanical Design"
+      ]
+    },
+    {
+      "name": "Mechanical Design: design optimization",
+      "slug": "mechanical-design-design-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Mechanical Design",
+      "field": "Mechanical Related",
+      "domains": [
+        "Mechanical Design"
+      ]
+    },
+    {
+      "name": "Mechanical Design: failure analysis",
+      "slug": "mechanical-design-failure-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Mechanical Design",
+      "field": "Mechanical Related",
+      "domains": [
+        "Mechanical Design"
+      ]
+    },
+    {
+      "name": "Mechanical Design: manufacturability analysis",
+      "slug": "mechanical-design-manufacturability-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Mechanical Design",
+      "field": "Mechanical Related",
+      "domains": [
+        "Mechanical Design"
+      ]
+    },
+    {
+      "name": "Mechanical Design: experimental testing",
+      "slug": "mechanical-design-experimental-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Mechanical Design",
+      "field": "Mechanical Related",
+      "domains": [
+        "Mechanical Design"
+      ]
+    },
+    {
+      "name": "Mechanical Design: kinematic analysis",
+      "slug": "mechanical-design-kinematic-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Mechanical Design",
+      "field": "Mechanical Related",
+      "domains": [
+        "Mechanical Design"
+      ]
+    },
+    {
+      "name": "Mechanical Design: cost estimation",
+      "slug": "mechanical-design-cost-estimation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Mechanical Design",
+      "field": "Mechanical Related",
+      "domains": [
+        "Mechanical Design"
+      ]
+    },
+    {
+      "name": "Mechanical Design: assembly design",
+      "slug": "mechanical-design-assembly-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Mechanical Design",
+      "field": "Mechanical Related",
+      "domains": [
+        "Mechanical Design"
+      ]
+    },
+    {
+      "name": "Mechanical Design: metrology",
+      "slug": "mechanical-design-metrology",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Mechanical Design",
+      "field": "Mechanical Related",
+      "domains": [
+        "Mechanical Design"
+      ]
+    },
+    {
+      "name": "Mechanical Design: technical documentation",
+      "slug": "mechanical-design-technical-documentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Mechanical Design",
+      "field": "Mechanical Related",
+      "domains": [
+        "Mechanical Design"
+      ]
+    },
+    {
+      "name": "Mechanical Design: sustainability assessment",
+      "slug": "mechanical-design-sustainability-assessment",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Mechanical Design",
+      "field": "Mechanical Related",
+      "domains": [
+        "Mechanical Design"
+      ]
+    },
+    {
+      "name": "Mechanical Design: quality control",
+      "slug": "mechanical-design-quality-control",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Mechanical Design",
+      "field": "Mechanical Related",
+      "domains": [
+        "Mechanical Design"
+      ]
+    },
+    {
+      "name": "CAD and Simulation: CAD modeling",
+      "slug": "cad-and-simulation-cad-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "CAD and Simulation",
+      "field": "Mechanical Related",
+      "domains": [
+        "CAD and Simulation"
+      ]
+    },
+    {
+      "name": "CAD and Simulation: engineering drawings",
+      "slug": "cad-and-simulation-engineering-drawings",
+      "aliases": [],
+      "is_verified": true,
+      "category": "CAD and Simulation",
+      "field": "Mechanical Related",
+      "domains": [
+        "CAD and Simulation"
+      ]
+    },
+    {
+      "name": "CAD and Simulation: tolerance analysis",
+      "slug": "cad-and-simulation-tolerance-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "CAD and Simulation",
+      "field": "Mechanical Related",
+      "domains": [
+        "CAD and Simulation"
+      ]
+    },
+    {
+      "name": "CAD and Simulation: material selection",
+      "slug": "cad-and-simulation-material-selection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "CAD and Simulation",
+      "field": "Mechanical Related",
+      "domains": [
+        "CAD and Simulation"
+      ]
+    },
+    {
+      "name": "CAD and Simulation: stress analysis",
+      "slug": "cad-and-simulation-stress-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "CAD and Simulation",
+      "field": "Mechanical Related",
+      "domains": [
+        "CAD and Simulation"
+      ]
+    },
+    {
+      "name": "CAD and Simulation: thermal analysis",
+      "slug": "cad-and-simulation-thermal-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "CAD and Simulation",
+      "field": "Mechanical Related",
+      "domains": [
+        "CAD and Simulation"
+      ]
+    },
+    {
+      "name": "CAD and Simulation: finite element modeling",
+      "slug": "cad-and-simulation-finite-element-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "CAD and Simulation",
+      "field": "Mechanical Related",
+      "domains": [
+        "CAD and Simulation"
+      ]
+    },
+    {
+      "name": "CAD and Simulation: simulation validation",
+      "slug": "cad-and-simulation-simulation-validation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "CAD and Simulation",
+      "field": "Mechanical Related",
+      "domains": [
+        "CAD and Simulation"
+      ]
+    },
+    {
+      "name": "CAD and Simulation: prototyping",
+      "slug": "cad-and-simulation-prototyping",
+      "aliases": [],
+      "is_verified": true,
+      "category": "CAD and Simulation",
+      "field": "Mechanical Related",
+      "domains": [
+        "CAD and Simulation"
+      ]
+    },
+    {
+      "name": "CAD and Simulation: design optimization",
+      "slug": "cad-and-simulation-design-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "CAD and Simulation",
+      "field": "Mechanical Related",
+      "domains": [
+        "CAD and Simulation"
+      ]
+    },
+    {
+      "name": "CAD and Simulation: failure analysis",
+      "slug": "cad-and-simulation-failure-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "CAD and Simulation",
+      "field": "Mechanical Related",
+      "domains": [
+        "CAD and Simulation"
+      ]
+    },
+    {
+      "name": "CAD and Simulation: manufacturability analysis",
+      "slug": "cad-and-simulation-manufacturability-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "CAD and Simulation",
+      "field": "Mechanical Related",
+      "domains": [
+        "CAD and Simulation"
+      ]
+    },
+    {
+      "name": "CAD and Simulation: experimental testing",
+      "slug": "cad-and-simulation-experimental-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "CAD and Simulation",
+      "field": "Mechanical Related",
+      "domains": [
+        "CAD and Simulation"
+      ]
+    },
+    {
+      "name": "CAD and Simulation: kinematic analysis",
+      "slug": "cad-and-simulation-kinematic-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "CAD and Simulation",
+      "field": "Mechanical Related",
+      "domains": [
+        "CAD and Simulation"
+      ]
+    },
+    {
+      "name": "CAD and Simulation: cost estimation",
+      "slug": "cad-and-simulation-cost-estimation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "CAD and Simulation",
+      "field": "Mechanical Related",
+      "domains": [
+        "CAD and Simulation"
+      ]
+    },
+    {
+      "name": "CAD and Simulation: assembly design",
+      "slug": "cad-and-simulation-assembly-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "CAD and Simulation",
+      "field": "Mechanical Related",
+      "domains": [
+        "CAD and Simulation"
+      ]
+    },
+    {
+      "name": "CAD and Simulation: metrology",
+      "slug": "cad-and-simulation-metrology",
+      "aliases": [],
+      "is_verified": true,
+      "category": "CAD and Simulation",
+      "field": "Mechanical Related",
+      "domains": [
+        "CAD and Simulation"
+      ]
+    },
+    {
+      "name": "CAD and Simulation: technical documentation",
+      "slug": "cad-and-simulation-technical-documentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "CAD and Simulation",
+      "field": "Mechanical Related",
+      "domains": [
+        "CAD and Simulation"
+      ]
+    },
+    {
+      "name": "CAD and Simulation: sustainability assessment",
+      "slug": "cad-and-simulation-sustainability-assessment",
+      "aliases": [],
+      "is_verified": true,
+      "category": "CAD and Simulation",
+      "field": "Mechanical Related",
+      "domains": [
+        "CAD and Simulation"
+      ]
+    },
+    {
+      "name": "CAD and Simulation: quality control",
+      "slug": "cad-and-simulation-quality-control",
+      "aliases": [],
+      "is_verified": true,
+      "category": "CAD and Simulation",
+      "field": "Mechanical Related",
+      "domains": [
+        "CAD and Simulation"
+      ]
+    },
+    {
+      "name": "Manufacturing: CAD modeling",
+      "slug": "manufacturing-cad-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Manufacturing"
+      ]
+    },
+    {
+      "name": "Manufacturing: engineering drawings",
+      "slug": "manufacturing-engineering-drawings",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Manufacturing"
+      ]
+    },
+    {
+      "name": "Manufacturing: tolerance analysis",
+      "slug": "manufacturing-tolerance-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Manufacturing"
+      ]
+    },
+    {
+      "name": "Manufacturing: material selection",
+      "slug": "manufacturing-material-selection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Manufacturing"
+      ]
+    },
+    {
+      "name": "Manufacturing: stress analysis",
+      "slug": "manufacturing-stress-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Manufacturing"
+      ]
+    },
+    {
+      "name": "Manufacturing: thermal analysis",
+      "slug": "manufacturing-thermal-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Manufacturing"
+      ]
+    },
+    {
+      "name": "Manufacturing: finite element modeling",
+      "slug": "manufacturing-finite-element-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Manufacturing"
+      ]
+    },
+    {
+      "name": "Manufacturing: simulation validation",
+      "slug": "manufacturing-simulation-validation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Manufacturing"
+      ]
+    },
+    {
+      "name": "Manufacturing: prototyping",
+      "slug": "manufacturing-prototyping",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Manufacturing"
+      ]
+    },
+    {
+      "name": "Manufacturing: design optimization",
+      "slug": "manufacturing-design-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Manufacturing"
+      ]
+    },
+    {
+      "name": "Manufacturing: failure analysis",
+      "slug": "manufacturing-failure-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Manufacturing"
+      ]
+    },
+    {
+      "name": "Manufacturing: manufacturability analysis",
+      "slug": "manufacturing-manufacturability-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Manufacturing"
+      ]
+    },
+    {
+      "name": "Manufacturing: experimental testing",
+      "slug": "manufacturing-experimental-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Manufacturing"
+      ]
+    },
+    {
+      "name": "Manufacturing: kinematic analysis",
+      "slug": "manufacturing-kinematic-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Manufacturing"
+      ]
+    },
+    {
+      "name": "Manufacturing: cost estimation",
+      "slug": "manufacturing-cost-estimation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Manufacturing"
+      ]
+    },
+    {
+      "name": "Manufacturing: assembly design",
+      "slug": "manufacturing-assembly-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Manufacturing"
+      ]
+    },
+    {
+      "name": "Manufacturing: metrology",
+      "slug": "manufacturing-metrology",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Manufacturing"
+      ]
+    },
+    {
+      "name": "Manufacturing: technical documentation",
+      "slug": "manufacturing-technical-documentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Manufacturing"
+      ]
+    },
+    {
+      "name": "Manufacturing: sustainability assessment",
+      "slug": "manufacturing-sustainability-assessment",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Manufacturing"
+      ]
+    },
+    {
+      "name": "Manufacturing: quality control",
+      "slug": "manufacturing-quality-control",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Manufacturing"
+      ]
+    },
+    {
+      "name": "Thermodynamics: CAD modeling",
+      "slug": "thermodynamics-cad-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Thermodynamics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Thermodynamics"
+      ]
+    },
+    {
+      "name": "Thermodynamics: engineering drawings",
+      "slug": "thermodynamics-engineering-drawings",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Thermodynamics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Thermodynamics"
+      ]
+    },
+    {
+      "name": "Thermodynamics: tolerance analysis",
+      "slug": "thermodynamics-tolerance-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Thermodynamics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Thermodynamics"
+      ]
+    },
+    {
+      "name": "Thermodynamics: material selection",
+      "slug": "thermodynamics-material-selection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Thermodynamics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Thermodynamics"
+      ]
+    },
+    {
+      "name": "Thermodynamics: stress analysis",
+      "slug": "thermodynamics-stress-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Thermodynamics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Thermodynamics"
+      ]
+    },
+    {
+      "name": "Thermodynamics: thermal analysis",
+      "slug": "thermodynamics-thermal-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Thermodynamics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Thermodynamics"
+      ]
+    },
+    {
+      "name": "Thermodynamics: finite element modeling",
+      "slug": "thermodynamics-finite-element-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Thermodynamics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Thermodynamics"
+      ]
+    },
+    {
+      "name": "Thermodynamics: simulation validation",
+      "slug": "thermodynamics-simulation-validation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Thermodynamics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Thermodynamics"
+      ]
+    },
+    {
+      "name": "Thermodynamics: prototyping",
+      "slug": "thermodynamics-prototyping",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Thermodynamics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Thermodynamics"
+      ]
+    },
+    {
+      "name": "Thermodynamics: design optimization",
+      "slug": "thermodynamics-design-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Thermodynamics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Thermodynamics"
+      ]
+    },
+    {
+      "name": "Thermodynamics: failure analysis",
+      "slug": "thermodynamics-failure-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Thermodynamics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Thermodynamics"
+      ]
+    },
+    {
+      "name": "Thermodynamics: manufacturability analysis",
+      "slug": "thermodynamics-manufacturability-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Thermodynamics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Thermodynamics"
+      ]
+    },
+    {
+      "name": "Thermodynamics: experimental testing",
+      "slug": "thermodynamics-experimental-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Thermodynamics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Thermodynamics"
+      ]
+    },
+    {
+      "name": "Thermodynamics: kinematic analysis",
+      "slug": "thermodynamics-kinematic-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Thermodynamics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Thermodynamics"
+      ]
+    },
+    {
+      "name": "Thermodynamics: cost estimation",
+      "slug": "thermodynamics-cost-estimation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Thermodynamics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Thermodynamics"
+      ]
+    },
+    {
+      "name": "Thermodynamics: assembly design",
+      "slug": "thermodynamics-assembly-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Thermodynamics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Thermodynamics"
+      ]
+    },
+    {
+      "name": "Thermodynamics: metrology",
+      "slug": "thermodynamics-metrology",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Thermodynamics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Thermodynamics"
+      ]
+    },
+    {
+      "name": "Thermodynamics: technical documentation",
+      "slug": "thermodynamics-technical-documentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Thermodynamics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Thermodynamics"
+      ]
+    },
+    {
+      "name": "Thermodynamics: sustainability assessment",
+      "slug": "thermodynamics-sustainability-assessment",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Thermodynamics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Thermodynamics"
+      ]
+    },
+    {
+      "name": "Thermodynamics: quality control",
+      "slug": "thermodynamics-quality-control",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Thermodynamics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Thermodynamics"
+      ]
+    },
+    {
+      "name": "Fluid Mechanics: CAD modeling",
+      "slug": "fluid-mechanics-cad-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Fluid Mechanics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Fluid Mechanics"
+      ]
+    },
+    {
+      "name": "Fluid Mechanics: engineering drawings",
+      "slug": "fluid-mechanics-engineering-drawings",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Fluid Mechanics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Fluid Mechanics"
+      ]
+    },
+    {
+      "name": "Fluid Mechanics: tolerance analysis",
+      "slug": "fluid-mechanics-tolerance-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Fluid Mechanics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Fluid Mechanics"
+      ]
+    },
+    {
+      "name": "Fluid Mechanics: material selection",
+      "slug": "fluid-mechanics-material-selection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Fluid Mechanics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Fluid Mechanics"
+      ]
+    },
+    {
+      "name": "Fluid Mechanics: stress analysis",
+      "slug": "fluid-mechanics-stress-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Fluid Mechanics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Fluid Mechanics"
+      ]
+    },
+    {
+      "name": "Fluid Mechanics: thermal analysis",
+      "slug": "fluid-mechanics-thermal-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Fluid Mechanics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Fluid Mechanics"
+      ]
+    },
+    {
+      "name": "Fluid Mechanics: finite element modeling",
+      "slug": "fluid-mechanics-finite-element-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Fluid Mechanics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Fluid Mechanics"
+      ]
+    },
+    {
+      "name": "Fluid Mechanics: simulation validation",
+      "slug": "fluid-mechanics-simulation-validation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Fluid Mechanics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Fluid Mechanics"
+      ]
+    },
+    {
+      "name": "Fluid Mechanics: prototyping",
+      "slug": "fluid-mechanics-prototyping",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Fluid Mechanics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Fluid Mechanics"
+      ]
+    },
+    {
+      "name": "Fluid Mechanics: design optimization",
+      "slug": "fluid-mechanics-design-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Fluid Mechanics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Fluid Mechanics"
+      ]
+    },
+    {
+      "name": "Fluid Mechanics: failure analysis",
+      "slug": "fluid-mechanics-failure-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Fluid Mechanics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Fluid Mechanics"
+      ]
+    },
+    {
+      "name": "Fluid Mechanics: manufacturability analysis",
+      "slug": "fluid-mechanics-manufacturability-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Fluid Mechanics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Fluid Mechanics"
+      ]
+    },
+    {
+      "name": "Fluid Mechanics: experimental testing",
+      "slug": "fluid-mechanics-experimental-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Fluid Mechanics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Fluid Mechanics"
+      ]
+    },
+    {
+      "name": "Fluid Mechanics: kinematic analysis",
+      "slug": "fluid-mechanics-kinematic-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Fluid Mechanics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Fluid Mechanics"
+      ]
+    },
+    {
+      "name": "Fluid Mechanics: cost estimation",
+      "slug": "fluid-mechanics-cost-estimation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Fluid Mechanics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Fluid Mechanics"
+      ]
+    },
+    {
+      "name": "Fluid Mechanics: assembly design",
+      "slug": "fluid-mechanics-assembly-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Fluid Mechanics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Fluid Mechanics"
+      ]
+    },
+    {
+      "name": "Fluid Mechanics: metrology",
+      "slug": "fluid-mechanics-metrology",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Fluid Mechanics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Fluid Mechanics"
+      ]
+    },
+    {
+      "name": "Fluid Mechanics: technical documentation",
+      "slug": "fluid-mechanics-technical-documentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Fluid Mechanics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Fluid Mechanics"
+      ]
+    },
+    {
+      "name": "Fluid Mechanics: sustainability assessment",
+      "slug": "fluid-mechanics-sustainability-assessment",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Fluid Mechanics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Fluid Mechanics"
+      ]
+    },
+    {
+      "name": "Fluid Mechanics: quality control",
+      "slug": "fluid-mechanics-quality-control",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Fluid Mechanics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Fluid Mechanics"
+      ]
+    },
+    {
+      "name": "Robotics: CAD modeling",
+      "slug": "robotics-cad-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Robotics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Robotics"
+      ]
+    },
+    {
+      "name": "Robotics: engineering drawings",
+      "slug": "robotics-engineering-drawings",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Robotics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Robotics"
+      ]
+    },
+    {
+      "name": "Robotics: tolerance analysis",
+      "slug": "robotics-tolerance-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Robotics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Robotics"
+      ]
+    },
+    {
+      "name": "Robotics: material selection",
+      "slug": "robotics-material-selection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Robotics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Robotics"
+      ]
+    },
+    {
+      "name": "Robotics: stress analysis",
+      "slug": "robotics-stress-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Robotics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Robotics"
+      ]
+    },
+    {
+      "name": "Robotics: thermal analysis",
+      "slug": "robotics-thermal-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Robotics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Robotics"
+      ]
+    },
+    {
+      "name": "Robotics: finite element modeling",
+      "slug": "robotics-finite-element-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Robotics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Robotics"
+      ]
+    },
+    {
+      "name": "Robotics: simulation validation",
+      "slug": "robotics-simulation-validation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Robotics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Robotics"
+      ]
+    },
+    {
+      "name": "Robotics: prototyping",
+      "slug": "robotics-prototyping",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Robotics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Robotics"
+      ]
+    },
+    {
+      "name": "Robotics: design optimization",
+      "slug": "robotics-design-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Robotics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Robotics"
+      ]
+    },
+    {
+      "name": "Robotics: failure analysis",
+      "slug": "robotics-failure-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Robotics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Robotics"
+      ]
+    },
+    {
+      "name": "Robotics: manufacturability analysis",
+      "slug": "robotics-manufacturability-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Robotics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Robotics"
+      ]
+    },
+    {
+      "name": "Robotics: experimental testing",
+      "slug": "robotics-experimental-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Robotics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Robotics"
+      ]
+    },
+    {
+      "name": "Robotics: kinematic analysis",
+      "slug": "robotics-kinematic-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Robotics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Robotics"
+      ]
+    },
+    {
+      "name": "Robotics: cost estimation",
+      "slug": "robotics-cost-estimation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Robotics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Robotics"
+      ]
+    },
+    {
+      "name": "Robotics: assembly design",
+      "slug": "robotics-assembly-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Robotics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Robotics"
+      ]
+    },
+    {
+      "name": "Robotics: metrology",
+      "slug": "robotics-metrology",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Robotics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Robotics"
+      ]
+    },
+    {
+      "name": "Robotics: technical documentation",
+      "slug": "robotics-technical-documentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Robotics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Robotics"
+      ]
+    },
+    {
+      "name": "Robotics: sustainability assessment",
+      "slug": "robotics-sustainability-assessment",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Robotics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Robotics"
+      ]
+    },
+    {
+      "name": "Robotics: quality control",
+      "slug": "robotics-quality-control",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Robotics",
+      "field": "Mechanical Related",
+      "domains": [
+        "Robotics"
+      ]
+    },
+    {
+      "name": "Additive Manufacturing: CAD modeling",
+      "slug": "additive-manufacturing-cad-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Additive Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Additive Manufacturing"
+      ]
+    },
+    {
+      "name": "Additive Manufacturing: engineering drawings",
+      "slug": "additive-manufacturing-engineering-drawings",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Additive Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Additive Manufacturing"
+      ]
+    },
+    {
+      "name": "Additive Manufacturing: tolerance analysis",
+      "slug": "additive-manufacturing-tolerance-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Additive Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Additive Manufacturing"
+      ]
+    },
+    {
+      "name": "Additive Manufacturing: material selection",
+      "slug": "additive-manufacturing-material-selection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Additive Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Additive Manufacturing"
+      ]
+    },
+    {
+      "name": "Additive Manufacturing: stress analysis",
+      "slug": "additive-manufacturing-stress-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Additive Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Additive Manufacturing"
+      ]
+    },
+    {
+      "name": "Additive Manufacturing: thermal analysis",
+      "slug": "additive-manufacturing-thermal-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Additive Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Additive Manufacturing"
+      ]
+    },
+    {
+      "name": "Additive Manufacturing: finite element modeling",
+      "slug": "additive-manufacturing-finite-element-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Additive Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Additive Manufacturing"
+      ]
+    },
+    {
+      "name": "Additive Manufacturing: simulation validation",
+      "slug": "additive-manufacturing-simulation-validation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Additive Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Additive Manufacturing"
+      ]
+    },
+    {
+      "name": "Additive Manufacturing: prototyping",
+      "slug": "additive-manufacturing-prototyping",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Additive Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Additive Manufacturing"
+      ]
+    },
+    {
+      "name": "Additive Manufacturing: design optimization",
+      "slug": "additive-manufacturing-design-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Additive Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Additive Manufacturing"
+      ]
+    },
+    {
+      "name": "Additive Manufacturing: failure analysis",
+      "slug": "additive-manufacturing-failure-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Additive Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Additive Manufacturing"
+      ]
+    },
+    {
+      "name": "Additive Manufacturing: manufacturability analysis",
+      "slug": "additive-manufacturing-manufacturability-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Additive Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Additive Manufacturing"
+      ]
+    },
+    {
+      "name": "Additive Manufacturing: experimental testing",
+      "slug": "additive-manufacturing-experimental-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Additive Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Additive Manufacturing"
+      ]
+    },
+    {
+      "name": "Additive Manufacturing: kinematic analysis",
+      "slug": "additive-manufacturing-kinematic-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Additive Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Additive Manufacturing"
+      ]
+    },
+    {
+      "name": "Additive Manufacturing: cost estimation",
+      "slug": "additive-manufacturing-cost-estimation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Additive Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Additive Manufacturing"
+      ]
+    },
+    {
+      "name": "Additive Manufacturing: assembly design",
+      "slug": "additive-manufacturing-assembly-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Additive Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Additive Manufacturing"
+      ]
+    },
+    {
+      "name": "Additive Manufacturing: metrology",
+      "slug": "additive-manufacturing-metrology",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Additive Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Additive Manufacturing"
+      ]
+    },
+    {
+      "name": "Additive Manufacturing: technical documentation",
+      "slug": "additive-manufacturing-technical-documentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Additive Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Additive Manufacturing"
+      ]
+    },
+    {
+      "name": "Additive Manufacturing: sustainability assessment",
+      "slug": "additive-manufacturing-sustainability-assessment",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Additive Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Additive Manufacturing"
+      ]
+    },
+    {
+      "name": "Additive Manufacturing: quality control",
+      "slug": "additive-manufacturing-quality-control",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Additive Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Additive Manufacturing"
+      ]
+    },
+    {
+      "name": "SolidWorks",
+      "slug": "solidworks",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Mechanical Design",
+      "field": "Mechanical Related",
+      "domains": [
+        "Mechanical Design"
+      ]
+    },
+    {
+      "name": "CATIA",
+      "slug": "catia",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Mechanical Design",
+      "field": "Mechanical Related",
+      "domains": [
+        "Mechanical Design"
+      ]
+    },
+    {
+      "name": "Autodesk Inventor",
+      "slug": "autodesk-inventor",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Mechanical Design",
+      "field": "Mechanical Related",
+      "domains": [
+        "Mechanical Design"
+      ]
+    },
+    {
+      "name": "GD&T",
+      "slug": "gd-t",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Mechanical Design",
+      "field": "Mechanical Related",
+      "domains": [
+        "Mechanical Design"
+      ]
+    },
+    {
+      "name": "PTC Creo",
+      "slug": "ptc-creo",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Mechanical Design",
+      "field": "Mechanical Related",
+      "domains": [
+        "Mechanical Design"
+      ]
+    },
+    {
+      "name": "AutoCAD",
+      "slug": "autocad",
+      "aliases": [],
+      "is_verified": true,
+      "category": "CAD and Simulation",
+      "field": "Mechanical Related",
+      "domains": [
+        "CAD and Simulation"
+      ]
+    },
+    {
+      "name": "ANSYS",
+      "slug": "ansys",
+      "aliases": [],
+      "is_verified": true,
+      "category": "CAD and Simulation",
+      "field": "Mechanical Related",
+      "domains": [
+        "CAD and Simulation"
+      ]
+    },
+    {
+      "name": "Abaqus",
+      "slug": "abaqus",
+      "aliases": [],
+      "is_verified": true,
+      "category": "CAD and Simulation",
+      "field": "Mechanical Related",
+      "domains": [
+        "CAD and Simulation"
+      ]
+    },
+    {
+      "name": "COMSOL Multiphysics",
+      "slug": "comsol-multiphysics",
+      "aliases": [],
+      "is_verified": true,
+      "category": "CAD and Simulation",
+      "field": "Mechanical Related",
+      "domains": [
+        "CAD and Simulation"
+      ]
+    },
+    {
+      "name": "Finite Element Analysis",
+      "slug": "finite-element-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "CAD and Simulation",
+      "field": "Mechanical Related",
+      "domains": [
+        "CAD and Simulation"
+      ]
+    },
+    {
+      "name": "Computational Fluid Dynamics",
+      "slug": "computational-fluid-dynamics",
+      "aliases": [],
+      "is_verified": true,
+      "category": "CAD and Simulation",
+      "field": "Mechanical Related",
+      "domains": [
+        "CAD and Simulation"
+      ]
+    },
+    {
+      "name": "CNC Programming",
+      "slug": "cnc-programming",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Manufacturing"
+      ]
+    },
+    {
+      "name": "G-code",
+      "slug": "g-code",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Manufacturing"
+      ]
+    },
+    {
+      "name": "Fusion 360",
+      "slug": "fusion-360",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Manufacturing"
+      ]
+    },
+    {
+      "name": "CAM",
+      "slug": "cam",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Manufacturing"
+      ]
+    },
+    {
+      "name": "Lean Manufacturing",
+      "slug": "lean-manufacturing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Manufacturing",
+      "field": "Mechanical Related",
+      "domains": [
+        "Manufacturing"
+      ]
+    }
+  ],
+  "role_templates": [
+    {
+      "title": "Mechanical Designer",
+      "slug": "mechanical-design-contributor",
+      "domain": "Mechanical Design",
+      "required_skills": [
+        "Mechanical Design: CAD modeling",
+        "Mechanical Design: engineering drawings",
+        "Mechanical Design: tolerance analysis",
+        "Mechanical Design: material selection"
+      ]
+    },
+    {
+      "title": "CAD and Simulation Contributor",
+      "slug": "cad-and-simulation-contributor",
+      "domain": "CAD and Simulation",
+      "required_skills": [
+        "CAD and Simulation: CAD modeling",
+        "CAD and Simulation: engineering drawings",
+        "CAD and Simulation: tolerance analysis",
+        "CAD and Simulation: material selection"
+      ]
+    },
+    {
+      "title": "Manufacturing Contributor",
+      "slug": "manufacturing-contributor",
+      "domain": "Manufacturing",
+      "required_skills": [
+        "Manufacturing: CAD modeling",
+        "Manufacturing: engineering drawings",
+        "Manufacturing: tolerance analysis",
+        "Manufacturing: material selection"
+      ]
+    },
+    {
+      "title": "Thermodynamics Contributor",
+      "slug": "thermodynamics-contributor",
+      "domain": "Thermodynamics",
+      "required_skills": [
+        "Thermodynamics: CAD modeling",
+        "Thermodynamics: engineering drawings",
+        "Thermodynamics: tolerance analysis",
+        "Thermodynamics: material selection"
+      ]
+    },
+    {
+      "title": "Fluid Mechanics Contributor",
+      "slug": "fluid-mechanics-contributor",
+      "domain": "Fluid Mechanics",
+      "required_skills": [
+        "Fluid Mechanics: CAD modeling",
+        "Fluid Mechanics: engineering drawings",
+        "Fluid Mechanics: tolerance analysis",
+        "Fluid Mechanics: material selection"
+      ]
+    },
+    {
+      "title": "Robotics Contributor",
+      "slug": "robotics-contributor",
+      "domain": "Robotics",
+      "required_skills": [
+        "Robotics: CAD modeling",
+        "Robotics: engineering drawings",
+        "Robotics: tolerance analysis",
+        "Robotics: material selection"
+      ]
+    },
+    {
+      "title": "Additive Manufacturing Contributor",
+      "slug": "additive-manufacturing-contributor",
+      "domain": "Additive Manufacturing",
+      "required_skills": [
+        "Additive Manufacturing: CAD modeling",
+        "Additive Manufacturing: engineering drawings",
+        "Additive Manufacturing: tolerance analysis",
+        "Additive Manufacturing: material selection"
+      ]
+    }
+  ]
+}

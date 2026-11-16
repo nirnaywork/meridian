@@ -1,0 +1,995 @@
+{
+  "field": {
+    "name": "Communication and Soft Skills",
+    "slug": "communication-and-soft-skills"
+  },
+  "domains": [
+    {
+      "name": "Teamwork",
+      "slug": "teamwork",
+      "description": "Practical skills, tools and methods for teamwork."
+    },
+    {
+      "name": "Professional Communication",
+      "slug": "professional-communication",
+      "description": "Practical skills, tools and methods for professional communication."
+    },
+    {
+      "name": "Leadership",
+      "slug": "leadership",
+      "description": "Practical skills, tools and methods for leadership."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Copywriting",
+      "category": "Content",
+      "slug": "copywriting",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Content Writing",
+      "category": "Content",
+      "slug": "content-writing",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Content Strategy",
+      "category": "Content",
+      "slug": "content-strategy",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Blogging",
+      "category": "Content",
+      "slug": "blogging",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Creative Writing",
+      "category": "Content",
+      "slug": "creative-writing",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Editing",
+      "category": "Content",
+      "slug": "editing",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Proofreading",
+      "category": "Content",
+      "slug": "proofreading",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Storytelling",
+      "category": "Content",
+      "slug": "storytelling",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Video Editing",
+      "category": "Content",
+      "slug": "video-editing",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "DaVinci Resolve",
+      "category": "Content",
+      "slug": "davinci-resolve",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Premiere Pro",
+      "category": "Content",
+      "slug": "premiere-pro",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Photography",
+      "category": "Content",
+      "slug": "photography",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Videography",
+      "category": "Content",
+      "slug": "videography",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Audio Editing",
+      "category": "Content",
+      "slug": "audio-editing",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Podcast Production",
+      "category": "Content",
+      "slug": "podcast-production",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Audacity",
+      "category": "Content",
+      "slug": "audacity",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Translation",
+      "category": "Content",
+      "slug": "translation",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Localization",
+      "category": "Content",
+      "slug": "localization",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Public Speaking",
+      "category": "Content",
+      "slug": "public-speaking",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Presentation Design",
+      "category": "Content",
+      "slug": "presentation-design",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Instructional Design",
+      "category": "Content",
+      "slug": "instructional-design",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Curriculum Design",
+      "category": "Content",
+      "slug": "curriculum-design",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Community Management",
+      "category": "Content",
+      "slug": "community-management",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Interviewing",
+      "category": "Content",
+      "slug": "interviewing",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Research",
+      "category": "Content",
+      "slug": "research",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Teamwork: active listening",
+      "slug": "teamwork-active-listening",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Teamwork",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Teamwork: constructive feedback",
+      "slug": "teamwork-constructive-feedback",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Teamwork",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Teamwork: conflict resolution",
+      "slug": "teamwork-conflict-resolution",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Teamwork",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Teamwork: meeting facilitation",
+      "slug": "teamwork-meeting-facilitation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Teamwork",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Teamwork: public speaking",
+      "slug": "teamwork-public-speaking",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Teamwork",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Teamwork: written communication",
+      "slug": "teamwork-written-communication",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Teamwork",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Teamwork: cross-cultural collaboration",
+      "slug": "teamwork-cross-cultural-collaboration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Teamwork",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Teamwork: time management",
+      "slug": "teamwork-time-management",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Teamwork",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Teamwork: goal setting",
+      "slug": "teamwork-goal-setting",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Teamwork",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Teamwork: mentoring",
+      "slug": "teamwork-mentoring",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Teamwork",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Teamwork: negotiation",
+      "slug": "teamwork-negotiation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Teamwork",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Teamwork: empathy",
+      "slug": "teamwork-empathy",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Teamwork",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Teamwork: decision making",
+      "slug": "teamwork-decision-making",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Teamwork",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Teamwork: problem solving",
+      "slug": "teamwork-problem-solving",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Teamwork",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Teamwork: adaptability",
+      "slug": "teamwork-adaptability",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Teamwork",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Teamwork: accountability",
+      "slug": "teamwork-accountability",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Teamwork",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Teamwork: presentation",
+      "slug": "teamwork-presentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Teamwork",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Teamwork: critical thinking",
+      "slug": "teamwork-critical-thinking",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Teamwork",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Teamwork: delegation",
+      "slug": "teamwork-delegation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Teamwork",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Teamwork: reflection",
+      "slug": "teamwork-reflection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Teamwork",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Professional Communication: active listening",
+      "slug": "professional-communication-active-listening",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Professional Communication",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Professional Communication"
+      ]
+    },
+    {
+      "name": "Professional Communication: constructive feedback",
+      "slug": "professional-communication-constructive-feedback",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Professional Communication",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Professional Communication"
+      ]
+    },
+    {
+      "name": "Professional Communication: conflict resolution",
+      "slug": "professional-communication-conflict-resolution",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Professional Communication",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Professional Communication"
+      ]
+    },
+    {
+      "name": "Professional Communication: meeting facilitation",
+      "slug": "professional-communication-meeting-facilitation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Professional Communication",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Professional Communication"
+      ]
+    },
+    {
+      "name": "Professional Communication: public speaking",
+      "slug": "professional-communication-public-speaking",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Professional Communication",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Professional Communication"
+      ]
+    },
+    {
+      "name": "Professional Communication: written communication",
+      "slug": "professional-communication-written-communication",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Professional Communication",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Professional Communication"
+      ]
+    },
+    {
+      "name": "Professional Communication: cross-cultural collaboration",
+      "slug": "professional-communication-cross-cultural-collaboration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Professional Communication",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Professional Communication"
+      ]
+    },
+    {
+      "name": "Professional Communication: time management",
+      "slug": "professional-communication-time-management",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Professional Communication",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Professional Communication"
+      ]
+    },
+    {
+      "name": "Professional Communication: goal setting",
+      "slug": "professional-communication-goal-setting",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Professional Communication",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Professional Communication"
+      ]
+    },
+    {
+      "name": "Professional Communication: mentoring",
+      "slug": "professional-communication-mentoring",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Professional Communication",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Professional Communication"
+      ]
+    },
+    {
+      "name": "Professional Communication: negotiation",
+      "slug": "professional-communication-negotiation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Professional Communication",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Professional Communication"
+      ]
+    },
+    {
+      "name": "Professional Communication: empathy",
+      "slug": "professional-communication-empathy",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Professional Communication",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Professional Communication"
+      ]
+    },
+    {
+      "name": "Professional Communication: decision making",
+      "slug": "professional-communication-decision-making",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Professional Communication",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Professional Communication"
+      ]
+    },
+    {
+      "name": "Professional Communication: problem solving",
+      "slug": "professional-communication-problem-solving",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Professional Communication",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Professional Communication"
+      ]
+    },
+    {
+      "name": "Professional Communication: adaptability",
+      "slug": "professional-communication-adaptability",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Professional Communication",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Professional Communication"
+      ]
+    },
+    {
+      "name": "Professional Communication: accountability",
+      "slug": "professional-communication-accountability",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Professional Communication",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Professional Communication"
+      ]
+    },
+    {
+      "name": "Professional Communication: presentation",
+      "slug": "professional-communication-presentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Professional Communication",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Professional Communication"
+      ]
+    },
+    {
+      "name": "Professional Communication: critical thinking",
+      "slug": "professional-communication-critical-thinking",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Professional Communication",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Professional Communication"
+      ]
+    },
+    {
+      "name": "Professional Communication: delegation",
+      "slug": "professional-communication-delegation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Professional Communication",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Professional Communication"
+      ]
+    },
+    {
+      "name": "Professional Communication: reflection",
+      "slug": "professional-communication-reflection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Professional Communication",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Professional Communication"
+      ]
+    },
+    {
+      "name": "Leadership: active listening",
+      "slug": "leadership-active-listening",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Leadership",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Leadership"
+      ]
+    },
+    {
+      "name": "Leadership: constructive feedback",
+      "slug": "leadership-constructive-feedback",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Leadership",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Leadership"
+      ]
+    },
+    {
+      "name": "Leadership: conflict resolution",
+      "slug": "leadership-conflict-resolution",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Leadership",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Leadership"
+      ]
+    },
+    {
+      "name": "Leadership: meeting facilitation",
+      "slug": "leadership-meeting-facilitation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Leadership",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Leadership"
+      ]
+    },
+    {
+      "name": "Leadership: public speaking",
+      "slug": "leadership-public-speaking",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Leadership",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Leadership"
+      ]
+    },
+    {
+      "name": "Leadership: written communication",
+      "slug": "leadership-written-communication",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Leadership",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Leadership"
+      ]
+    },
+    {
+      "name": "Leadership: cross-cultural collaboration",
+      "slug": "leadership-cross-cultural-collaboration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Leadership",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Leadership"
+      ]
+    },
+    {
+      "name": "Leadership: time management",
+      "slug": "leadership-time-management",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Leadership",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Leadership"
+      ]
+    },
+    {
+      "name": "Leadership: goal setting",
+      "slug": "leadership-goal-setting",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Leadership",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Leadership"
+      ]
+    },
+    {
+      "name": "Leadership: mentoring",
+      "slug": "leadership-mentoring",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Leadership",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Leadership"
+      ]
+    },
+    {
+      "name": "Leadership: negotiation",
+      "slug": "leadership-negotiation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Leadership",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Leadership"
+      ]
+    },
+    {
+      "name": "Leadership: empathy",
+      "slug": "leadership-empathy",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Leadership",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Leadership"
+      ]
+    },
+    {
+      "name": "Leadership: decision making",
+      "slug": "leadership-decision-making",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Leadership",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Leadership"
+      ]
+    },
+    {
+      "name": "Leadership: problem solving",
+      "slug": "leadership-problem-solving",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Leadership",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Leadership"
+      ]
+    },
+    {
+      "name": "Leadership: adaptability",
+      "slug": "leadership-adaptability",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Leadership",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Leadership"
+      ]
+    },
+    {
+      "name": "Leadership: accountability",
+      "slug": "leadership-accountability",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Leadership",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Leadership"
+      ]
+    },
+    {
+      "name": "Leadership: presentation",
+      "slug": "leadership-presentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Leadership",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Leadership"
+      ]
+    },
+    {
+      "name": "Leadership: critical thinking",
+      "slug": "leadership-critical-thinking",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Leadership",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Leadership"
+      ]
+    },
+    {
+      "name": "Leadership: delegation",
+      "slug": "leadership-delegation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Leadership",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Leadership"
+      ]
+    },
+    {
+      "name": "Leadership: reflection",
+      "slug": "leadership-reflection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Leadership",
+      "field": "Communication and Soft Skills",
+      "domains": [
+        "Leadership"
+      ]
+    }
+  ],
+  "role_templates": [
+    {
+      "title": "Teamwork Contributor",
+      "slug": "teamwork-contributor",
+      "domain": "Teamwork",
+      "required_skills": [
+        "Copywriting",
+        "Content Writing",
+        "Content Strategy",
+        "Blogging"
+      ]
+    },
+    {
+      "title": "Professional Communication Contributor",
+      "slug": "professional-communication-contributor",
+      "domain": "Professional Communication",
+      "required_skills": [
+        "Professional Communication: active listening",
+        "Professional Communication: constructive feedback",
+        "Professional Communication: conflict resolution",
+        "Professional Communication: meeting facilitation"
+      ]
+    },
+    {
+      "title": "Leadership Contributor",
+      "slug": "leadership-contributor",
+      "domain": "Leadership",
+      "required_skills": [
+        "Leadership: active listening",
+        "Leadership: constructive feedback",
+        "Leadership: conflict resolution",
+        "Leadership: meeting facilitation"
+      ]
+    }
+  ]
+}

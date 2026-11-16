@@ -1,3 +1,5 @@
+import { FeatureFlags } from "@/components/feature-flags";
+import { AuthProvider } from "@/components/auth-provider";
 import type { Metadata } from "next";
 import "./globals.css";
 export const metadata: Metadata = {
@@ -22,7 +24,11 @@ export default function RootLayout({
               "try{if(localStorage.getItem('meridian-theme')==='dark')document.documentElement.classList.add('dark')}catch(e){}",
           }}
         />
-        {children}
+        <FeatureFlags
+          showMatchPercent={process.env.SHOW_MATCH_PERCENT !== "false"}
+        >
+          <AuthProvider>{children}</AuthProvider>
+        </FeatureFlags>
       </body>
     </html>
   );

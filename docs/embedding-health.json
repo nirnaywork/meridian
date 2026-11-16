@@ -1,0 +1,10 @@
+{
+  "provider": "hashed",
+  "version": "domains-tfidf-v4",
+  "dims": 384,
+  "model": "Xenova/all-MiniLM-L6-v2",
+  "revision": "751bff37182d3f1213fa05d7196b954e230abad9",
+  "modelFilesPresent": true,
+  "checksums": true,
+  "remoteModelsAllowed": false
+}

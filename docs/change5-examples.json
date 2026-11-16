@@ -1,0 +1,17 @@
+{
+  "profile": "Nirnay",
+  "project": "Re:Search",
+  "roles": [
+    {
+      "role": "Frontend Developer",
+      "cosine": 0.5773163013850543,
+      "matchPercent": 71
+    },
+    {
+      "role": "ML Engineer",
+      "cosine": 0.5678378512811023,
+      "matchPercent": 68
+    }
+  ],
+  "headline": "Frontend Developer looks like your best fit: 71% match with your skills."
+}

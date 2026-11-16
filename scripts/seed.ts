@@ -1,7 +1,6 @@
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
 import { admin, must, createTestUser } from "./lib";
 import { taxonomy, normalizeSkill } from "../src/data/taxonomy";
-import { matchConfig } from "../src/lib/matching/config";
 import {
   canonicalProfile,
   canonicalProject,
@@ -146,19 +145,7 @@ const ideas = [
 ] as const;
 async function main() {
   const provider = await embeddingProvider();
-  must(
-    await admin.database
-      .from("match_settings")
-      .upsert([
-        {
-          id: true,
-          settings: {
-            ...matchConfig,
-            mode: process.env.MATCH_MODE ?? "composite",
-          },
-        },
-      ]),
-  );
+
   must(
     await admin.database
       .from("skills")
@@ -276,7 +263,6 @@ async function main() {
       duration: i % 2 ? "6–10 weeks" : "4–8 weeks",
       team_size: 4,
       status: "open",
-      auto_approve_strong_matches: true,
     };
     const existing = must(
       await admin.database

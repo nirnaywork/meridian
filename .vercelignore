@@ -1,7 +1,10 @@
-scripts/
 tests/
 docs/
 .cache/
 migrations/
 tests/
 *.tsbuildinfo
+
+e2e/
+playwright.config.ts
+models/

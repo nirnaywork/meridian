@@ -4,8 +4,12 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { Plus, ArrowRight, ArrowLeft, Trash2 } from "lucide-react";
 import { api, ErrorState } from "./ui";
+import { DomainPicker } from "./domain-picker";
+import {DomainSuggestions,LegacyDomainBanner} from './domain-guidance';
+import { taxonomyFiles } from "@/data/taxonomy";
 import { SkillsPicker } from "./skills-picker";
 import type { Project, Role } from "@/lib/types";
+import {requiredDomains} from '@/lib/validation';
 const emptyProject = {
   title: "",
   description: "",
@@ -15,9 +19,9 @@ const emptyProject = {
   duration: "4–8 weeks",
   team_size: 4,
   status: "open",
-  auto_approve_strong_matches: true,
   revision: 0,
   roles: [],
+  domains: [],
 } as unknown as Project;
 export function ProjectEditor({ id }: { id?: string }) {
   const [form, setForm] = useState<Project>(emptyProject),
@@ -44,6 +48,8 @@ export function ProjectEditor({ id }: { id?: string }) {
   async function submit(e: React.FormEvent) {
     e.preventDefault();
     setError("");
+    if(!id&&!requiredDomains.safeParse(form.domains??[]).success){setError('Choose at least one domain.');return;}
+    if(form.roles.some(r=>!r.domains?.length&&!form.domains?.length&&!r.id)){setError('Choose a domain for each new role, or project domains to inherit.');return;}
     if (step === 0) {
       setStep(1);
       return;
@@ -82,6 +88,51 @@ export function ProjectEditor({ id }: { id?: string }) {
         </span>
       </div>
       <form onSubmit={submit} className="form-panel">
+        {id&&!form.domains?.length&&<LegacyDomainBanner id={'project:'+id} href="#project-domains"/>}
+        <div id="project-domains" />
+        <DomainSuggestions skills={form.roles.flatMap(r=>r.skills)} value={form.domains??[]} onConfirm={v=>field('domains',v)}/>
+        <label>
+          Add an editable role template
+          <select
+            value=""
+            onChange={(e) => {
+              const t = taxonomyFiles
+                .flatMap((f) => f.role_templates)
+                .find((t) => t.slug === e.target.value);
+              if (t)
+                field("roles", [
+                  ...form.roles,
+                  {
+                    title: t.title,
+                    description: "",
+                    slots: 1,
+                    filled_count: 0,
+                    domains: [t.domain],
+                    skills: t.required_skills.map((name) => ({
+                      name,
+                      importance: "required",
+                    })),
+                  },
+                ]);
+            }}
+          >
+            <option value="">Choose a designation</option>
+            {taxonomyFiles
+              .flatMap((f) => f.role_templates)
+              .filter(
+                (t) => !form.domains?.length || form.domains.includes(t.domain),
+              )
+              .map((t) => (
+                <option key={t.slug} value={t.slug}>
+                  {t.title}
+                </option>
+              ))}
+          </select>
+        </label>
+        <DomainPicker
+          value={form.domains ?? []}
+          onChange={(v) => field("domains", v)}
+        />
         {step === 0 ? (
           <>
             <label>
@@ -191,12 +242,12 @@ export function ProjectEditor({ id }: { id?: string }) {
                   field("roles", [
                     ...form.roles,
                     {
-                      id: crypto.randomUUID(),
                       title: "",
                       description: "",
                       slots: 1,
                       filled_count: 0,
                       skills: [],
+                      domains: [],
                     },
                   ])
                 }
@@ -212,7 +263,7 @@ export function ProjectEditor({ id }: { id?: string }) {
               </div>
             )}
             {form.roles.map((r, i) => (
-              <div className="role-editor" key={r.id}>
+              <div className="role-editor" key={r.id??i}>
                 <div className="section-heading">
                   <span className="eyebrow">
                     ROLE {String(i + 1).padStart(2, "0")}
@@ -268,29 +319,16 @@ export function ProjectEditor({ id }: { id?: string }) {
                     }
                   />
                 </label>
+                <DomainPicker value={r.domains??[]} onChange={v=>roleField(i,'domains',v)}/>
+                <p className="muted">With no separate selection, this role inherits the project’s domains.</p>
                 <SkillsPicker
+                  domains={form.domains}
                   role
                   value={r.skills}
                   onChange={(s) => roleField(i, "skills", s)}
                 />
               </div>
             ))}
-            <label className="checkbox-row">
-              <input
-                type="checkbox"
-                checked={form.auto_approve_strong_matches}
-                onChange={(e) =>
-                  field("auto_approve_strong_matches", e.target.checked)
-                }
-              />
-              <span>
-                <b>Welcome strong matches automatically</b>
-                <small>
-                  When a slot is available, strong applicants can join right
-                  away. You review moderate matches.
-                </small>
-              </span>
-            </label>
             {id && (
               <label>
                 Project status

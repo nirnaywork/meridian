@@ -1,0 +1,1829 @@
+{
+  "field": {
+    "name": "EEE Related",
+    "slug": "eee-related"
+  },
+  "domains": [
+    {
+      "name": "Power Systems",
+      "slug": "power-systems",
+      "description": "Practical skills, tools and methods for power systems."
+    },
+    {
+      "name": "Power Electronics",
+      "slug": "power-electronics",
+      "description": "Practical skills, tools and methods for power electronics."
+    },
+    {
+      "name": "Electrical Machines",
+      "slug": "electrical-machines",
+      "description": "Practical skills, tools and methods for electrical machines."
+    },
+    {
+      "name": "Control Systems",
+      "slug": "control-systems",
+      "description": "Practical skills, tools and methods for control systems."
+    },
+    {
+      "name": "Industrial Automation",
+      "slug": "industrial-automation",
+      "description": "Practical skills, tools and methods for industrial automation."
+    },
+    {
+      "name": "Renewable Energy",
+      "slug": "renewable-energy",
+      "description": "Practical skills, tools and methods for renewable energy."
+    },
+    {
+      "name": "Electric Vehicles",
+      "slug": "electric-vehicles",
+      "description": "Practical skills, tools and methods for electric vehicles."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Power Systems: system modeling",
+      "slug": "power-systems-system-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Power Systems"
+      ]
+    },
+    {
+      "name": "Power Systems: circuit simulation",
+      "slug": "power-systems-circuit-simulation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Power Systems"
+      ]
+    },
+    {
+      "name": "Power Systems: load analysis",
+      "slug": "power-systems-load-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Power Systems"
+      ]
+    },
+    {
+      "name": "Power Systems: protection design",
+      "slug": "power-systems-protection-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Power Systems"
+      ]
+    },
+    {
+      "name": "Power Systems: fault analysis",
+      "slug": "power-systems-fault-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Power Systems"
+      ]
+    },
+    {
+      "name": "Power Systems: efficiency analysis",
+      "slug": "power-systems-efficiency-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Power Systems"
+      ]
+    },
+    {
+      "name": "Power Systems: thermal analysis",
+      "slug": "power-systems-thermal-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Power Systems"
+      ]
+    },
+    {
+      "name": "Power Systems: control design",
+      "slug": "power-systems-control-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Power Systems"
+      ]
+    },
+    {
+      "name": "Power Systems: sensor integration",
+      "slug": "power-systems-sensor-integration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Power Systems"
+      ]
+    },
+    {
+      "name": "Power Systems: commissioning",
+      "slug": "power-systems-commissioning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Power Systems"
+      ]
+    },
+    {
+      "name": "Power Systems: maintenance planning",
+      "slug": "power-systems-maintenance-planning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Power Systems"
+      ]
+    },
+    {
+      "name": "Power Systems: safety analysis",
+      "slug": "power-systems-safety-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Power Systems"
+      ]
+    },
+    {
+      "name": "Power Systems: measurement",
+      "slug": "power-systems-measurement",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Power Systems"
+      ]
+    },
+    {
+      "name": "Power Systems: power quality analysis",
+      "slug": "power-systems-power-quality-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Power Systems"
+      ]
+    },
+    {
+      "name": "Power Systems: energy auditing",
+      "slug": "power-systems-energy-auditing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Power Systems"
+      ]
+    },
+    {
+      "name": "Power Systems: equipment selection",
+      "slug": "power-systems-equipment-selection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Power Systems"
+      ]
+    },
+    {
+      "name": "Power Systems: transient analysis",
+      "slug": "power-systems-transient-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Power Systems"
+      ]
+    },
+    {
+      "name": "Power Systems: testing",
+      "slug": "power-systems-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Power Systems"
+      ]
+    },
+    {
+      "name": "Power Systems: technical documentation",
+      "slug": "power-systems-technical-documentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Power Systems"
+      ]
+    },
+    {
+      "name": "Power Systems: optimization",
+      "slug": "power-systems-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Power Systems"
+      ]
+    },
+    {
+      "name": "Power Electronics: system modeling",
+      "slug": "power-electronics-system-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Electronics",
+      "field": "EEE Related",
+      "domains": [
+        "Power Electronics"
+      ]
+    },
+    {
+      "name": "Power Electronics: circuit simulation",
+      "slug": "power-electronics-circuit-simulation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Electronics",
+      "field": "EEE Related",
+      "domains": [
+        "Power Electronics"
+      ]
+    },
+    {
+      "name": "Power Electronics: load analysis",
+      "slug": "power-electronics-load-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Electronics",
+      "field": "EEE Related",
+      "domains": [
+        "Power Electronics"
+      ]
+    },
+    {
+      "name": "Power Electronics: protection design",
+      "slug": "power-electronics-protection-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Electronics",
+      "field": "EEE Related",
+      "domains": [
+        "Power Electronics"
+      ]
+    },
+    {
+      "name": "Power Electronics: fault analysis",
+      "slug": "power-electronics-fault-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Electronics",
+      "field": "EEE Related",
+      "domains": [
+        "Power Electronics"
+      ]
+    },
+    {
+      "name": "Power Electronics: efficiency analysis",
+      "slug": "power-electronics-efficiency-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Electronics",
+      "field": "EEE Related",
+      "domains": [
+        "Power Electronics"
+      ]
+    },
+    {
+      "name": "Power Electronics: thermal analysis",
+      "slug": "power-electronics-thermal-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Electronics",
+      "field": "EEE Related",
+      "domains": [
+        "Power Electronics"
+      ]
+    },
+    {
+      "name": "Power Electronics: control design",
+      "slug": "power-electronics-control-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Electronics",
+      "field": "EEE Related",
+      "domains": [
+        "Power Electronics"
+      ]
+    },
+    {
+      "name": "Power Electronics: sensor integration",
+      "slug": "power-electronics-sensor-integration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Electronics",
+      "field": "EEE Related",
+      "domains": [
+        "Power Electronics"
+      ]
+    },
+    {
+      "name": "Power Electronics: commissioning",
+      "slug": "power-electronics-commissioning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Electronics",
+      "field": "EEE Related",
+      "domains": [
+        "Power Electronics"
+      ]
+    },
+    {
+      "name": "Power Electronics: maintenance planning",
+      "slug": "power-electronics-maintenance-planning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Electronics",
+      "field": "EEE Related",
+      "domains": [
+        "Power Electronics"
+      ]
+    },
+    {
+      "name": "Power Electronics: safety analysis",
+      "slug": "power-electronics-safety-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Electronics",
+      "field": "EEE Related",
+      "domains": [
+        "Power Electronics"
+      ]
+    },
+    {
+      "name": "Power Electronics: measurement",
+      "slug": "power-electronics-measurement",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Electronics",
+      "field": "EEE Related",
+      "domains": [
+        "Power Electronics"
+      ]
+    },
+    {
+      "name": "Power Electronics: power quality analysis",
+      "slug": "power-electronics-power-quality-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Electronics",
+      "field": "EEE Related",
+      "domains": [
+        "Power Electronics"
+      ]
+    },
+    {
+      "name": "Power Electronics: energy auditing",
+      "slug": "power-electronics-energy-auditing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Electronics",
+      "field": "EEE Related",
+      "domains": [
+        "Power Electronics"
+      ]
+    },
+    {
+      "name": "Power Electronics: equipment selection",
+      "slug": "power-electronics-equipment-selection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Electronics",
+      "field": "EEE Related",
+      "domains": [
+        "Power Electronics"
+      ]
+    },
+    {
+      "name": "Power Electronics: transient analysis",
+      "slug": "power-electronics-transient-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Electronics",
+      "field": "EEE Related",
+      "domains": [
+        "Power Electronics"
+      ]
+    },
+    {
+      "name": "Power Electronics: testing",
+      "slug": "power-electronics-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Electronics",
+      "field": "EEE Related",
+      "domains": [
+        "Power Electronics"
+      ]
+    },
+    {
+      "name": "Power Electronics: technical documentation",
+      "slug": "power-electronics-technical-documentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Electronics",
+      "field": "EEE Related",
+      "domains": [
+        "Power Electronics"
+      ]
+    },
+    {
+      "name": "Power Electronics: optimization",
+      "slug": "power-electronics-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Electronics",
+      "field": "EEE Related",
+      "domains": [
+        "Power Electronics"
+      ]
+    },
+    {
+      "name": "Electrical Machines: system modeling",
+      "slug": "electrical-machines-system-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electrical Machines",
+      "field": "EEE Related",
+      "domains": [
+        "Electrical Machines"
+      ]
+    },
+    {
+      "name": "Electrical Machines: circuit simulation",
+      "slug": "electrical-machines-circuit-simulation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electrical Machines",
+      "field": "EEE Related",
+      "domains": [
+        "Electrical Machines"
+      ]
+    },
+    {
+      "name": "Electrical Machines: load analysis",
+      "slug": "electrical-machines-load-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electrical Machines",
+      "field": "EEE Related",
+      "domains": [
+        "Electrical Machines"
+      ]
+    },
+    {
+      "name": "Electrical Machines: protection design",
+      "slug": "electrical-machines-protection-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electrical Machines",
+      "field": "EEE Related",
+      "domains": [
+        "Electrical Machines"
+      ]
+    },
+    {
+      "name": "Electrical Machines: fault analysis",
+      "slug": "electrical-machines-fault-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electrical Machines",
+      "field": "EEE Related",
+      "domains": [
+        "Electrical Machines"
+      ]
+    },
+    {
+      "name": "Electrical Machines: efficiency analysis",
+      "slug": "electrical-machines-efficiency-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electrical Machines",
+      "field": "EEE Related",
+      "domains": [
+        "Electrical Machines"
+      ]
+    },
+    {
+      "name": "Electrical Machines: thermal analysis",
+      "slug": "electrical-machines-thermal-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electrical Machines",
+      "field": "EEE Related",
+      "domains": [
+        "Electrical Machines"
+      ]
+    },
+    {
+      "name": "Electrical Machines: control design",
+      "slug": "electrical-machines-control-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electrical Machines",
+      "field": "EEE Related",
+      "domains": [
+        "Electrical Machines"
+      ]
+    },
+    {
+      "name": "Electrical Machines: sensor integration",
+      "slug": "electrical-machines-sensor-integration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electrical Machines",
+      "field": "EEE Related",
+      "domains": [
+        "Electrical Machines"
+      ]
+    },
+    {
+      "name": "Electrical Machines: commissioning",
+      "slug": "electrical-machines-commissioning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electrical Machines",
+      "field": "EEE Related",
+      "domains": [
+        "Electrical Machines"
+      ]
+    },
+    {
+      "name": "Electrical Machines: maintenance planning",
+      "slug": "electrical-machines-maintenance-planning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electrical Machines",
+      "field": "EEE Related",
+      "domains": [
+        "Electrical Machines"
+      ]
+    },
+    {
+      "name": "Electrical Machines: safety analysis",
+      "slug": "electrical-machines-safety-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electrical Machines",
+      "field": "EEE Related",
+      "domains": [
+        "Electrical Machines"
+      ]
+    },
+    {
+      "name": "Electrical Machines: measurement",
+      "slug": "electrical-machines-measurement",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electrical Machines",
+      "field": "EEE Related",
+      "domains": [
+        "Electrical Machines"
+      ]
+    },
+    {
+      "name": "Electrical Machines: power quality analysis",
+      "slug": "electrical-machines-power-quality-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electrical Machines",
+      "field": "EEE Related",
+      "domains": [
+        "Electrical Machines"
+      ]
+    },
+    {
+      "name": "Electrical Machines: energy auditing",
+      "slug": "electrical-machines-energy-auditing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electrical Machines",
+      "field": "EEE Related",
+      "domains": [
+        "Electrical Machines"
+      ]
+    },
+    {
+      "name": "Electrical Machines: equipment selection",
+      "slug": "electrical-machines-equipment-selection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electrical Machines",
+      "field": "EEE Related",
+      "domains": [
+        "Electrical Machines"
+      ]
+    },
+    {
+      "name": "Electrical Machines: transient analysis",
+      "slug": "electrical-machines-transient-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electrical Machines",
+      "field": "EEE Related",
+      "domains": [
+        "Electrical Machines"
+      ]
+    },
+    {
+      "name": "Electrical Machines: testing",
+      "slug": "electrical-machines-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electrical Machines",
+      "field": "EEE Related",
+      "domains": [
+        "Electrical Machines"
+      ]
+    },
+    {
+      "name": "Electrical Machines: technical documentation",
+      "slug": "electrical-machines-technical-documentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electrical Machines",
+      "field": "EEE Related",
+      "domains": [
+        "Electrical Machines"
+      ]
+    },
+    {
+      "name": "Electrical Machines: optimization",
+      "slug": "electrical-machines-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electrical Machines",
+      "field": "EEE Related",
+      "domains": [
+        "Electrical Machines"
+      ]
+    },
+    {
+      "name": "Control Systems: system modeling",
+      "slug": "control-systems-system-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Control Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Control Systems"
+      ]
+    },
+    {
+      "name": "Control Systems: circuit simulation",
+      "slug": "control-systems-circuit-simulation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Control Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Control Systems"
+      ]
+    },
+    {
+      "name": "Control Systems: load analysis",
+      "slug": "control-systems-load-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Control Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Control Systems"
+      ]
+    },
+    {
+      "name": "Control Systems: protection design",
+      "slug": "control-systems-protection-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Control Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Control Systems"
+      ]
+    },
+    {
+      "name": "Control Systems: fault analysis",
+      "slug": "control-systems-fault-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Control Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Control Systems"
+      ]
+    },
+    {
+      "name": "Control Systems: efficiency analysis",
+      "slug": "control-systems-efficiency-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Control Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Control Systems"
+      ]
+    },
+    {
+      "name": "Control Systems: thermal analysis",
+      "slug": "control-systems-thermal-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Control Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Control Systems"
+      ]
+    },
+    {
+      "name": "Control Systems: control design",
+      "slug": "control-systems-control-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Control Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Control Systems"
+      ]
+    },
+    {
+      "name": "Control Systems: sensor integration",
+      "slug": "control-systems-sensor-integration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Control Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Control Systems"
+      ]
+    },
+    {
+      "name": "Control Systems: commissioning",
+      "slug": "control-systems-commissioning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Control Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Control Systems"
+      ]
+    },
+    {
+      "name": "Control Systems: maintenance planning",
+      "slug": "control-systems-maintenance-planning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Control Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Control Systems"
+      ]
+    },
+    {
+      "name": "Control Systems: safety analysis",
+      "slug": "control-systems-safety-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Control Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Control Systems"
+      ]
+    },
+    {
+      "name": "Control Systems: measurement",
+      "slug": "control-systems-measurement",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Control Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Control Systems"
+      ]
+    },
+    {
+      "name": "Control Systems: power quality analysis",
+      "slug": "control-systems-power-quality-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Control Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Control Systems"
+      ]
+    },
+    {
+      "name": "Control Systems: energy auditing",
+      "slug": "control-systems-energy-auditing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Control Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Control Systems"
+      ]
+    },
+    {
+      "name": "Control Systems: equipment selection",
+      "slug": "control-systems-equipment-selection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Control Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Control Systems"
+      ]
+    },
+    {
+      "name": "Control Systems: transient analysis",
+      "slug": "control-systems-transient-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Control Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Control Systems"
+      ]
+    },
+    {
+      "name": "Control Systems: testing",
+      "slug": "control-systems-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Control Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Control Systems"
+      ]
+    },
+    {
+      "name": "Control Systems: technical documentation",
+      "slug": "control-systems-technical-documentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Control Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Control Systems"
+      ]
+    },
+    {
+      "name": "Control Systems: optimization",
+      "slug": "control-systems-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Control Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Control Systems"
+      ]
+    },
+    {
+      "name": "Industrial Automation: system modeling",
+      "slug": "industrial-automation-system-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Industrial Automation",
+      "field": "EEE Related",
+      "domains": [
+        "Industrial Automation"
+      ]
+    },
+    {
+      "name": "Industrial Automation: circuit simulation",
+      "slug": "industrial-automation-circuit-simulation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Industrial Automation",
+      "field": "EEE Related",
+      "domains": [
+        "Industrial Automation"
+      ]
+    },
+    {
+      "name": "Industrial Automation: load analysis",
+      "slug": "industrial-automation-load-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Industrial Automation",
+      "field": "EEE Related",
+      "domains": [
+        "Industrial Automation"
+      ]
+    },
+    {
+      "name": "Industrial Automation: protection design",
+      "slug": "industrial-automation-protection-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Industrial Automation",
+      "field": "EEE Related",
+      "domains": [
+        "Industrial Automation"
+      ]
+    },
+    {
+      "name": "Industrial Automation: fault analysis",
+      "slug": "industrial-automation-fault-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Industrial Automation",
+      "field": "EEE Related",
+      "domains": [
+        "Industrial Automation"
+      ]
+    },
+    {
+      "name": "Industrial Automation: efficiency analysis",
+      "slug": "industrial-automation-efficiency-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Industrial Automation",
+      "field": "EEE Related",
+      "domains": [
+        "Industrial Automation"
+      ]
+    },
+    {
+      "name": "Industrial Automation: thermal analysis",
+      "slug": "industrial-automation-thermal-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Industrial Automation",
+      "field": "EEE Related",
+      "domains": [
+        "Industrial Automation"
+      ]
+    },
+    {
+      "name": "Industrial Automation: control design",
+      "slug": "industrial-automation-control-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Industrial Automation",
+      "field": "EEE Related",
+      "domains": [
+        "Industrial Automation"
+      ]
+    },
+    {
+      "name": "Industrial Automation: sensor integration",
+      "slug": "industrial-automation-sensor-integration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Industrial Automation",
+      "field": "EEE Related",
+      "domains": [
+        "Industrial Automation"
+      ]
+    },
+    {
+      "name": "Industrial Automation: commissioning",
+      "slug": "industrial-automation-commissioning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Industrial Automation",
+      "field": "EEE Related",
+      "domains": [
+        "Industrial Automation"
+      ]
+    },
+    {
+      "name": "Industrial Automation: maintenance planning",
+      "slug": "industrial-automation-maintenance-planning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Industrial Automation",
+      "field": "EEE Related",
+      "domains": [
+        "Industrial Automation"
+      ]
+    },
+    {
+      "name": "Industrial Automation: safety analysis",
+      "slug": "industrial-automation-safety-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Industrial Automation",
+      "field": "EEE Related",
+      "domains": [
+        "Industrial Automation"
+      ]
+    },
+    {
+      "name": "Industrial Automation: measurement",
+      "slug": "industrial-automation-measurement",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Industrial Automation",
+      "field": "EEE Related",
+      "domains": [
+        "Industrial Automation"
+      ]
+    },
+    {
+      "name": "Industrial Automation: power quality analysis",
+      "slug": "industrial-automation-power-quality-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Industrial Automation",
+      "field": "EEE Related",
+      "domains": [
+        "Industrial Automation"
+      ]
+    },
+    {
+      "name": "Industrial Automation: energy auditing",
+      "slug": "industrial-automation-energy-auditing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Industrial Automation",
+      "field": "EEE Related",
+      "domains": [
+        "Industrial Automation"
+      ]
+    },
+    {
+      "name": "Industrial Automation: equipment selection",
+      "slug": "industrial-automation-equipment-selection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Industrial Automation",
+      "field": "EEE Related",
+      "domains": [
+        "Industrial Automation"
+      ]
+    },
+    {
+      "name": "Industrial Automation: transient analysis",
+      "slug": "industrial-automation-transient-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Industrial Automation",
+      "field": "EEE Related",
+      "domains": [
+        "Industrial Automation"
+      ]
+    },
+    {
+      "name": "Industrial Automation: testing",
+      "slug": "industrial-automation-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Industrial Automation",
+      "field": "EEE Related",
+      "domains": [
+        "Industrial Automation"
+      ]
+    },
+    {
+      "name": "Industrial Automation: technical documentation",
+      "slug": "industrial-automation-technical-documentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Industrial Automation",
+      "field": "EEE Related",
+      "domains": [
+        "Industrial Automation"
+      ]
+    },
+    {
+      "name": "Industrial Automation: optimization",
+      "slug": "industrial-automation-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Industrial Automation",
+      "field": "EEE Related",
+      "domains": [
+        "Industrial Automation"
+      ]
+    },
+    {
+      "name": "Renewable Energy: system modeling",
+      "slug": "renewable-energy-system-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Renewable Energy",
+      "field": "EEE Related",
+      "domains": [
+        "Renewable Energy"
+      ]
+    },
+    {
+      "name": "Renewable Energy: circuit simulation",
+      "slug": "renewable-energy-circuit-simulation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Renewable Energy",
+      "field": "EEE Related",
+      "domains": [
+        "Renewable Energy"
+      ]
+    },
+    {
+      "name": "Renewable Energy: load analysis",
+      "slug": "renewable-energy-load-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Renewable Energy",
+      "field": "EEE Related",
+      "domains": [
+        "Renewable Energy"
+      ]
+    },
+    {
+      "name": "Renewable Energy: protection design",
+      "slug": "renewable-energy-protection-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Renewable Energy",
+      "field": "EEE Related",
+      "domains": [
+        "Renewable Energy"
+      ]
+    },
+    {
+      "name": "Renewable Energy: fault analysis",
+      "slug": "renewable-energy-fault-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Renewable Energy",
+      "field": "EEE Related",
+      "domains": [
+        "Renewable Energy"
+      ]
+    },
+    {
+      "name": "Renewable Energy: efficiency analysis",
+      "slug": "renewable-energy-efficiency-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Renewable Energy",
+      "field": "EEE Related",
+      "domains": [
+        "Renewable Energy"
+      ]
+    },
+    {
+      "name": "Renewable Energy: thermal analysis",
+      "slug": "renewable-energy-thermal-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Renewable Energy",
+      "field": "EEE Related",
+      "domains": [
+        "Renewable Energy"
+      ]
+    },
+    {
+      "name": "Renewable Energy: control design",
+      "slug": "renewable-energy-control-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Renewable Energy",
+      "field": "EEE Related",
+      "domains": [
+        "Renewable Energy"
+      ]
+    },
+    {
+      "name": "Renewable Energy: sensor integration",
+      "slug": "renewable-energy-sensor-integration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Renewable Energy",
+      "field": "EEE Related",
+      "domains": [
+        "Renewable Energy"
+      ]
+    },
+    {
+      "name": "Renewable Energy: commissioning",
+      "slug": "renewable-energy-commissioning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Renewable Energy",
+      "field": "EEE Related",
+      "domains": [
+        "Renewable Energy"
+      ]
+    },
+    {
+      "name": "Renewable Energy: maintenance planning",
+      "slug": "renewable-energy-maintenance-planning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Renewable Energy",
+      "field": "EEE Related",
+      "domains": [
+        "Renewable Energy"
+      ]
+    },
+    {
+      "name": "Renewable Energy: safety analysis",
+      "slug": "renewable-energy-safety-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Renewable Energy",
+      "field": "EEE Related",
+      "domains": [
+        "Renewable Energy"
+      ]
+    },
+    {
+      "name": "Renewable Energy: measurement",
+      "slug": "renewable-energy-measurement",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Renewable Energy",
+      "field": "EEE Related",
+      "domains": [
+        "Renewable Energy"
+      ]
+    },
+    {
+      "name": "Renewable Energy: power quality analysis",
+      "slug": "renewable-energy-power-quality-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Renewable Energy",
+      "field": "EEE Related",
+      "domains": [
+        "Renewable Energy"
+      ]
+    },
+    {
+      "name": "Renewable Energy: energy auditing",
+      "slug": "renewable-energy-energy-auditing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Renewable Energy",
+      "field": "EEE Related",
+      "domains": [
+        "Renewable Energy"
+      ]
+    },
+    {
+      "name": "Renewable Energy: equipment selection",
+      "slug": "renewable-energy-equipment-selection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Renewable Energy",
+      "field": "EEE Related",
+      "domains": [
+        "Renewable Energy"
+      ]
+    },
+    {
+      "name": "Renewable Energy: transient analysis",
+      "slug": "renewable-energy-transient-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Renewable Energy",
+      "field": "EEE Related",
+      "domains": [
+        "Renewable Energy"
+      ]
+    },
+    {
+      "name": "Renewable Energy: testing",
+      "slug": "renewable-energy-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Renewable Energy",
+      "field": "EEE Related",
+      "domains": [
+        "Renewable Energy"
+      ]
+    },
+    {
+      "name": "Renewable Energy: technical documentation",
+      "slug": "renewable-energy-technical-documentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Renewable Energy",
+      "field": "EEE Related",
+      "domains": [
+        "Renewable Energy"
+      ]
+    },
+    {
+      "name": "Renewable Energy: optimization",
+      "slug": "renewable-energy-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Renewable Energy",
+      "field": "EEE Related",
+      "domains": [
+        "Renewable Energy"
+      ]
+    },
+    {
+      "name": "Electric Vehicles: system modeling",
+      "slug": "electric-vehicles-system-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electric Vehicles",
+      "field": "EEE Related",
+      "domains": [
+        "Electric Vehicles"
+      ]
+    },
+    {
+      "name": "Electric Vehicles: circuit simulation",
+      "slug": "electric-vehicles-circuit-simulation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electric Vehicles",
+      "field": "EEE Related",
+      "domains": [
+        "Electric Vehicles"
+      ]
+    },
+    {
+      "name": "Electric Vehicles: load analysis",
+      "slug": "electric-vehicles-load-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electric Vehicles",
+      "field": "EEE Related",
+      "domains": [
+        "Electric Vehicles"
+      ]
+    },
+    {
+      "name": "Electric Vehicles: protection design",
+      "slug": "electric-vehicles-protection-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electric Vehicles",
+      "field": "EEE Related",
+      "domains": [
+        "Electric Vehicles"
+      ]
+    },
+    {
+      "name": "Electric Vehicles: fault analysis",
+      "slug": "electric-vehicles-fault-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electric Vehicles",
+      "field": "EEE Related",
+      "domains": [
+        "Electric Vehicles"
+      ]
+    },
+    {
+      "name": "Electric Vehicles: efficiency analysis",
+      "slug": "electric-vehicles-efficiency-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electric Vehicles",
+      "field": "EEE Related",
+      "domains": [
+        "Electric Vehicles"
+      ]
+    },
+    {
+      "name": "Electric Vehicles: thermal analysis",
+      "slug": "electric-vehicles-thermal-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electric Vehicles",
+      "field": "EEE Related",
+      "domains": [
+        "Electric Vehicles"
+      ]
+    },
+    {
+      "name": "Electric Vehicles: control design",
+      "slug": "electric-vehicles-control-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electric Vehicles",
+      "field": "EEE Related",
+      "domains": [
+        "Electric Vehicles"
+      ]
+    },
+    {
+      "name": "Electric Vehicles: sensor integration",
+      "slug": "electric-vehicles-sensor-integration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electric Vehicles",
+      "field": "EEE Related",
+      "domains": [
+        "Electric Vehicles"
+      ]
+    },
+    {
+      "name": "Electric Vehicles: commissioning",
+      "slug": "electric-vehicles-commissioning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electric Vehicles",
+      "field": "EEE Related",
+      "domains": [
+        "Electric Vehicles"
+      ]
+    },
+    {
+      "name": "Electric Vehicles: maintenance planning",
+      "slug": "electric-vehicles-maintenance-planning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electric Vehicles",
+      "field": "EEE Related",
+      "domains": [
+        "Electric Vehicles"
+      ]
+    },
+    {
+      "name": "Electric Vehicles: safety analysis",
+      "slug": "electric-vehicles-safety-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electric Vehicles",
+      "field": "EEE Related",
+      "domains": [
+        "Electric Vehicles"
+      ]
+    },
+    {
+      "name": "Electric Vehicles: measurement",
+      "slug": "electric-vehicles-measurement",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electric Vehicles",
+      "field": "EEE Related",
+      "domains": [
+        "Electric Vehicles"
+      ]
+    },
+    {
+      "name": "Electric Vehicles: power quality analysis",
+      "slug": "electric-vehicles-power-quality-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electric Vehicles",
+      "field": "EEE Related",
+      "domains": [
+        "Electric Vehicles"
+      ]
+    },
+    {
+      "name": "Electric Vehicles: energy auditing",
+      "slug": "electric-vehicles-energy-auditing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electric Vehicles",
+      "field": "EEE Related",
+      "domains": [
+        "Electric Vehicles"
+      ]
+    },
+    {
+      "name": "Electric Vehicles: equipment selection",
+      "slug": "electric-vehicles-equipment-selection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electric Vehicles",
+      "field": "EEE Related",
+      "domains": [
+        "Electric Vehicles"
+      ]
+    },
+    {
+      "name": "Electric Vehicles: transient analysis",
+      "slug": "electric-vehicles-transient-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electric Vehicles",
+      "field": "EEE Related",
+      "domains": [
+        "Electric Vehicles"
+      ]
+    },
+    {
+      "name": "Electric Vehicles: testing",
+      "slug": "electric-vehicles-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electric Vehicles",
+      "field": "EEE Related",
+      "domains": [
+        "Electric Vehicles"
+      ]
+    },
+    {
+      "name": "Electric Vehicles: technical documentation",
+      "slug": "electric-vehicles-technical-documentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electric Vehicles",
+      "field": "EEE Related",
+      "domains": [
+        "Electric Vehicles"
+      ]
+    },
+    {
+      "name": "Electric Vehicles: optimization",
+      "slug": "electric-vehicles-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electric Vehicles",
+      "field": "EEE Related",
+      "domains": [
+        "Electric Vehicles"
+      ]
+    },
+    {
+      "name": "PLC",
+      "slug": "plc",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Industrial Automation",
+      "field": "EEE Related",
+      "domains": [
+        "Industrial Automation"
+      ]
+    },
+    {
+      "name": "SCADA",
+      "slug": "scada",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Industrial Automation",
+      "field": "EEE Related",
+      "domains": [
+        "Industrial Automation"
+      ]
+    },
+    {
+      "name": "Ladder Logic",
+      "slug": "ladder-logic",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Industrial Automation",
+      "field": "EEE Related",
+      "domains": [
+        "Industrial Automation"
+      ]
+    },
+    {
+      "name": "IEC 61131-3",
+      "slug": "iec-61131-3",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Industrial Automation",
+      "field": "EEE Related",
+      "domains": [
+        "Industrial Automation"
+      ]
+    },
+    {
+      "name": "Siemens TIA Portal",
+      "slug": "siemens-tia-portal",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Industrial Automation",
+      "field": "EEE Related",
+      "domains": [
+        "Industrial Automation"
+      ]
+    },
+    {
+      "name": "Allen-Bradley PLC",
+      "slug": "allen-bradley-plc",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Industrial Automation",
+      "field": "EEE Related",
+      "domains": [
+        "Industrial Automation"
+      ]
+    },
+    {
+      "name": "ETAP",
+      "slug": "etap",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Power Systems"
+      ]
+    },
+    {
+      "name": "DIgSILENT PowerFactory",
+      "slug": "digsilent-powerfactory",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Power Systems"
+      ]
+    },
+    {
+      "name": "Power Flow Analysis",
+      "slug": "power-flow-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Power Systems"
+      ]
+    },
+    {
+      "name": "Relay Coordination",
+      "slug": "relay-coordination",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Power Systems",
+      "field": "EEE Related",
+      "domains": [
+        "Power Systems"
+      ]
+    },
+    {
+      "name": "Battery Management Systems",
+      "slug": "battery-management-systems",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electric Vehicles",
+      "field": "EEE Related",
+      "domains": [
+        "Electric Vehicles"
+      ]
+    },
+    {
+      "name": "EV Charging",
+      "slug": "ev-charging",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electric Vehicles",
+      "field": "EEE Related",
+      "domains": [
+        "Electric Vehicles"
+      ]
+    },
+    {
+      "name": "Motor Drive Control",
+      "slug": "motor-drive-control",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Electric Vehicles",
+      "field": "EEE Related",
+      "domains": [
+        "Electric Vehicles"
+      ]
+    },
+    {
+      "name": "Solar PV Design",
+      "slug": "solar-pv-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Renewable Energy",
+      "field": "EEE Related",
+      "domains": [
+        "Renewable Energy"
+      ]
+    },
+    {
+      "name": "Wind Turbine Control",
+      "slug": "wind-turbine-control",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Renewable Energy",
+      "field": "EEE Related",
+      "domains": [
+        "Renewable Energy"
+      ]
+    }
+  ],
+  "role_templates": [
+    {
+      "title": "Power Systems Engineer",
+      "slug": "power-systems-contributor",
+      "domain": "Power Systems",
+      "required_skills": [
+        "Power Systems: system modeling",
+        "Power Systems: circuit simulation",
+        "Power Systems: load analysis",
+        "Power Systems: protection design"
+      ]
+    },
+    {
+      "title": "Power Electronics Contributor",
+      "slug": "power-electronics-contributor",
+      "domain": "Power Electronics",
+      "required_skills": [
+        "Power Electronics: system modeling",
+        "Power Electronics: circuit simulation",
+        "Power Electronics: load analysis",
+        "Power Electronics: protection design"
+      ]
+    },
+    {
+      "title": "Electrical Machines Contributor",
+      "slug": "electrical-machines-contributor",
+      "domain": "Electrical Machines",
+      "required_skills": [
+        "Electrical Machines: system modeling",
+        "Electrical Machines: circuit simulation",
+        "Electrical Machines: load analysis",
+        "Electrical Machines: protection design"
+      ]
+    },
+    {
+      "title": "Control Systems Contributor",
+      "slug": "control-systems-contributor",
+      "domain": "Control Systems",
+      "required_skills": [
+        "Control Systems: system modeling",
+        "Control Systems: circuit simulation",
+        "Control Systems: load analysis",
+        "Control Systems: protection design"
+      ]
+    },
+    {
+      "title": "Industrial Automation Contributor",
+      "slug": "industrial-automation-contributor",
+      "domain": "Industrial Automation",
+      "required_skills": [
+        "Industrial Automation: system modeling",
+        "Industrial Automation: circuit simulation",
+        "Industrial Automation: load analysis",
+        "Industrial Automation: protection design"
+      ]
+    },
+    {
+      "title": "Renewable Energy Contributor",
+      "slug": "renewable-energy-contributor",
+      "domain": "Renewable Energy",
+      "required_skills": [
+        "Renewable Energy: system modeling",
+        "Renewable Energy: circuit simulation",
+        "Renewable Energy: load analysis",
+        "Renewable Energy: protection design"
+      ]
+    },
+    {
+      "title": "Electric Vehicles Contributor",
+      "slug": "electric-vehicles-contributor",
+      "domain": "Electric Vehicles",
+      "required_skills": [
+        "Electric Vehicles: system modeling",
+        "Electric Vehicles: circuit simulation",
+        "Electric Vehicles: load analysis",
+        "Electric Vehicles: protection design"
+      ]
+    }
+  ]
+}

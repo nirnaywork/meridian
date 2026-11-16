@@ -8,7 +8,7 @@ export default async function WorkspaceLayout({
 }) {
   let auth;
   try {
-    auth = await session();
+    auth = await session(false);
   } catch (e) {
     if (e instanceof HttpError) {
       if (e.status === 428) redirect("/onboarding");
@@ -17,5 +17,19 @@ export default async function WorkspaceLayout({
     }
     throw e;
   }
-  return <Shell profile={auth.profile}>{children}</Shell>;
+  return (
+    <Shell
+      profile={
+        auth.profile ?? {
+          display_name: "New member",
+          headline: "",
+          is_member: true,
+          is_team_lead: false,
+          avatar_url: null,
+        }
+      }
+    >
+      {children}
+    </Shell>
+  );
 }

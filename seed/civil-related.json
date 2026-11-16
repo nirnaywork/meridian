@@ -1,0 +1,1280 @@
+{
+  "field": {
+    "name": "Civil Related",
+    "slug": "civil-related"
+  },
+  "domains": [
+    {
+      "name": "Civil and Structural",
+      "slug": "civil-and-structural",
+      "description": "Practical skills, tools and methods for civil and structural."
+    },
+    {
+      "name": "Geotechnical Engineering",
+      "slug": "geotechnical-engineering",
+      "description": "Practical skills, tools and methods for geotechnical engineering."
+    },
+    {
+      "name": "Transportation Engineering",
+      "slug": "transportation-engineering",
+      "description": "Practical skills, tools and methods for transportation engineering."
+    },
+    {
+      "name": "Water Resources",
+      "slug": "water-resources",
+      "description": "Practical skills, tools and methods for water resources."
+    },
+    {
+      "name": "Construction Management",
+      "slug": "construction-management",
+      "description": "Practical skills, tools and methods for construction management."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Civil and Structural: site investigation",
+      "slug": "civil-and-structural-site-investigation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Civil and Structural",
+      "field": "Civil Related",
+      "domains": [
+        "Civil and Structural"
+      ]
+    },
+    {
+      "name": "Civil and Structural: structural modeling",
+      "slug": "civil-and-structural-structural-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Civil and Structural",
+      "field": "Civil Related",
+      "domains": [
+        "Civil and Structural"
+      ]
+    },
+    {
+      "name": "Civil and Structural: load analysis",
+      "slug": "civil-and-structural-load-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Civil and Structural",
+      "field": "Civil Related",
+      "domains": [
+        "Civil and Structural"
+      ]
+    },
+    {
+      "name": "Civil and Structural: material testing",
+      "slug": "civil-and-structural-material-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Civil and Structural",
+      "field": "Civil Related",
+      "domains": [
+        "Civil and Structural"
+      ]
+    },
+    {
+      "name": "Civil and Structural: design calculations",
+      "slug": "civil-and-structural-design-calculations",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Civil and Structural",
+      "field": "Civil Related",
+      "domains": [
+        "Civil and Structural"
+      ]
+    },
+    {
+      "name": "Civil and Structural: quantity surveying",
+      "slug": "civil-and-structural-quantity-surveying",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Civil and Structural",
+      "field": "Civil Related",
+      "domains": [
+        "Civil and Structural"
+      ]
+    },
+    {
+      "name": "Civil and Structural: cost estimation",
+      "slug": "civil-and-structural-cost-estimation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Civil and Structural",
+      "field": "Civil Related",
+      "domains": [
+        "Civil and Structural"
+      ]
+    },
+    {
+      "name": "Civil and Structural: project scheduling",
+      "slug": "civil-and-structural-project-scheduling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Civil and Structural",
+      "field": "Civil Related",
+      "domains": [
+        "Civil and Structural"
+      ]
+    },
+    {
+      "name": "Civil and Structural: risk assessment",
+      "slug": "civil-and-structural-risk-assessment",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Civil and Structural",
+      "field": "Civil Related",
+      "domains": [
+        "Civil and Structural"
+      ]
+    },
+    {
+      "name": "Civil and Structural: surveying",
+      "slug": "civil-and-structural-surveying",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Civil and Structural",
+      "field": "Civil Related",
+      "domains": [
+        "Civil and Structural"
+      ]
+    },
+    {
+      "name": "Civil and Structural: drawing interpretation",
+      "slug": "civil-and-structural-drawing-interpretation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Civil and Structural",
+      "field": "Civil Related",
+      "domains": [
+        "Civil and Structural"
+      ]
+    },
+    {
+      "name": "Civil and Structural: code compliance",
+      "slug": "civil-and-structural-code-compliance",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Civil and Structural",
+      "field": "Civil Related",
+      "domains": [
+        "Civil and Structural"
+      ]
+    },
+    {
+      "name": "Civil and Structural: construction inspection",
+      "slug": "civil-and-structural-construction-inspection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Civil and Structural",
+      "field": "Civil Related",
+      "domains": [
+        "Civil and Structural"
+      ]
+    },
+    {
+      "name": "Civil and Structural: quality assurance",
+      "slug": "civil-and-structural-quality-assurance",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Civil and Structural",
+      "field": "Civil Related",
+      "domains": [
+        "Civil and Structural"
+      ]
+    },
+    {
+      "name": "Civil and Structural: environmental assessment",
+      "slug": "civil-and-structural-environmental-assessment",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Civil and Structural",
+      "field": "Civil Related",
+      "domains": [
+        "Civil and Structural"
+      ]
+    },
+    {
+      "name": "Civil and Structural: simulation",
+      "slug": "civil-and-structural-simulation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Civil and Structural",
+      "field": "Civil Related",
+      "domains": [
+        "Civil and Structural"
+      ]
+    },
+    {
+      "name": "Civil and Structural: maintenance planning",
+      "slug": "civil-and-structural-maintenance-planning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Civil and Structural",
+      "field": "Civil Related",
+      "domains": [
+        "Civil and Structural"
+      ]
+    },
+    {
+      "name": "Civil and Structural: technical reporting",
+      "slug": "civil-and-structural-technical-reporting",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Civil and Structural",
+      "field": "Civil Related",
+      "domains": [
+        "Civil and Structural"
+      ]
+    },
+    {
+      "name": "Civil and Structural: data analysis",
+      "slug": "civil-and-structural-data-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Civil and Structural",
+      "field": "Civil Related",
+      "domains": [
+        "Civil and Structural"
+      ]
+    },
+    {
+      "name": "Civil and Structural: safety planning",
+      "slug": "civil-and-structural-safety-planning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Civil and Structural",
+      "field": "Civil Related",
+      "domains": [
+        "Civil and Structural"
+      ]
+    },
+    {
+      "name": "Geotechnical Engineering: site investigation",
+      "slug": "geotechnical-engineering-site-investigation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Geotechnical Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Geotechnical Engineering"
+      ]
+    },
+    {
+      "name": "Geotechnical Engineering: structural modeling",
+      "slug": "geotechnical-engineering-structural-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Geotechnical Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Geotechnical Engineering"
+      ]
+    },
+    {
+      "name": "Geotechnical Engineering: load analysis",
+      "slug": "geotechnical-engineering-load-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Geotechnical Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Geotechnical Engineering"
+      ]
+    },
+    {
+      "name": "Geotechnical Engineering: material testing",
+      "slug": "geotechnical-engineering-material-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Geotechnical Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Geotechnical Engineering"
+      ]
+    },
+    {
+      "name": "Geotechnical Engineering: design calculations",
+      "slug": "geotechnical-engineering-design-calculations",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Geotechnical Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Geotechnical Engineering"
+      ]
+    },
+    {
+      "name": "Geotechnical Engineering: quantity surveying",
+      "slug": "geotechnical-engineering-quantity-surveying",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Geotechnical Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Geotechnical Engineering"
+      ]
+    },
+    {
+      "name": "Geotechnical Engineering: cost estimation",
+      "slug": "geotechnical-engineering-cost-estimation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Geotechnical Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Geotechnical Engineering"
+      ]
+    },
+    {
+      "name": "Geotechnical Engineering: project scheduling",
+      "slug": "geotechnical-engineering-project-scheduling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Geotechnical Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Geotechnical Engineering"
+      ]
+    },
+    {
+      "name": "Geotechnical Engineering: risk assessment",
+      "slug": "geotechnical-engineering-risk-assessment",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Geotechnical Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Geotechnical Engineering"
+      ]
+    },
+    {
+      "name": "Geotechnical Engineering: surveying",
+      "slug": "geotechnical-engineering-surveying",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Geotechnical Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Geotechnical Engineering"
+      ]
+    },
+    {
+      "name": "Geotechnical Engineering: drawing interpretation",
+      "slug": "geotechnical-engineering-drawing-interpretation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Geotechnical Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Geotechnical Engineering"
+      ]
+    },
+    {
+      "name": "Geotechnical Engineering: code compliance",
+      "slug": "geotechnical-engineering-code-compliance",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Geotechnical Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Geotechnical Engineering"
+      ]
+    },
+    {
+      "name": "Geotechnical Engineering: construction inspection",
+      "slug": "geotechnical-engineering-construction-inspection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Geotechnical Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Geotechnical Engineering"
+      ]
+    },
+    {
+      "name": "Geotechnical Engineering: quality assurance",
+      "slug": "geotechnical-engineering-quality-assurance",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Geotechnical Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Geotechnical Engineering"
+      ]
+    },
+    {
+      "name": "Geotechnical Engineering: environmental assessment",
+      "slug": "geotechnical-engineering-environmental-assessment",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Geotechnical Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Geotechnical Engineering"
+      ]
+    },
+    {
+      "name": "Geotechnical Engineering: simulation",
+      "slug": "geotechnical-engineering-simulation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Geotechnical Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Geotechnical Engineering"
+      ]
+    },
+    {
+      "name": "Geotechnical Engineering: maintenance planning",
+      "slug": "geotechnical-engineering-maintenance-planning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Geotechnical Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Geotechnical Engineering"
+      ]
+    },
+    {
+      "name": "Geotechnical Engineering: technical reporting",
+      "slug": "geotechnical-engineering-technical-reporting",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Geotechnical Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Geotechnical Engineering"
+      ]
+    },
+    {
+      "name": "Geotechnical Engineering: data analysis",
+      "slug": "geotechnical-engineering-data-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Geotechnical Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Geotechnical Engineering"
+      ]
+    },
+    {
+      "name": "Geotechnical Engineering: safety planning",
+      "slug": "geotechnical-engineering-safety-planning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Geotechnical Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Geotechnical Engineering"
+      ]
+    },
+    {
+      "name": "Transportation Engineering: site investigation",
+      "slug": "transportation-engineering-site-investigation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Transportation Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Transportation Engineering"
+      ]
+    },
+    {
+      "name": "Transportation Engineering: structural modeling",
+      "slug": "transportation-engineering-structural-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Transportation Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Transportation Engineering"
+      ]
+    },
+    {
+      "name": "Transportation Engineering: load analysis",
+      "slug": "transportation-engineering-load-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Transportation Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Transportation Engineering"
+      ]
+    },
+    {
+      "name": "Transportation Engineering: material testing",
+      "slug": "transportation-engineering-material-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Transportation Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Transportation Engineering"
+      ]
+    },
+    {
+      "name": "Transportation Engineering: design calculations",
+      "slug": "transportation-engineering-design-calculations",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Transportation Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Transportation Engineering"
+      ]
+    },
+    {
+      "name": "Transportation Engineering: quantity surveying",
+      "slug": "transportation-engineering-quantity-surveying",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Transportation Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Transportation Engineering"
+      ]
+    },
+    {
+      "name": "Transportation Engineering: cost estimation",
+      "slug": "transportation-engineering-cost-estimation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Transportation Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Transportation Engineering"
+      ]
+    },
+    {
+      "name": "Transportation Engineering: project scheduling",
+      "slug": "transportation-engineering-project-scheduling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Transportation Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Transportation Engineering"
+      ]
+    },
+    {
+      "name": "Transportation Engineering: risk assessment",
+      "slug": "transportation-engineering-risk-assessment",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Transportation Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Transportation Engineering"
+      ]
+    },
+    {
+      "name": "Transportation Engineering: surveying",
+      "slug": "transportation-engineering-surveying",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Transportation Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Transportation Engineering"
+      ]
+    },
+    {
+      "name": "Transportation Engineering: drawing interpretation",
+      "slug": "transportation-engineering-drawing-interpretation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Transportation Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Transportation Engineering"
+      ]
+    },
+    {
+      "name": "Transportation Engineering: code compliance",
+      "slug": "transportation-engineering-code-compliance",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Transportation Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Transportation Engineering"
+      ]
+    },
+    {
+      "name": "Transportation Engineering: construction inspection",
+      "slug": "transportation-engineering-construction-inspection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Transportation Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Transportation Engineering"
+      ]
+    },
+    {
+      "name": "Transportation Engineering: quality assurance",
+      "slug": "transportation-engineering-quality-assurance",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Transportation Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Transportation Engineering"
+      ]
+    },
+    {
+      "name": "Transportation Engineering: environmental assessment",
+      "slug": "transportation-engineering-environmental-assessment",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Transportation Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Transportation Engineering"
+      ]
+    },
+    {
+      "name": "Transportation Engineering: simulation",
+      "slug": "transportation-engineering-simulation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Transportation Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Transportation Engineering"
+      ]
+    },
+    {
+      "name": "Transportation Engineering: maintenance planning",
+      "slug": "transportation-engineering-maintenance-planning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Transportation Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Transportation Engineering"
+      ]
+    },
+    {
+      "name": "Transportation Engineering: technical reporting",
+      "slug": "transportation-engineering-technical-reporting",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Transportation Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Transportation Engineering"
+      ]
+    },
+    {
+      "name": "Transportation Engineering: data analysis",
+      "slug": "transportation-engineering-data-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Transportation Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Transportation Engineering"
+      ]
+    },
+    {
+      "name": "Transportation Engineering: safety planning",
+      "slug": "transportation-engineering-safety-planning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Transportation Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Transportation Engineering"
+      ]
+    },
+    {
+      "name": "Water Resources: site investigation",
+      "slug": "water-resources-site-investigation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Water Resources",
+      "field": "Civil Related",
+      "domains": [
+        "Water Resources"
+      ]
+    },
+    {
+      "name": "Water Resources: structural modeling",
+      "slug": "water-resources-structural-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Water Resources",
+      "field": "Civil Related",
+      "domains": [
+        "Water Resources"
+      ]
+    },
+    {
+      "name": "Water Resources: load analysis",
+      "slug": "water-resources-load-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Water Resources",
+      "field": "Civil Related",
+      "domains": [
+        "Water Resources"
+      ]
+    },
+    {
+      "name": "Water Resources: material testing",
+      "slug": "water-resources-material-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Water Resources",
+      "field": "Civil Related",
+      "domains": [
+        "Water Resources"
+      ]
+    },
+    {
+      "name": "Water Resources: design calculations",
+      "slug": "water-resources-design-calculations",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Water Resources",
+      "field": "Civil Related",
+      "domains": [
+        "Water Resources"
+      ]
+    },
+    {
+      "name": "Water Resources: quantity surveying",
+      "slug": "water-resources-quantity-surveying",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Water Resources",
+      "field": "Civil Related",
+      "domains": [
+        "Water Resources"
+      ]
+    },
+    {
+      "name": "Water Resources: cost estimation",
+      "slug": "water-resources-cost-estimation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Water Resources",
+      "field": "Civil Related",
+      "domains": [
+        "Water Resources"
+      ]
+    },
+    {
+      "name": "Water Resources: project scheduling",
+      "slug": "water-resources-project-scheduling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Water Resources",
+      "field": "Civil Related",
+      "domains": [
+        "Water Resources"
+      ]
+    },
+    {
+      "name": "Water Resources: risk assessment",
+      "slug": "water-resources-risk-assessment",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Water Resources",
+      "field": "Civil Related",
+      "domains": [
+        "Water Resources"
+      ]
+    },
+    {
+      "name": "Water Resources: surveying",
+      "slug": "water-resources-surveying",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Water Resources",
+      "field": "Civil Related",
+      "domains": [
+        "Water Resources"
+      ]
+    },
+    {
+      "name": "Water Resources: drawing interpretation",
+      "slug": "water-resources-drawing-interpretation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Water Resources",
+      "field": "Civil Related",
+      "domains": [
+        "Water Resources"
+      ]
+    },
+    {
+      "name": "Water Resources: code compliance",
+      "slug": "water-resources-code-compliance",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Water Resources",
+      "field": "Civil Related",
+      "domains": [
+        "Water Resources"
+      ]
+    },
+    {
+      "name": "Water Resources: construction inspection",
+      "slug": "water-resources-construction-inspection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Water Resources",
+      "field": "Civil Related",
+      "domains": [
+        "Water Resources"
+      ]
+    },
+    {
+      "name": "Water Resources: quality assurance",
+      "slug": "water-resources-quality-assurance",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Water Resources",
+      "field": "Civil Related",
+      "domains": [
+        "Water Resources"
+      ]
+    },
+    {
+      "name": "Water Resources: environmental assessment",
+      "slug": "water-resources-environmental-assessment",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Water Resources",
+      "field": "Civil Related",
+      "domains": [
+        "Water Resources"
+      ]
+    },
+    {
+      "name": "Water Resources: simulation",
+      "slug": "water-resources-simulation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Water Resources",
+      "field": "Civil Related",
+      "domains": [
+        "Water Resources"
+      ]
+    },
+    {
+      "name": "Water Resources: maintenance planning",
+      "slug": "water-resources-maintenance-planning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Water Resources",
+      "field": "Civil Related",
+      "domains": [
+        "Water Resources"
+      ]
+    },
+    {
+      "name": "Water Resources: technical reporting",
+      "slug": "water-resources-technical-reporting",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Water Resources",
+      "field": "Civil Related",
+      "domains": [
+        "Water Resources"
+      ]
+    },
+    {
+      "name": "Water Resources: data analysis",
+      "slug": "water-resources-data-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Water Resources",
+      "field": "Civil Related",
+      "domains": [
+        "Water Resources"
+      ]
+    },
+    {
+      "name": "Water Resources: safety planning",
+      "slug": "water-resources-safety-planning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Water Resources",
+      "field": "Civil Related",
+      "domains": [
+        "Water Resources"
+      ]
+    },
+    {
+      "name": "Construction Management: site investigation",
+      "slug": "construction-management-site-investigation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Construction Management",
+      "field": "Civil Related",
+      "domains": [
+        "Construction Management"
+      ]
+    },
+    {
+      "name": "Construction Management: structural modeling",
+      "slug": "construction-management-structural-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Construction Management",
+      "field": "Civil Related",
+      "domains": [
+        "Construction Management"
+      ]
+    },
+    {
+      "name": "Construction Management: load analysis",
+      "slug": "construction-management-load-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Construction Management",
+      "field": "Civil Related",
+      "domains": [
+        "Construction Management"
+      ]
+    },
+    {
+      "name": "Construction Management: material testing",
+      "slug": "construction-management-material-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Construction Management",
+      "field": "Civil Related",
+      "domains": [
+        "Construction Management"
+      ]
+    },
+    {
+      "name": "Construction Management: design calculations",
+      "slug": "construction-management-design-calculations",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Construction Management",
+      "field": "Civil Related",
+      "domains": [
+        "Construction Management"
+      ]
+    },
+    {
+      "name": "Construction Management: quantity surveying",
+      "slug": "construction-management-quantity-surveying",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Construction Management",
+      "field": "Civil Related",
+      "domains": [
+        "Construction Management"
+      ]
+    },
+    {
+      "name": "Construction Management: cost estimation",
+      "slug": "construction-management-cost-estimation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Construction Management",
+      "field": "Civil Related",
+      "domains": [
+        "Construction Management"
+      ]
+    },
+    {
+      "name": "Construction Management: project scheduling",
+      "slug": "construction-management-project-scheduling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Construction Management",
+      "field": "Civil Related",
+      "domains": [
+        "Construction Management"
+      ]
+    },
+    {
+      "name": "Construction Management: risk assessment",
+      "slug": "construction-management-risk-assessment",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Construction Management",
+      "field": "Civil Related",
+      "domains": [
+        "Construction Management"
+      ]
+    },
+    {
+      "name": "Construction Management: surveying",
+      "slug": "construction-management-surveying",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Construction Management",
+      "field": "Civil Related",
+      "domains": [
+        "Construction Management"
+      ]
+    },
+    {
+      "name": "Construction Management: drawing interpretation",
+      "slug": "construction-management-drawing-interpretation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Construction Management",
+      "field": "Civil Related",
+      "domains": [
+        "Construction Management"
+      ]
+    },
+    {
+      "name": "Construction Management: code compliance",
+      "slug": "construction-management-code-compliance",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Construction Management",
+      "field": "Civil Related",
+      "domains": [
+        "Construction Management"
+      ]
+    },
+    {
+      "name": "Construction Management: construction inspection",
+      "slug": "construction-management-construction-inspection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Construction Management",
+      "field": "Civil Related",
+      "domains": [
+        "Construction Management"
+      ]
+    },
+    {
+      "name": "Construction Management: quality assurance",
+      "slug": "construction-management-quality-assurance",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Construction Management",
+      "field": "Civil Related",
+      "domains": [
+        "Construction Management"
+      ]
+    },
+    {
+      "name": "Construction Management: environmental assessment",
+      "slug": "construction-management-environmental-assessment",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Construction Management",
+      "field": "Civil Related",
+      "domains": [
+        "Construction Management"
+      ]
+    },
+    {
+      "name": "Construction Management: simulation",
+      "slug": "construction-management-simulation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Construction Management",
+      "field": "Civil Related",
+      "domains": [
+        "Construction Management"
+      ]
+    },
+    {
+      "name": "Construction Management: maintenance planning",
+      "slug": "construction-management-maintenance-planning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Construction Management",
+      "field": "Civil Related",
+      "domains": [
+        "Construction Management"
+      ]
+    },
+    {
+      "name": "Construction Management: technical reporting",
+      "slug": "construction-management-technical-reporting",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Construction Management",
+      "field": "Civil Related",
+      "domains": [
+        "Construction Management"
+      ]
+    },
+    {
+      "name": "Construction Management: data analysis",
+      "slug": "construction-management-data-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Construction Management",
+      "field": "Civil Related",
+      "domains": [
+        "Construction Management"
+      ]
+    },
+    {
+      "name": "Construction Management: safety planning",
+      "slug": "construction-management-safety-planning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Construction Management",
+      "field": "Civil Related",
+      "domains": [
+        "Construction Management"
+      ]
+    },
+    {
+      "name": "STAAD.Pro",
+      "slug": "staad-pro",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Civil and Structural",
+      "field": "Civil Related",
+      "domains": [
+        "Civil and Structural"
+      ]
+    },
+    {
+      "name": "ETABS",
+      "slug": "etabs",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Civil and Structural",
+      "field": "Civil Related",
+      "domains": [
+        "Civil and Structural"
+      ]
+    },
+    {
+      "name": "SAP2000",
+      "slug": "sap2000",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Civil and Structural",
+      "field": "Civil Related",
+      "domains": [
+        "Civil and Structural"
+      ]
+    },
+    {
+      "name": "Revit",
+      "slug": "revit",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Civil and Structural",
+      "field": "Civil Related",
+      "domains": [
+        "Civil and Structural"
+      ]
+    },
+    {
+      "name": "BIM",
+      "slug": "bim",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Civil and Structural",
+      "field": "Civil Related",
+      "domains": [
+        "Civil and Structural"
+      ]
+    },
+    {
+      "name": "Reinforced Concrete Design",
+      "slug": "reinforced-concrete-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Civil and Structural",
+      "field": "Civil Related",
+      "domains": [
+        "Civil and Structural"
+      ]
+    },
+    {
+      "name": "PLAXIS",
+      "slug": "plaxis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Geotechnical Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Geotechnical Engineering"
+      ]
+    },
+    {
+      "name": "Soil Mechanics",
+      "slug": "soil-mechanics",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Geotechnical Engineering",
+      "field": "Civil Related",
+      "domains": [
+        "Geotechnical Engineering"
+      ]
+    }
+  ],
+  "role_templates": [
+    {
+      "title": "Civil and Structural Contributor",
+      "slug": "civil-and-structural-contributor",
+      "domain": "Civil and Structural",
+      "required_skills": [
+        "Civil and Structural: site investigation",
+        "Civil and Structural: structural modeling",
+        "Civil and Structural: load analysis",
+        "Civil and Structural: material testing"
+      ]
+    },
+    {
+      "title": "Geotechnical Engineering Contributor",
+      "slug": "geotechnical-engineering-contributor",
+      "domain": "Geotechnical Engineering",
+      "required_skills": [
+        "Geotechnical Engineering: site investigation",
+        "Geotechnical Engineering: structural modeling",
+        "Geotechnical Engineering: load analysis",
+        "Geotechnical Engineering: material testing"
+      ]
+    },
+    {
+      "title": "Transportation Engineering Contributor",
+      "slug": "transportation-engineering-contributor",
+      "domain": "Transportation Engineering",
+      "required_skills": [
+        "Transportation Engineering: site investigation",
+        "Transportation Engineering: structural modeling",
+        "Transportation Engineering: load analysis",
+        "Transportation Engineering: material testing"
+      ]
+    },
+    {
+      "title": "Water Resources Contributor",
+      "slug": "water-resources-contributor",
+      "domain": "Water Resources",
+      "required_skills": [
+        "Water Resources: site investigation",
+        "Water Resources: structural modeling",
+        "Water Resources: load analysis",
+        "Water Resources: material testing"
+      ]
+    },
+    {
+      "title": "Construction Management Contributor",
+      "slug": "construction-management-contributor",
+      "domain": "Construction Management",
+      "required_skills": [
+        "Construction Management: site investigation",
+        "Construction Management: structural modeling",
+        "Construction Management: load analysis",
+        "Construction Management: material testing"
+      ]
+    }
+  ]
+}

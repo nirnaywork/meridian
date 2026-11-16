@@ -1,0 +1,1824 @@
+{
+  "field": {
+    "name": "Design and Creative",
+    "slug": "design-and-creative"
+  },
+  "domains": [
+    {
+      "name": "UI and UX Design",
+      "slug": "ui-and-ux-design",
+      "description": "Practical skills, tools and methods for ui and ux design."
+    },
+    {
+      "name": "Graphic Design",
+      "slug": "graphic-design",
+      "description": "Practical skills, tools and methods for graphic design."
+    },
+    {
+      "name": "Motion Design",
+      "slug": "motion-design",
+      "description": "Practical skills, tools and methods for motion design."
+    },
+    {
+      "name": "Video Production",
+      "slug": "video-production",
+      "description": "Practical skills, tools and methods for video production."
+    },
+    {
+      "name": "Three-Dimensional Art",
+      "slug": "three-dimensional-art",
+      "description": "Practical skills, tools and methods for three-dimensional art."
+    },
+    {
+      "name": "Photography",
+      "slug": "photography",
+      "description": "Practical skills, tools and methods for photography."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Figma",
+      "category": "Design",
+      "slug": "figma",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design",
+        "Graphic Design",
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Sketch",
+      "category": "Design",
+      "slug": "sketch",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design",
+        "Graphic Design",
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Adobe XD",
+      "category": "Design",
+      "slug": "adobe-xd",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design",
+        "Graphic Design",
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "UI Design",
+      "category": "Design",
+      "slug": "ui-design",
+      "aliases": [
+        "ui",
+        "user interface design"
+      ],
+      "is_verified": true,
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design",
+        "Graphic Design",
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "UX Design",
+      "category": "Design",
+      "slug": "ux-design",
+      "aliases": [
+        "ux",
+        "user experience design"
+      ],
+      "is_verified": true,
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design",
+        "Graphic Design",
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "UX Research",
+      "category": "Design",
+      "slug": "ux-research",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design",
+        "Graphic Design",
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Interaction Design",
+      "category": "Design",
+      "slug": "interaction-design",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design",
+        "Graphic Design",
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Prototyping",
+      "category": "Design",
+      "slug": "prototyping",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design",
+        "Graphic Design",
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Wireframing",
+      "category": "Design",
+      "slug": "wireframing",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design",
+        "Graphic Design",
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Design Systems",
+      "category": "Design",
+      "slug": "design-systems",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design",
+        "Graphic Design",
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Typography",
+      "category": "Design",
+      "slug": "typography",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design",
+        "Graphic Design",
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Color Theory",
+      "category": "Design",
+      "slug": "color-theory",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design",
+        "Graphic Design",
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Information Architecture",
+      "category": "Design",
+      "slug": "information-architecture",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design",
+        "Graphic Design",
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Usability Testing",
+      "category": "Design",
+      "slug": "usability-testing",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design",
+        "Graphic Design",
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Adobe Photoshop",
+      "category": "Design",
+      "slug": "adobe-photoshop",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design",
+        "Graphic Design",
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Adobe Illustrator",
+      "category": "Design",
+      "slug": "adobe-illustrator",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design",
+        "Graphic Design",
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Adobe InDesign",
+      "category": "Design",
+      "slug": "adobe-indesign",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design",
+        "Graphic Design",
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Motion Design",
+      "category": "Design",
+      "slug": "motion-design",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design",
+        "Graphic Design",
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "After Effects",
+      "category": "Design",
+      "slug": "after-effects",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design",
+        "Graphic Design",
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Blender",
+      "category": "Design",
+      "slug": "blender",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design",
+        "Graphic Design",
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Cinema 4D",
+      "category": "Design",
+      "slug": "cinema-4d",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design",
+        "Graphic Design",
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "3D Modeling",
+      "category": "Design",
+      "slug": "3d-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design",
+        "Graphic Design",
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Illustration",
+      "category": "Design",
+      "slug": "illustration",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design",
+        "Graphic Design",
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Icon Design",
+      "category": "Design",
+      "slug": "icon-design",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design",
+        "Graphic Design",
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Brand Identity",
+      "category": "Design",
+      "slug": "brand-identity",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design",
+        "Graphic Design",
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Visual Design",
+      "category": "Design",
+      "slug": "visual-design",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design",
+        "Graphic Design",
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Service Design",
+      "category": "Design",
+      "slug": "service-design",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design",
+        "Graphic Design",
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Inclusive Design",
+      "category": "Design",
+      "slug": "inclusive-design",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design",
+        "Graphic Design",
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "User Interviews",
+      "category": "Design",
+      "slug": "user-interviews",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design",
+        "Graphic Design",
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Journey Mapping",
+      "category": "Design",
+      "slug": "journey-mapping",
+      "aliases": [],
+      "is_verified": true,
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design",
+        "Graphic Design",
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "UI and UX Design: concept development",
+      "slug": "ui-and-ux-design-concept-development",
+      "aliases": [],
+      "is_verified": true,
+      "category": "UI and UX Design",
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design"
+      ]
+    },
+    {
+      "name": "UI and UX Design: visual research",
+      "slug": "ui-and-ux-design-visual-research",
+      "aliases": [],
+      "is_verified": true,
+      "category": "UI and UX Design",
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design"
+      ]
+    },
+    {
+      "name": "UI and UX Design: composition",
+      "slug": "ui-and-ux-design-composition",
+      "aliases": [],
+      "is_verified": true,
+      "category": "UI and UX Design",
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design"
+      ]
+    },
+    {
+      "name": "UI and UX Design: color theory",
+      "slug": "ui-and-ux-design-color-theory",
+      "aliases": [],
+      "is_verified": true,
+      "category": "UI and UX Design",
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design"
+      ]
+    },
+    {
+      "name": "UI and UX Design: typography",
+      "slug": "ui-and-ux-design-typography",
+      "aliases": [],
+      "is_verified": true,
+      "category": "UI and UX Design",
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design"
+      ]
+    },
+    {
+      "name": "UI and UX Design: prototyping",
+      "slug": "ui-and-ux-design-prototyping",
+      "aliases": [],
+      "is_verified": true,
+      "category": "UI and UX Design",
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design"
+      ]
+    },
+    {
+      "name": "UI and UX Design: storyboarding",
+      "slug": "ui-and-ux-design-storyboarding",
+      "aliases": [],
+      "is_verified": true,
+      "category": "UI and UX Design",
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design"
+      ]
+    },
+    {
+      "name": "UI and UX Design: asset creation",
+      "slug": "ui-and-ux-design-asset-creation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "UI and UX Design",
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design"
+      ]
+    },
+    {
+      "name": "UI and UX Design: workflow design",
+      "slug": "ui-and-ux-design-workflow-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "UI and UX Design",
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design"
+      ]
+    },
+    {
+      "name": "UI and UX Design: user research",
+      "slug": "ui-and-ux-design-user-research",
+      "aliases": [],
+      "is_verified": true,
+      "category": "UI and UX Design",
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design"
+      ]
+    },
+    {
+      "name": "UI and UX Design: iteration",
+      "slug": "ui-and-ux-design-iteration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "UI and UX Design",
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design"
+      ]
+    },
+    {
+      "name": "UI and UX Design: critique",
+      "slug": "ui-and-ux-design-critique",
+      "aliases": [],
+      "is_verified": true,
+      "category": "UI and UX Design",
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design"
+      ]
+    },
+    {
+      "name": "UI and UX Design: accessibility",
+      "slug": "ui-and-ux-design-accessibility",
+      "aliases": [],
+      "is_verified": true,
+      "category": "UI and UX Design",
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design"
+      ]
+    },
+    {
+      "name": "UI and UX Design: production planning",
+      "slug": "ui-and-ux-design-production-planning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "UI and UX Design",
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design"
+      ]
+    },
+    {
+      "name": "UI and UX Design: file preparation",
+      "slug": "ui-and-ux-design-file-preparation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "UI and UX Design",
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design"
+      ]
+    },
+    {
+      "name": "UI and UX Design: portfolio presentation",
+      "slug": "ui-and-ux-design-portfolio-presentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "UI and UX Design",
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design"
+      ]
+    },
+    {
+      "name": "UI and UX Design: collaboration",
+      "slug": "ui-and-ux-design-collaboration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "UI and UX Design",
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design"
+      ]
+    },
+    {
+      "name": "UI and UX Design: creative direction",
+      "slug": "ui-and-ux-design-creative-direction",
+      "aliases": [],
+      "is_verified": true,
+      "category": "UI and UX Design",
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design"
+      ]
+    },
+    {
+      "name": "UI and UX Design: quality review",
+      "slug": "ui-and-ux-design-quality-review",
+      "aliases": [],
+      "is_verified": true,
+      "category": "UI and UX Design",
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design"
+      ]
+    },
+    {
+      "name": "UI and UX Design: project delivery",
+      "slug": "ui-and-ux-design-project-delivery",
+      "aliases": [],
+      "is_verified": true,
+      "category": "UI and UX Design",
+      "field": "Design and Creative",
+      "domains": [
+        "UI and UX Design"
+      ]
+    },
+    {
+      "name": "Graphic Design: concept development",
+      "slug": "graphic-design-concept-development",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Graphic Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Graphic Design"
+      ]
+    },
+    {
+      "name": "Graphic Design: visual research",
+      "slug": "graphic-design-visual-research",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Graphic Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Graphic Design"
+      ]
+    },
+    {
+      "name": "Graphic Design: composition",
+      "slug": "graphic-design-composition",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Graphic Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Graphic Design"
+      ]
+    },
+    {
+      "name": "Graphic Design: color theory",
+      "slug": "graphic-design-color-theory",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Graphic Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Graphic Design"
+      ]
+    },
+    {
+      "name": "Graphic Design: typography",
+      "slug": "graphic-design-typography",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Graphic Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Graphic Design"
+      ]
+    },
+    {
+      "name": "Graphic Design: prototyping",
+      "slug": "graphic-design-prototyping",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Graphic Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Graphic Design"
+      ]
+    },
+    {
+      "name": "Graphic Design: storyboarding",
+      "slug": "graphic-design-storyboarding",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Graphic Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Graphic Design"
+      ]
+    },
+    {
+      "name": "Graphic Design: asset creation",
+      "slug": "graphic-design-asset-creation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Graphic Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Graphic Design"
+      ]
+    },
+    {
+      "name": "Graphic Design: workflow design",
+      "slug": "graphic-design-workflow-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Graphic Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Graphic Design"
+      ]
+    },
+    {
+      "name": "Graphic Design: user research",
+      "slug": "graphic-design-user-research",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Graphic Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Graphic Design"
+      ]
+    },
+    {
+      "name": "Graphic Design: iteration",
+      "slug": "graphic-design-iteration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Graphic Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Graphic Design"
+      ]
+    },
+    {
+      "name": "Graphic Design: critique",
+      "slug": "graphic-design-critique",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Graphic Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Graphic Design"
+      ]
+    },
+    {
+      "name": "Graphic Design: accessibility",
+      "slug": "graphic-design-accessibility",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Graphic Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Graphic Design"
+      ]
+    },
+    {
+      "name": "Graphic Design: production planning",
+      "slug": "graphic-design-production-planning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Graphic Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Graphic Design"
+      ]
+    },
+    {
+      "name": "Graphic Design: file preparation",
+      "slug": "graphic-design-file-preparation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Graphic Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Graphic Design"
+      ]
+    },
+    {
+      "name": "Graphic Design: portfolio presentation",
+      "slug": "graphic-design-portfolio-presentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Graphic Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Graphic Design"
+      ]
+    },
+    {
+      "name": "Graphic Design: collaboration",
+      "slug": "graphic-design-collaboration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Graphic Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Graphic Design"
+      ]
+    },
+    {
+      "name": "Graphic Design: creative direction",
+      "slug": "graphic-design-creative-direction",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Graphic Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Graphic Design"
+      ]
+    },
+    {
+      "name": "Graphic Design: quality review",
+      "slug": "graphic-design-quality-review",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Graphic Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Graphic Design"
+      ]
+    },
+    {
+      "name": "Graphic Design: project delivery",
+      "slug": "graphic-design-project-delivery",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Graphic Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Graphic Design"
+      ]
+    },
+    {
+      "name": "Motion Design: concept development",
+      "slug": "motion-design-concept-development",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Motion Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Motion Design: visual research",
+      "slug": "motion-design-visual-research",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Motion Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Motion Design: composition",
+      "slug": "motion-design-composition",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Motion Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Motion Design: color theory",
+      "slug": "motion-design-color-theory",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Motion Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Motion Design: typography",
+      "slug": "motion-design-typography",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Motion Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Motion Design: prototyping",
+      "slug": "motion-design-prototyping",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Motion Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Motion Design: storyboarding",
+      "slug": "motion-design-storyboarding",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Motion Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Motion Design: asset creation",
+      "slug": "motion-design-asset-creation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Motion Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Motion Design: workflow design",
+      "slug": "motion-design-workflow-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Motion Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Motion Design: user research",
+      "slug": "motion-design-user-research",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Motion Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Motion Design: iteration",
+      "slug": "motion-design-iteration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Motion Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Motion Design: critique",
+      "slug": "motion-design-critique",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Motion Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Motion Design: accessibility",
+      "slug": "motion-design-accessibility",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Motion Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Motion Design: production planning",
+      "slug": "motion-design-production-planning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Motion Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Motion Design: file preparation",
+      "slug": "motion-design-file-preparation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Motion Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Motion Design: portfolio presentation",
+      "slug": "motion-design-portfolio-presentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Motion Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Motion Design: collaboration",
+      "slug": "motion-design-collaboration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Motion Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Motion Design: creative direction",
+      "slug": "motion-design-creative-direction",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Motion Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Motion Design: quality review",
+      "slug": "motion-design-quality-review",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Motion Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Motion Design: project delivery",
+      "slug": "motion-design-project-delivery",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Motion Design",
+      "field": "Design and Creative",
+      "domains": [
+        "Motion Design"
+      ]
+    },
+    {
+      "name": "Video Production: concept development",
+      "slug": "video-production-concept-development",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Video Production",
+      "field": "Design and Creative",
+      "domains": [
+        "Video Production"
+      ]
+    },
+    {
+      "name": "Video Production: visual research",
+      "slug": "video-production-visual-research",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Video Production",
+      "field": "Design and Creative",
+      "domains": [
+        "Video Production"
+      ]
+    },
+    {
+      "name": "Video Production: composition",
+      "slug": "video-production-composition",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Video Production",
+      "field": "Design and Creative",
+      "domains": [
+        "Video Production"
+      ]
+    },
+    {
+      "name": "Video Production: color theory",
+      "slug": "video-production-color-theory",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Video Production",
+      "field": "Design and Creative",
+      "domains": [
+        "Video Production"
+      ]
+    },
+    {
+      "name": "Video Production: typography",
+      "slug": "video-production-typography",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Video Production",
+      "field": "Design and Creative",
+      "domains": [
+        "Video Production"
+      ]
+    },
+    {
+      "name": "Video Production: prototyping",
+      "slug": "video-production-prototyping",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Video Production",
+      "field": "Design and Creative",
+      "domains": [
+        "Video Production"
+      ]
+    },
+    {
+      "name": "Video Production: storyboarding",
+      "slug": "video-production-storyboarding",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Video Production",
+      "field": "Design and Creative",
+      "domains": [
+        "Video Production"
+      ]
+    },
+    {
+      "name": "Video Production: asset creation",
+      "slug": "video-production-asset-creation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Video Production",
+      "field": "Design and Creative",
+      "domains": [
+        "Video Production"
+      ]
+    },
+    {
+      "name": "Video Production: workflow design",
+      "slug": "video-production-workflow-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Video Production",
+      "field": "Design and Creative",
+      "domains": [
+        "Video Production"
+      ]
+    },
+    {
+      "name": "Video Production: user research",
+      "slug": "video-production-user-research",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Video Production",
+      "field": "Design and Creative",
+      "domains": [
+        "Video Production"
+      ]
+    },
+    {
+      "name": "Video Production: iteration",
+      "slug": "video-production-iteration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Video Production",
+      "field": "Design and Creative",
+      "domains": [
+        "Video Production"
+      ]
+    },
+    {
+      "name": "Video Production: critique",
+      "slug": "video-production-critique",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Video Production",
+      "field": "Design and Creative",
+      "domains": [
+        "Video Production"
+      ]
+    },
+    {
+      "name": "Video Production: accessibility",
+      "slug": "video-production-accessibility",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Video Production",
+      "field": "Design and Creative",
+      "domains": [
+        "Video Production"
+      ]
+    },
+    {
+      "name": "Video Production: production planning",
+      "slug": "video-production-production-planning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Video Production",
+      "field": "Design and Creative",
+      "domains": [
+        "Video Production"
+      ]
+    },
+    {
+      "name": "Video Production: file preparation",
+      "slug": "video-production-file-preparation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Video Production",
+      "field": "Design and Creative",
+      "domains": [
+        "Video Production"
+      ]
+    },
+    {
+      "name": "Video Production: portfolio presentation",
+      "slug": "video-production-portfolio-presentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Video Production",
+      "field": "Design and Creative",
+      "domains": [
+        "Video Production"
+      ]
+    },
+    {
+      "name": "Video Production: collaboration",
+      "slug": "video-production-collaboration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Video Production",
+      "field": "Design and Creative",
+      "domains": [
+        "Video Production"
+      ]
+    },
+    {
+      "name": "Video Production: creative direction",
+      "slug": "video-production-creative-direction",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Video Production",
+      "field": "Design and Creative",
+      "domains": [
+        "Video Production"
+      ]
+    },
+    {
+      "name": "Video Production: quality review",
+      "slug": "video-production-quality-review",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Video Production",
+      "field": "Design and Creative",
+      "domains": [
+        "Video Production"
+      ]
+    },
+    {
+      "name": "Video Production: project delivery",
+      "slug": "video-production-project-delivery",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Video Production",
+      "field": "Design and Creative",
+      "domains": [
+        "Video Production"
+      ]
+    },
+    {
+      "name": "Three-Dimensional Art: concept development",
+      "slug": "three-dimensional-art-concept-development",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Three-Dimensional Art",
+      "field": "Design and Creative",
+      "domains": [
+        "Three-Dimensional Art"
+      ]
+    },
+    {
+      "name": "Three-Dimensional Art: visual research",
+      "slug": "three-dimensional-art-visual-research",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Three-Dimensional Art",
+      "field": "Design and Creative",
+      "domains": [
+        "Three-Dimensional Art"
+      ]
+    },
+    {
+      "name": "Three-Dimensional Art: composition",
+      "slug": "three-dimensional-art-composition",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Three-Dimensional Art",
+      "field": "Design and Creative",
+      "domains": [
+        "Three-Dimensional Art"
+      ]
+    },
+    {
+      "name": "Three-Dimensional Art: color theory",
+      "slug": "three-dimensional-art-color-theory",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Three-Dimensional Art",
+      "field": "Design and Creative",
+      "domains": [
+        "Three-Dimensional Art"
+      ]
+    },
+    {
+      "name": "Three-Dimensional Art: typography",
+      "slug": "three-dimensional-art-typography",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Three-Dimensional Art",
+      "field": "Design and Creative",
+      "domains": [
+        "Three-Dimensional Art"
+      ]
+    },
+    {
+      "name": "Three-Dimensional Art: prototyping",
+      "slug": "three-dimensional-art-prototyping",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Three-Dimensional Art",
+      "field": "Design and Creative",
+      "domains": [
+        "Three-Dimensional Art"
+      ]
+    },
+    {
+      "name": "Three-Dimensional Art: storyboarding",
+      "slug": "three-dimensional-art-storyboarding",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Three-Dimensional Art",
+      "field": "Design and Creative",
+      "domains": [
+        "Three-Dimensional Art"
+      ]
+    },
+    {
+      "name": "Three-Dimensional Art: asset creation",
+      "slug": "three-dimensional-art-asset-creation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Three-Dimensional Art",
+      "field": "Design and Creative",
+      "domains": [
+        "Three-Dimensional Art"
+      ]
+    },
+    {
+      "name": "Three-Dimensional Art: workflow design",
+      "slug": "three-dimensional-art-workflow-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Three-Dimensional Art",
+      "field": "Design and Creative",
+      "domains": [
+        "Three-Dimensional Art"
+      ]
+    },
+    {
+      "name": "Three-Dimensional Art: user research",
+      "slug": "three-dimensional-art-user-research",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Three-Dimensional Art",
+      "field": "Design and Creative",
+      "domains": [
+        "Three-Dimensional Art"
+      ]
+    },
+    {
+      "name": "Three-Dimensional Art: iteration",
+      "slug": "three-dimensional-art-iteration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Three-Dimensional Art",
+      "field": "Design and Creative",
+      "domains": [
+        "Three-Dimensional Art"
+      ]
+    },
+    {
+      "name": "Three-Dimensional Art: critique",
+      "slug": "three-dimensional-art-critique",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Three-Dimensional Art",
+      "field": "Design and Creative",
+      "domains": [
+        "Three-Dimensional Art"
+      ]
+    },
+    {
+      "name": "Three-Dimensional Art: accessibility",
+      "slug": "three-dimensional-art-accessibility",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Three-Dimensional Art",
+      "field": "Design and Creative",
+      "domains": [
+        "Three-Dimensional Art"
+      ]
+    },
+    {
+      "name": "Three-Dimensional Art: production planning",
+      "slug": "three-dimensional-art-production-planning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Three-Dimensional Art",
+      "field": "Design and Creative",
+      "domains": [
+        "Three-Dimensional Art"
+      ]
+    },
+    {
+      "name": "Three-Dimensional Art: file preparation",
+      "slug": "three-dimensional-art-file-preparation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Three-Dimensional Art",
+      "field": "Design and Creative",
+      "domains": [
+        "Three-Dimensional Art"
+      ]
+    },
+    {
+      "name": "Three-Dimensional Art: portfolio presentation",
+      "slug": "three-dimensional-art-portfolio-presentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Three-Dimensional Art",
+      "field": "Design and Creative",
+      "domains": [
+        "Three-Dimensional Art"
+      ]
+    },
+    {
+      "name": "Three-Dimensional Art: collaboration",
+      "slug": "three-dimensional-art-collaboration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Three-Dimensional Art",
+      "field": "Design and Creative",
+      "domains": [
+        "Three-Dimensional Art"
+      ]
+    },
+    {
+      "name": "Three-Dimensional Art: creative direction",
+      "slug": "three-dimensional-art-creative-direction",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Three-Dimensional Art",
+      "field": "Design and Creative",
+      "domains": [
+        "Three-Dimensional Art"
+      ]
+    },
+    {
+      "name": "Three-Dimensional Art: quality review",
+      "slug": "three-dimensional-art-quality-review",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Three-Dimensional Art",
+      "field": "Design and Creative",
+      "domains": [
+        "Three-Dimensional Art"
+      ]
+    },
+    {
+      "name": "Three-Dimensional Art: project delivery",
+      "slug": "three-dimensional-art-project-delivery",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Three-Dimensional Art",
+      "field": "Design and Creative",
+      "domains": [
+        "Three-Dimensional Art"
+      ]
+    },
+    {
+      "name": "Photography: concept development",
+      "slug": "photography-concept-development",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Photography",
+      "field": "Design and Creative",
+      "domains": [
+        "Photography"
+      ]
+    },
+    {
+      "name": "Photography: visual research",
+      "slug": "photography-visual-research",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Photography",
+      "field": "Design and Creative",
+      "domains": [
+        "Photography"
+      ]
+    },
+    {
+      "name": "Photography: composition",
+      "slug": "photography-composition",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Photography",
+      "field": "Design and Creative",
+      "domains": [
+        "Photography"
+      ]
+    },
+    {
+      "name": "Photography: color theory",
+      "slug": "photography-color-theory",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Photography",
+      "field": "Design and Creative",
+      "domains": [
+        "Photography"
+      ]
+    },
+    {
+      "name": "Photography: typography",
+      "slug": "photography-typography",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Photography",
+      "field": "Design and Creative",
+      "domains": [
+        "Photography"
+      ]
+    },
+    {
+      "name": "Photography: prototyping",
+      "slug": "photography-prototyping",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Photography",
+      "field": "Design and Creative",
+      "domains": [
+        "Photography"
+      ]
+    },
+    {
+      "name": "Photography: storyboarding",
+      "slug": "photography-storyboarding",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Photography",
+      "field": "Design and Creative",
+      "domains": [
+        "Photography"
+      ]
+    },
+    {
+      "name": "Photography: asset creation",
+      "slug": "photography-asset-creation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Photography",
+      "field": "Design and Creative",
+      "domains": [
+        "Photography"
+      ]
+    },
+    {
+      "name": "Photography: workflow design",
+      "slug": "photography-workflow-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Photography",
+      "field": "Design and Creative",
+      "domains": [
+        "Photography"
+      ]
+    },
+    {
+      "name": "Photography: user research",
+      "slug": "photography-user-research",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Photography",
+      "field": "Design and Creative",
+      "domains": [
+        "Photography"
+      ]
+    },
+    {
+      "name": "Photography: iteration",
+      "slug": "photography-iteration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Photography",
+      "field": "Design and Creative",
+      "domains": [
+        "Photography"
+      ]
+    },
+    {
+      "name": "Photography: critique",
+      "slug": "photography-critique",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Photography",
+      "field": "Design and Creative",
+      "domains": [
+        "Photography"
+      ]
+    },
+    {
+      "name": "Photography: accessibility",
+      "slug": "photography-accessibility",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Photography",
+      "field": "Design and Creative",
+      "domains": [
+        "Photography"
+      ]
+    },
+    {
+      "name": "Photography: production planning",
+      "slug": "photography-production-planning",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Photography",
+      "field": "Design and Creative",
+      "domains": [
+        "Photography"
+      ]
+    },
+    {
+      "name": "Photography: file preparation",
+      "slug": "photography-file-preparation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Photography",
+      "field": "Design and Creative",
+      "domains": [
+        "Photography"
+      ]
+    },
+    {
+      "name": "Photography: portfolio presentation",
+      "slug": "photography-portfolio-presentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Photography",
+      "field": "Design and Creative",
+      "domains": [
+        "Photography"
+      ]
+    },
+    {
+      "name": "Photography: collaboration",
+      "slug": "photography-collaboration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Photography",
+      "field": "Design and Creative",
+      "domains": [
+        "Photography"
+      ]
+    },
+    {
+      "name": "Photography: creative direction",
+      "slug": "photography-creative-direction",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Photography",
+      "field": "Design and Creative",
+      "domains": [
+        "Photography"
+      ]
+    },
+    {
+      "name": "Photography: quality review",
+      "slug": "photography-quality-review",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Photography",
+      "field": "Design and Creative",
+      "domains": [
+        "Photography"
+      ]
+    },
+    {
+      "name": "Photography: project delivery",
+      "slug": "photography-project-delivery",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Photography",
+      "field": "Design and Creative",
+      "domains": [
+        "Photography"
+      ]
+    }
+  ],
+  "role_templates": [
+    {
+      "title": "UI/UX Designer",
+      "slug": "ui-and-ux-design-contributor",
+      "domain": "UI and UX Design",
+      "required_skills": [
+        "Figma",
+        "Sketch",
+        "Adobe XD",
+        "UI Design"
+      ]
+    },
+    {
+      "title": "Graphic Design Contributor",
+      "slug": "graphic-design-contributor",
+      "domain": "Graphic Design",
+      "required_skills": [
+        "Graphic Design: concept development",
+        "Graphic Design: visual research",
+        "Graphic Design: composition",
+        "Graphic Design: color theory"
+      ]
+    },
+    {
+      "title": "Motion Design Contributor",
+      "slug": "motion-design-contributor",
+      "domain": "Motion Design",
+      "required_skills": [
+        "Motion Design: concept development",
+        "Motion Design: visual research",
+        "Motion Design: composition",
+        "Motion Design: color theory"
+      ]
+    },
+    {
+      "title": "Video Production Contributor",
+      "slug": "video-production-contributor",
+      "domain": "Video Production",
+      "required_skills": [
+        "Video Production: concept development",
+        "Video Production: visual research",
+        "Video Production: composition",
+        "Video Production: color theory"
+      ]
+    },
+    {
+      "title": "Three-Dimensional Art Contributor",
+      "slug": "three-dimensional-art-contributor",
+      "domain": "Three-Dimensional Art",
+      "required_skills": [
+        "Three-Dimensional Art: concept development",
+        "Three-Dimensional Art: visual research",
+        "Three-Dimensional Art: composition",
+        "Three-Dimensional Art: color theory"
+      ]
+    },
+    {
+      "title": "Photography Contributor",
+      "slug": "photography-contributor",
+      "domain": "Photography",
+      "required_skills": [
+        "Photography: concept development",
+        "Photography: visual research",
+        "Photography: composition",
+        "Photography: color theory"
+      ]
+    }
+  ]
+}

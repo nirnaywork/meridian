@@ -2,23 +2,37 @@
 import { useEffect, useState } from "react";
 import { Search, Plus, X, Check } from "lucide-react";
 import { api } from "./ui";
+import { taxonomy } from "@/data/taxonomy";
 import type { Skill } from "@/lib/types";
 export function SkillsPicker({
   value,
   onChange,
   role = false,
+  domains = [],
 }: {
   value: Skill[];
   onChange: (skills: Skill[]) => void;
   role?: boolean;
+  domains?: string[];
 }) {
   const [q, setQ] = useState(""),
     [results, setResults] = useState<Skill[]>([]),
-    [focused, setFocused] = useState(false);
+    [focused, setFocused] = useState(false),
+    [scroll, setScroll] = useState(0);
   useEffect(() => {
     let live = true;
     const timer = setTimeout(() => {
-      api<Skill[]>("/api/data/skills?q=" + encodeURIComponent(q))
+      Promise.resolve(
+        taxonomy
+          .filter(
+            (s) =>
+              (!domains.length || s.domains.some((d) => domains.includes(d))) &&
+              [s.name, ...s.aliases].some((n) =>
+                n.toLowerCase().includes(q.toLowerCase()),
+              ),
+          )
+          ,
+      )
         .then((d) => {
           if (live) setResults(d);
         })
@@ -28,7 +42,7 @@ export function SkillsPicker({
       live = false;
       clearTimeout(timer);
     };
-  }, [q]);
+  }, [q, domains.join("|")]);
   function add(skill: Skill) {
     if (!value.some((s) => s.name.toLowerCase() === skill.name.toLowerCase()))
       onChange([
@@ -61,21 +75,40 @@ export function SkillsPicker({
       </label>
       {focused && (
         <div className="skill-results">
-          {results
-            .filter((r) => !value.some((s) => s.name === r.name))
-            .slice(0, 8)
-            .map((r) => (
-              <button type="button" key={r.id} onClick={() => add(r)}>
-                <span>
-                  {r.name}
-                  <small>
-                    {r.category}
-                    {r.is_verified ? "" : " · Community skill"}
-                  </small>
-                </span>
-                <Plus size={16} />
-              </button>
-            ))}
+          <div
+            style={{ height: 280, overflow: "auto" }}
+            onScroll={(e) => setScroll(e.currentTarget.scrollTop)}
+          >
+            <div
+              style={{
+                paddingTop: Math.floor(scroll / 56) * 56,
+                paddingBottom:
+                  Math.max(0, results.length - Math.floor(scroll / 56) - 7) *
+                  56,
+              }}
+            >
+              {results
+                .filter((r) => !value.some((s) => s.name === r.name))
+                .slice(Math.floor(scroll / 56), Math.floor(scroll / 56) + 7)
+                .map((r) => (
+                  <button
+                    style={{ height: 56 }}
+                    type="button"
+                    key={r.name}
+                    onClick={() => add(r)}
+                  >
+                    <span>
+                      {r.name}
+                      <small>
+                        {r.category}
+                        {r.is_verified ? "" : " · Community skill"}
+                      </small>
+                    </span>
+                    <Plus size={16} />
+                  </button>
+                ))}
+            </div>
+          </div>
           {q.trim() &&
             !results.some(
               (r) => r.name.toLowerCase() === q.trim().toLowerCase(),

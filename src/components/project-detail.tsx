@@ -1,4 +1,8 @@
 "use client";
+import {RoleMatchBadge,BestRoleMatch} from './role-match';
+import type {RoleMatch} from '@/lib/matching/roleMatch';
+import { UnderTheHood } from "./under-the-hood";
+import {LegacyDomainBanner} from './domain-guidance';
 import { useState } from "react";
 import Link from "next/link";
 import {
@@ -17,13 +21,11 @@ import {
   ErrorState,
   Empty,
   Skeleton,
-  MatchScore,
   SkillChips,
 } from "./ui";
-import type { Project, Breakdown, MatchRecord } from "@/lib/types";
+import type { Project, SkillOverlap, MatchRecord } from "@/lib/types";
 type Detail = Project & {
   user_id: string;
-  matches: { role_id: string | null; breakdown: Breakdown | null }[];
 };
 export function ProjectDetail({ id }: { id: string }) {
   const resource = useResource<Detail>("/api/data/project?id=" + id),
@@ -39,8 +41,8 @@ export function ProjectDetail({ id }: { id: string }) {
   const p = resource.data;
   if (!p) return null;
   const isOwner = p.user_id === p.owner_id;
-  const selected = role ?? p.roles[0]?.id ?? null;
-  const match = p.matches.find((m) => m.role_id === selected)?.breakdown;
+  const selected = role === "whole" ? null : (role ?? p.roles[0]?.id ?? null);
+  const match = p.roles.find(r=>r.id===selected)?.match;
   async function apply(e: React.FormEvent) {
     e.preventDefault();
     setBusy(true);
@@ -56,19 +58,9 @@ export function ProjectDetail({ id }: { id: string }) {
         role_id: selected,
         message,
       });
-      if (result.blocked)
-        setError(result.message ?? "This match needs more skills.");
-      else {
-        setOutcome(
-          result.status === "approved"
-            ? "You’re on the team! Your skills are a strong fit."
-            : "Your application is with the team lead.",
-        );
-        toast(
-          result.status === "approved"
-            ? "Welcome to the team!"
-            : "Application sent",
-        );
+      {
+        setOutcome("Your application is with the team lead.");
+        toast("Application sent");
         resource.refresh();
       }
     } catch (e) {
@@ -79,9 +71,9 @@ export function ProjectDetail({ id }: { id: string }) {
   }
   return (
     <>
-      <Link href={isOwner ? "/my-projects" : "/feed"} className="back-link">
+      <Link href={isOwner ? "/my-projects" : "/projects"} className="back-link">
         <ArrowLeft size={15} />
-        {isOwner ? "My projects" : "Discover projects"}
+        {isOwner ? "My projects" : "Explore projects"}
       </Link>
       <div className="detail-header">
         <div>
@@ -106,6 +98,16 @@ export function ProjectDetail({ id }: { id: string }) {
           </Link>
         )}
       </div>
+      {!isOwner&&<BestRoleMatch roles={p.roles}/>}
+      {isOwner&&!p.domains?.length&&<LegacyDomainBanner id={'project:'+id} href={`/projects/${id}/edit#project-domains`}/>}
+      {isOwner && (
+        <p className="info-note">
+          You lead this project, so you cannot apply to it.
+        </p>
+      )}
+      {p.status !== "open" && (
+        <p className="info-note">This project is closed to new applications.</p>
+      )}
       <div className="detail-meta">
         <span>
           <Clock size={17} />
@@ -139,7 +141,7 @@ export function ProjectDetail({ id }: { id: string }) {
             <h2>People we’re looking for</h2>
             {p.roles.length ? (
               p.roles.map((r) => {
-                const b = p.matches.find((m) => m.role_id === r.id)?.breakdown;
+                const b = !isOwner?r.match:undefined;
                 return (
                   <article className="role-detail" key={r.id}>
                     <div className="section-heading">
@@ -162,7 +164,7 @@ export function ProjectDetail({ id }: { id: string }) {
                         </span>
                       ))}
                     </div>
-                    {b && <MatchScore match={b} />}
+                    {!isOwner&&<RoleMatchBadge match={b}/>}
                   </article>
                 );
               })
@@ -177,14 +179,7 @@ export function ProjectDetail({ id }: { id: string }) {
           <aside className="apply-panel">
             <span className="eyebrow">A SHARED DIRECTION</span>
             <h2>See yourself here?</h2>
-            {match ? (
-              <>
-                <MatchScore match={match} large />
-                <SkillChips match={match} />
-              </>
-            ) : (
-              <p>Update your profile to prepare a match for this project.</p>
-            )}
+            {selected&&match&&<><RoleMatchBadge match={match}/><SkillChips match={match}/></>}
             {outcome ? (
               <div className="success-box" role="status">
                 {outcome}
@@ -197,8 +192,9 @@ export function ProjectDetail({ id }: { id: string }) {
                     Choose your role
                     <select
                       value={selected ?? ""}
-                      onChange={(e) => setRole(e.target.value)}
+                      onChange={(e) => setRole(e.target.value || "whole")}
                     >
+                      <option value="">Whole project</option>
                       {p.roles.map((r) => (
                         <option key={r.id} value={r.id}>
                           {r.title}
@@ -223,40 +219,27 @@ export function ProjectDetail({ id }: { id: string }) {
                 {error && <ErrorState message={error} />}
                 <button
                   className="btn full"
-                  disabled={
-                    busy ||
-                    p.status !== "open" ||
-                    !match ||
-                    match.band === "WEAK"
-                  }
+                  disabled={busy || p.status !== "open"}
                 >
-                  {busy
-                    ? "Finding your fit…"
-                    : match?.band === "WEAK"
-                      ? "A few skills to develop"
-                      : "Apply to join"}
+                  {busy ? "Sending…" : "Apply to join"}
                   <ArrowUpRight size={17} />
                 </button>
-                {match?.band === "WEAK" && (
-                  <p className="info-note">
-                    Develop{" "}
-                    {match.missing_skills.length
-                      ? match.missing_skills.join(", ")
-                      : "more relevant experience"}{" "}
-                    to improve this match.{" "}
-                    <Link href="/profile">Update your skills</Link> when you’re
-                    ready.
-                  </p>
-                )}
                 <small className="muted">
-                  Strong matches can join automatically when space is available.
-                  Other applications are reviewed by the lead.
+                  Every application is reviewed manually by the lead. Your match never affects eligibility.
                 </small>
               </form>
             )}
           </aside>
         )}
       </div>
+      <UnderTheHood
+        key={`${p.user_id}:${p.revision}`}
+        viewerId={p.user_id}
+        kind="project"
+        projectId={id}
+        owner={isOwner}
+        roles={p.roles.map((r) => ({ id: r.id, title: r.title }))}
+      />
       {isOwner && (
         <LeadWorkspace project={p} refreshProject={resource.refresh} />
       )}
@@ -268,7 +251,8 @@ type Candidate = {
   display_name: string;
   headline: string;
   is_demo: boolean;
-  breakdown: Breakdown;
+  breakdown: SkillOverlap;
+  match:RoleMatch;
 };
 type TeamMember = {
   user_id: string;
@@ -346,7 +330,10 @@ function LeadWorkspace({
           <>
             <label className="inline-filter">
               Role
-              <select value={role} onChange={(e) => setRole(e.target.value)}>
+              <select
+                value={role}
+                onChange={(e) => setRole(e.target.value || "whole")}
+              >
                 <option value="">All roles</option>
                 {project.roles.map((r) => (
                   <option key={r.id} value={r.id}>
@@ -367,7 +354,7 @@ function LeadWorkspace({
                         {a.project_roles?.title ?? "Whole project"} · {a.status}
                       </small>
                     </div>
-                    <MatchScore match={a.breakdown} />
+                    <RoleMatchBadge snapshot={a.matchPercent}/>
                   </div>
                   <SkillChips match={a.breakdown} />
                   {a.message && <p className="quote">“{a.message}”</p>}
@@ -395,7 +382,7 @@ function LeadWorkspace({
         ) : (
           <Empty
             title="Make room for your next teammate."
-            description="Applications will appear here, ranked by skill fit. You can also find talent and send an invitation."
+            description="Applications will appear here, newest first. You can also find talent and send an invitation."
           />
         ))}
       {tab === "talent" &&
@@ -405,7 +392,7 @@ function LeadWorkspace({
               Find people for
               <select
                 value={role || project.roles[0].id}
-                onChange={(e) => setRole(e.target.value)}
+                onChange={(e) => setRole(e.target.value || "whole")}
               >
                 {project.roles.map((r) => (
                   <option key={r.id} value={r.id}>
@@ -516,31 +503,18 @@ function Talent({ role, project }: { role: string; project: string }) {
                 </h3>
                 <p>{c.headline}</p>
               </div>
-              <MatchScore match={c.breakdown} />
+              <RoleMatchBadge match={c.match}/>
             </div>
             <SkillChips match={c.breakdown} />
             <div className="record-actions">
               <button
                 className="btn secondary small"
-                disabled={
-                  busy === c.id ||
-                  c.breakdown.band === "WEAK" ||
-                  sent.includes(c.id)
-                }
+                disabled={busy === c.id || sent.includes(c.id)}
                 onClick={() => invite(c.id)}
               >
-                {sent.includes(c.id)
-                  ? "Invitation sent"
-                  : c.breakdown.band === "WEAK"
-                    ? "Below invitation threshold"
-                    : "Invite to project"}
+                {sent.includes(c.id) ? "Invitation sent" : "Invite to project"}
                 <ArrowUpRight size={15} />
               </button>
-              {c.breakdown.band === "WEAK" && (
-                <small className="muted">
-                  Missing requirements or limited skill alignment.
-                </small>
-              )}
             </div>
           </article>
         ))

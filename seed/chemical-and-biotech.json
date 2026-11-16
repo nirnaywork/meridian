@@ -1,0 +1,1291 @@
+{
+  "field": {
+    "name": "Chemical and Biotech",
+    "slug": "chemical-and-biotech"
+  },
+  "domains": [
+    {
+      "name": "Chemical Engineering",
+      "slug": "chemical-engineering",
+      "description": "Practical skills, tools and methods for chemical engineering."
+    },
+    {
+      "name": "Biotechnology",
+      "slug": "biotechnology",
+      "description": "Practical skills, tools and methods for biotechnology."
+    },
+    {
+      "name": "Process Engineering",
+      "slug": "process-engineering",
+      "description": "Practical skills, tools and methods for process engineering."
+    },
+    {
+      "name": "Biochemistry",
+      "slug": "biochemistry",
+      "description": "Practical skills, tools and methods for biochemistry."
+    },
+    {
+      "name": "Environmental Engineering",
+      "slug": "environmental-engineering",
+      "description": "Practical skills, tools and methods for environmental engineering."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Chemical Engineering: laboratory techniques",
+      "slug": "chemical-engineering-laboratory-techniques",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Chemical Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Chemical Engineering"
+      ]
+    },
+    {
+      "name": "Chemical Engineering: process modeling",
+      "slug": "chemical-engineering-process-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Chemical Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Chemical Engineering"
+      ]
+    },
+    {
+      "name": "Chemical Engineering: mass balances",
+      "slug": "chemical-engineering-mass-balances",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Chemical Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Chemical Engineering"
+      ]
+    },
+    {
+      "name": "Chemical Engineering: energy balances",
+      "slug": "chemical-engineering-energy-balances",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Chemical Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Chemical Engineering"
+      ]
+    },
+    {
+      "name": "Chemical Engineering: experimental design",
+      "slug": "chemical-engineering-experimental-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Chemical Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Chemical Engineering"
+      ]
+    },
+    {
+      "name": "Chemical Engineering: sample preparation",
+      "slug": "chemical-engineering-sample-preparation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Chemical Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Chemical Engineering"
+      ]
+    },
+    {
+      "name": "Chemical Engineering: instrument calibration",
+      "slug": "chemical-engineering-instrument-calibration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Chemical Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Chemical Engineering"
+      ]
+    },
+    {
+      "name": "Chemical Engineering: data analysis",
+      "slug": "chemical-engineering-data-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Chemical Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Chemical Engineering"
+      ]
+    },
+    {
+      "name": "Chemical Engineering: quality control",
+      "slug": "chemical-engineering-quality-control",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Chemical Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Chemical Engineering"
+      ]
+    },
+    {
+      "name": "Chemical Engineering: safety assessment",
+      "slug": "chemical-engineering-safety-assessment",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Chemical Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Chemical Engineering"
+      ]
+    },
+    {
+      "name": "Chemical Engineering: scale-up",
+      "slug": "chemical-engineering-scale-up",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Chemical Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Chemical Engineering"
+      ]
+    },
+    {
+      "name": "Chemical Engineering: process optimization",
+      "slug": "chemical-engineering-process-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Chemical Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Chemical Engineering"
+      ]
+    },
+    {
+      "name": "Chemical Engineering: kinetic modeling",
+      "slug": "chemical-engineering-kinetic-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Chemical Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Chemical Engineering"
+      ]
+    },
+    {
+      "name": "Chemical Engineering: separation techniques",
+      "slug": "chemical-engineering-separation-techniques",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Chemical Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Chemical Engineering"
+      ]
+    },
+    {
+      "name": "Chemical Engineering: analytical testing",
+      "slug": "chemical-engineering-analytical-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Chemical Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Chemical Engineering"
+      ]
+    },
+    {
+      "name": "Chemical Engineering: technical reporting",
+      "slug": "chemical-engineering-technical-reporting",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Chemical Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Chemical Engineering"
+      ]
+    },
+    {
+      "name": "Chemical Engineering: literature review",
+      "slug": "chemical-engineering-literature-review",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Chemical Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Chemical Engineering"
+      ]
+    },
+    {
+      "name": "Chemical Engineering: statistical analysis",
+      "slug": "chemical-engineering-statistical-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Chemical Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Chemical Engineering"
+      ]
+    },
+    {
+      "name": "Chemical Engineering: waste management",
+      "slug": "chemical-engineering-waste-management",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Chemical Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Chemical Engineering"
+      ]
+    },
+    {
+      "name": "Chemical Engineering: validation",
+      "slug": "chemical-engineering-validation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Chemical Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Chemical Engineering"
+      ]
+    },
+    {
+      "name": "Biotechnology: laboratory techniques",
+      "slug": "biotechnology-laboratory-techniques",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biotechnology",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biotechnology"
+      ]
+    },
+    {
+      "name": "Biotechnology: process modeling",
+      "slug": "biotechnology-process-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biotechnology",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biotechnology"
+      ]
+    },
+    {
+      "name": "Biotechnology: mass balances",
+      "slug": "biotechnology-mass-balances",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biotechnology",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biotechnology"
+      ]
+    },
+    {
+      "name": "Biotechnology: energy balances",
+      "slug": "biotechnology-energy-balances",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biotechnology",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biotechnology"
+      ]
+    },
+    {
+      "name": "Biotechnology: experimental design",
+      "slug": "biotechnology-experimental-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biotechnology",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biotechnology"
+      ]
+    },
+    {
+      "name": "Biotechnology: sample preparation",
+      "slug": "biotechnology-sample-preparation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biotechnology",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biotechnology"
+      ]
+    },
+    {
+      "name": "Biotechnology: instrument calibration",
+      "slug": "biotechnology-instrument-calibration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biotechnology",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biotechnology"
+      ]
+    },
+    {
+      "name": "Biotechnology: data analysis",
+      "slug": "biotechnology-data-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biotechnology",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biotechnology"
+      ]
+    },
+    {
+      "name": "Biotechnology: quality control",
+      "slug": "biotechnology-quality-control",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biotechnology",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biotechnology"
+      ]
+    },
+    {
+      "name": "Biotechnology: safety assessment",
+      "slug": "biotechnology-safety-assessment",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biotechnology",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biotechnology"
+      ]
+    },
+    {
+      "name": "Biotechnology: scale-up",
+      "slug": "biotechnology-scale-up",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biotechnology",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biotechnology"
+      ]
+    },
+    {
+      "name": "Biotechnology: process optimization",
+      "slug": "biotechnology-process-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biotechnology",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biotechnology"
+      ]
+    },
+    {
+      "name": "Biotechnology: kinetic modeling",
+      "slug": "biotechnology-kinetic-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biotechnology",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biotechnology"
+      ]
+    },
+    {
+      "name": "Biotechnology: separation techniques",
+      "slug": "biotechnology-separation-techniques",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biotechnology",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biotechnology"
+      ]
+    },
+    {
+      "name": "Biotechnology: analytical testing",
+      "slug": "biotechnology-analytical-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biotechnology",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biotechnology"
+      ]
+    },
+    {
+      "name": "Biotechnology: technical reporting",
+      "slug": "biotechnology-technical-reporting",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biotechnology",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biotechnology"
+      ]
+    },
+    {
+      "name": "Biotechnology: literature review",
+      "slug": "biotechnology-literature-review",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biotechnology",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biotechnology"
+      ]
+    },
+    {
+      "name": "Biotechnology: statistical analysis",
+      "slug": "biotechnology-statistical-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biotechnology",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biotechnology"
+      ]
+    },
+    {
+      "name": "Biotechnology: waste management",
+      "slug": "biotechnology-waste-management",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biotechnology",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biotechnology"
+      ]
+    },
+    {
+      "name": "Biotechnology: validation",
+      "slug": "biotechnology-validation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biotechnology",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biotechnology"
+      ]
+    },
+    {
+      "name": "Process Engineering: laboratory techniques",
+      "slug": "process-engineering-laboratory-techniques",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Process Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Process Engineering"
+      ]
+    },
+    {
+      "name": "Process Engineering: process modeling",
+      "slug": "process-engineering-process-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Process Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Process Engineering"
+      ]
+    },
+    {
+      "name": "Process Engineering: mass balances",
+      "slug": "process-engineering-mass-balances",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Process Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Process Engineering"
+      ]
+    },
+    {
+      "name": "Process Engineering: energy balances",
+      "slug": "process-engineering-energy-balances",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Process Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Process Engineering"
+      ]
+    },
+    {
+      "name": "Process Engineering: experimental design",
+      "slug": "process-engineering-experimental-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Process Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Process Engineering"
+      ]
+    },
+    {
+      "name": "Process Engineering: sample preparation",
+      "slug": "process-engineering-sample-preparation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Process Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Process Engineering"
+      ]
+    },
+    {
+      "name": "Process Engineering: instrument calibration",
+      "slug": "process-engineering-instrument-calibration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Process Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Process Engineering"
+      ]
+    },
+    {
+      "name": "Process Engineering: data analysis",
+      "slug": "process-engineering-data-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Process Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Process Engineering"
+      ]
+    },
+    {
+      "name": "Process Engineering: quality control",
+      "slug": "process-engineering-quality-control",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Process Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Process Engineering"
+      ]
+    },
+    {
+      "name": "Process Engineering: safety assessment",
+      "slug": "process-engineering-safety-assessment",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Process Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Process Engineering"
+      ]
+    },
+    {
+      "name": "Process Engineering: scale-up",
+      "slug": "process-engineering-scale-up",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Process Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Process Engineering"
+      ]
+    },
+    {
+      "name": "Process Engineering: process optimization",
+      "slug": "process-engineering-process-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Process Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Process Engineering"
+      ]
+    },
+    {
+      "name": "Process Engineering: kinetic modeling",
+      "slug": "process-engineering-kinetic-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Process Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Process Engineering"
+      ]
+    },
+    {
+      "name": "Process Engineering: separation techniques",
+      "slug": "process-engineering-separation-techniques",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Process Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Process Engineering"
+      ]
+    },
+    {
+      "name": "Process Engineering: analytical testing",
+      "slug": "process-engineering-analytical-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Process Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Process Engineering"
+      ]
+    },
+    {
+      "name": "Process Engineering: technical reporting",
+      "slug": "process-engineering-technical-reporting",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Process Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Process Engineering"
+      ]
+    },
+    {
+      "name": "Process Engineering: literature review",
+      "slug": "process-engineering-literature-review",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Process Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Process Engineering"
+      ]
+    },
+    {
+      "name": "Process Engineering: statistical analysis",
+      "slug": "process-engineering-statistical-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Process Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Process Engineering"
+      ]
+    },
+    {
+      "name": "Process Engineering: waste management",
+      "slug": "process-engineering-waste-management",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Process Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Process Engineering"
+      ]
+    },
+    {
+      "name": "Process Engineering: validation",
+      "slug": "process-engineering-validation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Process Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Process Engineering"
+      ]
+    },
+    {
+      "name": "Biochemistry: laboratory techniques",
+      "slug": "biochemistry-laboratory-techniques",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biochemistry",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biochemistry"
+      ]
+    },
+    {
+      "name": "Biochemistry: process modeling",
+      "slug": "biochemistry-process-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biochemistry",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biochemistry"
+      ]
+    },
+    {
+      "name": "Biochemistry: mass balances",
+      "slug": "biochemistry-mass-balances",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biochemistry",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biochemistry"
+      ]
+    },
+    {
+      "name": "Biochemistry: energy balances",
+      "slug": "biochemistry-energy-balances",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biochemistry",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biochemistry"
+      ]
+    },
+    {
+      "name": "Biochemistry: experimental design",
+      "slug": "biochemistry-experimental-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biochemistry",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biochemistry"
+      ]
+    },
+    {
+      "name": "Biochemistry: sample preparation",
+      "slug": "biochemistry-sample-preparation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biochemistry",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biochemistry"
+      ]
+    },
+    {
+      "name": "Biochemistry: instrument calibration",
+      "slug": "biochemistry-instrument-calibration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biochemistry",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biochemistry"
+      ]
+    },
+    {
+      "name": "Biochemistry: data analysis",
+      "slug": "biochemistry-data-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biochemistry",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biochemistry"
+      ]
+    },
+    {
+      "name": "Biochemistry: quality control",
+      "slug": "biochemistry-quality-control",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biochemistry",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biochemistry"
+      ]
+    },
+    {
+      "name": "Biochemistry: safety assessment",
+      "slug": "biochemistry-safety-assessment",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biochemistry",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biochemistry"
+      ]
+    },
+    {
+      "name": "Biochemistry: scale-up",
+      "slug": "biochemistry-scale-up",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biochemistry",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biochemistry"
+      ]
+    },
+    {
+      "name": "Biochemistry: process optimization",
+      "slug": "biochemistry-process-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biochemistry",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biochemistry"
+      ]
+    },
+    {
+      "name": "Biochemistry: kinetic modeling",
+      "slug": "biochemistry-kinetic-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biochemistry",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biochemistry"
+      ]
+    },
+    {
+      "name": "Biochemistry: separation techniques",
+      "slug": "biochemistry-separation-techniques",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biochemistry",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biochemistry"
+      ]
+    },
+    {
+      "name": "Biochemistry: analytical testing",
+      "slug": "biochemistry-analytical-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biochemistry",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biochemistry"
+      ]
+    },
+    {
+      "name": "Biochemistry: technical reporting",
+      "slug": "biochemistry-technical-reporting",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biochemistry",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biochemistry"
+      ]
+    },
+    {
+      "name": "Biochemistry: literature review",
+      "slug": "biochemistry-literature-review",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biochemistry",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biochemistry"
+      ]
+    },
+    {
+      "name": "Biochemistry: statistical analysis",
+      "slug": "biochemistry-statistical-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biochemistry",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biochemistry"
+      ]
+    },
+    {
+      "name": "Biochemistry: waste management",
+      "slug": "biochemistry-waste-management",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biochemistry",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biochemistry"
+      ]
+    },
+    {
+      "name": "Biochemistry: validation",
+      "slug": "biochemistry-validation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biochemistry",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biochemistry"
+      ]
+    },
+    {
+      "name": "Environmental Engineering: laboratory techniques",
+      "slug": "environmental-engineering-laboratory-techniques",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Environmental Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Environmental Engineering"
+      ]
+    },
+    {
+      "name": "Environmental Engineering: process modeling",
+      "slug": "environmental-engineering-process-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Environmental Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Environmental Engineering"
+      ]
+    },
+    {
+      "name": "Environmental Engineering: mass balances",
+      "slug": "environmental-engineering-mass-balances",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Environmental Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Environmental Engineering"
+      ]
+    },
+    {
+      "name": "Environmental Engineering: energy balances",
+      "slug": "environmental-engineering-energy-balances",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Environmental Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Environmental Engineering"
+      ]
+    },
+    {
+      "name": "Environmental Engineering: experimental design",
+      "slug": "environmental-engineering-experimental-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Environmental Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Environmental Engineering"
+      ]
+    },
+    {
+      "name": "Environmental Engineering: sample preparation",
+      "slug": "environmental-engineering-sample-preparation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Environmental Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Environmental Engineering"
+      ]
+    },
+    {
+      "name": "Environmental Engineering: instrument calibration",
+      "slug": "environmental-engineering-instrument-calibration",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Environmental Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Environmental Engineering"
+      ]
+    },
+    {
+      "name": "Environmental Engineering: data analysis",
+      "slug": "environmental-engineering-data-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Environmental Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Environmental Engineering"
+      ]
+    },
+    {
+      "name": "Environmental Engineering: quality control",
+      "slug": "environmental-engineering-quality-control",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Environmental Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Environmental Engineering"
+      ]
+    },
+    {
+      "name": "Environmental Engineering: safety assessment",
+      "slug": "environmental-engineering-safety-assessment",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Environmental Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Environmental Engineering"
+      ]
+    },
+    {
+      "name": "Environmental Engineering: scale-up",
+      "slug": "environmental-engineering-scale-up",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Environmental Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Environmental Engineering"
+      ]
+    },
+    {
+      "name": "Environmental Engineering: process optimization",
+      "slug": "environmental-engineering-process-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Environmental Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Environmental Engineering"
+      ]
+    },
+    {
+      "name": "Environmental Engineering: kinetic modeling",
+      "slug": "environmental-engineering-kinetic-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Environmental Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Environmental Engineering"
+      ]
+    },
+    {
+      "name": "Environmental Engineering: separation techniques",
+      "slug": "environmental-engineering-separation-techniques",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Environmental Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Environmental Engineering"
+      ]
+    },
+    {
+      "name": "Environmental Engineering: analytical testing",
+      "slug": "environmental-engineering-analytical-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Environmental Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Environmental Engineering"
+      ]
+    },
+    {
+      "name": "Environmental Engineering: technical reporting",
+      "slug": "environmental-engineering-technical-reporting",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Environmental Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Environmental Engineering"
+      ]
+    },
+    {
+      "name": "Environmental Engineering: literature review",
+      "slug": "environmental-engineering-literature-review",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Environmental Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Environmental Engineering"
+      ]
+    },
+    {
+      "name": "Environmental Engineering: statistical analysis",
+      "slug": "environmental-engineering-statistical-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Environmental Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Environmental Engineering"
+      ]
+    },
+    {
+      "name": "Environmental Engineering: waste management",
+      "slug": "environmental-engineering-waste-management",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Environmental Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Environmental Engineering"
+      ]
+    },
+    {
+      "name": "Environmental Engineering: validation",
+      "slug": "environmental-engineering-validation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Environmental Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Environmental Engineering"
+      ]
+    },
+    {
+      "name": "Aspen Plus",
+      "slug": "aspen-plus",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Chemical Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Chemical Engineering"
+      ]
+    },
+    {
+      "name": "Aspen HYSYS",
+      "slug": "aspen-hysys",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Chemical Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Chemical Engineering"
+      ]
+    },
+    {
+      "name": "Distillation Design",
+      "slug": "distillation-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Chemical Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Chemical Engineering"
+      ]
+    },
+    {
+      "name": "Reaction Engineering",
+      "slug": "reaction-engineering",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Chemical Engineering",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Chemical Engineering"
+      ]
+    },
+    {
+      "name": "PCR",
+      "slug": "pcr",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biotechnology",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biotechnology"
+      ]
+    },
+    {
+      "name": "Gel Electrophoresis",
+      "slug": "gel-electrophoresis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biotechnology",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biotechnology"
+      ]
+    },
+    {
+      "name": "Cell Culture",
+      "slug": "cell-culture",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biotechnology",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biotechnology"
+      ]
+    },
+    {
+      "name": "CRISPR",
+      "slug": "crispr",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biotechnology",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biotechnology"
+      ]
+    },
+    {
+      "name": "Bioinformatics",
+      "slug": "bioinformatics",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Biotechnology",
+      "field": "Chemical and Biotech",
+      "domains": [
+        "Biotechnology"
+      ]
+    }
+  ],
+  "role_templates": [
+    {
+      "title": "Chemical Engineering Contributor",
+      "slug": "chemical-engineering-contributor",
+      "domain": "Chemical Engineering",
+      "required_skills": [
+        "Chemical Engineering: laboratory techniques",
+        "Chemical Engineering: process modeling",
+        "Chemical Engineering: mass balances",
+        "Chemical Engineering: energy balances"
+      ]
+    },
+    {
+      "title": "Biotechnology Contributor",
+      "slug": "biotechnology-contributor",
+      "domain": "Biotechnology",
+      "required_skills": [
+        "Biotechnology: laboratory techniques",
+        "Biotechnology: process modeling",
+        "Biotechnology: mass balances",
+        "Biotechnology: energy balances"
+      ]
+    },
+    {
+      "title": "Process Engineering Contributor",
+      "slug": "process-engineering-contributor",
+      "domain": "Process Engineering",
+      "required_skills": [
+        "Process Engineering: laboratory techniques",
+        "Process Engineering: process modeling",
+        "Process Engineering: mass balances",
+        "Process Engineering: energy balances"
+      ]
+    },
+    {
+      "title": "Biochemistry Contributor",
+      "slug": "biochemistry-contributor",
+      "domain": "Biochemistry",
+      "required_skills": [
+        "Biochemistry: laboratory techniques",
+        "Biochemistry: process modeling",
+        "Biochemistry: mass balances",
+        "Biochemistry: energy balances"
+      ]
+    },
+    {
+      "title": "Environmental Engineering Contributor",
+      "slug": "environmental-engineering-contributor",
+      "domain": "Environmental Engineering",
+      "required_skills": [
+        "Environmental Engineering: laboratory techniques",
+        "Environmental Engineering: process modeling",
+        "Environmental Engineering: mass balances",
+        "Environmental Engineering: energy balances"
+      ]
+    }
+  ]
+}

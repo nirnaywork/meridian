@@ -5,7 +5,7 @@ import { failure, jsonBody, sameOrigin } from "@/lib/server/http";
 export async function POST(request: Request) {
   try {
     sameOrigin(request);
-    const { user } = await session();
+    const { user } = await session(false);
     await rate("actions:" + user.id);
     const input = actionSchema.parse(await jsonBody(request));
     const args =
@@ -30,7 +30,7 @@ export async function POST(request: Request) {
         args,
       ),
     );
-    return NextResponse.json(result);
+    return NextResponse.json({id:result.id,status:result.status});
   } catch (e) {
     return failure(e);
   }

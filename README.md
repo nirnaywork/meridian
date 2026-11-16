@@ -1,14 +1,16 @@
 # Meridian
 
-A student-first team matching platform. Next.js App Router + TypeScript + Tailwind CSS + InsForge Auth, Postgres/pgvector, Storage, and Sites. No LLM, paid inference API, analytics service, remote font, or image service is used.
+Live: [Meridian](https://tyhutf3c.insforge.site). Existing Next.js + TypeScript + Tailwind + InsForge project 52590b98-ea17-4cb4-aacf-49528d17a5ef. Email/password only, verified six-digit codes, no paid AI or LLM APIs.
 
-**Live:** [Meridian on InsForge Sites](https://tyhutf3c.insforge.site). Deployment `a8545fc7-e405-4265-b8c8-b944a474141b` reached READY on 16 November 2026. The linked backend, auth settings, three migrations, avatar bucket, and demo seed are applied. Both local `.env.local` and hosted environment variables are configured.
+## What changed
 
-Validation: 12 unit tests, 24 real-backend integration checks, production build/type checking, and seven hosted smoke checks passed. Reports are in `docs/integration-results.json`, `docs/production-smoke.json`, and `docs/calibration.json`. Browser checks covered desktop/mobile layouts, profile editing, role selection, score breakdowns, signup navigation, and light/dark themes. Real-inbox verification and reset delivery still need manual acceptance.
+Explore `/projects` lists open projects newest first, with neutral filters and date/open-role sorting. Raw cosine is informational. Every application is pending until manually reviewed; invitations always require consent. A single Under the Hood FAB on your profile and project details opens a slide-over containing stored traces, 384 numbers, canonical inputs, pooling/hashing steps, statistics, and copy/download. Similarity explainers expose actual products, running sums, norms, app/pgvector parity and angle. Profile vectors are private to their owners.
 
-## Start locally
+See DECISIONS.md for the diagnosed logo issue, version changes, privacy boundaries and assumptions. The only sign-out action is the explicit button. Authenticated root/sign-in visits go to `/projects`; bootstrap restores cookie sessions before client navigation decisions.
 
-Use Node.js 22+ and npm. This workspace is already linked to project `52590b98-ea17-4cb4-aacf-49528d17a5ef`, with an ignored `.env.local` configured. On a new checkout:
+## Local setup
+
+Node 22+, npm. This workspace already has ignored `.env.local` credentials. On a new checkout:
 
 ```sh
 npm ci
@@ -16,135 +18,150 @@ npx -y @insforge/cli login
 npx -y @insforge/cli link --project-id 52590b98-ea17-4cb4-aacf-49528d17a5ef
 ```
 
-Copy `.env.example` to `.env.local`. Get the URL from `.insforge/project.json`, the anon key with `npx -y @insforge/cli secrets get ANON_KEY`, and the server API key from the project's settings/link file. Keep the API key in `INSFORGE_API_KEY` only. Never prefix it with `NEXT_PUBLIC_`, commit it, or paste it into client code.
+Copy `.env.example` to `.env.local`. Use the linked project's URL and anon key for NEXT_PUBLIC_INSFORGE_URL/NEXT_PUBLIC_INSFORGE_ANON_KEY. INSFORGE_API_KEY is server-only. Never commit keys. NEXT_PUBLIC_APP_URL is localhost during development and the hosted URL in production. EMBEDDING_PROVIDER is hashed or minilm. There is no MATCH_MODE.
 
 ```sh
 npx -y @insforge/cli config apply --auto-approve
 npx -y @insforge/cli db migrations up --all
-npx -y @insforge/cli storage create-bucket avatars
-npm run seed
+npm run validate-seed
+npm run seed:taxonomy
+# Only on a fresh development backend: create avatars bucket, then npm run seed
+npm run reembed-all
 npm run dev
 ```
 
-Do not recreate the avatar bucket if it already exists. Open http://localhost:3000. Create your own account using a real email, enter the verification code, and finish onboarding. Seed users have random passwords, reserved `.example` addresses, and are clearly marked as demo profiles. There is no public demo-login backdoor.
-
-`npm run seed` installs 372 taxonomy entries, 10 fictional members, 15 projects and 30 roles, and their stored vectors. It uses the admin user API rather than writing to `auth.users`. Stable project/role IDs and a local ignored demo-user map make reruns idempotent; the script also searches existing demo identities if the map is absent. Rerunning seed updates demo project content to the fixtures.
-
-## Environment
-
-| Variable                        | Purpose                                                                              |
-| ------------------------------- | ------------------------------------------------------------------------------------ |
-| `NEXT_PUBLIC_INSFORGE_URL`      | Backend URL, safe for browser code                                                   |
-| `NEXT_PUBLIC_INSFORGE_ANON_KEY` | Public anon key; RLS still governs access                                            |
-| `INSFORGE_API_KEY`              | Full-access key, server and maintenance scripts only                                 |
-| `NEXT_PUBLIC_APP_URL`           | App origin for deployment documentation/configuration                                |
-| `EMBEDDING_PROVIDER`            | `hashed` (default) or `minilm`                                                       |
-| `MATCH_MODE`                    | `composite` (default) or `cosine_only`; run `reembed-all` to synchronize DB settings |
-| `MODEL_CACHE_DIR`               | Optional MiniLM disk cache, default `.cache/models`                                  |
-| `MODEL_LOCAL_ONLY`              | `true` disables model downloads after caching                                        |
-| `TEST_APP_URL`                  | Optional integration-test app origin, defaults to localhost:3000                     |
+Old migrations are immutable; the new change-set migration removes obsolete columns/functions and adds domains/trace RLS. Taxonomy seed files are per field under seed/. They upsert by slug and preserve IDs. There are 2,108 skills and 83 domains; validation prints every field/domain count and rejects alias/slug collisions, missing domains and minimum-count failures. Existing demo accounts have reserved addresses and random passwords; create your own account to use the app.
 
 ## Auth configuration
 
-In InsForge Authentication settings: email/password only; **requireEmailVerification=true**, **verifyEmailMethod=code**, **resetPasswordMethod=code**. Passwords need 10–128 characters, lowercase, uppercase, and a digit. These settings are tracked in `insforge.toml` and applied to the linked project. Default shared-key Google and GitHub configurations were removed through the verified dedicated OAuth configuration API; no OAuth UI or OAuth callback route is implemented.
+insforge.toml requires email verification with code, password recovery with code, and ten-character passwords with uppercase/lowercase/number. OAuth remains disabled. Verification input supports paste/advance/resend cooldown. Forgot/reset use built-in InsForge code exchange. Existing redirect allowlists include localhost and the InsForge Site. Real-inbox verification/reset delivery must be checked with your own mailbox. Avatar bucket is public-read with writes restricted to the owner's UUID folder; UI accepts JPG/PNG/WebP <=2MB.
 
-For another project, remove social providers under Authentication → Auth Methods. The CLI's TOML config does not manage OAuth provider resources. The installed SDK's auth calls and SSR cookie helpers are used directly. Refresh tokens are httpOnly; short-lived access tokens are browser-readable for authenticated Storage uploads. Auth mutations validate same-origin requests. Protected pages verify the user with InsForge and enforce onboarding. Database policies independently require verified identities.
+## Offline embeddings
 
-The verification screen supports six boxes, keyboard movement, paste, resend, a 60-second cooldown, and backend error messages for invalid/expired codes and rate limits. Signing in with an unverified email redirects to verification. Forgot/reset password uses InsForge's code exchange and password-reset flow. No reset token is returned to the browser by our server.
-
-If switching reset to **link** later, implement the link-specific UI and allowlist the exact reset URL: InsForge requires `redirectTo` in `allowedRedirectUrls`. The current allowlist includes localhost and the default hosted sign-in/reset pages. See [InsForge auth reference](https://docs.insforge.dev/sdks/rest/auth). Both flows must stay consistent with the dashboard method.
-
-## Architecture and integrity
-
-- `src/app`: landing/auth pages, protected workspace routes, authenticated API handlers.
-- `src/components`: forms, skill picker, feed, project workspace, applications and invitations.
-- `src/lib/matching`: provider interface, canonical text, SHA-256 change detection, local MiniLM and portable hashed TF-IDF.
-- `src/lib/server`: session verification, rate limiting, validation, normalization, and atomic saves.
-- `migrations`: tables, RLS, vector indexes, matching RPCs, state transitions and capacity locks.
-- `scripts`: seed, calibration, vector migration, integration checks, deployment.
-
-All 14 app tables have RLS. Normal clients have read permissions scoped by policy, and **no direct write privileges**. Server endpoints authorize the actor, validate with Zod, and call service-only RPCs. Every score and decision is computed from stored vectors inside Postgres; browser-supplied embeddings, scores and ownership fields are stripped/ignored. Raw vector tables and settings are service-only.
-
-Profile/project saves compute embeddings first, then atomically commit content, skill relations and vectors. A failed embedding leaves existing content intact. Revision checks reject stale saves instead of overwriting concurrent edits. The skills onboarding step prepares and saves a profile with onboarding incomplete; only the final intent step completes it. Display name/avatar changes do not alter the canonical hash or embedding timestamp. Project title/category and role title affect canonical text, so they do trigger updates.
-
-Applications and invitations store score snapshots and breakdowns. New applications/invites always rescore; later approval/acceptance uses the original submitted snapshot and current capacity. All membership transitions lock the project row before checking both role slots and team capacity. Team size includes the lead. Invitations never reserve a slot or add someone without acceptance. Null-role applications have true uniqueness through `UNIQUE NULLS NOT DISTINCT`. Pending applications can be withdrawn; accepted team membership cannot be removed through withdrawal. Role deletion is blocked when it has application/invitation history.
-
-Auth throttles use durable Postgres counters: 30 requests/IP/5 minutes, 10 attempts/email/action/5 minutes, one resend/email/action/minute. Save/embedding endpoints permit 12 saves/user/minute; application actions permit 30/user/minute. InsForge also applies its own auth/email limits. Deployment trusts Vercel's forwarded IP header.
-
-## Matching
-
-Vectors are 384-dimensional and normalized. HNSW indexes use `vector_cosine_ops`. `match_projects_for_user` ranks by the best available role (or project vector without roles), filters by text/skill/role/commitment, and paginates by `(score, id)`; `match_candidates_for_role` ranks members by cosine similarity. Provider and version must match. No embedding generation occurs during feed reads or matching.
-
-`src/lib/matching/config.ts` is the single calibration/threshold source; seed and `reembed-all` synchronize it into the private DB settings row. Defaults:
-
-- Strong ≥70; moderate ≥40; weak <40. Decisions use unrounded scores.
-- Composite: 75% calibrated cosine + 25% required-skill coverage.
-- MiniLM mapping: 0.20–0.75 cosine → 0–100.
-- Hashed TF-IDF mapping: 0.08–0.65 cosine → 0–100.
-- Auto-approve strong applications is enabled per project by default, subject to capacity; otherwise they remain pending.
-- No required skills means 100% coverage. Proficiency affects canonical text; coverage tests presence, not proficiency.
-
-The fallback uses frozen taxonomy-derived IDF (smoothed document frequency), sublinear term frequency, unigrams/bigrams, independent signed hashing, exact-skill boosts and L2 normalization. It has no model download and uses portable JavaScript/Web Crypto. It is lexical, not a substitute for a semantic model; short unrelated texts can collide.
-
-MiniLM uses `@huggingface/transformers`, `feature-extraction`, mean pooling and normalization. The quantized `Xenova/all-MiniLM-L6-v2` ONNX export is pinned to revision `751bff37182d3f1213fa05d7196b954e230abad9`. Pipeline loading is singleton per Node process. First use downloads free model files, then inference is entirely local with no API quota. To prewarm, run `npm run calibrate -- --all`. Set `EMBEDDING_PROVIDER=minilm` and run `npm run reembed-all` before serving MiniLM matches. For offline operation set `MODEL_LOCAL_ONLY=true` after downloading. Never silently fall back for one record: that would split the vector space.
-
-`reembed-all` scans bounded batches and skips identical hashes, atomically saves updated records with revision checks, and finally syncs match configuration. During migration, incompatible records are excluded until their versions align. Retry if a concurrent edit causes a revision conflict.
-
-## Verify
+[Model source](https://huggingface.co/Xenova/all-MiniLM-L6-v2), **Apache 2.0**, pinned revision `751bff37182d3f1213fa05d7196b954e230abad9`.
 
 ```sh
-npm run test
-npm run typecheck
-npm run calibrate -- --all
-npm run build
-# Keep npm run dev running in another terminal:
-npm run test:integration
-# Reuses the disposable QA account created by integration tests:
-npx tsx scripts/smoke.ts
+npm run download-model
+npm run verify-model
+npm run build # prebuild downloads/verifies the five files
+npm start
 ```
 
-Unit tests cover aliases (including C/C++/C# distinctions), normalization, stable ordering, deterministic vectors, hash skipping, bounds, band edges and invalid inputs. Integration tests use real InsForge accounts/tables and HTTP sessions to exercise scoring decisions, parallel slot claims, consent, duplicate prevention, RLS, service-only writes, stable pagination, version isolation, cosmetic hash skipping and sign-out. Fixtures are closed and removed from talent discovery afterward; audit records remain. Run against a dedicated test project when the app has real users. Do not point tests at another app's backend.
+models/ is git-ignored. MANIFEST.json stores each SHA-256. Only onnx/model_quantized.onnx, config.json, tokenizer.json, tokenizer_config.json and special_tokens_map.json are needed. Build/download needs Hugging Face network; runtime uses an absolute local model path, allowLocalModels=true, allowRemoteModels=false, dtype=q8 and native Node ONNX. No runtime download is permitted. Missing/corrupt files or failed model loading log a full Meridian: error and return 503 without saving profile/project data. There is no automatic fallback. GET `/api/health/embedding` reports the active provider and checksums. EMBEDDING_PROVIDER must explicitly be minilm or hashed; missing/unknown values fail startup. Hosted and local default is minilm, proven with native inference on the deployed host. [Transformers.js environment documentation](https://huggingface.co/docs/transformers.js/api/env) describes the verified option names.
 
-`docs/calibration.json` contains 20 labelled pairs **per provider**. These are deliberately small illustrative fixtures with exact skill overlap, not a production quality benchmark. MiniLM assigns moderate scores to some unrelated pairs; see `DECISIONS.md`. Broader labelled student examples should inform future calibration.
+Embeddings regenerate only after relevant saves change SHA-256(canonical text + provider + version). Reads/matching never embed. Profiles/projects/roles include sorted domains. Hashed provider version is domains-tfidf-v5 and MiniLM is domains-minilm-751bff37-q8-v3. Never compare versions/providers. After switching providers, run reembed-all once. It skips unchanged hashes. Backfill-traces only processes missing traces, checks the reconstructed source hash and vector tolerance, and never replaces stored vectors. Run migrations/reembed-all before backfilling legacy rows.
 
-Manual acceptance: sign up with your own inbox; verify delivery/code/resend; try a wrong code; finish all three onboarding steps; filter the feed; inspect a breakdown; apply; create a project in a second account; approve/reject; invite and accept/decline; upload an avatar; reset a password. Email delivery to a real inbox remains a manual check because automated fixtures use reserved addresses and admin-confirmed identities.
+## Tests and calibration
 
-## Deploy on InsForge
+```sh
+npm test
+npm run typecheck
+npm run validate-seed
+npm run verify-model
+npm run calibrate -- --all
+npm run build
+npm start
+# Separate terminal, dedicated test backend recommended:
+npm run test:integration
+npx playwright install chromium
+npm run test:e2e
+npm run backfill-traces
+```
 
-[InsForge Sites](https://docs.insforge.dev/core-concepts/sites/overview) supports Next.js API routes/SSR through Vercel. `vercel.json` places server functions in Singapore, near this ap-southeast database. No separate Vercel account, custom compute instance, or model host is provisioned.
+Integration creates disposable verified users and closes its test project; fixtures remain as audit records and are hidden from talent discovery. E2E reuses the ignored test credentials from integration. Run browser checks with next start, since development watchers can reload while test artifacts are written. Unit tests cover aliases, domain canonical ordering, hash skipping, trace data, cosine, seed validity, remote-disabled configuration and missing-model errors without fallback. Integration covers low-cosine pending applications, structural rejection, snapshots, concurrent slots, vector privacy, neutral ordering, endpoints and pgvector parity. E2E covers logo/reload/session persistence, sorting and real vector arithmetic. Calibration records 26 pairs per provider including engineering disciplines, not a validated measure of capability.
 
-Build locally first. In PowerShell, `./scripts/deploy.ps1` reads the ignored `.env.local`, configures deployment variables without printing secret values, then runs `npx -y @insforge/cli deployments deploy . --json`. The source directory is deployed, not `.next`. InsForge automatically excludes `.env*`, `.insforge`, `node_modules`, and build output; `.vercelignore` also excludes tests, scripts, caches and migrations. Set `INSFORGE_API_KEY` as a server-only deployment variable. The default target is `https://tyhutf3c.insforge.site`.
+## Deployment
 
-For other shells use `npx -y @insforge/cli deployments env set KEY VALUE` for each required variable, then `npx -y @insforge/cli deployments deploy . --json`. Inspect `deployments list` and `deployments status ID --sync` if the CLI times out; do not create another deployment while one is still building.
+PowerShell `./scripts/deploy.ps1` configures server/public environment variables without printing secrets and publishes through InsForge Sites. Source upload excludes models/ to respect upload limits; prebuild downloads them and Next tracing includes runtime assets. `.vercelignore` must include scripts/download-model.ts and its dependencies. Deployments are Vercel-backed Next.js SSR/API routes in sin1. Check deployments list/status if CLI polling times out; do not submit duplicates.
 
-Default hosted provider is **hashed**. MiniLM runs successfully on this local Node installation, but its serverless cold-start/memory/bundle footprint has not been established on InsForge Sites. The fallback is deliberately used to avoid an extra paid host. A dedicated Node deployment can use the same code/provider when resources permit; no remote model endpoint is necessary for this MVP.
+## External services and free limits
 
-## External services and verified free limits
+Verified from primary documentation 16 November 2026; no new external runtime service was introduced by change set 1.
 
-Verified on **16 November 2026**, from primary provider documentation. Account inspection confirms this linked organization is on the free plan. Limits can change; the source links are authoritative.
+| Service                                                                         | Usage and free limits                                                                                                      |
+| ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| [InsForge Cloud](https://docs.insforge.dev/pricing)                             | Auth/Postgres/Storage: 50k MAU, 500MB DB, 1GB files, 5GB bandwidth; free projects pause after one inactive week.           |
+| [InsForge Sites](https://docs.insforge.dev/core-concepts/sites/overview)        | Next SSR/API hosting. InsForge lists 600 build minutes; separate hosted request/CPU quotas are not published.              |
+| [Managed auth mail](https://docs.insforge.dev/core-concepts/messaging/overview) | Available free; numeric daily email cap is not publicly specified. Resend has a 60-second cooldown.                        |
+| [Hugging Face](https://huggingface.co/Xenova/all-MiniLM-L6-v2)                  | Optional build-time public model download only. Local inference has no API quota; host compute/storage limits still apply. |
+| npm                                                                             | Public development/build packages.                                                                                         |
 
-| Service                        | Usage                                    | Verified free allowance                                                                                                                                                                                                                                                                                                                                                        |
-| ------------------------------ | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| InsForge Cloud                 | Postgres, pgvector, Auth, Storage        | 50,000 monthly active users; 500 MB DB; 1 GB files; 5 GB bandwidth. Free projects pause after one inactive week. [Pricing](https://docs.insforge.dev/pricing)                                                                                                                                                                                                                  |
-| InsForge Sites (Vercel-backed) | Next.js hosting                          | 600 build minutes on the InsForge free plan. The docs do not separately quantify hosted request/CPU allowances; no unlimited-hosting claim is made. [Pricing](https://docs.insforge.dev/pricing), [Sites](https://docs.insforge.dev/core-concepts/sites/overview)                                                                                                              |
-| InsForge managed auth email    | Verification/reset codes                 | Auth email is available on the free plan. Public docs specify project/plan rate limits but do **not** publish a numeric daily auth-email cap. This is unverified rather than guessed. Default recipient cooldown is 60 seconds. [Messaging](https://docs.insforge.dev/core-concepts/messaging/overview), [SMTP](https://docs.insforge.dev/core-concepts/messaging/custom-smtp) |
-| Hugging Face Hub (optional)    | Initial open-source MiniLM file download | No hosted inference is used. Local inference has no vendor call quota; local compute/storage costs remain yours. Download availability is subject to Hub limits. Hashed mode never contacts it. [Transformers.js](https://huggingface.co/docs/transformers.js), [Model](https://huggingface.co/Xenova/all-MiniLM-L6-v2)                                                        |
-| npm registry                   | Development/build dependencies           | Public packages; not a runtime app service or metered AI API.                                                                                                                                                                                                                                                                                                                  |
+Optional custom SMTP: [Brevo Free](https://help.brevo.com/hc/en-us/articles/208580669-FAQs-What-are-the-limits-of-the-Free-plan) documents 300 sends/day. Not configured or required. Configure a verified sender and SMTP credentials in [InsForge Custom SMTP](https://docs.insforge.dev/core-concepts/messaging/custom-smtp) if the managed sender's account cap is insufficient. Keep SMTP secrets out of the frontend.
 
-InsForge also lists 100,000 edge function calls and 120 custom-compute hours on Free, but Meridian provisions neither. No paid service was added. Hosting remains subject to its free quotas; “unlimited” applies to the absence of embedding API quotas, not hosted compute resources.
+## Change set 1 acceptance (17 November 2026)
 
-### Optional SMTP alternative
+- Done: logo/root/sign-in preserve cookie sessions; diagnosis is in DECISIONS.md.
+- Done: personalized feed, score bands/composite weights and auto-approval code/columns removed through new migrations.
+- Done: all applications start pending; low/missing cosine never blocks participation; raw cosine and skill snapshots are server-generated.
+- Done: profile, project and role embedding explainers show stored traces and vectors, virtualized numbers, heatmaps, copy and JSON download.
+- Done: similarity shows all 384 products, running sums, norms, app/pgvector parity, contributors, angle and reading guide. Application snapshots are distinguished from current-vector calculations.
+- Done: 2,108 validated skills, 83 domains, ten fields, editable templates and domain-aware pickers/filters.
+- Done: pinned build-time model download, SHA-256 manifest, offline runtime/fallback and working health endpoint.
 
-If the managed sender's account-specific cap is too low, [Brevo Free includes 300 email sends/day](https://help.brevo.com/hc/en-us/articles/208580669-FAQs-What-are-the-limits-of-the-Free-plan). It is **not configured or required**. Create your own free account, verify a sender, copy the SMTP connection details from its dashboard, and enter them in InsForge Authentication → Email → Custom SMTP (host, port, username, password, sender address/name). InsForge tests the connection and encrypts the password; all auth mail then uses that provider. Keep credentials out of the repo. See [InsForge SMTP setup](https://docs.insforge.dev/core-concepts/messaging/custom-smtp).
+Validation: 14 unit tests, 12 real-backend integration checks, three end-to-end browser tests against the live site, native offline model verification, TypeScript and production build. Reports: docs/change-set-integration.json, docs/calibration.json, docs/seed-counts.txt. Public embedding health confirms model files present and checksums valid with remoteModelsAllowed=false. The optional interactive reproducibility button and optional linguistic gauge are intentionally omitted; reproducibility scripts are included.
 
-## Section 3 implementation checklist
+## Change set 3: Under the Hood slide-over
 
-- [x] Email/password signup/sign-in, six-digit verification, paste/auto-advance, resend cooldown, errors, password reset, protected sessions and sign-out.
-- [x] Forced basics → skills → intent onboarding, optional university/avatar, searchable taxonomy, custom pending skills, proficiency, embeddings before discovery, editable intent.
-- [x] Ranked member feed, match percentages/breakdowns, matched/missing chips, filters, cursor pagination, loading/error/empty states.
-- [x] Project detail, role or whole-project application, server-side bands, auto-approval, application tracking and withdrawal.
-- [x] Create/edit project wizard, required/preferred skills, project/role embeddings, open/close controls, lead dashboard.
-- [x] Ranked applicants, approve/reject, role-based talent discovery, invitations, team members and capacity.
-- [x] Member invitations with explicit accept/decline and transaction-safe membership.
+The only explainer entry point is the floating bottom-right button on your profile and signed-in project detail pages. Normal pages contain no explainer content and request no vectors or traces. Dedicated under-the-hood page routes do not exist. Existing small cosine badges remain informational.
 
-The checklist describes implemented features; automated and manual verification boundaries are stated above. Assumptions to review are collected in `DECISIONS.md`.
+The panel has project/role/similarity tabs, lazy code/data loading, cached tabs, sticky header, expand control, responsive step navigation, internal scrolling, and focus/scroll locking. Escape, X, backdrop or Back closes it. Refresh restores query state such as `?panel=under-the-hood&tab=similarity&role=<id>`. Profile/project/role vectors and traces are never regenerated by viewing. Owner similarity mode shows applicant snapshots and skill overlap with the formula, never private applicant vectors.
+
+Heavy endpoints, called only after opening:
+
+- GET /api/embeddings/me: only the signed-in viewer's embedding.
+- GET /api/projects/[id]/embedding?role=<id>: one project or role embedding.
+- GET /api/projects/[id]/similarity?role=<id>: viewer comparison/snapshot, or summary-only owner mode.
+
+Each endpoint validates the session and role/project identity, uses existing RLS, and sends private/no-store headers. The obsolete combined /api/embeddings/project endpoint returns 404. No new migration or service is needed for this change.
+
+Rename the shared label/title or change the icon in src/lib/under-the-hood.ts. `SHOW_MATCH_PERCENT=false` in the server environment hides badges while preserving the panel (default true; restart/redeploy to apply). FAB/panel/dialog CSS layer tokens are 60/100/200. Toasts are bottom-center with clearance for the FAB; safe-area insets and page padding protect content.
+
+Run `npm run build` then `npm start`. In another terminal run `npm run test:integration` to populate disposable member/owner browser fixtures, then `npm run test:e2e`. To run the badge-flag case too, start the same build on a second port with SHOW_MATCH_PERCENT=false and PORT=3001, and set TEST_FLAG_URL=http://localhost:3001 for Playwright. Saved test sessions in .cache are ignored and used only for disposable test accounts. No production user credentials are added to tests.
+
+Change set 3 validation: 14 unit tests, 12 real-backend regression checks and 9 browser tests passed against production builds (including a badge-disabled instance). TypeScript and the production build pass. Desktop/mobile previews are saved in docs/under-the-hood-project.png and docs/under-the-hood-mobile.png.
+
+
+## Change set 4: explicit MiniLM and canonical v3
+
+The deployed host probe passed on Node v26.13.1, Linux x64, Transformers.js 3.8.1 and onnxruntime-node 1.21.0. Next tracing explicitly includes the CPU binding, its shared libraries and all five pinned model assets for API routes. Darwin, Windows, ARM64, CUDA and TensorRT binaries are excluded from deployment. The initial missing libonnxruntime.so.1 error was a tracing omission, not an unsupported runtime. The GPU-inclusive diagnostic probe was 450,500,195 bytes visible under /var/task; final CPU-only measurements are recorded in docs/change4-host-final.json. This runtime footprint is not an official Vercel archive-size measurement. Vercel documents a standard 250 MB uncompressed function limit: https://vercel.com/docs/functions/limitations.
+
+GET /api/health/embedding is public and minimal. GET /api/health/embedding/detail requires x-health-token equal to HEALTH_TOKEN; use the secret in your local environment without putting it in URLs or logs. It reports live environment flags, host/package versions, native-file inventory and a live smoke test cached for 60 seconds. A null remoteModelsAllowed means the Transformers module could not load, rather than an invented false value. EMBEDDING_WRITES_PAUSED is a temporary rollout gate, normally false. Selection failures never silently change providers. Model inference errors preserve the old record because generation finishes before the atomic save RPC.
+
+Canonical v3 omits empty proficiency/domain/interests/bio sections and sorts skills and domains. Both providers have new versions because their input format changed. The packaged tokenizer supports 512 tokens, but the app explicitly caps both actual inference and its trace at the upstream sentence-transformer default of 256 word pieces. npm run audit-truncation reports stored and candidate text lengths without writing database data. The rollout audit found 0% truncation for all three tables; full role text remains in project canonical text. The longest v3 project text was 167 tokens. Upstream model card: https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2.
+
+New projects and onboarding require at least one domain. New roles inherit project domains unless separately chosen. Legacy records load and remain editable with empty domains; none are assigned automatically. Their owner sees a dismissible reminder. Form suggestions count distinct selected skills through the actual skill_domains join, with alphabetical tie breaking; Confirm suggested domains changes only the form until Save. A single database trigger maintains profile/project/role domain joins from the arrays. scripts/sql/domain-consistency.sql must return no inconsistent rows.
+
+For a deliberate provider/version rollout: pause embedding saves, prove the model on the host, deploy the new identity, immediately run npm run reembed-all, then npm run verify-embeddings and scripts/sql/embedding-verification.sql before lifting the pause. The script batches reads, commits each profile or project atomically, skips identical hashes on reruns and refuses a mixed/incorrect final identity or invalid/missing-trace vector. It does not invent embeddings for blank accounts. Applications retain their original cosine snapshots. Current null/incompatible comparisons display Embedding is being updated; they are never coerced to zero. Back up the backend through your normal operational process before future rollouts.
+
+Under the Hood identifies the model that produced each stored vector separately from live health. A mismatch offers an authenticated, rate-limited regenerate control only for the owner, reusing saved source data and the normal hash-skip save path. Opening or reading the panel still never generates vectors. MiniLM vectors use nine decimal places and a heatmap scaled to their own positive/negative extrema. The normal pages still load neither heavy vectors nor explainer code.
+
+npm run build uses Next.js webpack mode because this local Next/Turbopack installation failed to launch its CSS worker. No app behavior depends on that bundler choice. No standalone embedding service or paid service was added.
+
+The final calibration uses 34 pairs per provider, including ECE/EEE/mechanical and eight semantic examples. Display thresholds in src/lib/matching/gauge.ts are MiniLM Fair=0.20, Good=0.45, Strong=0.75 and hashed 0.08/0.30/0.65. The fixture ranges overlap, so the gauge is explicitly informational; it is never imported by application/invitation decisions. Snapshot badges preserve old values and do not apply the new current-vector gauge. Full distributions are in docs/calibration.json.
+
+PowerShell SQL verification: collapse newlines before passing SQL through npx.cmd, for example `$sql=(Get-Content scripts/sql/embedding-verification.sql -Raw) -replace '\r?\n',' '; npx -y @insforge/cli db query $sql --json`. Domain verification returns three rows, each with inconsistent_rows=0. npm run verify-embeddings fails on any incorrect or mixed identity, invalid vector or missing trace. Rollout measurements and SQL results live in docs/change4-*.json.
+
+Change set 4 validation: production build, type check, 22 unit tests, 14 backend checks, 11 local browser cases and 5 deployed-host cases passed. A repeated reembed-all updated zero records. Final database counts including disposable QA fixtures are 45 profiles, 27 projects and 41 roles, all MiniLM v3. Deployment and measurement evidence is in docs/change4-validation.json; the production save pause is off. Existing real users must confirm their own domain choices; none were assigned automatically.
+
+
+## Change set 5: role percentages
+
+Normal pages display one calibrated percentage per role and a best-open-role sentence; there is no project-level percentage. `src/lib/matching/matchScore.ts` implements `100 / (1 + exp(-k * (cosine - c0)))`, clamped to 1–99 and rounded. The only parameter source is `src/lib/matching/match-calibration.json`, calibration version `role-percent-2026-11-v1`. MiniLM's accepted fit is c0=0.49966375338843566, k=11.31196095168161; hashed retains c0=0.30, k=10 because its fitted curve failed the 0.20 sanity anchor. The default hashed curve also maps 0.20 to 27%; it is retained exactly as requested, not represented as passing that anchor. Percentages are estimates from stored embedding alignment, not probabilities or ability measurements. They never affect application eligibility or Explore ordering.
+
+Run `npm run calibrate -- --from-report --write-config` to refit the 34 existing labelled pairs per provider without running an embedding model. Without --from-report, calibration embeds only its in-memory fixtures. Reports include fitted/selected parameters, every anchor, distributions and a conversion table in docs/change5-calibration.json. Only accept a fit when mean irrelevant maps below 30, median relevant above 90, 0.20 below 15, and slope is positive. The continuous curve is strictly increasing; rounded/clamped integer output is necessarily nondecreasing with plateaus. Parameter updates require a new calibrationVersion and new SQL migration; never rewrite historical snapshot percentages.
+
+The best role has the highest rounded percentage among open roles, then most remaining slots, then first display order. Role display order is deterministic by title and ID across Explore and details. Full copy bands start at 85 (excellent fit), 70 (best fit), 50 (closest role), otherwise Closest role plus an optional-skills suggestion. All copy is in src/lib/matching/roleMatch.ts. Shared RoleMatchBadge and BestRoleMatch components handle formatting, tooltips and missing/updating states. Full roles keep badges, but cannot become the headline. No roles means no percentage. Owners see no personal role match.
+
+The server batches current stored-vector comparisons for every requested role through role_matches_for_viewer, validates provider/version identity, then uses the shared formula. No re-embedding or per-project seed update is needed. Normal Explore/detail/application/applicant/talent/action responses use explicit projections and never return raw values, including nested breakdowns. Applicants default to newest; Find Talent retains its lead-only ranking. Under the Hood is the sole app endpoint surface for raw comparisons and adds a worked substitution, curve and all-role table. Operational health smoke tests return a boolean ordering check instead of raw comparison numbers.
+
+Migration 20261117040000_role-percentages.sql adds nullable match_percent/calibration_version snapshots. A service-only calibration-table mirror is generated from the single JSON config and checked for exact parity by integration tests. An INSERT trigger computes the percentage in the same transaction as the existing cosine snapshot, avoiding a race between application creation and percentage storage. Compatible historical role snapshots are backfilled; older versions and whole-project applications remain null. Existing raw cosine columns, embeddings, versions and matching math are untouched. Invitation match numbers were removed; invitation consent and skill chips remain.
+
+SHOW_MATCH_PERCENT replaces the old display flag, defaults true, and hides normal badges/headlines and the percentage explainer when false. The remaining panel and raw technical explanation work normally. Set it in the server environment and restart/redeploy. The env template is updated locally but excluded from the requested commit together with every .env file.
+
+Tests: `npm test` includes the static UI/API terminology guard and response-projection checks. `.github/workflows/checks.yml` runs that guard in CI without backend credentials. Run the existing backend suite, then `npx tsx --env-file=.env.local scripts/change5-integration.ts` for the normal two-role create/apply flow. Browser tests consume ignored disposable fixtures. `scripts/check-vector-preservation.ts --snapshot` / its no-argument check prove that pre-existing vectors and traces remain byte-for-byte unchanged; these fingerprints are private and ignored. A new project test necessarily generates only that new project's and new accounts' vectors. Existing browser snapshot-copy tests now mock historical responses instead of modifying saved profiles.
+
+
+Rolling deployment order for change set 5: apply migrations 040000 and 050000, deploy the percentage app, wait for READY and verify pages, then apply 060000 to retire the old project-match RPC. A fresh backend can apply all migrations before starting the new app. The compatibility migration exists because the initial rollout retired the old RPC too early; it was restored immediately. No existing embedding is changed by these migrations.
+
+
+Change set 5 pre-commit verification: 29 unit tests (including the CI display/response guard), 14 existing backend checks, 7 new normal-flow percentage checks, and 15 browser tests all pass. Production build and type check pass. The preserved-vector check confirms all 113 pre-existing embedding rows, traces, versions and timestamps are unchanged. The user authorized a complete working-app snapshot commit because the earlier baseline was uncommitted; every .env* file, model asset, dependency directory and build output is excluded. No push is performed.

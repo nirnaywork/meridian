@@ -1,0 +1,12 @@
+{
+  "unitTests": 29,
+  "existingBackendChecks": 14,
+  "percentageBackendChecks": 7,
+  "browserTests": 15,
+  "productionBuild": "passed",
+  "typecheck": "passed",
+  "preExistingVectorsUnchanged": 113,
+  "calibrationVersion": "role-percent-2026-11-v1",
+  "ciGuard": "passed",
+  "commitScope": "Complete working app snapshot, explicitly confirmed by user; env/model/dependency/build files excluded"
+}

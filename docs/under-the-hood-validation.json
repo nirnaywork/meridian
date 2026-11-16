@@ -1,0 +1,13 @@
+{
+  "change_set": 3,
+  "date": "2026-11-17",
+  "unit_tests": 14,
+  "backend_checks": 12,
+  "browser_tests": 9,
+  "badge_disabled_instance_tested": true,
+  "production_build": "passed",
+  "typecheck": "passed",
+  "deployment_id": "2313a4dc-2c66-4206-a1cb-4fad20a2e3b4",
+  "url": "https://tyhutf3c.insforge.site",
+  "live_browser_suite": "passed (8 live-site cases plus the badge-disabled local case)"
+}

@@ -1,0 +1,26 @@
+{
+  "writePause": false,
+  "provider": "minilm",
+  "afterRuntimeBytes": 112285299,
+  "unitTests": 22,
+  "beforeRuntimeBytes": 450500195,
+  "deployedBrowserTests": 5,
+  "typecheck": "passed",
+  "localBrowserTests": 11,
+  "url": "https://tyhutf3c.insforge.site",
+  "integrationChecks": 14,
+  "cosine": {
+    "afterProject": 0.6419644951820374,
+    "suppliedHistorical": 0.060796,
+    "roleNonzero": 384,
+    "profileNonzero": 384,
+    "measuredBeforeProject": 0.4021325409412384,
+    "measuredBeforeRole": 0.4247208535671234,
+    "afterRole": 0.8699499887198219,
+    "projectNonzero": 384
+  },
+  "unchangedReembedUpdated": 0,
+  "version": "domains-minilm-751bff37-q8-v3",
+  "build": "passed (webpack)",
+  "deployment": "7b5867ab-d2c0-4202-87da-38383e1a2d57"
+}

@@ -5,36 +5,46 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build --webpack",
     "start": "next start",
     "typecheck": "tsc --noEmit",
-    "test": "vitest run",
+    "test": "vitest run tests",
     "calibrate": "tsx scripts/calibrate.ts",
     "seed": "tsx --env-file=.env.local scripts/seed.ts",
     "reembed-all": "tsx --env-file=.env.local scripts/reembed-all.ts",
-    "test:integration": "tsx --env-file=.env.local scripts/integration.ts"
+    "test:integration": "tsx --env-file=.env.local scripts/change-set-integration.ts",
+    "prebuild": "tsx scripts/download-model.ts",
+    "download-model": "tsx scripts/download-model.ts",
+    "verify-model": "tsx scripts/verify-model.ts",
+    "validate-seed": "tsx scripts/validate-seed.ts",
+    "seed:taxonomy": "tsx --env-file=.env.local scripts/seed-taxonomy.ts",
+    "test:e2e": "playwright test",
+    "backfill-traces": "tsx --env-file=.env.local scripts/backfill-traces.ts",
+    "audit-truncation": "tsx --env-file=.env.local scripts/audit-truncation.ts",
+    "verify-embeddings": "tsx --env-file=.env.local scripts/verify-embeddings.ts"
   },
   "dependencies": {
     "@insforge/sdk": "latest",
+    "lucide-react": "latest",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "zod": "^3.25.76",
-    "lucide-react": "latest",
-    "server-only": "^0.0.1"
+    "server-only": "^0.0.1",
+    "zod": "^3.25.76"
   },
   "optionalDependencies": {
     "@huggingface/transformers": "^3.8.1"
   },
   "devDependencies": {
-    "typescript": "^5.9.3",
+    "@playwright/test": "^1.65.1",
     "@types/node": "^22.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
-    "tailwindcss": "^3.4.17",
-    "postcss": "^8.5.6",
     "autoprefixer": "^10.4.21",
-    "vitest": "^3.2.4",
-    "tsx": "^4.20.0"
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
   }
 }

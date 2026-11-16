@@ -1,0 +1,288 @@
+{
+  "checks": [
+    "Normal create flow produces two role percentages and the correct best open role for another user",
+    "Owner and missing-profile states have no personal percentage",
+    "Application percentage is captured atomically from the stored cosine snapshot",
+    "Explore, detail, applications, invitations, applicants, talent and action responses contain no raw keys",
+    "Under the Hood retains raw data and agrees with the normal role percentage",
+    "Backfill preserves incompatible historical snapshots as null and matches current-version snapshots",
+    "Transactional snapshot calibration matches the single checked-in configuration"
+  ],
+  "project": "41e83779-f07b-470a-9d6c-b173be3bbfd2",
+  "best": {
+    "roleId": "e1a68dc1-84ac-4599-b884-79bc48ca486e",
+    "title": "Web Developer",
+    "matchPercent": 98,
+    "openSlots": 2
+  },
+  "explore": [
+    {
+      "id": "41e83779-f07b-470a-9d6c-b173be3bbfd2",
+      "owner_id": "03f83d12-d9f6-4d46-8e03-1c911a9d4942",
+      "title": "Fresh percentage project mwjsnorg",
+      "description": "Build an accessible student collaboration website and hardware prototype together.",
+      "category": "Web",
+      "domains": [
+        "Web Development"
+      ],
+      "tags": [],
+      "commitment": "casual",
+      "duration": "4 weeks",
+      "team_size": 5,
+      "status": "open",
+      "revision": 1,
+      "is_demo": false,
+      "lead_name": "Percentage QA lead",
+      "open_roles": [
+        {
+          "title": "Hardware Engineer",
+          "available": 2
+        },
+        {
+          "title": "Web Developer",
+          "available": 2
+        }
+      ],
+      "sort_key": 1794865642.988123,
+      "created_at": "2026-11-16T21:47:22.988123+00:00",
+      "roles": [
+        {
+          "id": "3c562113-5ad9-4fef-a584-edffd448a3a6",
+          "project_id": "41e83779-f07b-470a-9d6c-b173be3bbfd2",
+          "title": "Hardware Engineer",
+          "slots": 2,
+          "filled_count": 0,
+          "match": {
+            "roleId": "3c562113-5ad9-4fef-a584-edffd448a3a6",
+            "state": "ready",
+            "matchPercent": 22,
+            "calibrationVersion": "role-percent-2026-11-v1",
+            "matched_skills": [],
+            "missing_skills": [
+              "FPGA",
+              "Verilog"
+            ]
+          }
+        },
+        {
+          "id": "e1a68dc1-84ac-4599-b884-79bc48ca486e",
+          "project_id": "41e83779-f07b-470a-9d6c-b173be3bbfd2",
+          "title": "Web Developer",
+          "slots": 2,
+          "filled_count": 0,
+          "match": {
+            "roleId": "e1a68dc1-84ac-4599-b884-79bc48ca486e",
+            "state": "ready",
+            "matchPercent": 98,
+            "calibrationVersion": "role-percent-2026-11-v1",
+            "matched_skills": [
+              "React",
+              "TypeScript"
+            ],
+            "missing_skills": []
+          }
+        }
+      ]
+    }
+  ],
+  "detail": {
+    "id": "41e83779-f07b-470a-9d6c-b173be3bbfd2",
+    "owner_id": "03f83d12-d9f6-4d46-8e03-1c911a9d4942",
+    "title": "Fresh percentage project mwjsnorg",
+    "description": "Build an accessible student collaboration website and hardware prototype together.",
+    "category": "Web",
+    "tags": [],
+    "commitment": "casual",
+    "duration": "4 weeks",
+    "team_size": 5,
+    "status": "open",
+    "revision": 1,
+    "is_demo": false,
+    "domains": [
+      "Web Development"
+    ],
+    "profiles": {
+      "display_name": "Percentage QA lead"
+    },
+    "project_roles": [
+      {
+        "id": "e1a68dc1-84ac-4599-b884-79bc48ca486e",
+        "slots": 2,
+        "title": "Web Developer",
+        "domains": [
+          "Frontend Development"
+        ],
+        "description": "Build React and TypeScript web interfaces.",
+        "filled_count": 0,
+        "project_role_skills": [
+          {
+            "skills": {
+              "id": "4283e6fb-a322-4f24-8c31-d3e1ed6516c0",
+              "name": "React",
+              "category": "Web",
+              "is_verified": true
+            },
+            "importance": "required"
+          },
+          {
+            "skills": {
+              "id": "2bed9ac7-d046-4cfd-bce3-293af79ce3ba",
+              "name": "TypeScript",
+              "category": "Web",
+              "is_verified": true
+            },
+            "importance": "required"
+          }
+        ]
+      },
+      {
+        "id": "3c562113-5ad9-4fef-a584-edffd448a3a6",
+        "slots": 2,
+        "title": "Hardware Engineer",
+        "domains": [
+          "FPGA Design"
+        ],
+        "description": "Design FPGA logic and RTL verification.",
+        "filled_count": 0,
+        "project_role_skills": [
+          {
+            "skills": {
+              "id": "d47fc2fa-7af6-45d9-a514-ec6ea3e522fb",
+              "name": "Verilog",
+              "category": "Embedded / IoT",
+              "is_verified": true
+            },
+            "importance": "required"
+          },
+          {
+            "skills": {
+              "id": "a47adaab-ddb7-4d11-92c4-386618a19369",
+              "name": "FPGA",
+              "category": "Embedded / IoT",
+              "is_verified": true
+            },
+            "importance": "required"
+          }
+        ]
+      }
+    ],
+    "lead_name": "Percentage QA lead",
+    "roles": [
+      {
+        "id": "3c562113-5ad9-4fef-a584-edffd448a3a6",
+        "slots": 2,
+        "title": "Hardware Engineer",
+        "domains": [
+          "FPGA Design"
+        ],
+        "description": "Design FPGA logic and RTL verification.",
+        "filled_count": 0,
+        "project_role_skills": [
+          {
+            "skills": {
+              "id": "d47fc2fa-7af6-45d9-a514-ec6ea3e522fb",
+              "name": "Verilog",
+              "category": "Embedded / IoT",
+              "is_verified": true
+            },
+            "importance": "required"
+          },
+          {
+            "skills": {
+              "id": "a47adaab-ddb7-4d11-92c4-386618a19369",
+              "name": "FPGA",
+              "category": "Embedded / IoT",
+              "is_verified": true
+            },
+            "importance": "required"
+          }
+        ],
+        "skills": [
+          {
+            "id": "d47fc2fa-7af6-45d9-a514-ec6ea3e522fb",
+            "name": "Verilog",
+            "category": "Embedded / IoT",
+            "is_verified": true,
+            "importance": "required"
+          },
+          {
+            "id": "a47adaab-ddb7-4d11-92c4-386618a19369",
+            "name": "FPGA",
+            "category": "Embedded / IoT",
+            "is_verified": true,
+            "importance": "required"
+          }
+        ],
+        "match": {
+          "roleId": "3c562113-5ad9-4fef-a584-edffd448a3a6",
+          "state": "ready",
+          "matchPercent": 22,
+          "calibrationVersion": "role-percent-2026-11-v1",
+          "matched_skills": [],
+          "missing_skills": [
+            "FPGA",
+            "Verilog"
+          ]
+        }
+      },
+      {
+        "id": "e1a68dc1-84ac-4599-b884-79bc48ca486e",
+        "slots": 2,
+        "title": "Web Developer",
+        "domains": [
+          "Frontend Development"
+        ],
+        "description": "Build React and TypeScript web interfaces.",
+        "filled_count": 0,
+        "project_role_skills": [
+          {
+            "skills": {
+              "id": "4283e6fb-a322-4f24-8c31-d3e1ed6516c0",
+              "name": "React",
+              "category": "Web",
+              "is_verified": true
+            },
+            "importance": "required"
+          },
+          {
+            "skills": {
+              "id": "2bed9ac7-d046-4cfd-bce3-293af79ce3ba",
+              "name": "TypeScript",
+              "category": "Web",
+              "is_verified": true
+            },
+            "importance": "required"
+          }
+        ],
+        "skills": [
+          {
+            "id": "4283e6fb-a322-4f24-8c31-d3e1ed6516c0",
+            "name": "React",
+            "category": "Web",
+            "is_verified": true,
+            "importance": "required"
+          },
+          {
+            "id": "2bed9ac7-d046-4cfd-bce3-293af79ce3ba",
+            "name": "TypeScript",
+            "category": "Web",
+            "is_verified": true,
+            "importance": "required"
+          }
+        ],
+        "match": {
+          "roleId": "e1a68dc1-84ac-4599-b884-79bc48ca486e",
+          "state": "ready",
+          "matchPercent": 98,
+          "calibrationVersion": "role-percent-2026-11-v1",
+          "matched_skills": [
+            "React",
+            "TypeScript"
+          ],
+          "missing_skills": []
+        }
+      }
+    ],
+    "user_id": "f8b3f356-65c8-425e-b015-f27ec26f8a38"
+  }
+}

@@ -6,16 +6,9 @@ export type Skill = {
   proficiency?: "beginner" | "intermediate" | "advanced";
   importance?: "required" | "preferred";
 };
-export type Breakdown = {
-  cosine: number;
-  cosine_score: number;
-  coverage: number;
-  final_score: number;
-  band: "STRONG" | "MODERATE" | "WEAK";
+export type SkillOverlap = {
   matched_skills: string[];
   missing_skills: string[];
-  model: string;
-  version: string;
 };
 export type Role = {
   id: string;
@@ -23,7 +16,9 @@ export type Role = {
   description: string;
   slots: number;
   filled_count: number;
+  domains?: string[];
   skills: Skill[];
+  match?:import('./matching/roleMatch').RoleMatch;
 };
 export type Profile = {
   id: string;
@@ -39,6 +34,7 @@ export type Profile = {
   onboarding_complete: boolean;
   is_demo: boolean;
   revision: number;
+  domains?: string[];
   skills: Skill[];
 };
 export type Project = {
@@ -47,19 +43,19 @@ export type Project = {
   title: string;
   description: string;
   category: string;
+  domains?: string[];
+  sort_key?: number;
   tags: string[];
   commitment: string;
   duration: string;
   team_size: number;
   status: string;
-  auto_approve_strong_matches: boolean;
   revision: number;
   roles: Role[];
   lead_name?: string;
   role_title?: string;
   open_roles?: { title: string; available: number }[];
   role_id?: string;
-  breakdown?: Breakdown;
   is_demo: boolean;
 };
 export type MatchRecord = {
@@ -70,9 +66,9 @@ export type MatchRecord = {
   invitee_id?: string;
   status: string;
   message: string;
-  band: string;
-  final_score: number;
-  breakdown: Breakdown;
+  breakdown: SkillOverlap;
+  matchPercent:number|null;
+  calibrationVersion:string|null;
   created_at: string;
   projects: { title: string };
   project_roles: { title: string } | null;

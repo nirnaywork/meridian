@@ -1,7 +1,11 @@
+import { redirect } from "next/navigation";
+import { userClient } from "@/lib/server/db";
 import Link from "next/link";
 import { ArrowUpRight, ArrowRight, Check, MoveUpRight } from "lucide-react";
 import { Logo, ThemeToggle } from "@/components/ui";
-export default function Home() {
+export default async function Home() {
+  const { data } = await (await userClient()).auth.getCurrentUser();
+  if (data.user?.emailVerified) redirect("/projects");
   return (
     <div className="landing">
       <header className="landing-nav">
@@ -132,7 +136,7 @@ export default function Home() {
               [
                 "02",
                 "Find your fit",
-                "Explore projects matched to your skills, with a clear view of where you fit and where you can grow.",
+                  "Browse open projects across disciplines. Role matches and skill overlap help you explore the idea; every project welcomes your application.",
               ],
               [
                 "03",

@@ -1,4 +1,5 @@
 import { z } from "zod";
+export const requiredDomains=z.array(z.string().trim().min(1).max(100)).min(1,"Choose at least one domain").max(20);
 export const password = z
   .string()
   .min(10, "Use at least 10 characters")
@@ -20,6 +21,7 @@ const skill = z.object({
 });
 export const profileSchema = z
   .object({
+    domains: z.array(z.string().max(100)).max(20).default([]),
     display_name: z.string().trim().min(1).max(80),
     headline: z.string().trim().min(3).max(140),
     bio: z.string().max(1500).default(""),
@@ -40,11 +42,13 @@ export const profileSchema = z
       .min(1)
       .max(40),
   })
-  .refine((x) => x.is_member || x.is_team_lead, "Select at least one intent");
+  .refine((x) => x.is_member || x.is_team_lead, "Select at least one intent")
+  .superRefine((p,ctx)=>{if((p.revision===0||!p.onboarding_complete)&&!requiredDomains.safeParse(p.domains).success)ctx.addIssue({code:z.ZodIssueCode.custom,path:['domains'],message:'Choose at least one domain'});});
 export const projectSchema = z
   .object({
     id: z.string().uuid().optional(),
     revision: z.number().int().nonnegative().default(0),
+    domains: z.array(z.string().max(100)).max(20).default([]),
     title: z.string().trim().min(3).max(120),
     description: z.string().trim().min(30).max(8000),
     category: z.string().trim().min(2).max(80),
@@ -53,11 +57,11 @@ export const projectSchema = z
     duration: z.string().min(2).max(80),
     team_size: z.number().int().min(2).max(50),
     status: z.enum(["open", "closed", "in_progress"]).default("open"),
-    auto_approve_strong_matches: z.boolean().default(true),
     roles: z
       .array(
         z.object({
           id: z.string().uuid().optional(),
+          domains: z.array(z.string().max(100)).max(20).default([]),
           title: z.string().trim().min(2).max(100),
           description: z.string().max(2000),
           slots: z.number().int().min(1).max(49),
@@ -70,6 +74,8 @@ export const projectSchema = z
       )
       .max(15),
   })
+  .superRefine((p,ctx)=>{if(!p.id&&!requiredDomains.safeParse(p.domains).success)ctx.addIssue({code:z.ZodIssueCode.custom,path:['domains'],message:'Choose at least one domain'});
+    p.roles.forEach((r,i)=>{if(!r.id&&!requiredDomains.safeParse(r.domains.length?r.domains:p.domains).success)ctx.addIssue({code:z.ZodIssueCode.custom,path:['roles',i,'domains'],message:'Choose a role domain or a project domain to inherit'});});})
   .refine(
     (p) => p.roles.reduce((sum, r) => sum + r.slots, 0) <= p.team_size - 1,
     "Role slots cannot exceed team size minus the lead",

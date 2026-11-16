@@ -1,0 +1,1192 @@
+{
+  "field": {
+    "name": "Math, Science and Research",
+    "slug": "math-science-and-research"
+  },
+  "domains": [
+    {
+      "name": "Statistics",
+      "slug": "statistics",
+      "description": "Practical skills, tools and methods for statistics."
+    },
+    {
+      "name": "Applied Mathematics",
+      "slug": "applied-mathematics",
+      "description": "Practical skills, tools and methods for applied mathematics."
+    },
+    {
+      "name": "Physics",
+      "slug": "physics",
+      "description": "Practical skills, tools and methods for physics."
+    },
+    {
+      "name": "Research and Academic Writing",
+      "slug": "research-and-academic-writing",
+      "description": "Practical skills, tools and methods for research and academic writing."
+    },
+    {
+      "name": "Scientific Computing",
+      "slug": "scientific-computing",
+      "description": "Practical skills, tools and methods for scientific computing."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Statistics: problem formulation",
+      "slug": "statistics-problem-formulation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Statistics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Statistics: literature review",
+      "slug": "statistics-literature-review",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Statistics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Statistics: mathematical modeling",
+      "slug": "statistics-mathematical-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Statistics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Statistics: numerical methods",
+      "slug": "statistics-numerical-methods",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Statistics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Statistics: experimental design",
+      "slug": "statistics-experimental-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Statistics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Statistics: data collection",
+      "slug": "statistics-data-collection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Statistics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Statistics: statistical inference",
+      "slug": "statistics-statistical-inference",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Statistics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Statistics: uncertainty analysis",
+      "slug": "statistics-uncertainty-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Statistics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Statistics: hypothesis testing",
+      "slug": "statistics-hypothesis-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Statistics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Statistics: visualization",
+      "slug": "statistics-visualization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Statistics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Statistics: reproducible analysis",
+      "slug": "statistics-reproducible-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Statistics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Statistics: peer review",
+      "slug": "statistics-peer-review",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Statistics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Statistics: technical writing",
+      "slug": "statistics-technical-writing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Statistics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Statistics: simulation",
+      "slug": "statistics-simulation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Statistics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Statistics: optimization",
+      "slug": "statistics-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Statistics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Statistics: parameter estimation",
+      "slug": "statistics-parameter-estimation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Statistics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Statistics: sensitivity analysis",
+      "slug": "statistics-sensitivity-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Statistics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Statistics: validation",
+      "slug": "statistics-validation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Statistics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Statistics: research ethics",
+      "slug": "statistics-research-ethics",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Statistics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Statistics: presentation",
+      "slug": "statistics-presentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Statistics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Applied Mathematics: problem formulation",
+      "slug": "applied-mathematics-problem-formulation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Applied Mathematics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Applied Mathematics"
+      ]
+    },
+    {
+      "name": "Applied Mathematics: literature review",
+      "slug": "applied-mathematics-literature-review",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Applied Mathematics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Applied Mathematics"
+      ]
+    },
+    {
+      "name": "Applied Mathematics: mathematical modeling",
+      "slug": "applied-mathematics-mathematical-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Applied Mathematics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Applied Mathematics"
+      ]
+    },
+    {
+      "name": "Applied Mathematics: numerical methods",
+      "slug": "applied-mathematics-numerical-methods",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Applied Mathematics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Applied Mathematics"
+      ]
+    },
+    {
+      "name": "Applied Mathematics: experimental design",
+      "slug": "applied-mathematics-experimental-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Applied Mathematics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Applied Mathematics"
+      ]
+    },
+    {
+      "name": "Applied Mathematics: data collection",
+      "slug": "applied-mathematics-data-collection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Applied Mathematics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Applied Mathematics"
+      ]
+    },
+    {
+      "name": "Applied Mathematics: statistical inference",
+      "slug": "applied-mathematics-statistical-inference",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Applied Mathematics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Applied Mathematics"
+      ]
+    },
+    {
+      "name": "Applied Mathematics: uncertainty analysis",
+      "slug": "applied-mathematics-uncertainty-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Applied Mathematics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Applied Mathematics"
+      ]
+    },
+    {
+      "name": "Applied Mathematics: hypothesis testing",
+      "slug": "applied-mathematics-hypothesis-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Applied Mathematics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Applied Mathematics"
+      ]
+    },
+    {
+      "name": "Applied Mathematics: visualization",
+      "slug": "applied-mathematics-visualization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Applied Mathematics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Applied Mathematics"
+      ]
+    },
+    {
+      "name": "Applied Mathematics: reproducible analysis",
+      "slug": "applied-mathematics-reproducible-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Applied Mathematics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Applied Mathematics"
+      ]
+    },
+    {
+      "name": "Applied Mathematics: peer review",
+      "slug": "applied-mathematics-peer-review",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Applied Mathematics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Applied Mathematics"
+      ]
+    },
+    {
+      "name": "Applied Mathematics: technical writing",
+      "slug": "applied-mathematics-technical-writing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Applied Mathematics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Applied Mathematics"
+      ]
+    },
+    {
+      "name": "Applied Mathematics: simulation",
+      "slug": "applied-mathematics-simulation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Applied Mathematics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Applied Mathematics"
+      ]
+    },
+    {
+      "name": "Applied Mathematics: optimization",
+      "slug": "applied-mathematics-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Applied Mathematics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Applied Mathematics"
+      ]
+    },
+    {
+      "name": "Applied Mathematics: parameter estimation",
+      "slug": "applied-mathematics-parameter-estimation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Applied Mathematics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Applied Mathematics"
+      ]
+    },
+    {
+      "name": "Applied Mathematics: sensitivity analysis",
+      "slug": "applied-mathematics-sensitivity-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Applied Mathematics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Applied Mathematics"
+      ]
+    },
+    {
+      "name": "Applied Mathematics: validation",
+      "slug": "applied-mathematics-validation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Applied Mathematics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Applied Mathematics"
+      ]
+    },
+    {
+      "name": "Applied Mathematics: research ethics",
+      "slug": "applied-mathematics-research-ethics",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Applied Mathematics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Applied Mathematics"
+      ]
+    },
+    {
+      "name": "Applied Mathematics: presentation",
+      "slug": "applied-mathematics-presentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Applied Mathematics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Applied Mathematics"
+      ]
+    },
+    {
+      "name": "Physics: problem formulation",
+      "slug": "physics-problem-formulation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Physics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Physics"
+      ]
+    },
+    {
+      "name": "Physics: literature review",
+      "slug": "physics-literature-review",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Physics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Physics"
+      ]
+    },
+    {
+      "name": "Physics: mathematical modeling",
+      "slug": "physics-mathematical-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Physics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Physics"
+      ]
+    },
+    {
+      "name": "Physics: numerical methods",
+      "slug": "physics-numerical-methods",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Physics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Physics"
+      ]
+    },
+    {
+      "name": "Physics: experimental design",
+      "slug": "physics-experimental-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Physics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Physics"
+      ]
+    },
+    {
+      "name": "Physics: data collection",
+      "slug": "physics-data-collection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Physics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Physics"
+      ]
+    },
+    {
+      "name": "Physics: statistical inference",
+      "slug": "physics-statistical-inference",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Physics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Physics"
+      ]
+    },
+    {
+      "name": "Physics: uncertainty analysis",
+      "slug": "physics-uncertainty-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Physics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Physics"
+      ]
+    },
+    {
+      "name": "Physics: hypothesis testing",
+      "slug": "physics-hypothesis-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Physics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Physics"
+      ]
+    },
+    {
+      "name": "Physics: visualization",
+      "slug": "physics-visualization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Physics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Physics"
+      ]
+    },
+    {
+      "name": "Physics: reproducible analysis",
+      "slug": "physics-reproducible-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Physics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Physics"
+      ]
+    },
+    {
+      "name": "Physics: peer review",
+      "slug": "physics-peer-review",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Physics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Physics"
+      ]
+    },
+    {
+      "name": "Physics: technical writing",
+      "slug": "physics-technical-writing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Physics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Physics"
+      ]
+    },
+    {
+      "name": "Physics: simulation",
+      "slug": "physics-simulation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Physics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Physics"
+      ]
+    },
+    {
+      "name": "Physics: optimization",
+      "slug": "physics-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Physics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Physics"
+      ]
+    },
+    {
+      "name": "Physics: parameter estimation",
+      "slug": "physics-parameter-estimation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Physics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Physics"
+      ]
+    },
+    {
+      "name": "Physics: sensitivity analysis",
+      "slug": "physics-sensitivity-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Physics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Physics"
+      ]
+    },
+    {
+      "name": "Physics: validation",
+      "slug": "physics-validation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Physics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Physics"
+      ]
+    },
+    {
+      "name": "Physics: research ethics",
+      "slug": "physics-research-ethics",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Physics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Physics"
+      ]
+    },
+    {
+      "name": "Physics: presentation",
+      "slug": "physics-presentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Physics",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Physics"
+      ]
+    },
+    {
+      "name": "Research and Academic Writing: problem formulation",
+      "slug": "research-and-academic-writing-problem-formulation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Research and Academic Writing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Research and Academic Writing"
+      ]
+    },
+    {
+      "name": "Research and Academic Writing: literature review",
+      "slug": "research-and-academic-writing-literature-review",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Research and Academic Writing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Research and Academic Writing"
+      ]
+    },
+    {
+      "name": "Research and Academic Writing: mathematical modeling",
+      "slug": "research-and-academic-writing-mathematical-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Research and Academic Writing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Research and Academic Writing"
+      ]
+    },
+    {
+      "name": "Research and Academic Writing: numerical methods",
+      "slug": "research-and-academic-writing-numerical-methods",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Research and Academic Writing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Research and Academic Writing"
+      ]
+    },
+    {
+      "name": "Research and Academic Writing: experimental design",
+      "slug": "research-and-academic-writing-experimental-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Research and Academic Writing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Research and Academic Writing"
+      ]
+    },
+    {
+      "name": "Research and Academic Writing: data collection",
+      "slug": "research-and-academic-writing-data-collection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Research and Academic Writing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Research and Academic Writing"
+      ]
+    },
+    {
+      "name": "Research and Academic Writing: statistical inference",
+      "slug": "research-and-academic-writing-statistical-inference",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Research and Academic Writing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Research and Academic Writing"
+      ]
+    },
+    {
+      "name": "Research and Academic Writing: uncertainty analysis",
+      "slug": "research-and-academic-writing-uncertainty-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Research and Academic Writing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Research and Academic Writing"
+      ]
+    },
+    {
+      "name": "Research and Academic Writing: hypothesis testing",
+      "slug": "research-and-academic-writing-hypothesis-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Research and Academic Writing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Research and Academic Writing"
+      ]
+    },
+    {
+      "name": "Research and Academic Writing: visualization",
+      "slug": "research-and-academic-writing-visualization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Research and Academic Writing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Research and Academic Writing"
+      ]
+    },
+    {
+      "name": "Research and Academic Writing: reproducible analysis",
+      "slug": "research-and-academic-writing-reproducible-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Research and Academic Writing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Research and Academic Writing"
+      ]
+    },
+    {
+      "name": "Research and Academic Writing: peer review",
+      "slug": "research-and-academic-writing-peer-review",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Research and Academic Writing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Research and Academic Writing"
+      ]
+    },
+    {
+      "name": "Research and Academic Writing: technical writing",
+      "slug": "research-and-academic-writing-technical-writing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Research and Academic Writing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Research and Academic Writing"
+      ]
+    },
+    {
+      "name": "Research and Academic Writing: simulation",
+      "slug": "research-and-academic-writing-simulation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Research and Academic Writing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Research and Academic Writing"
+      ]
+    },
+    {
+      "name": "Research and Academic Writing: optimization",
+      "slug": "research-and-academic-writing-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Research and Academic Writing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Research and Academic Writing"
+      ]
+    },
+    {
+      "name": "Research and Academic Writing: parameter estimation",
+      "slug": "research-and-academic-writing-parameter-estimation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Research and Academic Writing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Research and Academic Writing"
+      ]
+    },
+    {
+      "name": "Research and Academic Writing: sensitivity analysis",
+      "slug": "research-and-academic-writing-sensitivity-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Research and Academic Writing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Research and Academic Writing"
+      ]
+    },
+    {
+      "name": "Research and Academic Writing: validation",
+      "slug": "research-and-academic-writing-validation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Research and Academic Writing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Research and Academic Writing"
+      ]
+    },
+    {
+      "name": "Research and Academic Writing: research ethics",
+      "slug": "research-and-academic-writing-research-ethics",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Research and Academic Writing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Research and Academic Writing"
+      ]
+    },
+    {
+      "name": "Research and Academic Writing: presentation",
+      "slug": "research-and-academic-writing-presentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Research and Academic Writing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Research and Academic Writing"
+      ]
+    },
+    {
+      "name": "Scientific Computing: problem formulation",
+      "slug": "scientific-computing-problem-formulation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Scientific Computing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Scientific Computing"
+      ]
+    },
+    {
+      "name": "Scientific Computing: literature review",
+      "slug": "scientific-computing-literature-review",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Scientific Computing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Scientific Computing"
+      ]
+    },
+    {
+      "name": "Scientific Computing: mathematical modeling",
+      "slug": "scientific-computing-mathematical-modeling",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Scientific Computing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Scientific Computing"
+      ]
+    },
+    {
+      "name": "Scientific Computing: numerical methods",
+      "slug": "scientific-computing-numerical-methods",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Scientific Computing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Scientific Computing"
+      ]
+    },
+    {
+      "name": "Scientific Computing: experimental design",
+      "slug": "scientific-computing-experimental-design",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Scientific Computing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Scientific Computing"
+      ]
+    },
+    {
+      "name": "Scientific Computing: data collection",
+      "slug": "scientific-computing-data-collection",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Scientific Computing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Scientific Computing"
+      ]
+    },
+    {
+      "name": "Scientific Computing: statistical inference",
+      "slug": "scientific-computing-statistical-inference",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Scientific Computing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Scientific Computing"
+      ]
+    },
+    {
+      "name": "Scientific Computing: uncertainty analysis",
+      "slug": "scientific-computing-uncertainty-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Scientific Computing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Scientific Computing"
+      ]
+    },
+    {
+      "name": "Scientific Computing: hypothesis testing",
+      "slug": "scientific-computing-hypothesis-testing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Scientific Computing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Scientific Computing"
+      ]
+    },
+    {
+      "name": "Scientific Computing: visualization",
+      "slug": "scientific-computing-visualization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Scientific Computing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Scientific Computing"
+      ]
+    },
+    {
+      "name": "Scientific Computing: reproducible analysis",
+      "slug": "scientific-computing-reproducible-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Scientific Computing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Scientific Computing"
+      ]
+    },
+    {
+      "name": "Scientific Computing: peer review",
+      "slug": "scientific-computing-peer-review",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Scientific Computing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Scientific Computing"
+      ]
+    },
+    {
+      "name": "Scientific Computing: technical writing",
+      "slug": "scientific-computing-technical-writing",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Scientific Computing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Scientific Computing"
+      ]
+    },
+    {
+      "name": "Scientific Computing: simulation",
+      "slug": "scientific-computing-simulation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Scientific Computing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Scientific Computing"
+      ]
+    },
+    {
+      "name": "Scientific Computing: optimization",
+      "slug": "scientific-computing-optimization",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Scientific Computing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Scientific Computing"
+      ]
+    },
+    {
+      "name": "Scientific Computing: parameter estimation",
+      "slug": "scientific-computing-parameter-estimation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Scientific Computing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Scientific Computing"
+      ]
+    },
+    {
+      "name": "Scientific Computing: sensitivity analysis",
+      "slug": "scientific-computing-sensitivity-analysis",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Scientific Computing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Scientific Computing"
+      ]
+    },
+    {
+      "name": "Scientific Computing: validation",
+      "slug": "scientific-computing-validation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Scientific Computing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Scientific Computing"
+      ]
+    },
+    {
+      "name": "Scientific Computing: research ethics",
+      "slug": "scientific-computing-research-ethics",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Scientific Computing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Scientific Computing"
+      ]
+    },
+    {
+      "name": "Scientific Computing: presentation",
+      "slug": "scientific-computing-presentation",
+      "aliases": [],
+      "is_verified": true,
+      "category": "Scientific Computing",
+      "field": "Math, Science and Research",
+      "domains": [
+        "Scientific Computing"
+      ]
+    }
+  ],
+  "role_templates": [
+    {
+      "title": "Statistics Contributor",
+      "slug": "statistics-contributor",
+      "domain": "Statistics",
+      "required_skills": [
+        "Statistics: problem formulation",
+        "Statistics: literature review",
+        "Statistics: mathematical modeling",
+        "Statistics: numerical methods"
+      ]
+    },
+    {
+      "title": "Applied Mathematics Contributor",
+      "slug": "applied-mathematics-contributor",
+      "domain": "Applied Mathematics",
+      "required_skills": [
+        "Applied Mathematics: problem formulation",
+        "Applied Mathematics: literature review",
+        "Applied Mathematics: mathematical modeling",
+        "Applied Mathematics: numerical methods"
+      ]
+    },
+    {
+      "title": "Physics Contributor",
+      "slug": "physics-contributor",
+      "domain": "Physics",
+      "required_skills": [
+        "Physics: problem formulation",
+        "Physics: literature review",
+        "Physics: mathematical modeling",
+        "Physics: numerical methods"
+      ]
+    },
+    {
+      "title": "Research and Academic Writing Contributor",
+      "slug": "research-and-academic-writing-contributor",
+      "domain": "Research and Academic Writing",
+      "required_skills": [
+        "Research and Academic Writing: problem formulation",
+        "Research and Academic Writing: literature review",
+        "Research and Academic Writing: mathematical modeling",
+        "Research and Academic Writing: numerical methods"
+      ]
+    },
+    {
+      "title": "Scientific Computing Contributor",
+      "slug": "scientific-computing-contributor",
+      "domain": "Scientific Computing",
+      "required_skills": [
+        "Scientific Computing: problem formulation",
+        "Scientific Computing: literature review",
+        "Scientific Computing: mathematical modeling",
+        "Scientific Computing: numerical methods"
+      ]
+    }
+  ]
+}

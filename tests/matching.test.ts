@@ -7,7 +7,9 @@ import {
   sourceHash,
   cosine,
 } from "../src/lib/matching/provider";
-import { band, score } from "../src/lib/matching/config";
+import { validateSeed } from "../scripts/validate-seed";
+import { offlineOptions } from "../src/lib/matching/minilm";
+import { verifyFiles } from "../src/lib/matching/model-files";
 describe("taxonomy and canonical text", () => {
   it("has 300 distinct skills and resolves aliases without merging C/C++/C#", () => {
     expect(taxonomy.length).toBeGreaterThanOrEqual(300);
@@ -41,12 +43,15 @@ describe("hash and provider", () => {
     );
   });
   it("skips inference on the same hash and re-embeds when text/provider/version changes", async () => {
-    const provider = { ...hashedProvider, embed: vi.fn(hashedProvider.embed) };
+    const provider = {
+      ...hashedProvider,
+      generate: vi.fn(hashedProvider.generate!),
+    };
     const first = await prepareEmbedding("React", provider);
     expect(await prepareEmbedding("React", provider, first)).toBeNull();
-    expect(provider.embed).toHaveBeenCalledTimes(1);
+    expect(provider.generate).toHaveBeenCalledTimes(1);
     await prepareEmbedding("React CSS", provider, first);
-    expect(provider.embed).toHaveBeenCalledTimes(2);
+    expect(provider.generate).toHaveBeenCalledTimes(2);
     expect(
       await sourceHash("React", { ...provider, version: "next" }),
     ).not.toBe(first?.source_hash);
@@ -62,24 +67,44 @@ describe("hash and provider", () => {
   });
   it("rejects invalid vectors", async () => {
     await expect(
-      prepareEmbedding("x", { ...hashedProvider, embed: async () => [NaN] }),
+      prepareEmbedding("x", {
+        ...hashedProvider,
+        generate: undefined,
+        embed: async () => [NaN],
+      }),
     ).rejects.toThrow();
   });
 });
-describe("calibration and banding", () => {
-  it("clamps mapping and weights coverage correctly", () => {
-    expect(score(-1, 0, "minilm").final_score).toBe(0);
-    expect(score(1, 1, "minilm").final_score).toBe(100);
-    expect(score(0.75, 0, "minilm").final_score).toBe(75);
-    expect(score(0.2, 1, "minilm").final_score).toBe(25);
-    expect(score(0.75, 0, "minilm", "cosine_only").final_score).toBe(100);
+
+it("validates 1500 skills and 60 domains without alias collisions", () => {
+  expect(validateSeed()).toHaveLength(10);
+});
+it("canonical text sorts domains and stores actual tokenizer trace", async () => {
+  const text = canonicalProfile({
+    domains: ["VLSI Design", "FPGA Design"],
+    skills: [{ name: "Verilog", proficiency: "advanced" }],
   });
-  it("uses exact thresholds, not rounded display percentages", () => {
-    expect(band(39.999)).toBe("WEAK");
-    expect(band(40)).toBe("MODERATE");
-    expect(band(69.999)).toBe("MODERATE");
-    expect(band(70)).toBe("STRONG");
-  });
-  it("rejects non-finite scores", () =>
-    expect(() => score(NaN, 1, "hashed")).toThrow());
+  expect(text).toContain("Domains: FPGA Design, VLSI Design");
+  const row = await prepareEmbedding(text, hashedProvider);
+  expect(row?.trace.dims).toBe(384);
+  expect((row?.trace as any).token_ids.length).toBeGreaterThan(0);
+  expect(row?.trace.norm_after).toBeCloseTo(1);
+});
+it("has unit cosine and rejects dimensional mismatch", () => {
+  expect(cosine([1, 0], [0, 1])).toBe(0);
+  expect(cosine([1, 0], [1, 0])).toBe(1);
+  expect(() => cosine([1], [1, 0])).toThrow();
+});
+it("forbids remote model loading and reports missing files", async () => {
+  expect(offlineOptions.allowRemoteModels).toBe(false);
+  expect((await verifyFiles(".cache/nonexistent-model")).checksums).toBe(false);
+});
+
+it("requires an explicit provider and never falls back when files are missing",async()=>{
+ const network=vi.spyOn(globalThis,"fetch").mockRejectedValue(new Error("No runtime network permitted"));
+ vi.stubEnv("EMBEDDING_PROVIDER","");const {embeddingProvider}=await import("../src/lib/matching/select");await expect(embeddingProvider()).rejects.toThrow("must be explicitly");
+ vi.stubEnv("EMBEDDING_PROVIDER",undefined);await expect(embeddingProvider()).rejects.toThrow("<missing>");
+ vi.stubEnv("EMBEDDING_PROVIDER","wrong");await expect(embeddingProvider()).rejects.toThrow("must be explicitly");
+ vi.stubEnv("EMBEDDING_PROVIDER","minilm");vi.stubEnv("MODEL_DIR",".cache/missing-model");await expect(embeddingProvider()).rejects.toMatchObject({status:503,message:"Embedding service unavailable, please retry"});
+ expect(network).not.toHaveBeenCalled();network.mockRestore();vi.unstubAllEnvs();
 });
