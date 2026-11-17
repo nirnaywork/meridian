@@ -11,6 +11,6 @@ export default async function StartPage() {
     throw error;
   }
   const { profile } = auth;
-
-  redirect("/projects");
+  if(!profile?.onboarding_complete) redirect('/onboarding');
+  redirect("/dashboard");
 }

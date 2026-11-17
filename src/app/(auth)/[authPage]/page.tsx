@@ -11,7 +11,7 @@ export default async function AuthPage({
   const { authPage } = await params;
   if (authPage === "sign-in") {
     const { data } = await (await userClient()).auth.getCurrentUser();
-    if (data.user?.emailVerified) redirect("/projects");
+    if (data.user?.emailVerified) redirect("/dashboard");
   }
   if (
     ![

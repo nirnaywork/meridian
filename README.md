@@ -4,6 +4,11 @@ Live: [Meridian](https://meridian.insforge.site). Existing Next.js + TypeScript 
 
 ## What changed
 
+The private personal Dashboard at `/dashboard` brings together recent project conversations, team activity, daily notes, DND, a local clock and focus timers. It is the signed-in landing page, published at [Meridian Dashboard](https://tyhutf3c.insforge.site/dashboard). Final verification passed 83 unit/SQL checks, all 29 regression browser tests, four hosted personal browser tests, six local and six hosted API check groups, typecheck and production build. All recorded fixtures were removed. See the [personal Dashboard guide](docs/personal-dashboard.md) for privacy, controls, timer persistence and scope, and the [verification report](docs/personal-dashboard-verification.md) for actual rollout results.
+
+
+Project leads and active members share a Team Dashboard at `/projects/[id]/workspace`. Overview shows staffing, start date and membership actions. Chat supports Everyone and private conversations. Updates notify teammates, and Tickets track issues and proposals through resolution. The dashboard is published at [Meridian](https://tyhutf3c.insforge.site), with seven hosted collaboration browser tests passing and all temporary fixtures removed. See the [collaboration guide](docs/collaboration.md) and [dashboard verification report](docs/team-dashboard-verification.md).
+
 Explore `/projects` lists open projects newest first, with neutral filters and date/open-role sorting. Raw cosine is informational. Every application is pending until manually reviewed; invitations always require consent. A single Under the Hood FAB on your profile and project details opens a slide-over containing stored traces, 384 numbers, canonical inputs, pooling/hashing steps, statistics, and copy/download. Similarity explainers expose actual products, running sums, norms, app/pgvector parity and angle. Profile vectors are private to their owners.
 
 See DECISIONS.md for the diagnosed logo issue, version changes, privacy boundaries and assumptions. The only sign-out action is the explicit button. Authenticated root/sign-in visits go to `/projects`; bootstrap restores cookie sessions before client navigation decisions.

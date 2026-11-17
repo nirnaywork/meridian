@@ -1,3 +1,5 @@
+import "./collaboration.css";
+import "./personal-dashboard.css";
 import { FeatureFlags } from "@/components/feature-flags";
 import { AuthProvider } from "@/components/auth-provider";
 import type { Metadata } from "next";

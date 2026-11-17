@@ -1,4 +1,7 @@
 "use client";
+import {isReadOnly} from "@/lib/collaboration";
+import {WorkspaceLink} from "./workspace-link";
+import {PersonLink} from "./collaboration-ui";
 import {RoleMatchBadge,BestRoleMatch} from './role-match';
 import type {RoleMatch} from '@/lib/matching/roleMatch';
 import { UnderTheHood } from "./under-the-hood";
@@ -26,6 +29,7 @@ import {
 import type { Project, SkillOverlap, MatchRecord } from "@/lib/types";
 type Detail = Project & {
   user_id: string;
+  is_team_member?: boolean;
 };
 export function ProjectDetail({ id }: { id: string }) {
   const resource = useResource<Detail>("/api/data/project?id=" + id),
@@ -88,16 +92,17 @@ export function ProjectDetail({ id }: { id: string }) {
           </div>
           <h1>{p.title}</h1>
           <p>
-            Led by <b>{p.lead_name}</b> · Different skills, one shared
+            Led by <PersonLink id={p.owner_id} name={p.lead_name??"Team lead"}/> · Different skills, one shared
             direction.
           </p>
         </div>
-        {isOwner && (
+        {isOwner && !isReadOnly(p.status) && (
           <Link href={`/projects/${id}/edit`} className="btn secondary">
             Edit project <ArrowUpRight size={16} />
           </Link>
         )}
       </div>
+      {(isOwner || p.is_team_member) && <WorkspaceLink id={id}/>}
       {!isOwner&&<BestRoleMatch roles={p.roles}/>}
       {isOwner&&!p.domains?.length&&<LegacyDomainBanner id={'project:'+id} href={`/projects/${id}/edit#project-domains`}/>}
       {isOwner && (
@@ -256,8 +261,7 @@ type Candidate = {
 };
 type TeamMember = {
   user_id: string;
-  role_id: string | null;
-  profiles: { display_name: string; headline: string };
+  profiles: { display_name: string } | null;
   project_roles: { title: string } | null;
 };
 function LeadWorkspace({
@@ -268,7 +272,8 @@ function LeadWorkspace({
   refreshProject: () => void;
 }) {
   const [tab, setTab] = useState("applicants"),
-    [role, setRole] = useState(project.roles[0]?.id ?? ""),
+    [applicantRole, setApplicantRole] = useState(""),
+    [talentRole, setTalentRole] = useState(""),
     [error, setError] = useState(""),
     [busy, setBusy] = useState("");
   const applicants = useResource<MatchRecord[]>(
@@ -276,6 +281,11 @@ function LeadWorkspace({
     ),
     team = useResource<TeamMember[]>("/api/data/team?id=" + project.id);
   const toast = useToast();
+  const selectedTalentRole =
+    project.roles.find((r) => r.id === talentRole)?.id ?? project.roles[0]?.id;
+  const visibleApplicants = applicants.data?.filter(
+    (a) => !applicantRole || a.role_id === applicantRole,
+  ) ?? [];
   async function decide(id: string, decision: string) {
     setBusy(id);
     setError("");
@@ -301,7 +311,7 @@ function LeadWorkspace({
       <div className="section-heading">
         <div>
           <span className="eyebrow">YOUR TEAM, TAKING SHAPE</span>
-          <h2>Project workspace</h2>
+          <h2>Applicants & team</h2>
         </div>
         <Flag size={23} />
       </div>
@@ -331,8 +341,8 @@ function LeadWorkspace({
             <label className="inline-filter">
               Role
               <select
-                value={role}
-                onChange={(e) => setRole(e.target.value || "whole")}
+                value={applicantRole}
+                onChange={(e) => setApplicantRole(e.target.value)}
               >
                 <option value="">All roles</option>
                 {project.roles.map((r) => (
@@ -342,13 +352,17 @@ function LeadWorkspace({
                 ))}
               </select>
             </label>
-            {applicants.data
-              .filter((a) => !role || a.role_id === role)
-              .map((a) => (
+            {visibleApplicants.length === 0 && (
+              <Empty
+                title="No applications for this role yet."
+                description="Choose All roles to see the other applications for this project."
+              />
+            )}
+            {visibleApplicants.map((a) => (
                 <article className="record-card" key={a.id}>
                   <div className="record-heading">
                     <div>
-                      <h3>{a.profiles?.display_name}</h3>
+                      <h3><PersonLink id={a.applicant_id!} name={a.profiles?.display_name??"Member"}/></h3>
                       <p>{a.profiles?.headline}</p>
                       <small>
                         {a.project_roles?.title ?? "Whole project"} · {a.status}
@@ -386,13 +400,13 @@ function LeadWorkspace({
           />
         ))}
       {tab === "talent" &&
-        (project.roles.length ? (
+        (selectedTalentRole ? (
           <>
             <label className="inline-filter">
               Find people for
               <select
-                value={role || project.roles[0].id}
-                onChange={(e) => setRole(e.target.value || "whole")}
+                value={selectedTalentRole}
+                onChange={(e) => setTalentRole(e.target.value)}
               >
                 {project.roles.map((r) => (
                   <option key={r.id} value={r.id}>
@@ -401,7 +415,7 @@ function LeadWorkspace({
                 ))}
               </select>
             </label>
-            <Talent role={role || project.roles[0].id} project={project.id} />
+            <Talent key={selectedTalentRole} role={selectedTalentRole} project={project.id} />
           </>
         ) : (
           <Empty
@@ -421,17 +435,17 @@ function LeadWorkspace({
             <div className="team-lead-row">
               <span className="avatar">{project.lead_name?.slice(0, 2)}</span>
               <div>
-                <b>{project.lead_name}</b>
+                <PersonLink id={project.owner_id} name={project.lead_name??"Lead"}/>
                 <p>Team lead · You</p>
               </div>
             </div>
             {team.data?.map((m) => (
               <div className="team-lead-row" key={m.user_id}>
                 <span className="avatar">
-                  {m.profiles.display_name.slice(0, 2)}
+                  {(m.profiles?.display_name ?? "Member").slice(0, 2)}
                 </span>
                 <div>
-                  <b>{m.profiles.display_name}</b>
+                  <PersonLink id={m.user_id} name={m.profiles?.display_name ?? "Member"}/>
                   <p>{m.project_roles?.title ?? "Collaborator"}</p>
                 </div>
               </div>
@@ -498,7 +512,7 @@ function Talent({ role, project }: { role: string; project: string }) {
             <div className="record-heading">
               <div>
                 <h3>
-                  {c.display_name}
+                  <PersonLink id={c.id} name={c.display_name}/>
                   {c.is_demo && <span className="chip">Demo</span>}
                 </h3>
                 <p>{c.headline}</p>

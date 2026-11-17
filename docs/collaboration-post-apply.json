@@ -1,0 +1,580 @@
+{
+  "constraints": {
+    "rows": [
+      {
+        "conrelid": "projects",
+        "conname": "projects_title_check",
+        "contype": "c"
+      },
+      {
+        "conrelid": "projects",
+        "conname": "projects_commitment_check",
+        "contype": "c"
+      },
+      {
+        "conrelid": "projects",
+        "conname": "projects_team_size_check",
+        "contype": "c"
+      },
+      {
+        "conrelid": "projects",
+        "conname": "projects_pkey",
+        "contype": "p"
+      },
+      {
+        "conrelid": "projects",
+        "conname": "projects_owner_id_fkey",
+        "contype": "f"
+      },
+      {
+        "conrelid": "applications",
+        "conname": "applications_status_check",
+        "contype": "c"
+      },
+      {
+        "conrelid": "applications",
+        "conname": "applications_pkey",
+        "contype": "p"
+      },
+      {
+        "conrelid": "applications",
+        "conname": "applications_project_id_fkey",
+        "contype": "f"
+      },
+      {
+        "conrelid": "applications",
+        "conname": "applications_applicant_id_fkey",
+        "contype": "f"
+      },
+      {
+        "conrelid": "applications",
+        "conname": "applications_role_id_project_id_fkey",
+        "contype": "f"
+      },
+      {
+        "conrelid": "project_members",
+        "conname": "project_members_project_id_fkey",
+        "contype": "f"
+      },
+      {
+        "conrelid": "project_members",
+        "conname": "project_members_user_id_fkey",
+        "contype": "f"
+      },
+      {
+        "conrelid": "project_members",
+        "conname": "project_members_role_id_project_id_fkey",
+        "contype": "f"
+      },
+      {
+        "conrelid": "applications",
+        "conname": "applications_match_percent_check",
+        "contype": "c"
+      },
+      {
+        "conrelid": "applications",
+        "conname": "percentage_snapshot_pair",
+        "contype": "c"
+      },
+      {
+        "conrelid": "projects",
+        "conname": "projects_status_check",
+        "contype": "c"
+      },
+      {
+        "conrelid": "project_members",
+        "conname": "project_members_removed_by_fkey",
+        "contype": "f"
+      },
+      {
+        "conrelid": "project_members",
+        "conname": "project_members_pkey",
+        "contype": "p"
+      }
+    ],
+    "rowCount": 18,
+    "fields": [
+      {
+        "name": "conrelid",
+        "dataTypeID": 2205
+      },
+      {
+        "name": "conname",
+        "dataTypeID": 19
+      },
+      {
+        "name": "contype",
+        "dataTypeID": 18
+      }
+    ]
+  },
+  "policies": {
+    "rows": [
+      {
+        "tablename": "profiles",
+        "policyname": "profile_read",
+        "cmd": "SELECT",
+        "roles": "{authenticated}",
+        "qual": "can_view_profile(id)"
+      },
+      {
+        "tablename": "profile_skills",
+        "policyname": "profile_skills_read",
+        "cmd": "SELECT",
+        "roles": "{authenticated}",
+        "qual": "can_view_profile(profile_id)"
+      },
+      {
+        "tablename": "project_members",
+        "policyname": "team_read",
+        "cmd": "SELECT",
+        "roles": "{authenticated}",
+        "qual": "(team_access(project_id, verified_user()) OR (user_id = verified_user()))"
+      },
+      {
+        "tablename": "profile_domains",
+        "policyname": "profile_domain_read",
+        "cmd": "SELECT",
+        "roles": "{authenticated}",
+        "qual": "can_view_profile(profile_id)"
+      }
+    ],
+    "rowCount": 4,
+    "fields": [
+      {
+        "name": "tablename",
+        "dataTypeID": 19
+      },
+      {
+        "name": "policyname",
+        "dataTypeID": 19
+      },
+      {
+        "name": "cmd",
+        "dataTypeID": 25
+      },
+      {
+        "name": "roles",
+        "dataTypeID": 1003
+      },
+      {
+        "name": "qual",
+        "dataTypeID": 25
+      }
+    ]
+  },
+  "acl": {
+    "rows": [
+      {
+        "oid": "add_member(uuid,uuid,uuid)",
+        "proacl": "{project_admin=X/project_admin}"
+      },
+      {
+        "oid": "check_actor(uuid)",
+        "proacl": "{project_admin=X/project_admin}"
+      },
+      {
+        "oid": "has_capacity(uuid,uuid)",
+        "proacl": "{project_admin=X/project_admin}"
+      },
+      {
+        "oid": "match_candidates_for_role(uuid,integer)",
+        "proacl": "{project_admin=X/project_admin,authenticated=X/project_admin}"
+      },
+      {
+        "oid": "owns_project(uuid)",
+        "proacl": "{project_admin=X/project_admin,authenticated=X/project_admin}"
+      },
+      {
+        "oid": "save_project(uuid,jsonb,jsonb,integer)",
+        "proacl": "{project_admin=X/project_admin}"
+      },
+      {
+        "oid": "submit_match(uuid,uuid,uuid,text,uuid,text)",
+        "proacl": "{project_admin=X/project_admin}"
+      }
+    ],
+    "rowCount": 7,
+    "fields": [
+      {
+        "name": "oid",
+        "dataTypeID": 2202
+      },
+      {
+        "name": "proacl",
+        "dataTypeID": 1034
+      }
+    ]
+  },
+  "functions": {
+    "rows": [
+      {
+        "oid": "verified_user()"
+      },
+      {
+        "oid": "owns_project(uuid)"
+      },
+      {
+        "oid": "has_capacity(uuid,uuid)"
+      },
+      {
+        "oid": "add_member(uuid,uuid,uuid)"
+      },
+      {
+        "oid": "check_actor(uuid)"
+      },
+      {
+        "oid": "respond_match(uuid,uuid,text,text)"
+      },
+      {
+        "oid": "collaboration_action(uuid,uuid,jsonb)"
+      },
+      {
+        "oid": "snapshot_application_percentage()"
+      },
+      {
+        "oid": "profile_identities(uuid[])"
+      },
+      {
+        "oid": "profile_projects(uuid)"
+      },
+      {
+        "oid": "workspace_data(uuid,text,timestamp with time zone,uuid,bigint)"
+      },
+      {
+        "oid": "team_access(uuid,uuid)"
+      },
+      {
+        "oid": "notify_user(uuid,uuid,uuid,text,text,text,text,text)"
+      },
+      {
+        "oid": "message_change_sequence()"
+      },
+      {
+        "oid": "consume_rate(text,integer,integer)"
+      },
+      {
+        "oid": "submit_match(uuid,uuid,uuid,text,uuid,text)"
+      },
+      {
+        "oid": "save_profile(uuid,jsonb,jsonb,integer)"
+      },
+      {
+        "oid": "save_project(uuid,jsonb,jsonb,integer)"
+      },
+      {
+        "oid": "match_breakdown(uuid,uuid,uuid)"
+      },
+      {
+        "oid": "participation_notification()"
+      },
+      {
+        "oid": "lifecycle_guard()"
+      },
+      {
+        "oid": "refresh_project_filter_classification(uuid)"
+      },
+      {
+        "oid": "sync_project_filter_classification()"
+      },
+      {
+        "oid": "sync_domain_choices()"
+      },
+      {
+        "oid": "can_view_profile(uuid)"
+      },
+      {
+        "oid": "match_candidates_for_role(uuid,integer)"
+      }
+    ],
+    "rowCount": 26,
+    "fields": [
+      {
+        "name": "oid",
+        "dataTypeID": 2202
+      }
+    ]
+  },
+  "effective-privileges": {
+    "rows": [
+      {
+        "signature": "add_member(uuid,uuid,uuid)",
+        "anon": false,
+        "authenticated": false,
+        "project_admin": true,
+        "public": false
+      },
+      {
+        "signature": "check_actor(uuid)",
+        "anon": false,
+        "authenticated": false,
+        "project_admin": true,
+        "public": false
+      },
+      {
+        "signature": "collaboration_action(uuid,uuid,jsonb)",
+        "anon": false,
+        "authenticated": false,
+        "project_admin": true,
+        "public": false
+      },
+      {
+        "signature": "consume_rate(text,integer,integer)",
+        "anon": false,
+        "authenticated": false,
+        "project_admin": true,
+        "public": false
+      },
+      {
+        "signature": "has_capacity(uuid,uuid)",
+        "anon": false,
+        "authenticated": false,
+        "project_admin": true,
+        "public": false
+      },
+      {
+        "signature": "lifecycle_guard()",
+        "anon": false,
+        "authenticated": false,
+        "project_admin": true,
+        "public": false
+      },
+      {
+        "signature": "match_breakdown(uuid,uuid,uuid)",
+        "anon": false,
+        "authenticated": false,
+        "project_admin": true,
+        "public": false
+      },
+      {
+        "signature": "message_change_sequence()",
+        "anon": false,
+        "authenticated": false,
+        "project_admin": true,
+        "public": false
+      },
+      {
+        "signature": "notify_user(uuid,uuid,uuid,text,text,text,text,text)",
+        "anon": false,
+        "authenticated": false,
+        "project_admin": true,
+        "public": false
+      },
+      {
+        "signature": "participation_notification()",
+        "anon": false,
+        "authenticated": false,
+        "project_admin": true,
+        "public": false
+      },
+      {
+        "signature": "refresh_project_filter_classification(uuid)",
+        "anon": false,
+        "authenticated": false,
+        "project_admin": true,
+        "public": false
+      },
+      {
+        "signature": "respond_match(uuid,uuid,text,text)",
+        "anon": false,
+        "authenticated": false,
+        "project_admin": true,
+        "public": false
+      },
+      {
+        "signature": "save_profile(uuid,jsonb,jsonb,integer)",
+        "anon": false,
+        "authenticated": false,
+        "project_admin": true,
+        "public": false
+      },
+      {
+        "signature": "save_project(uuid,jsonb,jsonb,integer)",
+        "anon": false,
+        "authenticated": false,
+        "project_admin": true,
+        "public": false
+      },
+      {
+        "signature": "snapshot_application_percentage()",
+        "anon": false,
+        "authenticated": false,
+        "project_admin": true,
+        "public": false
+      },
+      {
+        "signature": "submit_match(uuid,uuid,uuid,text,uuid,text)",
+        "anon": false,
+        "authenticated": false,
+        "project_admin": true,
+        "public": false
+      },
+      {
+        "signature": "sync_domain_choices()",
+        "anon": false,
+        "authenticated": false,
+        "project_admin": true,
+        "public": false
+      },
+      {
+        "signature": "sync_project_filter_classification()",
+        "anon": false,
+        "authenticated": false,
+        "project_admin": true,
+        "public": false
+      }
+    ],
+    "rowCount": 18,
+    "fields": [
+      {
+        "name": "signature",
+        "dataTypeID": 2202
+      },
+      {
+        "name": "anon",
+        "dataTypeID": 16
+      },
+      {
+        "name": "authenticated",
+        "dataTypeID": 16
+      },
+      {
+        "name": "project_admin",
+        "dataTypeID": 16
+      },
+      {
+        "name": "public",
+        "dataTypeID": 16
+      }
+    ]
+  },
+  "partial-indexes": {
+    "rows": [
+      {
+        "schemaname": "public",
+        "tablename": "project_members",
+        "indexname": "one_active_membership",
+        "indexdef": "CREATE UNIQUE INDEX one_active_membership ON public.project_members USING btree (project_id, user_id) WHERE (left_at IS NULL)"
+      },
+      {
+        "schemaname": "public",
+        "tablename": "applications",
+        "indexname": "one_pending_application",
+        "indexdef": "CREATE UNIQUE INDEX one_pending_application ON public.applications USING btree (applicant_id, project_id, COALESCE(role_id, '00000000-0000-0000-0000-000000000000'::uuid)) WHERE (status = 'pending'::text)"
+      }
+    ],
+    "rowCount": 2,
+    "fields": [
+      {
+        "name": "schemaname",
+        "dataTypeID": 19
+      },
+      {
+        "name": "tablename",
+        "dataTypeID": 19
+      },
+      {
+        "name": "indexname",
+        "dataTypeID": 19
+      },
+      {
+        "name": "indexdef",
+        "dataTypeID": 25
+      }
+    ]
+  },
+  "integrity": {
+    "rows": [
+      {
+        "integrity": {
+          "duplicates": 0,
+          "over_capacity": 0,
+          "count_mismatches": 0,
+          "total_memberships": 15,
+          "active_memberships": 15
+        }
+      }
+    ],
+    "rowCount": 1,
+    "fields": [
+      {
+        "name": "integrity",
+        "dataTypeID": 3802
+      }
+    ]
+  },
+  "migration_history": [
+    {
+      "version": "20261118030000",
+      "name": "task-conflict-response",
+      "createdAt": "2026-11-17T01:19:54.032Z"
+    },
+    {
+      "version": "20261118020000",
+      "name": "collaboration-reads",
+      "createdAt": "2026-11-17T01:04:40.166Z"
+    },
+    {
+      "version": "20261118010000",
+      "name": "collaboration-foundation",
+      "createdAt": "2026-11-17T01:04:22.874Z"
+    },
+    {
+      "version": "20261117070000",
+      "name": "explore-filters",
+      "createdAt": "2026-11-16T22:36:05.157Z"
+    },
+    {
+      "version": "20261117060000",
+      "name": "retire-project-match-rpc",
+      "createdAt": "2026-11-16T22:07:44.495Z"
+    },
+    {
+      "version": "20261117050000",
+      "name": "percentage-rollout-compatibility",
+      "createdAt": "2026-11-16T21:55:15.447Z"
+    },
+    {
+      "version": "20261117040000",
+      "name": "role-percentages",
+      "createdAt": "2026-11-16T21:44:53.935Z"
+    },
+    {
+      "version": "20261117030000",
+      "name": "domain-consistency",
+      "createdAt": "2026-11-16T20:54:25.106Z"
+    },
+    {
+      "version": "20261117020000",
+      "name": "open-participation",
+      "createdAt": "2026-11-16T19:21:43.478Z"
+    },
+    {
+      "version": "20261117010000",
+      "name": "change-set-one",
+      "createdAt": "2026-11-16T19:10:07.450Z"
+    },
+    {
+      "version": "20261116142000",
+      "name": "feed-open-roles",
+      "createdAt": "2026-11-16T14:19:42.985Z"
+    },
+    {
+      "version": "20261116140221",
+      "name": "onboarding-completion",
+      "createdAt": "2026-11-16T14:03:17.628Z"
+    },
+    {
+      "version": "20261116133716",
+      "name": "meridian-schema",
+      "createdAt": "2026-11-16T13:40:12.031Z"
+    }
+  ],
+  "preservation": {
+    "original_memberships_retained": 15,
+    "active_memberships": 15,
+    "embeddings_unchanged": 128,
+    "applications_unchanged": 34,
+    "invitations_unchanged": 10
+  }
+}

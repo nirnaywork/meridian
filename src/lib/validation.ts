@@ -1,4 +1,5 @@
 import { z } from "zod";
+import {projectStatuses} from "./collaboration";
 export const requiredDomains=z.array(z.string().trim().min(1).max(100)).min(1,"Choose at least one domain").max(20);
 export const password = z
   .string()
@@ -56,7 +57,7 @@ export const projectSchema = z
     commitment: z.enum(["casual", "part-time", "intensive"]),
     duration: z.string().min(2).max(80),
     team_size: z.number().int().min(2).max(50),
-    status: z.enum(["open", "closed", "in_progress"]).default("open"),
+    status: z.enum(projectStatuses).default("open"),
     roles: z
       .array(
         z.object({

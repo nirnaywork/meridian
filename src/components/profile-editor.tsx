@@ -1,4 +1,5 @@
 "use client";
+import {ProfileLinksEditor} from "./public-profile";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { createBrowserClient } from "@insforge/sdk/ssr";
@@ -346,6 +347,7 @@ export function ProfileEditor({
   ) : (
     <>
       {content}
+      {(ownerId || resource.data?.id) && <ProfileLinksEditor id={ownerId ?? resource.data!.id}/>}
       {!resource.loading && (ownerId || resource.data?.id) && (
         <UnderTheHood
           key={`${ownerId ?? resource.data?.id}:${resource.data?.revision ?? 0}`}

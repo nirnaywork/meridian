@@ -30,7 +30,8 @@ export function failure(error: unknown) {
     statusCode?: number;
     code?: string;
   };
-  const status = e.status ?? e.statusCode ?? 400;
+  const databaseStatus = e.code === '42501' ? 403 : ['40001','PT409'].includes(e.code ?? '') ? 409 : undefined;
+  const status = e.status ?? databaseStatus ?? e.statusCode ?? 400;
   let message = e.message ?? "Something went wrong. Please retry.";
   if (e.code === "23505") message = "This record already exists.";
   if (e.code === "23503")

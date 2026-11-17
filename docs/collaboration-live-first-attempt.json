@@ -1,0 +1,71 @@
+{
+  "run": "ced72912-2ec5-4eb1-9a49-90ab5d0e297b",
+  "checks": [
+    {
+      "name": "private profiles and talent are hidden from unrelated users",
+      "status": "passed"
+    },
+    {
+      "name": "links/public visibility save without changing the embedding or trace",
+      "status": "passed"
+    },
+    {
+      "name": "Explore, project role percentages and stored Under the Hood endpoints work",
+      "status": "passed"
+    },
+    {
+      "name": "apply stays pending, notifies lead, and pending/nonmembers lack workspace access",
+      "status": "passed"
+    },
+    {
+      "name": "approval notifies applicant and grants active workspace access",
+      "status": "passed"
+    },
+    {
+      "name": "rejection and withdrawal notify the correct recipients",
+      "status": "passed"
+    },
+    {
+      "name": "closed/in_progress preserve pending records and block new recruiting",
+      "status": "passed"
+    },
+    {
+      "name": "invitation acceptance/decline/cancel notify correctly and acceptance adds membership",
+      "status": "passed"
+    },
+    {
+      "name": "recipient-only inboxes, mark-read and direct RLS/privileged RPC denial",
+      "status": "passed"
+    },
+    {
+      "name": "team chat persists, edits, soft-deletes and rejects unauthorized edits",
+      "status": "passed"
+    },
+    {
+      "name": "tasks enforce assignment, revision conflicts and reassignment notifications",
+      "status": "failed",
+      "error": "Expected values to be strictly equal:\n\n500 !== 409\n"
+    }
+  ],
+  "ids": {
+    "users": [
+      "2a075737-26d6-49ff-97ea-c6f32fe485be",
+      "bc0218b3-11a1-4204-a23f-91620eecc4af",
+      "c350b80d-92f1-4f76-9894-b6d72c8ab4d0",
+      "579260e6-d3bf-49ea-9443-dff02fef1a1b",
+      "1245efce-b75a-489f-bf1b-bd6c0386a6c0"
+    ],
+    "project": "949cd512-11f6-4b3d-9fed-40d6e515d26c",
+    "roles": [
+      "e1ebf19a-14dd-4d7a-8148-8a371655f5ad",
+      "af8f0056-ce97-4304-ac60-303d84fe0069"
+    ],
+    "application": "6a943c44-6640-459e-982f-c340dbd120e4",
+    "task": "5b937fd2-efc1-46d7-ac9e-ebd109c0051c"
+  },
+  "error": "Expected values to be strictly equal:\n\n500 !== 409\n",
+  "cleanup": {
+    "status": "failed",
+    "error": "update or delete on table \"projects\" violates foreign key constraint \"notifications_project_id_fkey\" on table \"notifications\""
+  }
+}

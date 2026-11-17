@@ -8,3 +8,5 @@ tests/
 e2e/
 playwright.config.ts
 models/
+backups/
+test-results/

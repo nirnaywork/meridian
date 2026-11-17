@@ -5,7 +5,7 @@ import { ArrowUpRight, ArrowRight, Check, MoveUpRight } from "lucide-react";
 import { Logo, ThemeToggle } from "@/components/ui";
 export default async function Home() {
   const { data } = await (await userClient()).auth.getCurrentUser();
-  if (data.user?.emailVerified) redirect("/projects");
+  if (data.user?.emailVerified) redirect("/dashboard");
   return (
     <div className="landing">
       <header className="landing-nav">

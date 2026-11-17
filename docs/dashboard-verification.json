@@ -1,0 +1,32 @@
+{
+  "migration": "20261118040000",
+  "source_sha256": "4846ff8ed1eeb026073ae11320085570970a8eed2d1087a392a221ea412fa0bd",
+  "original_rows_preserved": {
+    "projects": 30,
+    "project_members": 15,
+    "project_roles": 46,
+    "project_messages": 0,
+    "workspace_read_state": 0,
+    "notifications": 0,
+    "ownership_transfers": 0,
+    "applications": 34,
+    "invitations": 10
+  },
+  "accounts_cleaned": 13,
+  "projects_cleaned": 4,
+  "fixture_profiles_remaining": "0",
+  "updates_remaining": "0",
+  "tickets_remaining": "0",
+  "browser": {
+    "startTime": "2026-11-17T02:14:13.731Z",
+    "duration": 83728.061,
+    "expected": 25,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "additional_nonfixture_rows_since_backup": {
+    "notifications": 1,
+    "applications": 1
+  }
+}

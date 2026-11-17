@@ -8,7 +8,7 @@ export const projectSearchSchema=z.object({
  search:text(100),skill:text(70),role:text(100),field:choice(100),domain:choice(100),
  sort:z.string().default('newest').transform(s=>sentinel(s)?'newest':s).pipe(z.enum(['newest','oldest','roles'])),
  commitment:choice(100).pipe(z.enum(['','casual','part-time','intensive'])),
- status:z.string().default('open').transform(s=>sentinel(s)?'all':s.trim()).pipe(z.enum(['all','open','closed','in_progress'])),
+ status:z.string().default('open').transform(s=>sentinel(s)?'all':s.trim()).pipe(z.enum(['all','open','closed','in_progress','completed','cancelled','archived'])),
  page:z.coerce.number().int().min(1).max(100000).default(1),limit:z.coerce.number().int().min(1).max(30).default(12),
 });
 export function readProjectFilters(params:URLSearchParams):ProjectFilterState{

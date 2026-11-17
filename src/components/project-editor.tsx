@@ -1,4 +1,5 @@
 "use client";
+import {isReadOnly} from "@/lib/collaboration";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
@@ -60,7 +61,7 @@ export function ProjectEditor({ id }: { id?: string }) {
         ...form,
         tags: form.tags.filter(Boolean),
       });
-      router.push("/projects/" + result.id);
+      router.push("/projects/" + result.id + (id ? "" : "/workspace"));
       router.refresh();
     } catch (e) {
       setError((e as Error).message);
@@ -68,6 +69,7 @@ export function ProjectEditor({ id }: { id?: string }) {
       setBusy(false);
     }
   }
+  if(id && !loading && isReadOnly(form.status))return <section className="content-panel"><h1>This project is read-only</h1><p>Completed, cancelled and archived projects keep their history.</p><Link href={`/projects/${id}/workspace`}>Open Team Dashboard</Link></section>;
   return (
     <div className="editor-width">
       <Link href="/my-projects" className="back-link">
@@ -329,19 +331,7 @@ export function ProjectEditor({ id }: { id?: string }) {
                 />
               </div>
             ))}
-            {id && (
-              <label>
-                Project status
-                <select
-                  value={form.status}
-                  onChange={(e) => field("status", e.target.value)}
-                >
-                  <option value="open">Open for collaborators</option>
-                  <option value="in_progress">In progress</option>
-                  <option value="closed">Closed</option>
-                </select>
-              </label>
-            )}
+            {id && <p className="info-note">Project status: {form.status.replaceAll('_',' ')}. Manage lifecycle changes in the <Link href={`/projects/${id}/workspace`}>Team Dashboard</Link>.</p>}
           </>
         )}
         {error && <ErrorState message={error} />}

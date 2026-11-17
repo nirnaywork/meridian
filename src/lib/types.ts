@@ -64,6 +64,8 @@ export type MatchRecord = {
   role_id: string | null;
   applicant_id?: string;
   invitee_id?: string;
+  inviter_id?: string;
+  inviter_name?: string;
   status: string;
   message: string;
   breakdown: SkillOverlap;

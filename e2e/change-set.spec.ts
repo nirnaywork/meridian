@@ -6,15 +6,15 @@ test.beforeEach(async ({ page }) => signIn(page, user));
 
 test("logo click and full reload preserve the session", async ({ page }) => {
   await page.getByRole("link", { name: "Meridian home", exact: true }).click();
-  await expect(page).toHaveURL(/\/projects$/);
+  await expect(page).toHaveURL(/\/dashboard$/);
   await page.reload();
   await expect(
     page.getByRole("button", { name: "Sign out", exact: true }),
   ).toBeVisible();
   await page.goto("/");
-  await expect(page).toHaveURL(/\/projects$/);
+  await expect(page).toHaveURL(/\/dashboard$/);
   await page.goto("/sign-in");
-  await expect(page).toHaveURL(/\/projects$/);
+  await expect(page).toHaveURL(/\/dashboard$/);
 });
 test("Explore is neutral and offers no cosine sort", async ({ page }) => {
   await expect(

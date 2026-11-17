@@ -1,4 +1,5 @@
 import "server-only";
+import {isReadOnly} from "../collaboration";
 import { adminClient, checked, HttpError } from "./db";
 import { profileSchema, projectSchema,requiredDomains } from "../validation";
 import { normalizeSkill, skillKey } from "../../data/taxonomy";
@@ -100,12 +101,13 @@ export async function saveProject(actor: string, input: unknown) {
     const existing = checked(
       await db.database
         .from("projects")
-        .select("owner_id")
+        .select("owner_id,status")
         .eq("id", id)
         .limit(1),
     );
     if (!existing[0] || existing[0].owner_id !== actor)
       throw new HttpError("Forbidden", 403);
+    if(isReadOnly(existing[0].status))throw new HttpError("This project is read-only",409);
   }
   const provider = await embeddingProvider();
   const existingRoles=body.id?checked(await db.database.from('project_roles').select('id').eq('project_id',id)):[];

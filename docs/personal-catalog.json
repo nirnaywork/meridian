@@ -1,0 +1,133 @@
+{
+  "rows": [
+    {
+      "tables": [
+        {
+          "rls": true,
+          "table": "daily_notes",
+          "authenticated_write": false
+        },
+        {
+          "rls": true,
+          "table": "dashboard_preferences",
+          "authenticated_write": false
+        },
+        {
+          "rls": true,
+          "table": "focus_sessions",
+          "authenticated_write": false
+        }
+      ],
+      "policies": [
+        {
+          "cmd": "ALL",
+          "qual": "(user_id = verified_user())",
+          "roles": [
+            "authenticated"
+          ],
+          "tablename": "dashboard_preferences",
+          "permissive": "PERMISSIVE",
+          "policyname": "owner_only",
+          "schemaname": "public",
+          "with_check": "(user_id = verified_user())"
+        },
+        {
+          "cmd": "ALL",
+          "qual": "(user_id = verified_user())",
+          "roles": [
+            "authenticated"
+          ],
+          "tablename": "daily_notes",
+          "permissive": "PERMISSIVE",
+          "policyname": "owner_only",
+          "schemaname": "public",
+          "with_check": "(user_id = verified_user())"
+        },
+        {
+          "cmd": "ALL",
+          "qual": "(user_id = verified_user())",
+          "roles": [
+            "authenticated"
+          ],
+          "tablename": "focus_sessions",
+          "permissive": "PERMISSIVE",
+          "policyname": "owner_only",
+          "schemaname": "public",
+          "with_check": "(user_id = verified_user())"
+        }
+      ],
+      "functions": [
+        {
+          "acl": [
+            "project_admin=X/project_admin",
+            "authenticated=X/project_admin"
+          ],
+          "anon": false,
+          "admin": true,
+          "config": [
+            "search_path=pg_catalog, public, pg_temp"
+          ],
+          "public": false,
+          "definer": true,
+          "signature": "personal_dashboard(text,date)",
+          "authenticated": true
+        },
+        {
+          "acl": [
+            "project_admin=X/project_admin"
+          ],
+          "anon": false,
+          "admin": true,
+          "config": [
+            "search_path=pg_catalog, public, pg_temp"
+          ],
+          "public": false,
+          "definer": true,
+          "signature": "personal_dashboard_action(uuid,jsonb)",
+          "authenticated": false
+        },
+        {
+          "acl": [
+            "project_admin=X/project_admin",
+            "authenticated=X/project_admin"
+          ],
+          "anon": false,
+          "admin": true,
+          "config": [
+            "search_path=pg_catalog, public, pg_temp"
+          ],
+          "public": false,
+          "definer": true,
+          "signature": "personal_preferences()",
+          "authenticated": true
+        }
+      ],
+      "indexes": [
+        "daily_notes_pkey",
+        "daily_notes_owner_day",
+        "dashboard_preferences_pkey",
+        "focus_sessions_pkey",
+        "focus_sessions_owner_date"
+      ]
+    }
+  ],
+  "rowCount": 1,
+  "fields": [
+    {
+      "name": "tables",
+      "dataTypeID": 3802
+    },
+    {
+      "name": "policies",
+      "dataTypeID": 3802
+    },
+    {
+      "name": "functions",
+      "dataTypeID": 3802
+    },
+    {
+      "name": "indexes",
+      "dataTypeID": 3802
+    }
+  ]
+}

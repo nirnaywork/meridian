@@ -1,0 +1,130 @@
+{
+  "fixture_user_ids": [
+    "2a075737-26d6-49ff-97ea-c6f32fe485be",
+    "bc0218b3-11a1-4204-a23f-91620eecc4af",
+    "c350b80d-92f1-4f76-9894-b6d72c8ab4d0",
+    "579260e6-d3bf-49ea-9443-dff02fef1a1b",
+    "1245efce-b75a-489f-bf1b-bd6c0386a6c0",
+    "b580d409-75cd-4c62-87c4-e6f7b9add0f1",
+    "d63fad28-2533-42b5-a576-51b314b31136",
+    "a223ef1f-410f-4807-9b47-634986acf489",
+    "d667a3f3-c79d-4549-865f-73f56df43de5",
+    "3219853c-ff9e-40f7-9ff5-ebbba631e611",
+    "a72caaa1-6d11-44b5-a465-c63379d4e8b3",
+    "fdceccc5-9b23-4a39-a90c-3095a27855e8",
+    "50b9cc89-6133-419a-bc73-db149cd3f7fd",
+    "f6d41edc-097c-41a2-ab46-d91cf60f5150",
+    "3cb64692-a1b1-4050-a5d6-e692f5d2fc1a",
+    "4db2a446-008d-452c-92b9-54e272617124",
+    "34b32c45-a90c-451b-8e5e-1135ce747b3b",
+    "dd9c7ebc-98f7-4d59-96d6-842cae914ffe",
+    "35354a1a-1237-4863-b9cc-e9f4c97a0c78"
+  ],
+  "fixture_project_ids": [
+    "949cd512-11f6-4b3d-9fed-40d6e515d26c",
+    "d8325b91-f9fa-4812-bec6-5adf39c6d769",
+    "70bd27d4-c952-49a6-99d7-a155e027654d",
+    "78148583-d87d-470d-b661-71ce91c0e5cc"
+  ],
+  "profiles_remaining": 0,
+  "projects_remaining": 0,
+  "auth_accounts_remaining": 0,
+  "browser": {
+    "startTime": "2026-11-17T01:30:47.122Z",
+    "duration": 76391.115,
+    "expected": 24,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "api_checks": [
+    {
+      "name": "private profiles and talent are hidden from unrelated users",
+      "status": "passed"
+    },
+    {
+      "name": "links/public visibility save without changing the embedding or trace",
+      "status": "passed"
+    },
+    {
+      "name": "Explore, project role percentages and stored Under the Hood endpoints work",
+      "status": "passed"
+    },
+    {
+      "name": "apply stays pending, notifies lead, and pending/nonmembers lack workspace access",
+      "status": "passed"
+    },
+    {
+      "name": "approval notifies applicant and grants active workspace access",
+      "status": "passed"
+    },
+    {
+      "name": "rejection and withdrawal notify the correct recipients",
+      "status": "passed"
+    },
+    {
+      "name": "closed/in_progress preserve pending records and block new recruiting",
+      "status": "passed"
+    },
+    {
+      "name": "invitation acceptance/decline/cancel notify correctly and acceptance adds membership",
+      "status": "passed"
+    },
+    {
+      "name": "recipient-only inboxes, mark-read and direct RLS/privileged RPC denial",
+      "status": "passed"
+    },
+    {
+      "name": "team chat persists, edits, soft-deletes and rejects unauthorized edits",
+      "status": "passed"
+    },
+    {
+      "name": "tasks enforce assignment, revision conflicts and reassignment notifications",
+      "status": "passed"
+    },
+    {
+      "name": "removal revokes access, preserves chat, unassigns tasks and frees role slots",
+      "status": "passed"
+    },
+    {
+      "name": "role reassignment and concurrent approvals cannot overfill slots",
+      "status": "passed"
+    },
+    {
+      "name": "owner Under the Hood exposes snapshots without applicant raw vectors",
+      "status": "passed"
+    },
+    {
+      "name": "ownership transfer requires recipient consent and changes permissions",
+      "status": "passed"
+    },
+    {
+      "name": "completion resolves pending records and makes workspace read-only",
+      "status": "passed"
+    }
+  ],
+  "filters": [
+    "Existing projects render and keep neutral newest ordering",
+    "Search matches tags case-insensitively",
+    "Search matches titles/descriptions case-insensitively",
+    "Skill uses case-insensitive partial names",
+    "Skill punctuation is literal",
+    "Role searches open role titles only",
+    "Field exact match includes backfilled legacy classifications",
+    "Domain exact match",
+    "Commitment exact match",
+    "Status open",
+    "Status closed",
+    "Status in_progress",
+    "Oldest sort",
+    "Most roles open sort",
+    "All filters combine with AND",
+    "Injection and wildcard characters remain literal",
+    "No matches is an empty page",
+    "All/Any choices remove exact filters",
+    "Page/limit return the correct slice and full total",
+    "Invalid and injected pagination/sort are rejected",
+    "Dropdown options come from the live taxonomy and group domains by field",
+    "Every existing project has nonempty filter metadata"
+  ]
+}

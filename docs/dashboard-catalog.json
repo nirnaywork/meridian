@@ -1,0 +1,186 @@
+{
+  "rows": [
+    {
+      "old_tasks": null,
+      "tables": [
+        {
+          "rls": true,
+          "table": "project_messages",
+          "client_insert": false
+        },
+        {
+          "rls": true,
+          "table": "project_tickets",
+          "client_insert": false
+        },
+        {
+          "rls": true,
+          "table": "project_updates",
+          "client_insert": false
+        },
+        {
+          "rls": true,
+          "table": "workspace_read_state",
+          "client_insert": false
+        }
+      ],
+      "policies": [
+        {
+          "cmd": "SELECT",
+          "qual": "(team_access(project_id, verified_user()) AND ((thread = 'everyone'::text) OR (verified_user() = ANY (participants))))",
+          "roles": [
+            "authenticated"
+          ],
+          "tablename": "project_messages",
+          "permissive": "PERMISSIVE",
+          "policyname": "conversation_read",
+          "schemaname": "public",
+          "with_check": null
+        },
+        {
+          "cmd": "SELECT",
+          "qual": "((user_id = verified_user()) AND team_access(project_id, user_id))",
+          "roles": [
+            "authenticated"
+          ],
+          "tablename": "workspace_read_state",
+          "permissive": "PERMISSIVE",
+          "policyname": "own_reads",
+          "schemaname": "public",
+          "with_check": null
+        },
+        {
+          "cmd": "SELECT",
+          "qual": "team_access(project_id, verified_user())",
+          "roles": [
+            "authenticated"
+          ],
+          "tablename": "project_updates",
+          "permissive": "PERMISSIVE",
+          "policyname": "team_read",
+          "schemaname": "public",
+          "with_check": null
+        },
+        {
+          "cmd": "SELECT",
+          "qual": "team_access(project_id, verified_user())",
+          "roles": [
+            "authenticated"
+          ],
+          "tablename": "project_tickets",
+          "permissive": "PERMISSIVE",
+          "policyname": "team_read",
+          "schemaname": "public",
+          "with_check": null
+        }
+      ],
+      "functions": [
+        {
+          "acl": [
+            "project_admin=X/project_admin"
+          ],
+          "anon": false,
+          "admin": true,
+          "function": "collaboration_action(uuid,uuid,jsonb)",
+          "authenticated": false
+        },
+        {
+          "acl": [
+            "project_admin=X/project_admin",
+            "authenticated=X/project_admin"
+          ],
+          "anon": false,
+          "admin": true,
+          "function": "dashboard_messages(uuid)",
+          "authenticated": true
+        },
+        {
+          "acl": [
+            "project_admin=X/project_admin"
+          ],
+          "anon": false,
+          "admin": true,
+          "function": "lifecycle_guard()",
+          "authenticated": false
+        },
+        {
+          "acl": [
+            "project_admin=X/project_admin",
+            "authenticated=X/project_admin"
+          ],
+          "anon": false,
+          "admin": true,
+          "function": "minimum_start_members()",
+          "authenticated": true
+        },
+        {
+          "acl": [
+            "project_admin=X/project_admin"
+          ],
+          "anon": false,
+          "admin": true,
+          "function": "participation_notification()",
+          "authenticated": false
+        },
+        {
+          "acl": [
+            "project_admin=X/project_admin"
+          ],
+          "anon": false,
+          "admin": true,
+          "function": "require_initial_recruitment()",
+          "authenticated": false
+        },
+        {
+          "acl": [
+            "project_admin=X/project_admin",
+            "authenticated=X/project_admin"
+          ],
+          "anon": false,
+          "admin": true,
+          "function": "workspace_data(uuid,text,timestamp with time zone,uuid,bigint)",
+          "authenticated": true
+        }
+      ],
+      "indexes": [
+        "project_messages_pkey",
+        "messages_project_sequence",
+        "messages_project_time",
+        "messages_by_thread",
+        "project_tickets_pkey",
+        "project_tickets_project_date",
+        "project_updates_pkey",
+        "project_updates_project_date",
+        "workspace_read_state_pkey"
+      ],
+      "stale_functions": "0"
+    }
+  ],
+  "rowCount": 1,
+  "fields": [
+    {
+      "name": "old_tasks",
+      "dataTypeID": 25
+    },
+    {
+      "name": "tables",
+      "dataTypeID": 3802
+    },
+    {
+      "name": "policies",
+      "dataTypeID": 3802
+    },
+    {
+      "name": "functions",
+      "dataTypeID": 3802
+    },
+    {
+      "name": "indexes",
+      "dataTypeID": 3802
+    },
+    {
+      "name": "stale_functions",
+      "dataTypeID": 20
+    }
+  ]
+}

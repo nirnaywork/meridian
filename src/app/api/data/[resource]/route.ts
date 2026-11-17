@@ -94,7 +94,7 @@ export async function GET(
             .enum(["", "casual", "part-time", "intensive"])
             .default(""),
           status: z
-            .enum(["open", "closed", "in_progress", "all"])
+            .enum(["open", "closed", "in_progress", "completed", "cancelled", "archived", "all"])
             .default("open"),
         })
         .parse(Object.fromEntries(q));
@@ -127,12 +127,15 @@ export async function GET(
           .eq("id", id)
           .single(),
       );
+      const identity=checked(await db.database.rpc("profile_identities",{ids:[p.owner_id]})) as any[];
+      p.profiles=identity[0]??null;
       const shaped=projectShape(p);shaped.roles=orderRolesForDisplay(shaped.roles);
       const matches=await getRoleMatchesForViewer(db,user.id,shaped.roles.map((r:any)=>r.id));
       return NextResponse.json({
         ...shaped,
         roles:shaped.roles.map((r:any)=>({...r,match:matches.find(m=>m.roleId===r.id)})),
         user_id: user.id,
+        is_team_member:checked(await db.database.rpc("team_access",{pid:id,uid:user.id})),
       });
     }
     if (resource === "my-projects")
@@ -165,22 +168,24 @@ export async function GET(
           await db.database
             .from("invitations")
             .select(
-              "id,project_id,role_id,status,message,breakdown,created_at,projects(title),project_roles(title)",
+              "id,project_id,role_id,inviter_id,status,message,breakdown,created_at,projects(title),project_roles(title),profiles!invitations_inviter_id_fkey(display_name)",
             )
             .eq("invitee_id", user.id)
             .order("created_at", { ascending: false })
             .limit(100),
         ).map(presentParticipation),
       );
-    if (resource === "talent")
+    if (resource === "talent") {
+      const role = z.string().uuid("Choose a valid project role.").parse(q.get("role"));
       return NextResponse.json(
         checked(
           await db.database.rpc("match_candidates_for_role", {
-            p_role: z.string().uuid().parse(q.get("role")),
+            p_role: role,
             p_limit: 50,
           }),
-        ).map((r:any)=>presentCandidate(r,z.string().uuid().parse(q.get('role')))),
+        ).map((r: any) => presentCandidate(r, role)),
       );
+    }
     if (resource === "applicants" || resource === "team") {
       const id = z.string().uuid().parse(q.get("id"));
       const owner = checked(
@@ -209,9 +214,10 @@ export async function GET(
           await db.database
             .from("project_members")
             .select(
-              "user_id,role_id,joined_at,profiles(display_name,headline,avatar_url),project_roles(title)",
+              "user_id,role_id,joined_at,profiles!project_members_user_id_fkey(display_name,headline,avatar_url),project_roles(title)",
             )
             .eq("project_id", id)
+            .is("left_at",null)
             .limit(50),
         ),
       );

@@ -1,0 +1,30 @@
+{
+  "id": "e9b7c36f-334d-4ae0-8974-a1cd0bf8e4ba",
+  "status": "READY",
+  "url": "https://tyhutf3c.insforge.site",
+  "ready_at": "2026-11-17T02:24:54.666Z",
+  "verified_at": "2026-11-17T02:26:24.681Z",
+  "browser": {
+    "startTime": "2026-11-17T02:25:06.737Z",
+    "duration": 40105.666000000005,
+    "expected": 7,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "signed_out_dashboard_status": 401,
+  "cleanup": {
+    "user_ids": [
+      "9cd7859b-de75-43be-a805-8fdee1c11567",
+      "63c4a967-ee16-4b0d-85e3-e7f857e8070c",
+      "e02f9498-8b7b-4826-b5c0-1e5f914893d9"
+    ],
+    "project_ids": [
+      "226d8d33-a185-4e92-8000-00a201e3ab56",
+      "96bbaa0d-3d2f-485a-8520-53eb52376499"
+    ],
+    "profiles_remaining": 0,
+    "projects_remaining": 0,
+    "auth_accounts_remaining": 0
+  }
+}

@@ -1,0 +1,195 @@
+[
+  {
+    "user_ids": [
+      "4db2a446-008d-452c-92b9-54e272617124",
+      "34b32c45-a90c-451b-8e5e-1135ce747b3b"
+    ],
+    "status": "passed",
+    "deleted": {
+      "profiles": 2,
+      "rate_limits": 2,
+      "auth_users": 2
+    },
+    "recorded_ids": {
+      "notifications": [],
+      "profile_embeddings": [],
+      "profile_skills": [],
+      "profile_domains": [],
+      "profiles": [
+        {
+          "id": "4db2a446-008d-452c-92b9-54e272617124"
+        },
+        {
+          "id": "34b32c45-a90c-451b-8e5e-1135ce747b3b"
+        }
+      ],
+      "rate_limits": [
+        {
+          "key": "auth:sign-in:09ed1cf5a9129461c24c8882b9a9e784532c362c3afed33c7c929ce37f046be3"
+        },
+        {
+          "key": "auth:sign-in:8d69975cebf985047d45b3d6e6af1c4b5b8fc76ec7677a70b532ab080b776f91"
+        }
+      ],
+      "auth_users": [
+        "4db2a446-008d-452c-92b9-54e272617124",
+        "34b32c45-a90c-451b-8e5e-1135ce747b3b"
+      ]
+    }
+  },
+  {
+    "user_ids": [
+      "dd9c7ebc-98f7-4d59-96d6-842cae914ffe",
+      "35354a1a-1237-4863-b9cc-e9f4c97a0c78"
+    ],
+    "project_ids": [
+      "78148583-d87d-470d-b661-71ce91c0e5cc"
+    ],
+    "mode": "real-api",
+    "cleanup": {
+      "status": "passed",
+      "deleted": {
+        "notifications": 5,
+        "project_messages": 1,
+        "project_tasks": 1,
+        "workspace_read_state": 2,
+        "project_members": 2,
+        "project_roles": 1,
+        "projects": 1,
+        "profiles": 2,
+        "rate_limits": 7,
+        "auth_users": 2
+      },
+      "recorded_ids": {
+        "notifications": [
+          {
+            "id": "6f819876-6302-40f7-b75d-4b90f758f4b3",
+            "recipient_id": "dd9c7ebc-98f7-4d59-96d6-842cae914ffe",
+            "actor_id": "35354a1a-1237-4863-b9cc-e9f4c97a0c78",
+            "project_id": "78148583-d87d-470d-b661-71ce91c0e5cc"
+          },
+          {
+            "id": "a8fb543c-c5d5-4fed-9af2-64b5c78d85b6",
+            "recipient_id": "35354a1a-1237-4863-b9cc-e9f4c97a0c78",
+            "actor_id": "dd9c7ebc-98f7-4d59-96d6-842cae914ffe",
+            "project_id": "78148583-d87d-470d-b661-71ce91c0e5cc"
+          },
+          {
+            "id": "5e03eb13-5e64-4911-ac22-17b9ef6a26ac",
+            "recipient_id": "dd9c7ebc-98f7-4d59-96d6-842cae914ffe",
+            "actor_id": "35354a1a-1237-4863-b9cc-e9f4c97a0c78",
+            "project_id": "78148583-d87d-470d-b661-71ce91c0e5cc"
+          },
+          {
+            "id": "8502cf36-e5cb-4315-8be5-75d7735755c6",
+            "recipient_id": "dd9c7ebc-98f7-4d59-96d6-842cae914ffe",
+            "actor_id": "35354a1a-1237-4863-b9cc-e9f4c97a0c78",
+            "project_id": "78148583-d87d-470d-b661-71ce91c0e5cc"
+          },
+          {
+            "id": "42b6fce3-446b-4334-92f6-9db57a0c1b65",
+            "recipient_id": "35354a1a-1237-4863-b9cc-e9f4c97a0c78",
+            "actor_id": "dd9c7ebc-98f7-4d59-96d6-842cae914ffe",
+            "project_id": "78148583-d87d-470d-b661-71ce91c0e5cc"
+          }
+        ],
+        "project_messages": [
+          {
+            "id": "900292fc-b344-4f80-80bb-3c91b99e57a9",
+            "project_id": "78148583-d87d-470d-b661-71ce91c0e5cc",
+            "author_id": "35354a1a-1237-4863-b9cc-e9f4c97a0c78"
+          }
+        ],
+        "project_tasks": [
+          {
+            "id": "ad55aad0-43a6-4afa-a443-9bfa0e6feae9",
+            "project_id": "78148583-d87d-470d-b661-71ce91c0e5cc",
+            "assignee_id": null
+          }
+        ],
+        "workspace_read_state": [
+          {
+            "project_id": "78148583-d87d-470d-b661-71ce91c0e5cc",
+            "user_id": "35354a1a-1237-4863-b9cc-e9f4c97a0c78"
+          },
+          {
+            "project_id": "78148583-d87d-470d-b661-71ce91c0e5cc",
+            "user_id": "dd9c7ebc-98f7-4d59-96d6-842cae914ffe"
+          }
+        ],
+        "ownership_transfers": [],
+        "project_members": [
+          {
+            "project_id": "78148583-d87d-470d-b661-71ce91c0e5cc",
+            "user_id": "35354a1a-1237-4863-b9cc-e9f4c97a0c78",
+            "role_id": "bc78481b-f5a0-40bc-bdef-47a51f0085b6",
+            "id": "3aab0a3e-39aa-4bff-82cc-3856cb746d03"
+          },
+          {
+            "project_id": "78148583-d87d-470d-b661-71ce91c0e5cc",
+            "user_id": "35354a1a-1237-4863-b9cc-e9f4c97a0c78",
+            "role_id": "bc78481b-f5a0-40bc-bdef-47a51f0085b6",
+            "id": "511f4dd0-3503-4658-9bb5-3d36753603c8"
+          }
+        ],
+        "applications": [],
+        "invitations": [],
+        "role_embeddings": [],
+        "project_role_skills": [],
+        "role_domains": [],
+        "project_embeddings": [],
+        "project_domains": [],
+        "project_roles": [
+          {
+            "id": "bc78481b-f5a0-40bc-bdef-47a51f0085b6",
+            "project_id": "78148583-d87d-470d-b661-71ce91c0e5cc"
+          }
+        ],
+        "projects": [
+          {
+            "id": "78148583-d87d-470d-b661-71ce91c0e5cc",
+            "owner_id": "dd9c7ebc-98f7-4d59-96d6-842cae914ffe"
+          }
+        ],
+        "profile_embeddings": [],
+        "profile_skills": [],
+        "profile_domains": [],
+        "profiles": [
+          {
+            "id": "dd9c7ebc-98f7-4d59-96d6-842cae914ffe"
+          },
+          {
+            "id": "35354a1a-1237-4863-b9cc-e9f4c97a0c78"
+          }
+        ],
+        "rate_limits": [
+          {
+            "key": "auth:sign-in:29a92f5b7df35c1d6370907b37fbc966414090cf9d6ba3a75b1b44c5f8c9167e"
+          },
+          {
+            "key": "notifications:dd9c7ebc-98f7-4d59-96d6-842cae914ffe"
+          },
+          {
+            "key": "workspace:message:35354a1a-1237-4863-b9cc-e9f4c97a0c78"
+          },
+          {
+            "key": "auth:sign-in:6e7f5da42f0cddb9adcefa48195d2a9a9fddab6a9e50a9390267a1a276570717"
+          },
+          {
+            "key": "workspace:action:dd9c7ebc-98f7-4d59-96d6-842cae914ffe"
+          },
+          {
+            "key": "profile-metadata:35354a1a-1237-4863-b9cc-e9f4c97a0c78"
+          },
+          {
+            "key": "workspace:action:35354a1a-1237-4863-b9cc-e9f4c97a0c78"
+          }
+        ],
+        "auth_users": [
+          "dd9c7ebc-98f7-4d59-96d6-842cae914ffe",
+          "35354a1a-1237-4863-b9cc-e9f4c97a0c78"
+        ]
+      }
+    }
+  }
+]

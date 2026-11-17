@@ -1,8 +1,11 @@
 "use client";
+import {DashboardPreferencesProvider} from "./dashboard-preferences";
 import Link from "next/link";
+import {NotificationBell} from "./notifications";
 import { usePathname } from "next/navigation";
 import {
   Compass,
+  LayoutDashboard,
   Layers,
   Mail,
   UserRound,
@@ -32,6 +35,7 @@ export function Shell({
     [open, setOpen] = useState(false);
   const links = [
     ...[
+      { href: "/dashboard",label:"Dashboard",icon:LayoutDashboard },
       { href: "/projects", label: "Explore projects", icon: Compass },
       { href: "/applications", label: "My applications", icon: Layers },
       { href: "/invitations", label: "Invitations", icon: Mail },
@@ -41,7 +45,7 @@ export function Shell({
       : []),
   ];
   return (
-    <ToastProvider>
+    <DashboardPreferencesProvider><ToastProvider>
       <div className="app-shell">
         <button
           className="mobile-menu icon-btn"
@@ -52,6 +56,7 @@ export function Shell({
         </button>
         <aside className={`sidebar ${open ? "is-open" : ""}`}>
           <Logo />
+          <NotificationBell />
           <div className="workspace-label">
             YOUR WORKSPACE <span>✦</span>
           </div>
@@ -119,6 +124,6 @@ export function Shell({
         </aside>
         <main className="app-main">{children}</main>
       </div>
-    </ToastProvider>
+    </ToastProvider></DashboardPreferencesProvider>
   );
 }

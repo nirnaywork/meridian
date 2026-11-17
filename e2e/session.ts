@@ -28,6 +28,7 @@ export async function signIn(
   await page.getByRole("button", { name: "Sign in", exact: true }).click();
   const auth = await response;
   expect(auth.status()).toBe(200);
-  await page.waitForURL("**/projects");
+  await page.waitForURL("**/dashboard");
+  await page.goto(base+"/projects");
   await page.context().storageState({ path });
 }

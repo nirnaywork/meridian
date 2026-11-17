@@ -1,0 +1,487 @@
+{
+  "run": "47400668-0712-4d6f-be77-c5117b5f41c4",
+  "checks": [
+    {
+      "name": "private profiles and talent are hidden from unrelated users",
+      "status": "passed"
+    },
+    {
+      "name": "links/public visibility save without changing the embedding or trace",
+      "status": "passed"
+    },
+    {
+      "name": "Explore, project role percentages and stored Under the Hood endpoints work",
+      "status": "passed"
+    },
+    {
+      "name": "apply stays pending, notifies lead, and pending/nonmembers lack workspace access",
+      "status": "passed"
+    },
+    {
+      "name": "approval notifies applicant and grants active workspace access",
+      "status": "passed"
+    },
+    {
+      "name": "rejection and withdrawal notify the correct recipients",
+      "status": "passed"
+    },
+    {
+      "name": "closed/in_progress preserve pending records and block new recruiting",
+      "status": "passed"
+    },
+    {
+      "name": "invitation acceptance/decline/cancel notify correctly and acceptance adds membership",
+      "status": "passed"
+    },
+    {
+      "name": "recipient-only inboxes, mark-read and direct RLS/privileged RPC denial",
+      "status": "passed"
+    },
+    {
+      "name": "team chat persists, edits, soft-deletes and rejects unauthorized edits",
+      "status": "failed",
+      "error": "/api/projects/9d1fa10f-4f7d-4b7a-bb52-a07c1288454d/workspace: HTTP 400: {\"message\":\"Required\"}\n\n400 !== 200\n"
+    }
+  ],
+  "ids": {
+    "users": [
+      "d59ad037-d04c-4b24-b407-e76211a3ac25",
+      "0aaadc84-fe04-4d29-84c6-7187e115d766",
+      "5ef8c3ad-a655-48c0-b8bc-0ff0d834575e",
+      "bba74239-47c7-4772-b1ec-206e9035c4c8",
+      "1eb4a162-f8f1-4b18-ad2d-bae05a2c6f90"
+    ],
+    "project": "9d1fa10f-4f7d-4b7a-bb52-a07c1288454d",
+    "roles": [
+      "7143dd54-75d8-49fa-933c-e3de4be86ddb",
+      "ca86ef55-9e14-43f7-9450-df40c713341a"
+    ],
+    "application": "9baca3ff-b0d0-4c54-9ce9-90c0825c0e13"
+  },
+  "error": "/api/projects/9d1fa10f-4f7d-4b7a-bb52-a07c1288454d/workspace: HTTP 400: {\"message\":\"Required\"}\n\n400 !== 200\n",
+  "cleanup": {
+    "status": "passed",
+    "deleted": {
+      "notifications": 16,
+      "project_messages": 1,
+      "project_members": 2,
+      "applications": 4,
+      "invitations": 3,
+      "role_embeddings": 2,
+      "project_role_skills": 2,
+      "role_domains": 2,
+      "project_embeddings": 1,
+      "project_domains": 1,
+      "project_roles": 2,
+      "projects": 1,
+      "profile_embeddings": 5,
+      "profile_skills": 10,
+      "profile_domains": 5,
+      "profiles": 5,
+      "rate_limits": 22,
+      "auth_users": 5
+    },
+    "recorded_ids": {
+      "notifications": [
+        {
+          "id": "607dcd1e-c643-4fa4-b374-21e637037b03",
+          "recipient_id": "d59ad037-d04c-4b24-b407-e76211a3ac25",
+          "actor_id": "0aaadc84-fe04-4d29-84c6-7187e115d766",
+          "project_id": "9d1fa10f-4f7d-4b7a-bb52-a07c1288454d"
+        },
+        {
+          "id": "349ac1a6-6c85-4599-98ed-9bda78a0c049",
+          "recipient_id": "0aaadc84-fe04-4d29-84c6-7187e115d766",
+          "actor_id": "d59ad037-d04c-4b24-b407-e76211a3ac25",
+          "project_id": "9d1fa10f-4f7d-4b7a-bb52-a07c1288454d"
+        },
+        {
+          "id": "78bc0d51-6be4-442d-b700-122f73d7bb2d",
+          "recipient_id": "d59ad037-d04c-4b24-b407-e76211a3ac25",
+          "actor_id": "1eb4a162-f8f1-4b18-ad2d-bae05a2c6f90",
+          "project_id": "9d1fa10f-4f7d-4b7a-bb52-a07c1288454d"
+        },
+        {
+          "id": "0650f9a1-e947-4e18-bfe0-b0a5b1f9cc5b",
+          "recipient_id": "1eb4a162-f8f1-4b18-ad2d-bae05a2c6f90",
+          "actor_id": "d59ad037-d04c-4b24-b407-e76211a3ac25",
+          "project_id": "9d1fa10f-4f7d-4b7a-bb52-a07c1288454d"
+        },
+        {
+          "id": "bfe80909-d76a-406d-9ede-b19139dd4c70",
+          "recipient_id": "d59ad037-d04c-4b24-b407-e76211a3ac25",
+          "actor_id": "1eb4a162-f8f1-4b18-ad2d-bae05a2c6f90",
+          "project_id": "9d1fa10f-4f7d-4b7a-bb52-a07c1288454d"
+        },
+        {
+          "id": "71e3045b-8853-4e89-a843-dad1456ee11b",
+          "recipient_id": "d59ad037-d04c-4b24-b407-e76211a3ac25",
+          "actor_id": "1eb4a162-f8f1-4b18-ad2d-bae05a2c6f90",
+          "project_id": "9d1fa10f-4f7d-4b7a-bb52-a07c1288454d"
+        },
+        {
+          "id": "ddaac5c7-c517-4114-b931-bb06dc144e24",
+          "recipient_id": "5ef8c3ad-a655-48c0-b8bc-0ff0d834575e",
+          "actor_id": "d59ad037-d04c-4b24-b407-e76211a3ac25",
+          "project_id": "9d1fa10f-4f7d-4b7a-bb52-a07c1288454d"
+        },
+        {
+          "id": "b021ad12-79d3-417b-842e-ea24b800178e",
+          "recipient_id": "0aaadc84-fe04-4d29-84c6-7187e115d766",
+          "actor_id": "d59ad037-d04c-4b24-b407-e76211a3ac25",
+          "project_id": "9d1fa10f-4f7d-4b7a-bb52-a07c1288454d"
+        },
+        {
+          "id": "b86e2138-c6d0-445e-a6d4-2b8fae2f67f2",
+          "recipient_id": "0aaadc84-fe04-4d29-84c6-7187e115d766",
+          "actor_id": "d59ad037-d04c-4b24-b407-e76211a3ac25",
+          "project_id": "9d1fa10f-4f7d-4b7a-bb52-a07c1288454d"
+        },
+        {
+          "id": "a0d7ea49-6de9-478a-8e55-0367ab52d7f3",
+          "recipient_id": "0aaadc84-fe04-4d29-84c6-7187e115d766",
+          "actor_id": "d59ad037-d04c-4b24-b407-e76211a3ac25",
+          "project_id": "9d1fa10f-4f7d-4b7a-bb52-a07c1288454d"
+        },
+        {
+          "id": "c9c5d461-357b-4924-993a-ffa6cce5ef84",
+          "recipient_id": "d59ad037-d04c-4b24-b407-e76211a3ac25",
+          "actor_id": "5ef8c3ad-a655-48c0-b8bc-0ff0d834575e",
+          "project_id": "9d1fa10f-4f7d-4b7a-bb52-a07c1288454d"
+        },
+        {
+          "id": "e764e05f-999c-4980-8e90-cafaa72a54cc",
+          "recipient_id": "bba74239-47c7-4772-b1ec-206e9035c4c8",
+          "actor_id": "d59ad037-d04c-4b24-b407-e76211a3ac25",
+          "project_id": "9d1fa10f-4f7d-4b7a-bb52-a07c1288454d"
+        },
+        {
+          "id": "060c1a68-1351-4eaa-9477-2f4e85f7837c",
+          "recipient_id": "d59ad037-d04c-4b24-b407-e76211a3ac25",
+          "actor_id": "bba74239-47c7-4772-b1ec-206e9035c4c8",
+          "project_id": "9d1fa10f-4f7d-4b7a-bb52-a07c1288454d"
+        },
+        {
+          "id": "f400be68-d793-4c9e-9094-1ef49a55c3ff",
+          "recipient_id": "1eb4a162-f8f1-4b18-ad2d-bae05a2c6f90",
+          "actor_id": "d59ad037-d04c-4b24-b407-e76211a3ac25",
+          "project_id": "9d1fa10f-4f7d-4b7a-bb52-a07c1288454d"
+        },
+        {
+          "id": "b8fc9f3d-6ec2-4069-bb45-ee88852387e2",
+          "recipient_id": "1eb4a162-f8f1-4b18-ad2d-bae05a2c6f90",
+          "actor_id": "d59ad037-d04c-4b24-b407-e76211a3ac25",
+          "project_id": "9d1fa10f-4f7d-4b7a-bb52-a07c1288454d"
+        },
+        {
+          "id": "739f2ae1-167f-4c88-acbc-1eb943933ded",
+          "recipient_id": "d59ad037-d04c-4b24-b407-e76211a3ac25",
+          "actor_id": "bba74239-47c7-4772-b1ec-206e9035c4c8",
+          "project_id": "9d1fa10f-4f7d-4b7a-bb52-a07c1288454d"
+        }
+      ],
+      "project_messages": [
+        {
+          "id": "861fdb7c-7197-4ded-aee3-2392142be6ae",
+          "project_id": "9d1fa10f-4f7d-4b7a-bb52-a07c1288454d",
+          "author_id": "0aaadc84-fe04-4d29-84c6-7187e115d766"
+        }
+      ],
+      "project_updates": [],
+      "project_tickets": [],
+      "workspace_read_state": [],
+      "ownership_transfers": [],
+      "project_members": [
+        {
+          "project_id": "9d1fa10f-4f7d-4b7a-bb52-a07c1288454d",
+          "user_id": "0aaadc84-fe04-4d29-84c6-7187e115d766",
+          "role_id": "7143dd54-75d8-49fa-933c-e3de4be86ddb",
+          "id": "894c122b-8f45-4766-a9b9-ab0421b8b755"
+        },
+        {
+          "project_id": "9d1fa10f-4f7d-4b7a-bb52-a07c1288454d",
+          "user_id": "5ef8c3ad-a655-48c0-b8bc-0ff0d834575e",
+          "role_id": "ca86ef55-9e14-43f7-9450-df40c713341a",
+          "id": "5ad844c3-4315-4f97-bb33-60294e3d397b"
+        }
+      ],
+      "applications": [
+        {
+          "id": "9baca3ff-b0d0-4c54-9ce9-90c0825c0e13",
+          "project_id": "9d1fa10f-4f7d-4b7a-bb52-a07c1288454d",
+          "role_id": "7143dd54-75d8-49fa-933c-e3de4be86ddb",
+          "applicant_id": "0aaadc84-fe04-4d29-84c6-7187e115d766"
+        },
+        {
+          "id": "11c08bb7-80f3-470d-af37-5c02181a57ee",
+          "project_id": "9d1fa10f-4f7d-4b7a-bb52-a07c1288454d",
+          "role_id": "7143dd54-75d8-49fa-933c-e3de4be86ddb",
+          "applicant_id": "1eb4a162-f8f1-4b18-ad2d-bae05a2c6f90"
+        },
+        {
+          "id": "52b5bc22-da03-4d04-adfa-b8ca2c368541",
+          "project_id": "9d1fa10f-4f7d-4b7a-bb52-a07c1288454d",
+          "role_id": "ca86ef55-9e14-43f7-9450-df40c713341a",
+          "applicant_id": "1eb4a162-f8f1-4b18-ad2d-bae05a2c6f90"
+        },
+        {
+          "id": "d4f9964f-dd99-4fa2-a8f9-3fb385bb5aff",
+          "project_id": "9d1fa10f-4f7d-4b7a-bb52-a07c1288454d",
+          "role_id": "ca86ef55-9e14-43f7-9450-df40c713341a",
+          "applicant_id": "bba74239-47c7-4772-b1ec-206e9035c4c8"
+        }
+      ],
+      "invitations": [
+        {
+          "id": "09d2b65b-88a9-47ef-9652-f2f44d010e9e",
+          "project_id": "9d1fa10f-4f7d-4b7a-bb52-a07c1288454d",
+          "role_id": "ca86ef55-9e14-43f7-9450-df40c713341a",
+          "inviter_id": "d59ad037-d04c-4b24-b407-e76211a3ac25",
+          "invitee_id": "5ef8c3ad-a655-48c0-b8bc-0ff0d834575e"
+        },
+        {
+          "id": "34b66a04-feb8-4938-85a2-89b9517010dc",
+          "project_id": "9d1fa10f-4f7d-4b7a-bb52-a07c1288454d",
+          "role_id": "7143dd54-75d8-49fa-933c-e3de4be86ddb",
+          "inviter_id": "d59ad037-d04c-4b24-b407-e76211a3ac25",
+          "invitee_id": "bba74239-47c7-4772-b1ec-206e9035c4c8"
+        },
+        {
+          "id": "48766327-60a4-42e1-a4af-1fa75475e6b5",
+          "project_id": "9d1fa10f-4f7d-4b7a-bb52-a07c1288454d",
+          "role_id": "7143dd54-75d8-49fa-933c-e3de4be86ddb",
+          "inviter_id": "d59ad037-d04c-4b24-b407-e76211a3ac25",
+          "invitee_id": "1eb4a162-f8f1-4b18-ad2d-bae05a2c6f90"
+        }
+      ],
+      "role_embeddings": [
+        {
+          "role_id": "7143dd54-75d8-49fa-933c-e3de4be86ddb"
+        },
+        {
+          "role_id": "ca86ef55-9e14-43f7-9450-df40c713341a"
+        }
+      ],
+      "project_role_skills": [
+        {
+          "role_id": "7143dd54-75d8-49fa-933c-e3de4be86ddb",
+          "skill_id": "4283e6fb-a322-4f24-8c31-d3e1ed6516c0"
+        },
+        {
+          "role_id": "ca86ef55-9e14-43f7-9450-df40c713341a",
+          "skill_id": "2bed9ac7-d046-4cfd-bce3-293af79ce3ba"
+        }
+      ],
+      "role_domains": [
+        {
+          "role_id": "7143dd54-75d8-49fa-933c-e3de4be86ddb",
+          "domain_id": "60f613a4-f26b-4e53-9fa7-a427cc24d596"
+        },
+        {
+          "role_id": "ca86ef55-9e14-43f7-9450-df40c713341a",
+          "domain_id": "85c3f011-e267-4124-b2aa-d61d7b9d9e6a"
+        }
+      ],
+      "project_embeddings": [
+        {
+          "project_id": "9d1fa10f-4f7d-4b7a-bb52-a07c1288454d"
+        }
+      ],
+      "project_domains": [
+        {
+          "project_id": "9d1fa10f-4f7d-4b7a-bb52-a07c1288454d",
+          "domain_id": "c1e03bc6-2bfa-4090-990e-627d92b0f2b5"
+        }
+      ],
+      "project_roles": [
+        {
+          "id": "7143dd54-75d8-49fa-933c-e3de4be86ddb",
+          "project_id": "9d1fa10f-4f7d-4b7a-bb52-a07c1288454d"
+        },
+        {
+          "id": "ca86ef55-9e14-43f7-9450-df40c713341a",
+          "project_id": "9d1fa10f-4f7d-4b7a-bb52-a07c1288454d"
+        }
+      ],
+      "projects": [
+        {
+          "id": "9d1fa10f-4f7d-4b7a-bb52-a07c1288454d",
+          "owner_id": "d59ad037-d04c-4b24-b407-e76211a3ac25"
+        }
+      ],
+      "profile_embeddings": [
+        {
+          "profile_id": "d59ad037-d04c-4b24-b407-e76211a3ac25"
+        },
+        {
+          "profile_id": "0aaadc84-fe04-4d29-84c6-7187e115d766"
+        },
+        {
+          "profile_id": "bba74239-47c7-4772-b1ec-206e9035c4c8"
+        },
+        {
+          "profile_id": "5ef8c3ad-a655-48c0-b8bc-0ff0d834575e"
+        },
+        {
+          "profile_id": "1eb4a162-f8f1-4b18-ad2d-bae05a2c6f90"
+        }
+      ],
+      "profile_skills": [
+        {
+          "profile_id": "d59ad037-d04c-4b24-b407-e76211a3ac25",
+          "skill_id": "4283e6fb-a322-4f24-8c31-d3e1ed6516c0"
+        },
+        {
+          "profile_id": "d59ad037-d04c-4b24-b407-e76211a3ac25",
+          "skill_id": "2bed9ac7-d046-4cfd-bce3-293af79ce3ba"
+        },
+        {
+          "profile_id": "0aaadc84-fe04-4d29-84c6-7187e115d766",
+          "skill_id": "4283e6fb-a322-4f24-8c31-d3e1ed6516c0"
+        },
+        {
+          "profile_id": "0aaadc84-fe04-4d29-84c6-7187e115d766",
+          "skill_id": "2bed9ac7-d046-4cfd-bce3-293af79ce3ba"
+        },
+        {
+          "profile_id": "5ef8c3ad-a655-48c0-b8bc-0ff0d834575e",
+          "skill_id": "4283e6fb-a322-4f24-8c31-d3e1ed6516c0"
+        },
+        {
+          "profile_id": "5ef8c3ad-a655-48c0-b8bc-0ff0d834575e",
+          "skill_id": "2bed9ac7-d046-4cfd-bce3-293af79ce3ba"
+        },
+        {
+          "profile_id": "bba74239-47c7-4772-b1ec-206e9035c4c8",
+          "skill_id": "4283e6fb-a322-4f24-8c31-d3e1ed6516c0"
+        },
+        {
+          "profile_id": "bba74239-47c7-4772-b1ec-206e9035c4c8",
+          "skill_id": "2bed9ac7-d046-4cfd-bce3-293af79ce3ba"
+        },
+        {
+          "profile_id": "1eb4a162-f8f1-4b18-ad2d-bae05a2c6f90",
+          "skill_id": "4283e6fb-a322-4f24-8c31-d3e1ed6516c0"
+        },
+        {
+          "profile_id": "1eb4a162-f8f1-4b18-ad2d-bae05a2c6f90",
+          "skill_id": "2bed9ac7-d046-4cfd-bce3-293af79ce3ba"
+        }
+      ],
+      "profile_domains": [
+        {
+          "profile_id": "d59ad037-d04c-4b24-b407-e76211a3ac25",
+          "domain_id": "60f613a4-f26b-4e53-9fa7-a427cc24d596"
+        },
+        {
+          "profile_id": "0aaadc84-fe04-4d29-84c6-7187e115d766",
+          "domain_id": "60f613a4-f26b-4e53-9fa7-a427cc24d596"
+        },
+        {
+          "profile_id": "5ef8c3ad-a655-48c0-b8bc-0ff0d834575e",
+          "domain_id": "60f613a4-f26b-4e53-9fa7-a427cc24d596"
+        },
+        {
+          "profile_id": "bba74239-47c7-4772-b1ec-206e9035c4c8",
+          "domain_id": "60f613a4-f26b-4e53-9fa7-a427cc24d596"
+        },
+        {
+          "profile_id": "1eb4a162-f8f1-4b18-ad2d-bae05a2c6f90",
+          "domain_id": "60f613a4-f26b-4e53-9fa7-a427cc24d596"
+        }
+      ],
+      "profiles": [
+        {
+          "id": "1eb4a162-f8f1-4b18-ad2d-bae05a2c6f90"
+        },
+        {
+          "id": "0aaadc84-fe04-4d29-84c6-7187e115d766"
+        },
+        {
+          "id": "d59ad037-d04c-4b24-b407-e76211a3ac25"
+        },
+        {
+          "id": "5ef8c3ad-a655-48c0-b8bc-0ff0d834575e"
+        },
+        {
+          "id": "bba74239-47c7-4772-b1ec-206e9035c4c8"
+        }
+      ],
+      "rate_limits": [
+        {
+          "key": "embed:0aaadc84-fe04-4d29-84c6-7187e115d766"
+        },
+        {
+          "key": "auth:sign-in:ce37a2a6a492ec9106147fea7e644c7e7af3fd97d1a20224dbf0a387a97e1f85"
+        },
+        {
+          "key": "embed:5ef8c3ad-a655-48c0-b8bc-0ff0d834575e"
+        },
+        {
+          "key": "auth:sign-in:b0db1e4f7840e806d00adf27bcc4a2c68f65f81f1d10b373abd7baee61ce86dc"
+        },
+        {
+          "key": "embed:bba74239-47c7-4772-b1ec-206e9035c4c8"
+        },
+        {
+          "key": "auth:sign-in:5212fed7beb8f9a4fe8f75ec829c4762bfc9e94eee971fa798cf8ff5930d4ab7"
+        },
+        {
+          "key": "embed:d59ad037-d04c-4b24-b407-e76211a3ac25"
+        },
+        {
+          "key": "auth:sign-in:ad99a34d5474b905977317efab0d46cb06c02d7228422cc67cd06522467e2c5d"
+        },
+        {
+          "key": "embed:1eb4a162-f8f1-4b18-ad2d-bae05a2c6f90"
+        },
+        {
+          "key": "profile-metadata:0aaadc84-fe04-4d29-84c6-7187e115d766"
+        },
+        {
+          "key": "workspace:action:d59ad037-d04c-4b24-b407-e76211a3ac25"
+        },
+        {
+          "key": "notifications:1eb4a162-f8f1-4b18-ad2d-bae05a2c6f90"
+        },
+        {
+          "key": "auth:sign-in:ea419e61c816b229508a31cc35076a97264c41941c0cdfc9cfe13de704e9357e"
+        },
+        {
+          "key": "actions:0aaadc84-fe04-4d29-84c6-7187e115d766"
+        },
+        {
+          "key": "actions:1eb4a162-f8f1-4b18-ad2d-bae05a2c6f90"
+        },
+        {
+          "key": "actions:5ef8c3ad-a655-48c0-b8bc-0ff0d834575e"
+        },
+        {
+          "key": "actions:bba74239-47c7-4772-b1ec-206e9035c4c8"
+        },
+        {
+          "key": "actions:d59ad037-d04c-4b24-b407-e76211a3ac25"
+        },
+        {
+          "key": "notifications:d59ad037-d04c-4b24-b407-e76211a3ac25"
+        },
+        {
+          "key": "workspace:message:0aaadc84-fe04-4d29-84c6-7187e115d766"
+        },
+        {
+          "key": "workspace:action:5ef8c3ad-a655-48c0-b8bc-0ff0d834575e"
+        },
+        {
+          "key": "workspace:action:0aaadc84-fe04-4d29-84c6-7187e115d766"
+        }
+      ],
+      "auth_users": [
+        "d59ad037-d04c-4b24-b407-e76211a3ac25",
+        "0aaadc84-fe04-4d29-84c6-7187e115d766",
+        "5ef8c3ad-a655-48c0-b8bc-0ff0d834575e",
+        "bba74239-47c7-4772-b1ec-206e9035c4c8",
+        "1eb4a162-f8f1-4b18-ad2d-bae05a2c6f90"
+      ]
+    }
+  }
+}

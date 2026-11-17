@@ -1,0 +1,211 @@
+{
+  "status": "passed",
+  "deleted": {
+    "project_tasks": 1,
+    "projects": 1,
+    "profile_embeddings": 5,
+    "profile_skills": 10,
+    "profile_domains": 5,
+    "profiles": 5,
+    "rate_limits": 22,
+    "auth_users": 5
+  },
+  "recorded_ids": {
+    "notifications": [],
+    "project_messages": [],
+    "project_tasks": [
+      {
+        "id": "5b937fd2-efc1-46d7-ac9e-ebd109c0051c",
+        "project_id": "949cd512-11f6-4b3d-9fed-40d6e515d26c",
+        "assignee_id": "bc0218b3-11a1-4204-a23f-91620eecc4af"
+      }
+    ],
+    "workspace_read_state": [],
+    "ownership_transfers": [],
+    "project_members": [],
+    "applications": [],
+    "invitations": [],
+    "project_embeddings": [],
+    "project_domains": [],
+    "project_roles": [],
+    "projects": [
+      {
+        "id": "949cd512-11f6-4b3d-9fed-40d6e515d26c",
+        "owner_id": "2a075737-26d6-49ff-97ea-c6f32fe485be"
+      }
+    ],
+    "profile_embeddings": [
+      {
+        "profile_id": "2a075737-26d6-49ff-97ea-c6f32fe485be"
+      },
+      {
+        "profile_id": "bc0218b3-11a1-4204-a23f-91620eecc4af"
+      },
+      {
+        "profile_id": "c350b80d-92f1-4f76-9894-b6d72c8ab4d0"
+      },
+      {
+        "profile_id": "579260e6-d3bf-49ea-9443-dff02fef1a1b"
+      },
+      {
+        "profile_id": "1245efce-b75a-489f-bf1b-bd6c0386a6c0"
+      }
+    ],
+    "profile_skills": [
+      {
+        "profile_id": "2a075737-26d6-49ff-97ea-c6f32fe485be",
+        "skill_id": "4283e6fb-a322-4f24-8c31-d3e1ed6516c0"
+      },
+      {
+        "profile_id": "2a075737-26d6-49ff-97ea-c6f32fe485be",
+        "skill_id": "2bed9ac7-d046-4cfd-bce3-293af79ce3ba"
+      },
+      {
+        "profile_id": "bc0218b3-11a1-4204-a23f-91620eecc4af",
+        "skill_id": "4283e6fb-a322-4f24-8c31-d3e1ed6516c0"
+      },
+      {
+        "profile_id": "bc0218b3-11a1-4204-a23f-91620eecc4af",
+        "skill_id": "2bed9ac7-d046-4cfd-bce3-293af79ce3ba"
+      },
+      {
+        "profile_id": "c350b80d-92f1-4f76-9894-b6d72c8ab4d0",
+        "skill_id": "4283e6fb-a322-4f24-8c31-d3e1ed6516c0"
+      },
+      {
+        "profile_id": "c350b80d-92f1-4f76-9894-b6d72c8ab4d0",
+        "skill_id": "2bed9ac7-d046-4cfd-bce3-293af79ce3ba"
+      },
+      {
+        "profile_id": "579260e6-d3bf-49ea-9443-dff02fef1a1b",
+        "skill_id": "4283e6fb-a322-4f24-8c31-d3e1ed6516c0"
+      },
+      {
+        "profile_id": "579260e6-d3bf-49ea-9443-dff02fef1a1b",
+        "skill_id": "2bed9ac7-d046-4cfd-bce3-293af79ce3ba"
+      },
+      {
+        "profile_id": "1245efce-b75a-489f-bf1b-bd6c0386a6c0",
+        "skill_id": "4283e6fb-a322-4f24-8c31-d3e1ed6516c0"
+      },
+      {
+        "profile_id": "1245efce-b75a-489f-bf1b-bd6c0386a6c0",
+        "skill_id": "2bed9ac7-d046-4cfd-bce3-293af79ce3ba"
+      }
+    ],
+    "profile_domains": [
+      {
+        "profile_id": "2a075737-26d6-49ff-97ea-c6f32fe485be",
+        "domain_id": "60f613a4-f26b-4e53-9fa7-a427cc24d596"
+      },
+      {
+        "profile_id": "bc0218b3-11a1-4204-a23f-91620eecc4af",
+        "domain_id": "60f613a4-f26b-4e53-9fa7-a427cc24d596"
+      },
+      {
+        "profile_id": "c350b80d-92f1-4f76-9894-b6d72c8ab4d0",
+        "domain_id": "60f613a4-f26b-4e53-9fa7-a427cc24d596"
+      },
+      {
+        "profile_id": "579260e6-d3bf-49ea-9443-dff02fef1a1b",
+        "domain_id": "60f613a4-f26b-4e53-9fa7-a427cc24d596"
+      },
+      {
+        "profile_id": "1245efce-b75a-489f-bf1b-bd6c0386a6c0",
+        "domain_id": "60f613a4-f26b-4e53-9fa7-a427cc24d596"
+      }
+    ],
+    "profiles": [
+      {
+        "id": "2a075737-26d6-49ff-97ea-c6f32fe485be"
+      },
+      {
+        "id": "c350b80d-92f1-4f76-9894-b6d72c8ab4d0"
+      },
+      {
+        "id": "579260e6-d3bf-49ea-9443-dff02fef1a1b"
+      },
+      {
+        "id": "1245efce-b75a-489f-bf1b-bd6c0386a6c0"
+      },
+      {
+        "id": "bc0218b3-11a1-4204-a23f-91620eecc4af"
+      }
+    ],
+    "rate_limits": [
+      {
+        "key": "auth:sign-in:af7d09f1909a783bdc910f1fc4573861daffe0925e872c6be2e2d20ec2238e0b"
+      },
+      {
+        "key": "embed:bc0218b3-11a1-4204-a23f-91620eecc4af"
+      },
+      {
+        "key": "embed:c350b80d-92f1-4f76-9894-b6d72c8ab4d0"
+      },
+      {
+        "key": "auth:sign-in:248714b2a638eb721391e63af93c41c49a348f26d465501bbc8a620dec57d89d"
+      },
+      {
+        "key": "embed:579260e6-d3bf-49ea-9443-dff02fef1a1b"
+      },
+      {
+        "key": "auth:sign-in:1a0ecf97678033d3f13233f4ec809d264d440235652ff0fb536733776f297168"
+      },
+      {
+        "key": "embed:2a075737-26d6-49ff-97ea-c6f32fe485be"
+      },
+      {
+        "key": "auth:sign-in:204b942ac16a00002565ed01daab697b62f08264bb157ebff7ddff55948cd833"
+      },
+      {
+        "key": "auth:sign-in:854cd6b6a95818eeb0a2d725bcb887159ec53d841cceecb34cd146b9149b6a62"
+      },
+      {
+        "key": "embed:1245efce-b75a-489f-bf1b-bd6c0386a6c0"
+      },
+      {
+        "key": "profile-metadata:bc0218b3-11a1-4204-a23f-91620eecc4af"
+      },
+      {
+        "key": "actions:bc0218b3-11a1-4204-a23f-91620eecc4af"
+      },
+      {
+        "key": "actions:1245efce-b75a-489f-bf1b-bd6c0386a6c0"
+      },
+      {
+        "key": "actions:c350b80d-92f1-4f76-9894-b6d72c8ab4d0"
+      },
+      {
+        "key": "actions:579260e6-d3bf-49ea-9443-dff02fef1a1b"
+      },
+      {
+        "key": "actions:2a075737-26d6-49ff-97ea-c6f32fe485be"
+      },
+      {
+        "key": "notifications:1245efce-b75a-489f-bf1b-bd6c0386a6c0"
+      },
+      {
+        "key": "notifications:2a075737-26d6-49ff-97ea-c6f32fe485be"
+      },
+      {
+        "key": "workspace:message:bc0218b3-11a1-4204-a23f-91620eecc4af"
+      },
+      {
+        "key": "workspace:action:c350b80d-92f1-4f76-9894-b6d72c8ab4d0"
+      },
+      {
+        "key": "workspace:action:bc0218b3-11a1-4204-a23f-91620eecc4af"
+      },
+      {
+        "key": "workspace:action:2a075737-26d6-49ff-97ea-c6f32fe485be"
+      }
+    ],
+    "auth_users": [
+      "2a075737-26d6-49ff-97ea-c6f32fe485be",
+      "bc0218b3-11a1-4204-a23f-91620eecc4af",
+      "c350b80d-92f1-4f76-9894-b6d72c8ab4d0",
+      "579260e6-d3bf-49ea-9443-dff02fef1a1b",
+      "1245efce-b75a-489f-bf1b-bd6c0386a6c0"
+    ]
+  }
+}

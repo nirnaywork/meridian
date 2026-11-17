@@ -1,6 +1,10 @@
 "use client";
+import {isReadOnly} from "@/lib/collaboration";
+import {WorkspaceLink} from "./workspace-link";
+import {PersonLink,usePollingResource} from "./collaboration-ui";
 import {RoleMatchBadge} from './role-match';
-import { useState } from "react";
+import { useEffect,useRef,useState } from "react";
+import {useRouter} from "next/navigation";
 import Link from "next/link";
 import { ArrowUpRight, Plus, Check, ArrowRight } from "lucide-react";
 import {
@@ -14,12 +18,21 @@ import {
 } from "./ui";
 import type { MatchRecord, Project } from "@/lib/types";
 export function Records({ invitations = false }: { invitations?: boolean }) {
-  const resource = useResource<MatchRecord[]>(
+  const router=useRouter();
+  const resource = usePollingResource<MatchRecord[]>(
       "/api/data/" + (invitations ? "invitations" : "applications"),
+      15000,
     ),
     [error, setError] = useState(""),
     [busy, setBusy] = useState("");
   const toast = useToast();
+  const previous = useRef(new Map<string,string>());
+  useEffect(()=>{
+    if(!resource.data) return;
+    const joined=resource.data.find(row=>previous.current.get(row.id)==="pending" && ["approved","accepted"].includes(row.status));
+    previous.current=new Map(resource.data.map(row=>[row.id,row.status]));
+    if(joined) router.push("/projects/"+joined.project_id+"/workspace");
+  },[resource.data,router]);
   async function respond(id: string, decision: string) {
     setBusy(id);
     setError("");
@@ -35,6 +48,8 @@ export function Records({ invitations = false }: { invitations?: boolean }) {
           ? "You’re on the team!"
           : "Updated successfully",
       );
+      const record=resource.data?.find(r=>r.id===id);
+      if(decision==="accepted" && record) router.push("/projects/"+record.project_id+"/workspace");
       resource.refresh();
     } catch (e) {
       setError((e as Error).message);
@@ -82,6 +97,8 @@ export function Records({ invitations = false }: { invitations?: boolean }) {
                 </div>
                 <RoleMatchBadge snapshot={r.matchPercent}/>
               </div>
+              {invitations && r.inviter_id && <p>Invited by <PersonLink id={r.inviter_id} name={r.inviter_name??"Team lead"}/></p>}
+              {["approved","accepted"].includes(r.status) && <WorkspaceLink id={r.project_id}/>}
               <SkillChips match={r.breakdown} />
               {r.message && <p className="quote">{r.message}</p>}
               {r.status === "pending" && (
@@ -178,14 +195,13 @@ export function MyProjects() {
                   </span>
                 ))}
               </div>
+              <WorkspaceLink id={p.id}/>
               <div className="card-divider" />
               <div className="card-bottom">
                 <Link href={`/projects/${p.id}`} className="text-btn">
                   Manage your team <ArrowRight size={16} />
                 </Link>
-                <Link href={`/projects/${p.id}/edit`} className="text-btn">
-                  Edit
-                </Link>
+                {!isReadOnly(p.status) && <Link href={`/projects/${p.id}/edit`} className="text-btn">Edit</Link>}
               </div>
             </article>
           ))}

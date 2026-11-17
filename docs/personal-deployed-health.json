@@ -1,0 +1,11 @@
+{
+  "provider": "minilm",
+  "version": "domains-minilm-751bff37-q8-v3",
+  "model": "Xenova/all-MiniLM-L6-v2",
+  "dims": 384,
+  "selectionReason": "loaded",
+  "lastLoadError": null,
+  "modelFilesPresent": true,
+  "checksums": true,
+  "remoteModelsAllowed": false
+}

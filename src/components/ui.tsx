@@ -23,7 +23,7 @@ export function Logo() {
   const { signedIn, loading } = useAuth();
   return (
     <Link
-      href={signedIn ? "/projects" : "/"}
+      href={signedIn ? "/dashboard" : "/"}
       aria-busy={loading}
       aria-disabled={loading}
       onClick={(e) => {
@@ -267,7 +267,7 @@ export function ProjectCard({
       </div>
       <BestRoleMatch roles={project.roles??[]} compact />
       <div className="card-divider" />
-      <p className="role-label">Led by {project.lead_name}{project.is_demo?' · Demo':''}</p>
+      <p className="role-label">Led by <Link href={`/u/${project.owner_id}`}>{project.lead_name}</Link>{project.is_demo?' · Demo':''}</p>
     </article>
   );
 }

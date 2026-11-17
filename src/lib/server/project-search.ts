@@ -1,4 +1,5 @@
 import 'server-only';
+import {projectStatuses,statusLabel} from '../collaboration';
 import {checked,type session} from './db';
 import {projectSearchSchema,type ProjectFilterOptions} from '../project-filters';
 import {attachRoleMatches} from './role-matches';
@@ -15,5 +16,5 @@ export async function projectFilterOptions(db:Db):Promise<ProjectFilterOptions>{
  for(const d of domains){const field=fields.find(f=>f.id===d.field_id);if(field)grouped[field.name].add(d.name);}
  for(const p of projects){names.add(p.field);(grouped[p.field]??=new Set()).add(p.domain);}
  const option=(value:string)=>({value,label:value});
- return {fields:[{value:'',label:'All fields'},...[...names].sort().map(option)],domainsByField:Object.fromEntries(Object.entries(grouped).map(([f,list])=>[f,[{value:'',label:'All domains'},...[...list].sort().map(option)]])),allDomains:[{value:'',label:'All domains'},...[...new Set(Object.values(grouped).flatMap(s=>[...s]))].sort().map(option)],commitments:[{value:'',label:'Any'},{value:'casual',label:'Casual · 2–5 hrs/week'},{value:'part-time',label:'Part-time · 5–10 hrs/week'},{value:'intensive',label:'Intensive · 10+ hrs/week'}],statuses:[{value:'open',label:'Open'},{value:'closed',label:'Closed'},{value:'in_progress',label:'In progress'},{value:'all',label:'All statuses'}],sorts:[{value:'newest',label:'Newest first'},{value:'oldest',label:'Oldest first'},{value:'roles',label:'Most roles open'}]};
+ return {fields:[{value:'',label:'All fields'},...[...names].sort().map(option)],domainsByField:Object.fromEntries(Object.entries(grouped).map(([f,list])=>[f,[{value:'',label:'All domains'},...[...list].sort().map(option)]])),allDomains:[{value:'',label:'All domains'},...[...new Set(Object.values(grouped).flatMap(s=>[...s]))].sort().map(option)],commitments:[{value:'',label:'Any'},{value:'casual',label:'Casual · 2–5 hrs/week'},{value:'part-time',label:'Part-time · 5–10 hrs/week'},{value:'intensive',label:'Intensive · 10+ hrs/week'}],statuses:[...projectStatuses.map(value=>({value,label:statusLabel(value)})),{value:'all',label:'All statuses'}],sorts:[{value:'newest',label:'Newest first'},{value:'oldest',label:'Oldest first'},{value:'roles',label:'Most roles open'}]};
 }

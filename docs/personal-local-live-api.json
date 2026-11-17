@@ -1,0 +1,172 @@
+{
+  "checks": [
+    {
+      "name": "private messages are filtered in the personal definer feed and direct RLS reads",
+      "status": "passed"
+    },
+    {
+      "name": "notes, preferences and focus history remain owner-private through all read paths",
+      "status": "passed"
+    },
+    {
+      "name": "DND hides feed and activity, expires and preserves stored notifications",
+      "status": "passed"
+    },
+    {
+      "name": "note completion and removal preserve another users data",
+      "status": "passed"
+    },
+    {
+      "name": "removed members immediately lose message, activity and project feed access",
+      "status": "passed"
+    },
+    {
+      "name": "same-origin checks and query/body validation reject unsafe input",
+      "status": "passed"
+    }
+  ],
+  "ids": {
+    "users": [
+      "172c99c5-5f2d-4567-a75a-06b2a4e99fd0",
+      "4e2e86c2-c161-497b-8ec9-5926138dc5f1",
+      "dfe797d3-4fd3-4ef0-a68f-ac5f9ef30768"
+    ],
+    "project": "e283126d-673c-423b-95c6-cdae7906fee7"
+  },
+  "cleanup": {
+    "status": "passed",
+    "deleted": {
+      "notifications": 3,
+      "project_messages": 1,
+      "project_updates": 1,
+      "project_members": 2,
+      "projects": 1,
+      "focus_sessions": 1,
+      "dashboard_preferences": 1,
+      "profiles": 3,
+      "rate_limits": 8,
+      "auth_users": 3
+    },
+    "recorded_ids": {
+      "notifications": [
+        {
+          "id": "1d0c7b7a-8797-4869-b05e-30ee831052e6",
+          "recipient_id": "4e2e86c2-c161-497b-8ec9-5926138dc5f1",
+          "actor_id": "172c99c5-5f2d-4567-a75a-06b2a4e99fd0",
+          "project_id": "e283126d-673c-423b-95c6-cdae7906fee7"
+        },
+        {
+          "id": "bbfab1f6-a564-4bed-b993-2bfa8905d481",
+          "recipient_id": "dfe797d3-4fd3-4ef0-a68f-ac5f9ef30768",
+          "actor_id": "172c99c5-5f2d-4567-a75a-06b2a4e99fd0",
+          "project_id": "e283126d-673c-423b-95c6-cdae7906fee7"
+        },
+        {
+          "id": "7d6c9354-5cb2-4ec4-92a1-296309a1cba5",
+          "recipient_id": "dfe797d3-4fd3-4ef0-a68f-ac5f9ef30768",
+          "actor_id": "172c99c5-5f2d-4567-a75a-06b2a4e99fd0",
+          "project_id": "e283126d-673c-423b-95c6-cdae7906fee7"
+        }
+      ],
+      "project_messages": [
+        {
+          "id": "0ed6105d-017a-470f-8a74-951259e3f93e",
+          "project_id": "e283126d-673c-423b-95c6-cdae7906fee7",
+          "author_id": "4e2e86c2-c161-497b-8ec9-5926138dc5f1"
+        }
+      ],
+      "project_updates": [
+        {
+          "id": "e9e50435-641a-40a4-ab2d-ede42960a2fa",
+          "project_id": "e283126d-673c-423b-95c6-cdae7906fee7",
+          "author_id": "172c99c5-5f2d-4567-a75a-06b2a4e99fd0"
+        }
+      ],
+      "project_tickets": [],
+      "workspace_read_state": [],
+      "ownership_transfers": [],
+      "project_members": [
+        {
+          "project_id": "e283126d-673c-423b-95c6-cdae7906fee7",
+          "user_id": "4e2e86c2-c161-497b-8ec9-5926138dc5f1",
+          "role_id": null,
+          "id": "90431d73-0736-4f8a-9b27-16c3363dfc65"
+        },
+        {
+          "project_id": "e283126d-673c-423b-95c6-cdae7906fee7",
+          "user_id": "dfe797d3-4fd3-4ef0-a68f-ac5f9ef30768",
+          "role_id": null,
+          "id": "f3f62fc4-6f5b-40bf-81eb-7e9b8bf9f134"
+        }
+      ],
+      "applications": [],
+      "invitations": [],
+      "project_embeddings": [],
+      "project_domains": [],
+      "project_roles": [],
+      "projects": [
+        {
+          "id": "e283126d-673c-423b-95c6-cdae7906fee7",
+          "owner_id": "172c99c5-5f2d-4567-a75a-06b2a4e99fd0"
+        }
+      ],
+      "profile_embeddings": [],
+      "profile_skills": [],
+      "profile_domains": [],
+      "daily_notes": [],
+      "focus_sessions": [
+        {
+          "id": "0920cc96-56a5-432f-9f84-27f871210a70",
+          "user_id": "4e2e86c2-c161-497b-8ec9-5926138dc5f1"
+        }
+      ],
+      "dashboard_preferences": [
+        {
+          "user_id": "4e2e86c2-c161-497b-8ec9-5926138dc5f1"
+        }
+      ],
+      "profiles": [
+        {
+          "id": "172c99c5-5f2d-4567-a75a-06b2a4e99fd0"
+        },
+        {
+          "id": "4e2e86c2-c161-497b-8ec9-5926138dc5f1"
+        },
+        {
+          "id": "dfe797d3-4fd3-4ef0-a68f-ac5f9ef30768"
+        }
+      ],
+      "rate_limits": [
+        {
+          "key": "auth:sign-in:2c342105f617d8272bf8458b00d8f17ab31473009f49bf3eb0f5ead6cfd25d17"
+        },
+        {
+          "key": "auth:sign-in:2ebe59e3177ee9077777f0c7eb7a13de94dce9fbbccf303b5cf48b88d6e5f7ac"
+        },
+        {
+          "key": "auth:sign-in:abcc1132d78ea5a11801caf4e54364ebcd745f814fc349da92317094c9a46080"
+        },
+        {
+          "key": "workspace:message:4e2e86c2-c161-497b-8ec9-5926138dc5f1"
+        },
+        {
+          "key": "personal-dashboard:172c99c5-5f2d-4567-a75a-06b2a4e99fd0"
+        },
+        {
+          "key": "workspace:update:172c99c5-5f2d-4567-a75a-06b2a4e99fd0"
+        },
+        {
+          "key": "personal-dashboard:4e2e86c2-c161-497b-8ec9-5926138dc5f1"
+        },
+        {
+          "key": "workspace:action:172c99c5-5f2d-4567-a75a-06b2a4e99fd0"
+        }
+      ],
+      "auth_users": [
+        "172c99c5-5f2d-4567-a75a-06b2a4e99fd0",
+        "4e2e86c2-c161-497b-8ec9-5926138dc5f1",
+        "dfe797d3-4fd3-4ef0-a68f-ac5f9ef30768"
+      ]
+    }
+  }
+}
